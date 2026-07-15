@@ -14,7 +14,7 @@
         <h1 class="category__title">{{ cat.title }}</h1>
         <p class="category__description">{{ cat.description }}</p>
         <div class="category__meta">
-          <span class="category__meta-item">{{ cat.topics.length }} topics</span>
+          <span class="category__meta-item">{{ visibleTopics().length }} topics</span>
         </div>
       </div>
     </header>
@@ -22,9 +22,9 @@
     <!-- ─── Topics grid ─────────────────────────────────────────────────── -->
     <section class="category__topics animate-fade-in-up" style="animation-delay: 80ms" aria-label="Topics">
 
-      @if (cat.topics.length > 0) {
+      @if (visibleTopics().length > 0) {
         <div class="category__topics-grid">
-          @for (topic of cat.topics; track topic.id; let i = $index) {
+          @for (topic of visibleTopics(); track topic.id; let i = $index) {
             <app-topic-card
               class="stagger-{{ i + 1 }} animate-fade-in-up"
               [topicId]="topic.id"

@@ -34,7 +34,7 @@
     <!-- ─── Categories ──────────────────────────────────────────────────── -->
     <div class="level-overview__categories animate-fade-in-up" style="animation-delay: 100ms">
 
-      @for (category of lvl.categories; track category.id; let i = $index) {
+      @for (category of visibleCategories(); track category.id; let i = $index) {
         <section class="category-section stagger-{{ i + 1 }} animate-fade-in-up">
 
           <!-- Category header -->
@@ -60,28 +60,22 @@
 
           <!-- Topics grid (preview: up to 4) -->
           <div class="category-section__topics">
-            @for (topic of category.topics.slice(0, 4); track topic.id) {
+            @for (topic of getCategoryTopics(category.id); track topic.id) {
               <a
-                [routerLink]="topic.lessons.length > 0
-                  ? ['/levels', lvl.id, 'categories', category.id, 'topics', topic.id]
-                  : ['/levels', lvl.id, 'categories', category.id]"
+                [routerLink]="['/levels', lvl.id, 'categories', category.id, 'topics', topic.id]"
                 class="topic-pill"
               >
                 <span class="topic-pill__title">{{ topic.title }}</span>
-                @if (topic.lessons.length === 0) {
-                  <span class="topic-pill__badge topic-pill__badge--soon">Soon</span>
-                } @else {
-                  <span class="topic-pill__badge">{{ topic.lessons.length }}</span>
-                }
+                <span class="topic-pill__badge">{{ topic.lessons.length }}</span>
               </a>
             }
 
-            @if (category.topics.length > 4) {
+            @if (curriculumService.getTopicsWithContent(lvl.id, category.id).length > 4) {
               <a
                 [routerLink]="['/levels', lvl.id, 'categories', category.id]"
                 class="topic-pill topic-pill--more"
               >
-                +{{ category.topics.length - 4 }} more
+                +{{ curriculumService.getTopicsWithContent(lvl.id, category.id).length - 4 }} more
               </a>
             }
           </div>

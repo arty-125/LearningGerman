@@ -23,6 +23,16 @@ export class LevelOverviewComponent {
     this.curriculumService.getLevelById(this.levelId())
   );
 
+  protected readonly visibleCategories = computed(() =>
+    this.curriculumService.getCategoriesWithContent(this.levelId())
+  );
+
+  protected getCategoryTopics(categoryId: string) {
+    return this.curriculumService
+      .getTopicsWithContent(this.levelId(), categoryId)
+      .slice(0, 4);
+  }
+
   protected readonly breadcrumbs = computed(() => [
     { label: 'Dashboard', route: '/dashboard' },
     { label: this.level()?.code ?? this.levelId() },

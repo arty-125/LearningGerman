@@ -1,7 +1,7 @@
 import { Injectable, inject, signal, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { catchError, map, of } from 'rxjs';
+import { catchError, of } from 'rxjs';
 import type { Curriculum, Level, Category, Topic, Lesson } from '../models';
 
 @Injectable({ providedIn: 'root' })
@@ -61,12 +61,33 @@ export class CurriculumService {
     return this.getCategoryById(levelId, categoryId)?.topics ?? [];
   }
 
+  topicHasContent(topic: Topic): boolean {
+    return topic.lessons.length > 0;
+  }
+
+  categoryHasContent(category: Category): boolean {
+    return category.topics.some((t) => this.topicHasContent(t));
+  }
+
+  getTopicsWithContent(levelId: string, categoryId: string): Topic[] {
+    return this.getTopicsForCategory(levelId, categoryId).filter((t) =>
+      this.topicHasContent(t)
+    );
+  }
+
+  getCategoriesWithContent(levelId: string): Category[] {
+    return (this.getLevelById(levelId)?.categories ?? []).filter((c) =>
+      this.categoryHasContent(c)
+    );
+  }
+
   // ─── Statistics helpers ──────────────────────────────────────────────
 
   getTotalTopicsForLevel(levelId: string): number {
-    const level = this.getLevelById(levelId);
-    if (!level) return 0;
-    return level.categories.reduce((sum, c) => sum + c.topics.length, 0);
+    return this.getCategoriesWithContent(levelId).reduce(
+      (sum, c) => sum + c.topics.filter((t) => this.topicHasContent(t)).length,
+      0
+    );
   }
 
   getTotalLessonsForLevel(levelId: string): number {

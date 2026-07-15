@@ -28,6 +28,13 @@ export class CategoryComponent {
     this.curriculumService.getCategoryById(this.levelId(), this.categoryId())
   );
 
+  protected readonly visibleTopics = computed(() =>
+    this.curriculumService.getTopicsWithContent(
+      this.levelId(),
+      this.categoryId()
+    )
+  );
+
   protected readonly breadcrumbs = computed(() => [
     { label: 'Dashboard', route: '/dashboard' },
     {
