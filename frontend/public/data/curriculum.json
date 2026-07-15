@@ -597,7 +597,124 @@
               "order": 3,
               "tags": ["word-order", "syntax", "basics"],
               "prerequisites": ["a1-grammar-present-tense"],
-              "lessons": []
+              "lessons": [
+                {
+                  "id": "a1-grammar-sentence-structure-lesson-1",
+                  "topicId": "a1-grammar-sentence-structure",
+                  "categoryId": "a1-grammar",
+                  "levelId": "a1",
+                  "title": "Verb Position: Main Clauses, Questions, and TeKaMoLo",
+                  "shortDescription": "Master German word order: verb in position 2 in statements, verb-first yes/no questions, W-questions, and the TeKaMoLo order for long sentences.",
+                  "order": 1,
+                  "estimatedMinutes": 35,
+                  "sections": [
+                    {
+                      "type": "explanation",
+                      "title": "Core Rule: The Conjugated Verb in Position 2",
+                      "content": "In German main clauses, the conjugated verb is always in position 2. Even when a time or place expression starts the sentence, the verb stays in position 2 and the subject moves after it. Example: Morgen gehe ich zum Arzt. (Tomorrow I go to the doctor.)"
+                    },
+                    {
+                      "type": "table",
+                      "title": "Statement Word Order (V2)",
+                      "headers": ["Type", "German", "English", "Why"],
+                      "rows": [
+                        ["Subject first", "Ich gehe morgen zum Arzt.", "I go to the doctor tomorrow.", "Verb is position 2"],
+                        ["Time first", "Morgen gehe ich zum Arzt.", "Tomorrow I go to the doctor.", "Verb still position 2"],
+                        ["Place first", "In Berlin arbeite ich morgen.", "In Berlin I work tomorrow.", "Verb still position 2"]
+                      ]
+                    },
+                    {
+                      "type": "explanation",
+                      "title": "Yes/No Questions: Verb Comes First",
+                      "content": "In yes/no questions (questions answered with yes or no), the conjugated verb comes first. Example: Kommst du morgen? (Are you coming tomorrow?)"
+                    },
+                    {
+                      "type": "table",
+                      "title": "Question Word Order",
+                      "headers": ["Question type", "Formula", "Example"],
+                      "rows": [
+                        ["Yes/No", "Verb + Subject + ...", "Kommst du morgen?"],
+                        ["W-question", "W-word + Verb + Subject + ...", "Wann kommst du?"],
+                        ["W-question (place)", "Wo + Verb + Subject + ...", "Wo wohnst du?"]
+                      ]
+                    },
+                    {
+                      "type": "explanation",
+                      "title": "TeKaMoLo for Longer Sentences",
+                      "content": "In longer German sentences, information often follows this order: TeKaMoLo = Temporal (time) + Kausal (reason) + Modal (how/by what method) + Lokal (place). This helps your sentences sound natural and organized."
+                    },
+                    {
+                      "type": "table",
+                      "title": "TeKaMoLo Example Analysis",
+                      "headers": ["Element", "German part", "Meaning"],
+                      "rows": [
+                        ["Te (time)", "Heute", "today"],
+                        ["Verb (position 2)", "muss", "must"],
+                        ["Subject", "ich", "I"],
+                        ["Ka (reason)", "wegen seiner Prüfung", "because of his exam"],
+                        ["Mo (method)", "mit dem Auto", "by car"],
+                        ["Lo (place)", "in die Universität", "to the university"]
+                      ]
+                    },
+                    {
+                      "type": "example",
+                      "title": "Complete Example",
+                      "content": "Heute muss ich meinem Freund das Buch wegen seiner Prüfung mit dem Auto in die Universität nicht bringen. (Today I do not have to bring the book to my friend to the university by car because of his exam.)"
+                    }
+                  ],
+                  "vocabulary": [
+                    { "german": "morgen", "english": "tomorrow", "example": "Morgen gehe ich zum Arzt." },
+                    { "german": "wann", "english": "when", "example": "Wann kommst du?" },
+                    { "german": "kommen", "english": "to come", "example": "Kommst du morgen?" },
+                    { "german": "gehen", "english": "to go", "example": "Ich gehe zum Arzt." },
+                    { "german": "zum Arzt", "english": "to the doctor", "example": "Morgen gehe ich zum Arzt." },
+                    { "german": "wegen", "english": "because of", "example": "wegen seiner Prüfung" },
+                    { "german": "mit dem Auto", "english": "by car", "example": "Ich fahre mit dem Auto." },
+                    { "german": "in die Universität", "english": "to the university", "example": "Er geht in die Universität." }
+                  ],
+                  "exercises": [
+                    {
+                      "id": "a1-structure-l1-ex1",
+                      "lessonId": "a1-grammar-sentence-structure-lesson-1",
+                      "type": "multiple-choice",
+                      "instruction": "Choose the correct sentence.",
+                      "question": "How do you say: 'Tomorrow I go to the doctor'?",
+                      "options": [
+                        { "id": "a", "text": "Morgen ich gehe zum Arzt.", "isCorrect": false, "explanation": "Wrong. In main clauses, the conjugated verb must be in position 2." },
+                        { "id": "b", "text": "Morgen gehe ich zum Arzt.", "isCorrect": true, "explanation": "Correct. Time element in position 1, verb in position 2, subject after verb." },
+                        { "id": "c", "text": "Ich morgen gehe zum Arzt.", "isCorrect": false, "explanation": "Unnatural order. Verb should remain in position 2." }
+                      ],
+                      "explanation": "V2 rule: position 1 can change, but the conjugated verb stays in position 2.",
+                      "order": 1
+                    },
+                    {
+                      "id": "a1-structure-l1-ex2",
+                      "lessonId": "a1-grammar-sentence-structure-lesson-1",
+                      "type": "multiple-choice",
+                      "instruction": "Choose the correct yes/no question.",
+                      "question": "Are you coming tomorrow?",
+                      "options": [
+                        { "id": "a", "text": "Du kommst morgen?", "isCorrect": false, "explanation": "Possible in spoken surprise intonation, but not standard yes/no question form for beginners." },
+                        { "id": "b", "text": "Kommst du morgen?", "isCorrect": true, "explanation": "Correct. Yes/no questions put the verb first." },
+                        { "id": "c", "text": "Morgen kommst du?", "isCorrect": false, "explanation": "This is marked/colloquial and not the standard pattern taught at A1." }
+                      ],
+                      "explanation": "Yes/no question formula: Verb + Subject + ...",
+                      "order": 2
+                    },
+                    {
+                      "id": "a1-structure-l1-ex3",
+                      "lessonId": "a1-grammar-sentence-structure-lesson-1",
+                      "type": "fill-in-blank",
+                      "instruction": "Fill in the correct word order.",
+                      "question": "Wann ___ du? (When are you coming?)",
+                      "correctAnswer": "kommst",
+                      "hint": "W-question pattern: W-word + verb + subject.",
+                      "explanation": "W-questions keep the verb in position 2: Wann kommst du?",
+                      "order": 3
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "a1-grammar-nominativ",
@@ -662,7 +779,124 @@
               "order": 8,
               "tags": ["negation", "nicht", "kein"],
               "prerequisites": ["a1-grammar-sentence-structure"],
-              "lessons": []
+              "lessons": [
+                {
+                  "id": "a1-grammar-negation-lesson-1",
+                  "topicId": "a1-grammar-negation",
+                  "categoryId": "a1-grammar",
+                  "levelId": "a1",
+                  "title": "Negation in German: kein vs nicht",
+                  "shortDescription": "Learn the practical decision system for negation: when to use kein for nouns and when to use nicht for everything else.",
+                  "order": 1,
+                  "estimatedMinutes": 30,
+                  "sections": [
+                    {
+                      "type": "explanation",
+                      "title": "The Main Difference",
+                      "content": "Use kein to negate nouns that are indefinite (with ein/eine) or have no article. Use nicht for verbs, adjectives, adverbs, whole clauses, and for nouns that are already definite/specific (das Auto, mein Auto, dieser Mann)."
+                    },
+                    {
+                      "type": "table",
+                      "title": "kein in Typical Noun Negation",
+                      "headers": ["Positive", "Negative", "Why"],
+                      "rows": [
+                        ["Ich habe ein Auto.", "Ich habe kein Auto.", "Noun with ein -> kein"],
+                        ["Sie hat eine Schwester.", "Sie hat keine Schwester.", "Noun with eine -> keine"],
+                        ["Ich habe Zeit.", "Ich habe keine Zeit.", "Noun without article -> kein(e)"]
+                      ]
+                    },
+                    {
+                      "type": "table",
+                      "title": "nicht for Verbs, Adjectives, and Specific Nouns",
+                      "headers": ["Positive", "Negative", "Why"],
+                      "rows": [
+                        ["Ich arbeite.", "Ich arbeite nicht.", "Verb negation"],
+                        ["Das ist gut.", "Das ist nicht gut.", "Adjective negation"],
+                        ["Ich habe das Auto.", "Ich habe das Auto nicht.", "Specific noun with definite article"],
+                        ["Ich habe mein Auto.", "Ich habe mein Auto nicht.", "Specific noun with possessive"]
+                      ]
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Quick Decision Method",
+                      "content": "Ask three questions: 1) Am I negating a noun? If no -> nicht. 2) Is that noun indefinite (ein/eine) or without article? If yes -> kein. 3) Is the noun definite/specific (der/die/das, possessive, demonstrative)? If yes -> nicht."
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Meaning Difference",
+                      "content": "Ich habe kein Auto means I have no car (in general). Ich habe das Auto nicht means I do not have that car (a specific known car). This is a meaning contrast, not only a grammar contrast."
+                    },
+                    {
+                      "type": "example",
+                      "title": "Contrast Pairs",
+                      "content": "Ich habe kein Auto. (I do not have a car.) | Ich habe das Auto nicht. (I do not have that car.) | Sie hat keine Schwester. (She has no sister.) | Das ist nicht gut. (That is not good.)"
+                    }
+                  ],
+                  "vocabulary": [
+                    { "german": "kein / keine", "english": "no / not any", "example": "Ich habe kein Auto." },
+                    { "german": "nicht", "english": "not", "example": "Ich arbeite nicht." },
+                    { "german": "Schwester", "english": "sister", "article": "die", "example": "Sie hat keine Schwester." },
+                    { "german": "Auto", "english": "car", "article": "das", "example": "Ich habe kein Auto." },
+                    { "german": "gut", "english": "good", "example": "Das ist nicht gut." },
+                    { "german": "mein", "english": "my", "example": "Das ist mein Auto." },
+                    { "german": "dieser", "english": "this (masculine)", "example": "Dieser Mann ist nett." }
+                  ],
+                  "exercises": [
+                    {
+                      "id": "a1-negation-l1-ex1",
+                      "lessonId": "a1-grammar-negation-lesson-1",
+                      "type": "multiple-choice",
+                      "instruction": "Choose the correct negation.",
+                      "question": "Ich habe ein Auto. -> (negative)",
+                      "options": [
+                        { "id": "a", "text": "Ich habe nicht Auto.", "isCorrect": false, "explanation": "For noun negation with ein/eine, use kein." },
+                        { "id": "b", "text": "Ich habe kein Auto.", "isCorrect": true, "explanation": "Correct. ein Auto -> kein Auto." },
+                        { "id": "c", "text": "Ich kein habe Auto.", "isCorrect": false, "explanation": "Wrong word order and wrong placement." }
+                      ],
+                      "explanation": "Negating an indefinite noun (ein/eine) uses kein.",
+                      "order": 1
+                    },
+                    {
+                      "id": "a1-negation-l1-ex2",
+                      "lessonId": "a1-grammar-negation-lesson-1",
+                      "type": "multiple-choice",
+                      "instruction": "Choose the correct sentence.",
+                      "question": "Which sentence means 'I do not have that car'?",
+                      "options": [
+                        { "id": "a", "text": "Ich habe kein Auto.", "isCorrect": false, "explanation": "This means: I have no car (general)." },
+                        { "id": "b", "text": "Ich habe das Auto nicht.", "isCorrect": true, "explanation": "Correct. Definite/specific noun (das Auto) is negated with nicht." },
+                        { "id": "c", "text": "Ich habe keine das Auto.", "isCorrect": false, "explanation": "You cannot use kein with a definite article noun phrase." }
+                      ],
+                      "explanation": "For specific nouns with definite/possessive/demonstrative determiners, use nicht.",
+                      "order": 2
+                    },
+                    {
+                      "id": "a1-negation-l1-ex3",
+                      "lessonId": "a1-grammar-negation-lesson-1",
+                      "type": "fill-in-blank",
+                      "instruction": "Fill in the correct word.",
+                      "question": "Das ist ___ gut. (That is not good.)",
+                      "correctAnswer": "nicht",
+                      "hint": "You are negating an adjective, not a noun.",
+                      "explanation": "Use nicht for adjectives/adverbs/verbs/whole clauses.",
+                      "order": 3
+                    },
+                    {
+                      "id": "a1-negation-l1-ex4",
+                      "lessonId": "a1-grammar-negation-lesson-1",
+                      "type": "true-false",
+                      "instruction": "True or False?",
+                      "question": "'Sie hat keine Schwester.' means 'She does not have a sister.'",
+                      "options": [
+                        { "id": "true", "text": "True", "isCorrect": true, "explanation": "Correct. Schwester is an indefinite noun here, so keine is correct." },
+                        { "id": "false", "text": "False", "isCorrect": false, "explanation": "The sentence is correct and means she has no sister." }
+                      ],
+                      "explanation": "Noun negation with eine Schwester becomes keine Schwester.",
+                      "order": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2159,3 +2393,4 @@
     }
   ]
 }
+
