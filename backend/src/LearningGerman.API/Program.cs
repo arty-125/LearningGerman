@@ -2,6 +2,10 @@ using LearningGerman.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ─── Bind to PORT env var (Railway injects this at runtime) ──────────────────
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 // ─── Services ──────────────────────────────────────────────────────────────
 
 builder.Services.AddInfrastructure(builder.Configuration);
@@ -26,12 +30,20 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// CORS: allow the Angular dev server
+// CORS: allow dev server + production frontend URL (set ALLOWED_ORIGIN env var on Railway)
+var allowedOrigins = new[]
+{
+    "http://localhost:4200",
+    Environment.GetEnvironmentVariable("ALLOWED_ORIGIN") ?? string.Empty
+}
+.Where(o => !string.IsNullOrEmpty(o))
+.ToArray();
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("DevCors", policy =>
+    options.AddPolicy("AppCors", policy =>
         policy
-            .WithOrigins("http://localhost:4200")
+            .WithOrigins(allowedOrigins)
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
@@ -40,14 +52,10 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.UseCors("DevCors");
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+app.UseCors("AppCors");
 app.UseAuthorization();
 app.MapControllers();
 
