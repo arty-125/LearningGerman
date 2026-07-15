@@ -1,0 +1,26 @@
+<div class="readable-content" [class.readable-content--compact]="compact()">
+  @for (section of sections(); track section.id + $index) {
+    <section
+      class="readable-content__section"
+      [class.readable-content__section--rtl]="section.rtl"
+    >
+      @if (showLabels()) {
+        <h3 class="readable-content__label">{{ section.label }}</h3>
+      }
+
+      <div class="readable-content__blocks">
+        @for (block of section.blocks; track $index) {
+          @if (block.type === 'paragraph') {
+            <p class="readable-content__paragraph">{{ block.text }}</p>
+          } @else {
+            <ul class="readable-content__list">
+              @for (item of block.items; track item) {
+                <li>{{ item }}</li>
+              }
+            </ul>
+          }
+        }
+      </div>
+    </section>
+  }
+</div>

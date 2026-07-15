@@ -4,12 +4,18 @@ import { CurriculumService } from '../../core/services/curriculum.service';
 import { ProgressService } from '../../core/services/progress.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { LevelBadgeComponent } from '../../shared/components/level-badge/level-badge.component';
+import { ReadableContentComponent } from '../../shared/components/readable-content/readable-content.component';
 import type { LevelCode } from '../../core/models';
 
 @Component({
   selector: 'app-lesson',
   standalone: true,
-  imports: [RouterLink, BreadcrumbComponent, LevelBadgeComponent],
+  imports: [
+    RouterLink,
+    BreadcrumbComponent,
+    LevelBadgeComponent,
+    ReadableContentComponent,
+  ],
   templateUrl: './lesson.component.html',
   styleUrl: './lesson.component.scss',
 })

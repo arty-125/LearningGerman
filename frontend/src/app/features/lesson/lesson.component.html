@@ -36,7 +36,9 @@
             @if (section.type === 'list' && section.items) {
               <ul class="lesson-section__list">
                 @for (item of section.items; track item) {
-                  <li>{{ item }}</li>
+                  <li>
+                    <app-readable-content [text]="item" [compact]="true" />
+                  </li>
                 }
               </ul>
             } @else if (section.type === 'table' && section.rows) {
@@ -63,7 +65,7 @@
                 </table>
               </div>
             } @else {
-              <p>{{ section.content }}</p>
+              <app-readable-content [text]="section.content" />
             }
           </div>
         </div>
