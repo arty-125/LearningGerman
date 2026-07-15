@@ -1303,7 +1303,7 @@
           "title": "Sentence Structure",
           "description": "Understand German word order: Subject-Verb-Object and verb-second rule",
           "difficulty": 2,
-          "estimatedMinutes": 20,
+          "estimatedMinutes": 65,
           "order": 3,
           "tags": [
             "word-order",
@@ -1553,6 +1553,207 @@
                   "hint": "W-question pattern: W-word + verb + subject.",
                   "explanation": "W-questions keep the verb in position 2: Wann kommst du?",
                   "order": 3
+                }
+              ]
+            },
+            {
+              "id": "a1-grammar-sentence-structure-lesson-2",
+              "topicId": "a1-grammar-sentence-structure",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "Complete German Sentence Formula (with TeKaMoLo)",
+              "shortDescription": "Learn the complete sentence blueprint: V2 rule, question patterns, TeKaMoLo placement, negation position, and Dativ/Akkusativ ordering exceptions.",
+              "order": 2,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Important Clarification",
+                  "content": "TeKaMoLo is not a complete sentence formula. It only describes the preferred order of adverbial information: Temporal (time), Kausal (reason), Modal (manner), Lokal (place). The real sentence backbone is the V2 rule: in statements, the conjugated verb is always in position 2."
+                },
+                {
+                  "type": "table",
+                  "title": "Complete Main-Clause Formula",
+                  "headers": ["Order", "Element", "Note"],
+                  "rows": [
+                    ["1", "Position 1", "Any single element can come first (subject, time, place, object, adverb)"],
+                    ["2", "Conjugated verb", "Always position 2 in statements"],
+                    ["3", "Subject (if not in position 1)", "Moves after the verb"],
+                    ["4", "Dative object", "Usually before accusative object"],
+                    ["5", "Accusative object", "Usually after dative object"],
+                    ["6", "TeKaMoLo", "Time -> Cause -> Manner -> Place"],
+                    ["7", "nicht (if needed)", "Usually before final verb element"],
+                    ["8", "Final verb element", "Infinitive/Partizip II/separable prefix in multi-verb structures"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "Question Patterns",
+                  "headers": ["Type", "Formula", "Example"],
+                  "rows": [
+                    ["Yes/No question", "Verb + Subject + ...", "Kommst du morgen?"],
+                    ["W-question", "W-word + Verb + Subject + ...", "Wann kommst du?"],
+                    ["Statement", "Position 1 + Verb + ...", "Morgen gehe ich zum Arzt."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "Object Order Rules and Exceptions",
+                  "content": "Default order with two objects is usually Dativ before Akkusativ: Ich gebe meinem Bruder ein Geschenk. Important exception: if the accusative object is a pronoun, it often comes before the dative object: Ich gebe es meiner Schwester. Also, in longer sentences, the accusative element does not always need to stand immediately after the dative element; it can appear later depending on focus and structure."
+                },
+                {
+                  "type": "tip",
+                  "title": "Negation Position in Multi-Verb Clauses",
+                  "content": "In many multi-verb sentences, nicht appears toward the end, usually before the final verb element. Example: Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen."
+                },
+                {
+                  "type": "example",
+                  "title": "Full Analysis Example",
+                  "content": "Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen. -> Position 1: Heute, Verb (V2): muss, Subject: ich, Dative object: meinem Freund, Accusative object: das Buch, Kausal: wegen seiner Pruefung, Modal: mit dem Auto, Lokal: zur Universitaet, Negation: nicht, Final verb: bringen."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "Position 2 (V2)",
+                  "english": "verb in second position",
+                  "example": "Heute gehe ich zum Arzt."
+                },
+                {
+                  "german": "TeKaMoLo",
+                  "english": "time-cause-manner-place order",
+                  "example": "heute wegen seiner Pruefung mit dem Auto zur Universitaet"
+                },
+                {
+                  "german": "Dativ",
+                  "english": "indirect object case",
+                  "example": "Ich gebe meinem Bruder ein Geschenk."
+                },
+                {
+                  "german": "Akkusativ",
+                  "english": "direct object case",
+                  "example": "Ich sehe den Mann."
+                },
+                {
+                  "german": "nicht",
+                  "english": "not",
+                  "example": "Ich kann heute nicht kommen."
+                },
+                {
+                  "german": "bringen",
+                  "english": "to bring",
+                  "example": "Ich muss das Buch bringen."
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-structure-l2-ex1",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the best answer.",
+                  "question": "What does TeKaMoLo define?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "The full sentence formula in German",
+                      "isCorrect": false,
+                      "explanation": "Not fully. TeKaMoLo only defines adverbial order, not the full clause architecture."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Only the order of adverbials: time, cause, manner, place",
+                      "isCorrect": true,
+                      "explanation": "Correct. TeKaMoLo is about adverbials, while V2 remains the core structural rule."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only question word order",
+                      "isCorrect": false,
+                      "explanation": "Question patterns are separate (verb-first or W-word + verb)."
+                    }
+                  ],
+                  "explanation": "TeKaMoLo = Temporal, Kausal, Modal, Lokal. It complements, not replaces, the V2 rule.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-structure-l2-ex2",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct order.",
+                  "question": "Which sentence correctly follows yes/no question word order?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Du kommst morgen?",
+                      "isCorrect": false,
+                      "explanation": "Possible as colloquial intonation, but not the standard beginner pattern."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kommst du morgen?",
+                      "isCorrect": true,
+                      "explanation": "Correct. In yes/no questions, the conjugated verb comes first."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Morgen kommst du?",
+                      "isCorrect": false,
+                      "explanation": "Marked conversational structure, not standard teaching pattern."
+                    }
+                  ],
+                  "explanation": "Yes/no question formula: Verb + Subject + ...",
+                  "order": 2
+                },
+                {
+                  "id": "a1-structure-l2-ex3",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the sentence with the pronoun exception.",
+                  "question": "Which one correctly shows accusative pronoun before dative object?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich gebe meiner Schwester es.",
+                      "isCorrect": false,
+                      "explanation": "With an accusative pronoun, standard order is usually pronoun before dative object."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich gebe es meiner Schwester.",
+                      "isCorrect": true,
+                      "explanation": "Correct. Accusative pronoun (es) comes before dative object (meiner Schwester)."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich es gebe meiner Schwester.",
+                      "isCorrect": false,
+                      "explanation": "Wrong verb placement."
+                    }
+                  ],
+                  "explanation": "Default is often dative before accusative, but accusative pronouns are a key exception.",
+                  "order": 3
+                },
+                {
+                  "id": "a1-structure-l2-ex4",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-2",
+                  "type": "true-false",
+                  "instruction": "True or False?",
+                  "question": "In a long sentence, the accusative object must always stand directly after the dative object with no exceptions.",
+                  "options": [
+                    {
+                      "id": "true",
+                      "text": "True",
+                      "isCorrect": false,
+                      "explanation": "False. In complex sentences, information structure can shift object placement."
+                    },
+                    {
+                      "id": "false",
+                      "text": "False",
+                      "isCorrect": true,
+                      "explanation": "Correct. Dative-before-accusative is the common default, but sentence complexity and emphasis can change placement."
+                    }
+                  ],
+                  "explanation": "Use default order as a guide, but learn exceptions and focus-driven variation.",
+                  "order": 4
                 }
               ]
             }
