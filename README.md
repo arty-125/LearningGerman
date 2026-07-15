@@ -1,64 +1,32 @@
-# 🇩🇪 Deutsch Lernen — German Learning Platform
+# Deutsch Lernen
 
-A modern, full-stack web application for learning German from A1 to B2 level.
+A frontend-only Angular application for learning German from A1 to B2.
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | Angular 21, Standalone Components, Signals |
-| Backend | .NET 10 Web API, Clean Architecture |
-| Database | SQLite (dev) → PostgreSQL (production) |
-| Styling | SCSS with CSS Custom Properties |
-
----
+- Angular 21 (standalone components, signals, zoneless)
+- SCSS design system (CSS custom properties)
+- JSON content source (`frontend/public/data/curriculum.json`)
+- Client-side persistence (`localStorage`) for user progress/theme
 
 ## Project Structure
 
 ```
 LearningGerman/
-├── frontend/                   # Angular 21 application
-│   ├── public/
-│   │   └── data/
-│   │       └── curriculum.json  ← Learning content structure
+├── frontend/
+│   ├── public/data/curriculum.json
 │   └── src/
 │       ├── app/
-│       │   ├── core/
-│       │   │   ├── models/      ← TypeScript interfaces
-│       │   │   └── services/    ← CurriculumService, ProgressService, ThemeService
-│       │   ├── shared/
-│       │   │   └── components/  ← Reusable UI components
-│       │   ├── features/        ← Lazy-loaded page components
-│       │   │   ├── dashboard/
-│       │   │   ├── level-overview/
-│       │   │   ├── category/
-│       │   │   ├── lesson/
-│       │   │   └── progress/
-│       │   └── layout/
-│       │       └── main-layout/ ← App shell (sidebar + header)
-│       └── styles/              ← SCSS design system
-│
-└── backend/
-    └── src/
-        ├── LearningGerman.Domain/       ← Entities, Enums
-        ├── LearningGerman.Application/  ← Use cases, Interfaces, DTOs
-        ├── LearningGerman.Infrastructure/ ← EF Core, Repositories
-        └── LearningGerman.API/          ← Controllers, Program.cs
+│       │   ├── core/models
+│       │   ├── core/services
+│       │   ├── features
+│       │   ├── layout
+│       │   └── shared/components
+│       └── styles/
+└── README.md
 ```
 
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 22+ and npm
-- Angular CLI 21: `npm install -g @angular/cli@21`
-- .NET 10 SDK
-
----
-
-### Frontend Setup
+## Run Locally
 
 ```bash
 cd frontend
@@ -66,141 +34,34 @@ npm install
 ng serve
 ```
 
-App runs at **http://localhost:4200**
+App URL: `http://localhost:4200`
 
----
+## Data and State
 
-### Backend Setup
+- Curriculum/content data: `frontend/public/data/curriculum.json`
+- Progress state: JSON serialized to `localStorage` (`lg_progress`)
+- Theme state: JSON/string in `localStorage` (`lg_theme`)
 
-```bash
-cd backend/src/LearningGerman.API
+## Content Workflow
 
-# Restore packages
-dotnet restore ../../LearningGerman.sln
+When adding new German materials:
 
-# Run migrations (first time)
-dotnet ef migrations add InitialCreate --project ../LearningGerman.Infrastructure --startup-project .
-dotnet ef database update --project ../LearningGerman.Infrastructure --startup-project .
+1. Classify CEFR level (A1/A2/B1/B2)
+2. Select category/topic in `curriculum.json`
+3. Add lessons with:
+   - `sections`
+   - `vocabulary`
+   - `exercises`
+4. Reload app and verify topic/lesson navigation
 
-# Run the API
-dotnet run
-```
+## Railway Deployment (Frontend Only)
 
-API runs at **https://localhost:7xxx** (port shown in console)  
-Swagger UI: **https://localhost:7xxx/swagger**
+- Service Root Directory: `frontend`
+- Uses `frontend/Dockerfile`
+- Nginx serves Angular static build on port `8080`
+- Custom domains should point to the frontend Railway generated domain
 
----
+## Notes
 
-## Development Phases
-
-### Phase 1 — Infrastructure ✅ (current)
-- Angular project structure and routing
-- .NET Clean Architecture foundation
-- Design system (CSS variables, SCSS)
-- Responsive layout (sidebar + header)
-- Curriculum data structure (A1–B2, all categories and topics defined)
-- Progress tracking (localStorage)
-- Dark/light theme
-
-### Phase 2+ — Content (upcoming)
-For each German learning document provided:
-1. Analyze level, category, topic
-2. Add lesson to `curriculum.json`
-3. Populate `sections`, `vocabulary`, `exercises`
-4. Content automatically flows into the lesson view
-
----
-
-## Curriculum Structure
-
-Learning content lives in `frontend/public/data/curriculum.json`.
-
-```
-A1 Beginner
- ├── Grammar (8 topics)
- │    ├── Personal Pronouns
- │    ├── Present Tense Verbs
- │    ├── Sentence Structure
- │    ├── Nominativ
- │    ├── Akkusativ
- │    ├── Dativ Introduction
- │    ├── Articles (der/die/das)
- │    └── Negation (nicht/kein)
- ├── Vocabulary (7 topics)
- ├── Conversation (3 topics)
- └── Pronunciation (2 topics)
-
-A2 Elementary — 14 topics
-B1 Intermediate — 10 topics
-B2 Upper-Intermediate — 8 topics
-```
-
-**Total: 52 topics ready to receive lesson content.**
-
----
-
-## Adding Lesson Content (Phase 2 instructions)
-
-To add a lesson, find the topic in `curriculum.json` and populate its `lessons` array:
-
-```json
-{
-  "id": "a1-grammar-personal-pronouns",
-  "lessons": [
-    {
-      "id": "a1-grammar-personal-pronouns-lesson-1",
-      "topicId": "a1-grammar-personal-pronouns",
-      "categoryId": "a1-grammar",
-      "levelId": "a1",
-      "title": "Personal Pronouns in German",
-      "shortDescription": "Learn all German personal pronouns and their usage",
-      "order": 1,
-      "estimatedMinutes": 15,
-      "sections": [
-        {
-          "type": "explanation",
-          "title": "What are Personal Pronouns?",
-          "content": "German personal pronouns correspond to English I, you, he..."
-        },
-        {
-          "type": "table",
-          "title": "Personal Pronouns Overview",
-          "headers": ["German", "English", "Formality"],
-          "rows": [
-            ["ich", "I", "neutral"],
-            ["du", "you (informal)", "informal"]
-          ]
-        }
-      ],
-      "vocabulary": [],
-      "exercises": []
-    }
-  ]
-}
-```
-
----
-
-## Design System
-
-Colors are defined as CSS custom properties in `src/styles/_variables.scss`.
-
-| Level | Color |
-|-------|-------|
-| A1 | `#10b981` (Emerald) |
-| A2 | `#3b82f6` (Blue) |
-| B1 | `#8b5cf6` (Violet) |
-| B2 | `#f59e0b` (Amber) |
-
-Theme: Light/dark via `data-theme` attribute, toggled by `ThemeService`.
-
----
-
-## Angular Architecture Notes
-
-- **No NgModules** — all standalone components
-- **Signals** for all state (`signal()`, `computed()`, `effect()`)
-- **`inject()`** for dependency injection (no constructor injection)
-- **`withComponentInputBinding()`** — route params auto-bind to `input()` signals
-- **Lazy loading** — all feature modules loaded on demand
-- **Zoneless** — `provideZonelessChangeDetection()`
+- Backend support has been intentionally removed.
+- All logic and runtime data flow are frontend-only.
