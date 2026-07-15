@@ -12,7 +12,7 @@
       "levelId": "b1",
       "title": "Grammar",
       "description": "Advanced grammatical structures for independent communication",
-      "icon": "ðŸ“–",
+      "icon": "📖",
       "order": 1,
       "topics": [
         {
@@ -107,7 +107,7 @@
       "levelId": "b1",
       "title": "Vocabulary",
       "description": "Sophisticated vocabulary for complex topics",
-      "icon": "ðŸ’¬",
+      "icon": "💬",
       "order": 2,
       "topics": [
         {
@@ -168,7 +168,7 @@
       "levelId": "b1",
       "title": "Conversation",
       "description": "Expressing yourself in complex situations",
-      "icon": "ðŸ—£ï¸",
+      "icon": "🗣️",
       "order": 3,
       "topics": [
         {

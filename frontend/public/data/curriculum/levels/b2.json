@@ -12,7 +12,7 @@
       "levelId": "b2",
       "title": "Grammar",
       "description": "Complex grammar for near-native level expression",
-      "icon": "ðŸ“–",
+      "icon": "📖",
       "order": 1,
       "topics": [
         {
@@ -20,7 +20,7 @@
           "categoryId": "b2-grammar",
           "levelId": "b2",
           "title": "Konjunktiv I (Indirect Speech)",
-          "description": "Reporting what others said â€” used in formal writing and news",
+          "description": "Reporting what others said — used in formal writing and news",
           "difficulty": 5,
           "estimatedMinutes": 40,
           "order": 1,
@@ -53,8 +53,8 @@
           "id": "b2-grammar-two-way-prepositions",
           "categoryId": "b2-grammar",
           "levelId": "b2",
-          "title": "Two-Way Prepositions (WechselprÃ¤positionen)",
-          "description": "Mastering an/auf/in/Ã¼ber/unter/vor/hinter/neben/zwischen",
+          "title": "Two-Way Prepositions (Wechselpräpositionen)",
+          "description": "Mastering an/auf/in/über/unter/vor/hinter/neben/zwischen",
           "difficulty": 4,
           "estimatedMinutes": 35,
           "order": 3,
@@ -73,7 +73,7 @@
       "levelId": "b2",
       "title": "Vocabulary",
       "description": "Advanced and nuanced vocabulary",
-      "icon": "ðŸ’¬",
+      "icon": "💬",
       "order": 2,
       "topics": [
         {
@@ -134,7 +134,7 @@
       "levelId": "b2",
       "title": "Conversation",
       "description": "Near-native communication across all contexts",
-      "icon": "ðŸ—£ï¸",
+      "icon": "🗣️",
       "order": 3,
       "topics": [
         {

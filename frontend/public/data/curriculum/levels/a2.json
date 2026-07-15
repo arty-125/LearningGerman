@@ -12,7 +12,7 @@
       "levelId": "a2",
       "title": "Grammar",
       "description": "Expand your grammatical toolkit with new tenses and structures",
-      "icon": "ðŸ“–",
+      "icon": "📖",
       "order": 1,
       "topics": [
         {
@@ -37,7 +37,7 @@
           "id": "a2-grammar-praeteritum",
           "categoryId": "a2-grammar",
           "levelId": "a2",
-          "title": "PrÃ¤teritum (Simple Past)",
+          "title": "Präteritum (Simple Past)",
           "description": "Written past tense with sein, haben and modal verbs",
           "difficulty": 3,
           "estimatedMinutes": 30,
@@ -57,7 +57,7 @@
           "categoryId": "a2-grammar",
           "levelId": "a2",
           "title": "Modal Verbs",
-          "description": "kÃ¶nnen, mÃ¼ssen, wollen, sollen, dÃ¼rfen, mÃ¶chten",
+          "description": "können, müssen, wollen, sollen, dürfen, möchten",
           "difficulty": 3,
           "estimatedMinutes": 35,
           "order": 3,
@@ -73,7 +73,7 @@
           "categoryId": "a2-grammar",
           "levelId": "a2",
           "title": "Separable Verbs (Trennbare Verben)",
-          "description": "aufstehen, anrufen, mitnehmen â€” prefix verbs and word order",
+          "description": "aufstehen, anrufen, mitnehmen — prefix verbs and word order",
           "difficulty": 3,
           "estimatedMinutes": 25,
           "order": 4,
@@ -128,7 +128,7 @@
       "levelId": "a2",
       "title": "Vocabulary",
       "description": "Expand your vocabulary for more situations",
-      "icon": "ðŸ’¬",
+      "icon": "💬",
       "order": 2,
       "topics": [
         {
@@ -222,7 +222,7 @@
       "levelId": "a2",
       "title": "Conversation",
       "description": "More complex real-life communication",
-      "icon": "ðŸ—£ï¸",
+      "icon": "🗣️",
       "order": 3,
       "topics": [
         {
