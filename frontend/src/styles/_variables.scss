@@ -69,6 +69,13 @@
   --line-height-base: 1.6;
   --line-height-relaxed: 1.75;
 
+  // ─── Prose / Reading Template ───────────────────────────────────────
+  --prose-max-width: 68ch;
+  --prose-lead-max-width: 76ch;
+  --prose-line-height: 1.8;
+  --prose-block-gap: var(--space-4);
+  --prose-list-gap: var(--space-2);
+
   // ─── Spacing ─────────────────────────────────────────────────────────
   --space-1: 0.25rem;   // 4px
   --space-2: 0.5rem;    // 8px

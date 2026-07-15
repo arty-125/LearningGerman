@@ -67,27 +67,27 @@
                 {
                   "type": "explanation",
                   "title": "Das Präsens — Germany's Most-Used Tense",
-                  "content": "Präsens is the present tense and the most important tense in everyday German. Unlike English, German does not separate 'I learn' from 'I am learning' — both are simply Ich lerne Deutsch. This single tense covers what English expresses with two: the simple present and the present continuous. This is actually good news: one tense to learn instead of two."
+                  "content": "English:\nPräsens is the present tense and the most important tense in everyday German.\n\nWhat it covers:\n- simple present\n- present continuous\n\nGerman uses one form for both:\nIch lerne Deutsch.\n\nThat is good news: one tense to learn instead of two.\n\nفارسی:\nPräsens زمانِ حال است و مهم‌ترین زمان در آلمانیِ روزمره به شمار می‌آید.\n\nچه چیزی را پوشش می‌دهد:\n- حالِ ساده\n- حالِ استمراری\n\nآلمانی برای هر دو از یک شکل استفاده می‌کند:\nIch lerne Deutsch.\n\nاین در واقع خبر خوبی است: به‌جای دو زمان، فقط یک زمان را باید یاد بگیرید."
                 },
                 {
                   "type": "list",
                   "title": "The 4 Main Uses of Präsens",
                   "items": [
-                    "1. Current actions — something happening right now: Ich esse gerade. (I am eating right now.)",
-                    "2. Habits and repeated actions — things done regularly: Ich trainiere jeden Tag. (I train every day.)",
-                    "3. General facts and truths — permanent or universal truths: Die Erde ist rund. (The earth is round.)",
-                    "4. Near future — when the time is specified, Präsens replaces the future tense: Morgen fahre ich nach Toronto. (Tomorrow I am going to Toronto.)"
+                    "1. Current actions — something happening right now: Ich esse gerade. (I am eating right now.) / 1. کارِ جاری — چیزی که همین الان در حال رخ دادن است: Ich esse gerade. (من همین حالا دارم غذا می‌خورم.)",
+                    "2. Habits and repeated actions — things done regularly: Ich trainiere jeden Tag. (I train every day.) / 2. عادت‌ها و کارهای تکراری — چیزهایی که به‌طور منظم انجام می‌شوند: Ich trainiere jeden Tag. (من هر روز تمرین می‌کنم.)",
+                    "3. General facts and truths — permanent or universal truths: Die Erde ist rund. (The earth is round.) / 3. حقایق و واقعیت‌های کلی — حقیقت‌های دائمی یا جهانی: Die Erde ist rund. (زمین گرد است.)",
+                    "4. Near future — when the time is specified, Präsens replaces the future tense: Morgen fahre ich nach Toronto. (Tomorrow I am going to Toronto.) / 4. آیندهٔ نزدیک — وقتی زمان مشخص باشد، Präsens جای آینده را می‌گیرد: Morgen fahre ich nach Toronto. (فردا دارم به تورنتو می‌روم.)"
                   ]
                 },
                 {
                   "type": "tip",
                   "title": "One German Tense = Two English Tenses",
-                  "content": "Ich lerne Deutsch has two valid English translations: 'I learn German' (habit/ongoing) and 'I am learning German' (happening now). German does not distinguish between them — context tells you which meaning is intended. This is one of the first adjustments English speakers must make when learning German."
+                  "content": "English:\nIch lerne Deutsch has two valid English translations:\n- I learn German\n- I am learning German\n\nGerman does not separate habit from happening now. Context tells you which meaning is intended.\n\nفارسی:\nIch lerne Deutsch دو ترجمهٔ درستِ انگلیسی دارد:\n- I learn German = من آلمانی یاد می‌گیرم\n- I am learning German = من دارم آلمانی یاد می‌گیرم\n\nآلمانی میان این دو تفاوتی نمی‌گذارد. بافت جمله مشخص می‌کند کدام معنا منظور است."
                 },
                 {
                   "type": "explanation",
                   "title": "Sentence Structure: The V2 Rule",
-                  "content": "The single most important word order rule in German: the conjugated verb always occupies Position 2 in a main clause. It is never in position 1 or position 3. Position 1 can be the subject, a time adverb, or any other element — but the verb immediately follows in position 2, and the subject moves after it if necessary. Formula: Position 1 + conjugated verb + rest of sentence."
+                  "content": "English:\nThe conjugated verb always sits in Position 2 in a main clause.\nIt never moves to position 1 or position 3.\n\nFormula:\nPosition 1 + conjugated verb + rest of sentence\n\nPosition 1 can be the subject, a time word, or any other element.\nIf something else comes first, the subject moves after the verb.\n\nفارسی:\nفعلِ صرف‌شده در جملهٔ اصلی همیشه در جایگاه ۲ قرار می‌گیرد.\nهرگز به جایگاه ۱ یا ۳ نمی‌رود.\n\nفرمول:\nجایگاه ۱ + فعلِ صرف‌شده + بقیهٔ جمله\n\nجایگاه ۱ می‌تواند فاعل، واژهٔ زمان یا هر عنصر دیگری باشد.\nاگر چیز دیگری اول بیاید، فاعل بعد از فعل قرار می‌گیرد."
                 },
                 {
                   "type": "table",
@@ -95,71 +95,82 @@
                   "headers": [
                     "Position",
                     "Word",
-                    "Role"
+                    "Role",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "1",
                       "Ich",
-                      "Subject (Subjekt)"
+                      "Subject (Subjekt)",
+                      "فاعل"
                     ],
                     [
                       "2",
                       "lerne",
-                      "Conjugated verb — always position 2"
+                      "Verb (conjugated)",
+                      "فعلِ صرف‌شده"
                     ],
                     [
                       "3",
                       "heute",
-                      "Time adverb (today)"
+                      "Time adverb (today)",
+                      "قید زمان (امروز)"
                     ],
                     [
                       "4",
                       "Deutsch",
-                      "Object (what is being learned)"
+                      "Object (what is being learned)",
+                      "مفعول (آنچه یاد گرفته می‌شود)"
                     ]
                   ]
                 },
                 {
                   "type": "warning",
                   "title": "Inversion: When the Subject Is Not First",
-                  "content": "When anything other than the subject starts the sentence (a time word, place, adverb), the verb still holds position 2 — the subject moves to position 3. This is called inversion and is mandatory in German. Wrong: Heute ich lerne Deutsch. Right: Heute lerne ich Deutsch. (Today I learn German.) The verb lerne never moves — it is always position 2."
+                  "content": "English:\nWhen something other than the subject comes first, the verb still stays in position 2.\nThe subject moves to position 3.\n\nThis is called inversion.\nIt is mandatory in German.\n\nWrong: Heute ich lerne Deutsch.\nRight: Heute lerne ich Deutsch.\n\nفارسی:\nوقتی چیزی غیر از فاعل جمله را شروع می‌کند، فعل همچنان در جایگاه ۲ می‌ماند.\nفاعل به جایگاه ۳ می‌رود.\n\nبه این کار inversion می‌گویند.\nو در آلمانی الزامی است.\n\nنادرست: Heute ich lerne Deutsch.\nدرست: Heute lerne ich Deutsch."
                 },
                 {
                   "type": "example",
                   "title": "The V2 Rule with Different Position-1 Elements",
-                  "content": "Subject first (normal): Ich lerne heute Deutsch. | Time word first (inversion): Heute lerne ich Deutsch. | Place first (inversion): In Berlin lerne ich Deutsch. | Adverb first (inversion): Gern lerne ich Deutsch. Notice that lerne is always in position 2 regardless of what starts the sentence."
+                  "content": "English:\nSubject first: Ich lerne heute Deutsch.\nTime word first: Heute lerne ich Deutsch.\nPlace first: In Berlin lerne ich Deutsch.\nAdverb first: Gern lerne ich Deutsch.\n\nNotice that lerne is always in position 2.\n\nفارسی:\nفاعل اول: Ich lerne heute Deutsch.\nواژهٔ زمان اول: Heute lerne ich Deutsch.\nمکان اول: In Berlin lerne ich Deutsch.\nقید اول: Gern lerne ich Deutsch.\n\nتوجه کنید که lerne همیشه در جایگاه ۲ است."
                 }
               ],
               "vocabulary": [
                 {
                   "german": "lernen",
                   "english": "to learn",
+                  "persian": "یاد گرفتن / آموختن",
                   "example": "Ich lerne Deutsch. (I learn / am learning German.)"
                 },
                 {
                   "german": "essen",
                   "english": "to eat",
+                  "persian": "خوردن",
                   "example": "Ich esse gerade. (I am eating right now.)"
                 },
                 {
                   "german": "trainieren",
                   "english": "to train / work out",
+                  "persian": "تمرین کردن / ورزش کردن",
                   "example": "Ich trainiere jeden Tag. (I train every day.)"
                 },
                 {
                   "german": "fahren",
                   "english": "to drive / go (by vehicle)",
+                  "persian": "رانندگی کردن / با وسیله رفتن",
                   "example": "Morgen fahre ich nach Berlin. (Tomorrow I am going to Berlin.)"
                 },
                 {
                   "german": "arbeiten",
                   "english": "to work",
+                  "persian": "کار کردن",
                   "example": "Er arbeitet heute nicht. (He is not working today.)"
                 },
                 {
                   "german": "gehen",
                   "english": "to go (on foot)",
+                  "persian": "رفتن (پیاده)",
                   "example": "Heute gehe ich zur Arbeit. (Today I am going to work.)"
                 }
               ],
@@ -175,22 +186,22 @@
                       "id": "a",
                       "text": "Ich lerne Deutsch / Ich bin lernend Deutsch",
                       "isCorrect": false,
-                      "explanation": "'Ich bin lernend' is technically possible but almost never used in natural spoken German."
+                      "explanation": "English: 'Ich bin lernend' is technically possible but almost never used in natural spoken German.\nفارسی: 'Ich bin lernend' از نظر فنی ممکن است، اما تقریباً هرگز در آلمانیِ گفتاریِ طبیعی استفاده نمی‌شود."
                     },
                     {
                       "id": "b",
                       "text": "Both are simply: Ich lerne Deutsch.",
                       "isCorrect": true,
-                      "explanation": "Correct! German Präsens covers both English meanings. Context tells you which is intended."
+                      "explanation": "English: Correct! German Präsens covers both English meanings. Context tells you which is intended.\nفارسی: درست است! Präsens آلمانی هر دو معنای انگلیسی را پوشش می‌دهد. بافت جمله مشخص می‌کند کدام معنا منظور است."
                     },
                     {
                       "id": "c",
                       "text": "They are two different tenses in German too",
                       "isCorrect": false,
-                      "explanation": "No — German Präsens is one tense that covers both English present simple and present continuous."
+                      "explanation": "English: No — German Präsens is one tense that covers both English present simple and present continuous.\nفارسی: نه — Präsens آلمانی یک زمان است که هم حال سادهٔ انگلیسی و هم حال استمراری را پوشش می‌دهد."
                     }
                   ],
-                  "explanation": "German Präsens = English simple present + present continuous. One form, two English meanings.",
+                  "explanation": "English: German Präsens = English simple present + present continuous. One form, two English meanings.\nفارسی: Präsens آلمانی = حال سادهٔ انگلیسی + حال استمراری. یک شکل، دو معنای انگلیسی.",
                   "order": 1
                 },
                 {
@@ -204,22 +215,22 @@
                       "id": "a",
                       "text": "Heute ich gehe zur Arbeit.",
                       "isCorrect": false,
-                      "explanation": "Wrong! After 'Heute' (position 1), the verb must come next (position 2), then the subject."
+                      "explanation": "English: Wrong! After 'Heute' (position 1), the verb must come next (position 2), then the subject.\nفارسی: اشتباه است! بعد از 'Heute' (جایگاه ۱)، فعل باید بعد از آن بیاید (جایگاه ۲) و سپس فاعل."
                     },
                     {
                       "id": "b",
                       "text": "Heute gehe ich zur Arbeit.",
                       "isCorrect": true,
-                      "explanation": "Correct! Heute (pos. 1) + gehe (pos. 2) + ich (pos. 3). Verb is always position 2."
+                      "explanation": "English: Correct! Heute (pos. 1) + gehe (pos. 2) + ich (pos. 3). Verb is always position 2.\nفارسی: درست است! Heute (جایگاه ۱) + gehe (جایگاه ۲) + ich (جایگاه ۳). فعل همیشه در جایگاه ۲ است."
                     },
                     {
                       "id": "c",
                       "text": "Heute ich zur Arbeit gehe.",
                       "isCorrect": false,
-                      "explanation": "Wrong! The verb cannot go to the end in a main clause. V2 rule: verb is always position 2."
+                      "explanation": "English: Wrong! The verb cannot go to the end in a main clause. V2 rule: verb is always position 2.\nفارسی: اشتباه است! در جملهٔ اصلی، فعل نمی‌تواند به انتهای جمله برود. قانون V2 می‌گوید فعل همیشه در جایگاه ۲ است."
                     }
                   ],
-                  "explanation": "V2 rule: the conjugated verb is ALWAYS position 2. When something other than the subject comes first, the subject moves to position 3.",
+                  "explanation": "English: V2 rule: the conjugated verb is ALWAYS position 2. When something other than the subject comes first, the subject moves to position 3.\nفارسی: قانون V2: فعلِ صرف‌شده همیشه در جایگاه ۲ است. وقتی چیزی غیر از فاعل اول می‌آید، فاعل به جایگاه ۳ می‌رود.",
                   "order": 2
                 },
                 {
@@ -242,7 +253,7 @@
                       "explanation": "Actually true — this is Präsens use #4. 'Morgen' signals the future, so Präsens works perfectly."
                     }
                   ],
-                  "explanation": "Präsens use #4: near future with a time marker. Morgen fahre ich nach Berlin = Tomorrow I am going to Berlin.",
+                  "explanation": "English: Präsens use #4: near future with a time marker. Morgen fahre ich nach Berlin = Tomorrow I am going to Berlin.\nفارسی: کاربرد شمارهٔ ۴ِ Präsens: آیندهٔ نزدیک با یک نشانهٔ زمانی. Morgen fahre ich nach Berlin = فردا به برلین می‌روم.",
                   "order": 3
                 },
                 {
@@ -295,12 +306,12 @@
                 {
                   "type": "explanation",
                   "title": "Der Infinitiv — The Base Form of Every Verb",
-                  "content": "Every German verb has an infinitive — its base, unconjugated form. German infinitives almost always end in -en (lernen, machen, fahren) or occasionally just -n (sammeln, wandern). In a dictionary, verbs are always listed in the infinitive. When you use a verb in a sentence, you must conjugate it — change it to match the subject."
+                  "content": "English: Every German verb has an infinitive — its base, unconjugated form. German infinitives almost always end in -en (lernen, machen, fahren) or occasionally just -n (sammeln, wandern). In a dictionary, verbs are always listed in the infinitive. When you use a verb in a sentence, you must conjugate it — change it to match the subject.\nفارسی: هر فعل آلمانی یک مصدر (Infinitiv) دارد — شکلِ پایه و صرف‌نشدهٔ آن. مصدرهای آلمانی تقریباً همیشه به -en ختم می‌شوند (lernen، machen، fahren) یا گاهی فقط به -n (sammeln، wandern). در فرهنگ لغت، فعل‌ها همیشه به‌صورت مصدر نوشته می‌شوند. وقتی از فعل در جمله استفاده می‌کنید، باید آن را صرف کنید — یعنی آن را با فاعل هماهنگ کنید."
                 },
                 {
                   "type": "explanation",
                   "title": "Stamm and Endung — The Two Parts of Every Regular Verb",
-                  "content": "To conjugate a regular German verb, split the infinitive into two parts: Stamm (stem — the root that carries the meaning and stays constant) and Endung (ending — what changes depending on the subject). The formula is: Infinitiv minus -en = Stamm. Then add the correct ending for the subject. Example: lernen → lern (Stamm) + correct ending."
+                  "content": "English: To conjugate a regular German verb, split the infinitive into two parts: Stamm (stem — the root that carries the meaning and stays constant) and Endung (ending — what changes depending on the subject). The formula is: Infinitiv minus -en = Stamm. Then add the correct ending for the subject. Example: lernen → lern (Stamm) + correct ending.\nفارسی: برای صرفِ یک فعلِ منظمِ آلمانی، مصدر را به دو بخش تقسیم کنید: Stamm (ریشه — بخشی که معنا را حمل می‌کند و ثابت می‌ماند) و Endung (پسوند/پایانه — بخشی که بسته به فاعل تغییر می‌کند). فرمول این است: مصدر منهای -en = Stamm. سپس پسوندِ درستِ فاعل را اضافه کنید. مثال: lernen → lern (Stamm) + پسوندِ درست."
                 },
                 {
                   "type": "table",
@@ -308,38 +319,45 @@
                   "headers": [
                     "Subject pronoun",
                     "Ending",
-                    "English meaning"
+                    "English meaning",
+                    "Persian meaning"
                   ],
                   "rows": [
                     [
                       "ich",
                       "-e",
-                      "I"
+                      "I",
+                      "من"
                     ],
                     [
                       "du",
                       "-st",
-                      "you (informal singular)"
+                      "you (informal singular)",
+                      "تو (مفرد، خودمانی)"
                     ],
                     [
                       "er / sie / es",
                       "-t",
-                      "he / she / it"
+                      "he / she / it",
+                      "او (مذکر / مؤنث / خنثی)"
                     ],
                     [
                       "wir",
                       "-en",
-                      "we"
+                      "we",
+                      "ما"
                     ],
                     [
                       "ihr",
                       "-t",
-                      "you (informal plural)"
+                      "you (informal plural)",
+                      "شما (جمعِ خودمانی)"
                     ],
                     [
                       "sie / Sie",
                       "-en",
-                      "they / you (formal)"
+                      "they / you (formal)",
+                      "آن‌ها / شما (رسمی)"
                     ]
                   ]
                 },
@@ -351,7 +369,8 @@
                     "Stamm",
                     "Endung",
                     "Form",
-                    "English"
+                    "English",
+                    "Persian"
                   ],
                   "rows": [
                     [
@@ -359,42 +378,48 @@
                       "lern",
                       "-e",
                       "lerne",
-                      "I learn / I am learning"
+                      "I learn / I am learning",
+                      "من یاد می‌گیرم / دارم یاد می‌گیرم"
                     ],
                     [
                       "du",
                       "lern",
                       "-st",
                       "lernst",
-                      "you learn"
+                      "you learn",
+                      "تو یاد می‌گیری"
                     ],
                     [
                       "er / sie / es",
                       "lern",
                       "-t",
                       "lernt",
-                      "he / she / it learns"
+                      "he / she / it learns",
+                      "او یاد می‌گیرد"
                     ],
                     [
                       "wir",
                       "lern",
                       "-en",
                       "lernen",
-                      "we learn"
+                      "we learn",
+                      "ما یاد می‌گیریم"
                     ],
                     [
                       "ihr",
                       "lern",
                       "-t",
                       "lernt",
-                      "you (pl.) learn"
+                      "you (pl.) learn",
+                      "شما (جمع) یاد می‌گیرید"
                     ],
                     [
                       "sie / Sie",
                       "lern",
                       "-en",
                       "lernen",
-                      "they / you (formal) learn"
+                      "they / you (formal) learn",
+                      "آن‌ها / شما (رسمی) یاد می‌گیرند"
                     ]
                   ]
                 },
@@ -404,45 +429,52 @@
                   "headers": [
                     "Subject",
                     "machen (to do/make)",
-                    "kaufen (to buy)"
+                    "kaufen (to buy)",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "ich",
                       "mache",
-                      "kaufe"
+                      "kaufe",
+                      "من انجام می‌دهم / می‌خرم"
                     ],
                     [
                       "du",
                       "machst",
-                      "kaufst"
+                      "kaufst",
+                      "تو انجام می‌دهی / می‌خری"
                     ],
                     [
                       "er / sie / es",
                       "macht",
-                      "kauft"
+                      "kauft",
+                      "او انجام می‌دهد / می‌خرد"
                     ],
                     [
                       "wir",
                       "machen",
-                      "kaufen"
+                      "kaufen",
+                      "ما انجام می‌دهیم / می‌خریم"
                     ],
                     [
                       "ihr",
                       "macht",
-                      "kauft"
+                      "kauft",
+                      "شما (جمع) انجام می‌دهید / می‌خرید"
                     ],
                     [
                       "sie / Sie",
                       "machen",
-                      "kaufen"
+                      "kaufen",
+                      "آن‌ها / شما (رسمی) انجام می‌دهند / می‌خرند"
                     ]
                   ]
                 },
                 {
                   "type": "tip",
                   "title": "Special Case: Verbs Ending in -ten and -den",
-                  "content": "When the Stamm ends in -t or -d (arbeit-, find-, red-), an extra -e is inserted before the endings -st and -t to make pronunciation possible. Without it, 'arbeittest' would be unpronounceable. So: arbeiten → du arbeitest (not 'arbeitst'), er arbeitet (not 'arbeitt'). Similarly: finden → du findest, er findet."
+                  "content": "English: When the Stamm ends in -t or -d (arbeit-, find-, red-), an extra -e is inserted before the endings -st and -t to make pronunciation possible. Without it, 'arbeittest' would be unpronounceable. So: arbeiten → du arbeitest (not 'arbeitst'), er arbeitet (not 'arbeitt'). Similarly: finden → du findest, er findet.\nفارسی: وقتی Stamm به -t یا -d ختم می‌شود (arbeit-، find-، red-)، برای آسان شدنِ تلفظ یک -e اضافه قبل از پسوندهای -st و -t قرار می‌گیرد. بدون این -e، واژهٔ 'arbeittest' تلفظ‌ناپذیر می‌شد. پس: arbeiten → du arbeitest (نه 'arbeitst')، er arbeitet (نه 'arbeitt'). همین‌طور: finden → du findest، er findet."
                 },
                 {
                   "type": "table",
@@ -450,86 +482,101 @@
                   "headers": [
                     "Subject",
                     "Form",
-                    "Note"
+                    "Note",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "ich",
                       "arbeite",
-                      "regular -e ending"
+                      "regular -e ending",
+                      "پسوندِ معمولیِ -e"
                     ],
                     [
                       "du",
                       "arbeitest",
-                      "extra -e inserted before -st"
+                      "extra -e inserted before -st",
+                      "یک -e اضافه قبل از -st قرار می‌گیرد"
                     ],
                     [
                       "er / sie / es",
                       "arbeitet",
-                      "extra -e inserted before -t"
+                      "extra -e inserted before -t",
+                      "یک -e اضافه قبل از -t قرار می‌گیرد"
                     ],
                     [
                       "wir",
                       "arbeiten",
-                      "regular -en ending"
+                      "regular -en ending",
+                      "پسوندِ معمولیِ -en"
                     ],
                     [
                       "ihr",
                       "arbeitet",
-                      "extra -e inserted before -t"
+                      "extra -e inserted before -t",
+                      "یک -e اضافه قبل از -t قرار می‌گیرد"
                     ],
                     [
                       "sie / Sie",
                       "arbeiten",
-                      "regular -en ending"
+                      "regular -en ending",
+                      "پسوندِ معمولیِ -en"
                     ]
                   ]
                 },
                 {
                   "type": "example",
                   "title": "Regular Verbs in Real Sentences",
-                  "content": "Ich spiele Fußball. (I play football.) | Du kaufst das Buch. (You are buying the book.) | Er macht die Hausaufgaben. (He does the homework.) | Wir lernen jeden Tag Deutsch. (We learn German every day.) | Ihr arbeitet viel zu viel! (You work way too much!)"
+                  "content": "English: Ich spiele Fußball. (I play football.) | Du kaufst das Buch. (You are buying the book.) | Er macht die Hausaufgaben. (He does the homework.) | Wir lernen jeden Tag Deutsch. (We learn German every day.) | Ihr arbeitet viel zu viel! (You work way too much!)\nفارسی: Ich spiele Fußball. (من فوتبال بازی می‌کنم.) | Du kaufst das Buch. (تو داری کتاب را می‌خری.) | Er macht die Hausaufgaben. (او تکالیف را انجام می‌دهد.) | Wir lernen jeden Tag Deutsch. (ما هر روز آلمانی یاد می‌گیریم.) | Ihr arbeitet viel zu viel! (شما خیلی زیاد کار می‌کنید!)"
                 }
               ],
               "vocabulary": [
                 {
                   "german": "lernen",
                   "english": "to learn",
+                  "persian": "یاد گرفتن / آموختن",
                   "example": "Ich lerne jeden Tag. (I learn every day.)"
                 },
                 {
                   "german": "machen",
                   "english": "to do / to make",
+                  "persian": "انجام دادن / ساختن",
                   "example": "Er macht die Arbeit. (He does the work.)"
                 },
                 {
                   "german": "spielen",
                   "english": "to play",
+                  "persian": "بازی کردن",
                   "example": "Wir spielen Fußball. (We play football.)"
                 },
                 {
                   "german": "kaufen",
                   "english": "to buy",
+                  "persian": "خریدن",
                   "example": "Sie kauft ein Buch. (She buys a book.)"
                 },
                 {
                   "german": "arbeiten",
                   "english": "to work",
+                  "persian": "کار کردن",
                   "example": "Ihr arbeitet heute? (Are you working today?)"
                 },
                 {
                   "german": "fragen",
                   "english": "to ask",
+                  "persian": "پرسیدن / سؤال کردن",
                   "example": "Ich frage den Lehrer. (I ask the teacher.)"
                 },
                 {
                   "german": "wohnen",
                   "english": "to live / reside",
+                  "persian": "زندگی کردن / سکونت داشتن",
                   "example": "Er wohnt in München. (He lives in Munich.)"
                 },
                 {
                   "german": "kommen",
                   "english": "to come",
+                  "persian": "آمدن",
                   "example": "Sie kommen morgen. (They are coming tomorrow.)"
                 }
               ],
@@ -541,8 +588,8 @@
                   "instruction": "Fill in the correct Präsens form.",
                   "question": "Du ___ jeden Tag Deutsch. (You learn German every day.) [lernen]",
                   "correctAnswer": "lernst",
-                  "hint": "Stamm: lern- + ending for 'du' = ?",
-                  "explanation": "lernen → Stamm: lern- + du ending (-st) = lernst. Du lernst jeden Tag Deutsch.",
+                  "hint": "English: Stamm: lern- + ending for 'du' = ?\nفارسی: Stamm: lern- + پسوندِ مربوط به du = ؟",
+                  "explanation": "English: lernen → Stamm: lern- + du ending (-st) = lernst. Du lernst jeden Tag Deutsch.\nفارسی: lernen → Stamm: lern- + پسوندِ du (-st) = lernst. Du lernst jeden Tag Deutsch.",
                   "order": 1
                 },
                 {
@@ -577,7 +624,7 @@
                       "explanation": "That is the ich form (arbeit + -e). For er/sie/es, the ending is -(e)t."
                     }
                   ],
-                  "explanation": "Verbs with a stem ending in -t or -d insert an extra -e before -st and -t: du arbeitest, er arbeitet.",
+                  "explanation": "English: Verbs with a stem ending in -t or -d insert an extra -e before -st and -t: du arbeitest, er arbeitet.\nفارسی: فعل‌هایی که Stamm آن‌ها به -t یا -d ختم می‌شود، قبل از -st و -t یک -e اضافه می‌گیرند: du arbeitest، er arbeitet.",
                   "order": 2
                 },
                 {
@@ -612,7 +659,7 @@
                       "explanation": "That is the er/sie/es form (spiel + -t). The Stamm is just 'spiel'."
                     }
                   ],
-                  "explanation": "Stamm = Infinitiv minus -en. spielen → spiel. Then: ich spiele, du spielst, er spielt, wir spielen, ihr spielt, sie spielen.",
+                  "explanation": "English: Stamm = Infinitiv minus -en. spielen → spiel. Then: ich spiele, du spielst, er spielt, wir spielen, ihr spielt, sie spielen.\nفارسی: Stamm = مصدر منهای -en. spielen → spiel. سپس: ich spiele، du spielst، er spielt، wir spielen، ihr spielt، sie spielen.",
                   "order": 3
                 },
                 {
@@ -623,7 +670,7 @@
                   "question": "Ihr ___ heute Hausaufgaben. (You are doing homework today.)",
                   "correctAnswer": "macht",
                   "hint": "Stamm: mach- + ending for 'ihr' = ?",
-                  "explanation": "machen → Stamm: mach- + ihr ending (-t) = macht. Note: ihr and er/sie/es both use -t; the subject makes the meaning clear.",
+                  "explanation": "English: machen → Stamm: mach- + ihr ending (-t) = macht. Note: ihr and er/sie/es both use -t; the subject makes the meaning clear.\nفارسی: machen → Stamm: mach- + پسوندِ ihr (-t) = macht. نکته: ihr و er/sie/es هر دو از -t استفاده می‌کنند؛ فاعل معنا را روشن می‌کند.",
                   "order": 4
                 }
               ]
@@ -641,7 +688,7 @@
                 {
                   "type": "explanation",
                   "title": "Unregelmäßige Verben — What Makes a Verb Irregular",
-                  "content": "Irregular (unregelmäßig) verbs use the same personal endings as regular verbs — the endings themselves (-e, -st, -t, -en, -t, -en) do not change. What changes is the vowel inside the stem, but only for the second person singular (du) and third person singular (er/sie/es). The other four forms — ich, wir, ihr, sie/Sie — keep the original stem vowel and conjugate exactly like regular verbs."
+                  "content": "English: Irregular (unregelmäßig) verbs use the same personal endings as regular verbs — the endings themselves (-e, -st, -t, -en, -t, -en) do not change. What changes is the vowel inside the stem, but only for the second person singular (du) and third person singular (er/sie/es). The other four forms — ich, wir, ihr, sie/Sie — keep the original stem vowel and conjugate exactly like regular verbs.\nفارسی: فعل‌های نامنظم (unregelmäßig) از همان پسوندهای شخصیِ فعل‌های منظم استفاده می‌کنند — خودِ پسوندها (-e، -st، -t، -en، -t، -en) تغییر نمی‌کنند. چیزی که تغییر می‌کند، واکهٔ داخل Stamm است؛ اما فقط برای شخص دوم مفرد (du) و شخص سوم مفرد (er/sie/es). چهار شکلِ دیگر — ich، wir، ihr، sie/Sie — واکهٔ اصلیِ Stamm را حفظ می‌کنند و دقیقاً مثل فعل‌های منظم صرف می‌شوند."
                 },
                 {
                   "type": "table",
@@ -651,7 +698,8 @@
                     "Affects",
                     "Example infinitive",
                     "du form",
-                    "er/sie/es form"
+                    "er/sie/es form",
+                    "Persian note"
                   ],
                   "rows": [
                     [
@@ -659,21 +707,24 @@
                       "du and er/sie/es only",
                       "fahren",
                       "fährst",
-                      "fährt"
+                      "fährt",
+                      "a به ä فقط در du و er/sie/es تغییر می‌کند"
                     ],
                     [
                       "e → ie",
                       "du and er/sie/es only",
                       "lesen",
                       "liest",
-                      "liest"
+                      "liest",
+                      "e به ie فقط در du و er/sie/es تغییر می‌کند"
                     ],
                     [
                       "e → i",
                       "du and er/sie/es only",
                       "sprechen",
                       "sprichst",
-                      "spricht"
+                      "spricht",
+                      "e به i فقط در du و er/sie/es تغییر می‌کند"
                     ]
                   ]
                 },
@@ -683,38 +734,45 @@
                   "headers": [
                     "Subject",
                     "Form",
-                    "English"
+                    "English",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "ich",
                       "fahre",
-                      "I drive / go — original stem, no change"
+                      "I drive / go — original stem, no change",
+                      "من رانندگی می‌کنم / می‌روم — Stamm اصلی، بدون تغییر"
                     ],
                     [
                       "du",
                       "fährst",
-                      "you drive — a→ä change"
+                      "you drive — a→ä change",
+                      "تو رانندگی می‌کنی — تغییر a→ä"
                     ],
                     [
                       "er / sie / es",
                       "fährt",
-                      "he/she/it drives — a→ä change"
+                      "he/she/it drives — a→ä change",
+                      "او رانندگی می‌کند — تغییر a→ä"
                     ],
                     [
                       "wir",
                       "fahren",
-                      "we drive — original stem, no change"
+                      "we drive — original stem, no change",
+                      "ما رانندگی می‌کنیم — Stamm اصلی، بدون تغییر"
                     ],
                     [
                       "ihr",
                       "fahrt",
-                      "you (pl.) drive — original stem, no change"
+                      "you (pl.) drive — original stem, no change",
+                      "شما (جمع) رانندگی می‌کنید — Stamm اصلی، بدون تغییر"
                     ],
                     [
                       "sie / Sie",
                       "fahren",
-                      "they/you (formal) drive — no change"
+                      "they/you (formal) drive — no change",
+                      "آن‌ها / شما (رسمی) رانندگی می‌کنند — بدون تغییر"
                     ]
                   ]
                 },
@@ -729,38 +787,45 @@
                   "headers": [
                     "Subject",
                     "lesen (to read)",
-                    "sprechen (to speak)"
+                    "sprechen (to speak)",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "ich",
                       "lese",
-                      "spreche"
+                      "spreche",
+                      "من می‌خوانم / صحبت می‌کنم"
                     ],
                     [
                       "du",
                       "liest ← e→ie",
-                      "sprichst ← e→i"
+                      "sprichst ← e→i",
+                      "تو می‌خوانی / صحبت می‌کنی"
                     ],
                     [
                       "er / sie / es",
                       "liest ← e→ie",
-                      "spricht ← e→i"
+                      "spricht ← e→i",
+                      "او می‌خواند / صحبت می‌کند"
                     ],
                     [
                       "wir",
                       "lesen",
-                      "sprechen"
+                      "sprechen",
+                      "ما می‌خوانیم / صحبت می‌کنیم"
                     ],
                     [
                       "ihr",
                       "lest",
-                      "sprecht"
+                      "sprecht",
+                      "شما (جمع) می‌خوانید / صحبت می‌کنید"
                     ],
                     [
                       "sie / Sie",
                       "lesen",
-                      "sprechen"
+                      "sprechen",
+                      "آن‌ها / شما (رسمی) می‌خوانند / صحبت می‌کنند"
                     ]
                   ]
                 },
@@ -772,7 +837,8 @@
                     "English",
                     "Change",
                     "du form",
-                    "er/sie/es form"
+                    "er/sie/es form",
+                    "Persian note"
                   ],
                   "rows": [
                     [
@@ -780,121 +846,139 @@
                       "to drive / go",
                       "a → ä",
                       "fährst",
-                      "fährt"
+                      "fährt",
+                      "رانندگی / رفتن"
                     ],
                     [
                       "schlafen",
                       "to sleep",
                       "a → ä",
                       "schläfst",
-                      "schläft"
+                      "schläft",
+                      "خوابیدن"
                     ],
                     [
                       "laufen",
                       "to run / walk",
                       "au → äu",
                       "läufst",
-                      "läuft"
+                      "läuft",
+                      "دویدن / راه رفتن"
                     ],
                     [
                       "lesen",
                       "to read",
                       "e → ie",
                       "liest",
-                      "liest"
+                      "liest",
+                      "خواندن"
                     ],
                     [
                       "sehen",
                       "to see",
                       "e → ie",
                       "siehst",
-                      "sieht"
+                      "sieht",
+                      "دیدن"
                     ],
                     [
                       "sprechen",
                       "to speak",
                       "e → i",
                       "sprichst",
-                      "spricht"
+                      "spricht",
+                      "صحبت کردن"
                     ],
                     [
                       "geben",
                       "to give",
                       "e → i",
                       "gibst",
-                      "gibt"
+                      "gibt",
+                      "دادن"
                     ],
                     [
                       "nehmen",
                       "to take",
                       "e → i (special)",
                       "nimmst",
-                      "nimmt"
+                      "nimmt",
+                      "گرفتن / برداشتن"
                     ],
                     [
                       "essen",
                       "to eat",
                       "e → i (special)",
                       "isst",
-                      "isst"
+                      "isst",
+                      "خوردن"
                     ]
                   ]
                 },
                 {
                   "type": "warning",
                   "title": "nehmen and essen Are Extra Irregular",
-                  "content": "nehmen and essen go beyond a simple vowel swap: nehmen → du nimmst, er nimmt (the entire consonant cluster changes). essen → du isst, er isst (the -ss merges with the -st ending). Both must be memorized individually — they cannot be predicted from the pattern alone. Both are extremely high-frequency verbs."
+                  "content": "English: nehmen and essen go beyond a simple vowel swap: nehmen → du nimmst, er nimmt (the entire consonant cluster changes). essen → du isst, er isst (the -ss merges with the -st ending). Both must be memorized individually — they cannot be predicted from the pattern alone. Both are extremely high-frequency verbs.\nفارسی: nehmen و essen فراتر از یک تغییر سادهٔ واکه هستند: nehmen → du nimmst، er nimmt (کل خوشهٔ همخوانی تغییر می‌کند). essen → du isst، er isst (پسوند -ss با -st ادغام می‌شود). هر دو باید جداگانه حفظ شوند — از روی الگو به‌تنهایی قابل پیش‌بینی نیستند. هر دو از فعل‌های بسیار پرکاربردند."
                 },
                 {
                   "type": "example",
                   "title": "Irregular Verbs in Natural Sentences",
-                  "content": "Ich fahre nach Berlin. (I am going to Berlin.) vs. Du fährst nach Berlin. (You are going to Berlin.) | Er liest ein Buch. (He is reading a book.) | Sie spricht sehr gut Deutsch! (She speaks German very well!) | Was isst du gern? (What do you like to eat?) | Er nimmt den Bus. (He takes the bus.)"
+                  "content": "English: Ich fahre nach Berlin. (I am going to Berlin.) vs. Du fährst nach Berlin. (You are going to Berlin.) | Er liest ein Buch. (He is reading a book.) | Sie spricht sehr gut Deutsch! (She speaks German very well!) | Was isst du gern? (What do you like to eat?) | Er nimmt den Bus. (He takes the bus.)\nفارسی: Ich fahre nach Berlin. (من به برلین می‌روم.) در برابر Du fährst nach Berlin. (تو به برلین می‌روی.) | Er liest ein Buch. (او یک کتاب می‌خواند.) | Sie spricht sehr gut Deutsch! (او آلمانی را خیلی خوب صحبت می‌کند!) | Was isst du gern? (چه چیزی را دوست داری بخوری؟) | Er nimmt den Bus. (او اتوبوس را می‌گیرد.)"
                 }
               ],
               "vocabulary": [
                 {
                   "german": "fahren",
                   "english": "to drive / go (by vehicle)",
+                  "persian": "رانندگی کردن / با وسیله رفتن",
                   "example": "Ich fahre nach Berlin. Du fährst auch?"
                 },
                 {
                   "german": "schlafen",
                   "english": "to sleep",
+                  "persian": "خوابیدن",
                   "example": "Er schläft bis 10 Uhr. (He sleeps until 10 o'clock.)"
                 },
                 {
                   "german": "laufen",
                   "english": "to run / walk",
+                  "persian": "دویدن / راه رفتن",
                   "example": "Sie läuft jeden Morgen. (She runs every morning.)"
                 },
                 {
                   "german": "lesen",
                   "english": "to read",
+                  "persian": "خواندن",
                   "example": "Er liest jeden Abend. (He reads every evening.)"
                 },
                 {
                   "german": "sehen",
                   "english": "to see",
+                  "persian": "دیدن",
                   "example": "Siehst du das? (Do you see that?)"
                 },
                 {
                   "german": "sprechen",
                   "english": "to speak",
+                  "persian": "صحبت کردن",
                   "example": "Sie spricht drei Sprachen. (She speaks three languages.)"
                 },
                 {
                   "german": "nehmen",
                   "english": "to take",
+                  "persian": "گرفتن / برداشتن",
                   "example": "Er nimmt die U-Bahn. (He takes the underground.)"
                 },
                 {
                   "german": "geben",
                   "english": "to give",
+                  "persian": "دادن",
                   "example": "Was gibst du mir? (What are you giving me?)"
                 },
                 {
                   "german": "essen",
                   "english": "to eat",
+                  "persian": "خوردن",
                   "example": "Was isst du gern? (What do you like to eat?)"
                 }
               ],
@@ -910,28 +994,28 @@
                       "id": "a",
                       "text": "lest",
                       "isCorrect": false,
-                      "explanation": "lest is the ihr form. For er/sie/es, lesen has the e→ie change."
+                      "explanation": "English: lest is the ihr form. For er/sie/es, lesen has the e→ie change.\nفارسی: lest شکلِ ihr است. برای er/sie/es، lesen تغییر e→ie دارد."
                     },
                     {
                       "id": "b",
                       "text": "lesen",
                       "isCorrect": false,
-                      "explanation": "lesen is the infinitive or wir/sie form, not the er form."
+                      "explanation": "English: lesen is the infinitive or wir/sie form, not the er form.\nفارسی: lesen مصدر یا شکلِ wir/sie است، نه شکلِ er."
                     },
                     {
                       "id": "c",
                       "text": "liest",
                       "isCorrect": true,
-                      "explanation": "Correct! lesen → e→ie for er/sie/es: liest. Er liest ein Buch."
+                      "explanation": "English: Correct! lesen → e→ie for er/sie/es: liest. Er liest ein Buch.\nفارسی: درست است! lesen → e→ie برای er/sie/es: liest. Er liest ein Buch."
                     },
                     {
                       "id": "d",
                       "text": "lese",
                       "isCorrect": false,
-                      "explanation": "lese is the ich form. For er/sie/es the vowel changes: e→ie → liest."
+                      "explanation": "English: lese is the ich form. For er/sie/es the vowel changes: e→ie → liest.\nفارسی: lese شکلِ ich است. برای er/sie/es واکه تغییر می‌کند: e→ie → liest."
                     }
                   ],
-                  "explanation": "lesen is an e→ie irregular verb. Only du and er/sie/es get the changed vowel: du liest, er liest.",
+                  "explanation": "English: lesen is an e→ie irregular verb. Only du and er/sie/es get the changed vowel: du liest, er liest.\nفارسی: lesen یک فعل نامنظم با الگوی e→ie است. فقط du و er/sie/es واکهٔ تغییر یافته می‌گیرند: du liest، er liest.",
                   "order": 1
                 },
                 {
@@ -941,8 +1025,8 @@
                   "instruction": "Fill in the correct form of 'fahren'.",
                   "question": "Du ___ morgen nach Wien. (You are going to Vienna tomorrow.)",
                   "correctAnswer": "fährst",
-                  "hint": "fahren: a→ä change for du. Stem changes to fähr-, then add the du ending -st.",
-                  "explanation": "fahren → a→ä for du: fähr- + -st = fährst. Du fährst morgen nach Wien.",
+                  "hint": "English: fahren: a→ä change for du. Stem changes to fähr-, then add the du ending -st.\nفارسی: fahren: برای du تغییر a→ä دارد. Stamm به fähr- تبدیل می‌شود و سپس پسوند du یعنی -st اضافه می‌شود.",
+                  "explanation": "English: fahren → a→ä for du: fähr- + -st = fährst. Du fährst morgen nach Wien.\nفارسی: fahren → برای du تغییر a→ä: fähr- + -st = fährst. Du fährst morgen nach Wien.",
                   "order": 2
                 },
                 {
@@ -956,28 +1040,28 @@
                       "id": "a",
                       "text": "All six forms change",
                       "isCorrect": false,
-                      "explanation": "Only two forms change — the rest stay with the original stem vowel."
+                      "explanation": "English: Only two forms change — the rest stay with the original stem vowel.\nفارسی: فقط دو شکل تغییر می‌کنند — بقیه واکهٔ اصلیِ Stamm را حفظ می‌کنند."
                     },
                     {
                       "id": "b",
                       "text": "Only ich changes",
                       "isCorrect": false,
-                      "explanation": "The ich form never changes in stem-vowel irregular verbs."
+                      "explanation": "English: The ich form never changes in stem-vowel irregular verbs.\nفارسی: شکلِ ich در فعل‌های نامنظمِ دارای تغییر واکه هرگز تغییر نمی‌کند."
                     },
                     {
                       "id": "c",
                       "text": "Only du and er/sie/es change",
                       "isCorrect": true,
-                      "explanation": "Correct! Only the 2nd and 3rd person singular get the changed vowel. All other forms keep the original stem."
+                      "explanation": "English: Correct! Only the 2nd and 3rd person singular get the changed vowel. All other forms keep the original stem.\nفارسی: درست است! فقط شخص دوم و سوم مفرد واکهٔ تغییر یافته می‌گیرند. همهٔ شکل‌های دیگر Stamm اصلی را نگه می‌دارند."
                     },
                     {
                       "id": "d",
                       "text": "wir, ihr, sie/Sie all change",
                       "isCorrect": false,
-                      "explanation": "These plural forms always keep the original stem vowel."
+                      "explanation": "English: These plural forms always keep the original stem vowel.\nفارسی: این شکل‌های جمع همیشه واکهٔ اصلیِ Stamm را حفظ می‌کنند."
                     }
                   ],
-                  "explanation": "Stem vowel changes apply ONLY to du and er/sie/es. Ich, wir, ihr, sie/Sie always use the original stem.",
+                  "explanation": "English: Stem vowel changes apply ONLY to du and er/sie/es. Ich, wir, ihr, sie/Sie always use the original stem.\nفارسی: تغییر واکهٔ Stamm فقط برای du و er/sie/es رخ می‌دهد. Ich، wir، ihr و sie/Sie همیشه Stamm اصلی را به‌کار می‌برند.",
                   "order": 3
                 }
               ]
@@ -995,7 +1079,7 @@
                 {
                   "type": "explanation",
                   "title": "Why sein and haben Are Special",
-                  "content": "sein and haben are the two highest-frequency verbs in German. They are completely irregular — they do not follow the Stamm + Endung pattern at all and must be memorized directly. Beyond their standalone meanings (to be, to have), they are the two auxiliary verbs used to form the Perfekt (conversational past tense), making them even more essential. Every single German conversation uses both of these verbs multiple times."
+                  "content": "English: sein and haben are the two highest-frequency verbs in German. They are completely irregular — they do not follow the Stamm + Endung pattern at all and must be memorized directly. Beyond their standalone meanings (to be, to have), they are the two auxiliary verbs used to form the Perfekt (conversational past tense), making them even more essential. Every single German conversation uses both of these verbs multiple times.\nفارسی: sein و haben دو فعلِ پرکاربردِ زبان آلمانی هستند. این دو فعل کاملاً نامنظم‌اند — اصلاً از الگوی Stamm + Endung پیروی نمی‌کنند و باید مستقیماً حفظ شوند. افزون بر معنای اصلیِ خودشان (بودن، داشتن)، این دو فعلِ کمکی برای ساختِ زمان Perfekt (گذشتهٔ گفتاری) هم به‌کار می‌روند و بنابراین حتی مهم‌تر هم می‌شوند. هر گفت‌وگوی آلمانی این دو فعل را چندین بار به‌کار می‌برد."
                 },
                 {
                   "type": "table",
@@ -1004,6 +1088,7 @@
                     "Subject",
                     "Form",
                     "English",
+                    "Persian",
                     "Example"
                   ],
                   "rows": [
@@ -1011,36 +1096,42 @@
                       "ich",
                       "bin",
                       "I am",
+                      "من هستم",
                       "Ich bin müde. (I am tired.)"
                     ],
                     [
                       "du",
                       "bist",
                       "you are",
+                      "تو هستی",
                       "Bist du sicher? (Are you sure?)"
                     ],
                     [
                       "er / sie / es",
                       "ist",
                       "he / she / it is",
+                      "او است",
                       "Er ist Arzt. (He is a doctor.)"
                     ],
                     [
                       "wir",
                       "sind",
                       "we are",
+                      "ما هستیم",
                       "Wir sind hier. (We are here.)"
                     ],
                     [
                       "ihr",
                       "seid",
                       "you (pl.) are",
+                      "شما (جمع) هستید",
                       "Ihr seid laut! (You are loud!)"
                     ],
                     [
                       "sie / Sie",
                       "sind",
                       "they / you (formal) are",
+                      "آن‌ها / شما (رسمی) هستند",
                       "Sie sind nett. (They are nice.)"
                     ]
                   ]
@@ -1052,6 +1143,7 @@
                     "Subject",
                     "Form",
                     "English",
+                    "Persian",
                     "Example"
                   ],
                   "rows": [
@@ -1059,36 +1151,42 @@
                       "ich",
                       "habe",
                       "I have",
+                      "من دارم",
                       "Ich habe ein Auto. (I have a car.)"
                     ],
                     [
                       "du",
                       "hast",
                       "you have",
+                      "تو داری",
                       "Hast du Zeit? (Do you have time?)"
                     ],
                     [
                       "er / sie / es",
                       "hat",
                       "he / she / it has",
+                      "او دارد",
                       "Er hat Hunger. (He is hungry.)"
                     ],
                     [
                       "wir",
                       "haben",
                       "we have",
+                      "ما داریم",
                       "Wir haben eine Frage. (We have a question.)"
                     ],
                     [
                       "ihr",
                       "habt",
                       "you (pl.) have",
+                      "شما (جمع) دارید",
                       "Ihr habt Glück! (You are lucky!)"
                     ],
                     [
                       "sie / Sie",
                       "haben",
                       "they / you (formal) have",
+                      "آن‌ها / شما (رسمی) دارند",
                       "Sie haben Recht. (They are right.)"
                     ]
                   ]
@@ -1096,7 +1194,7 @@
                 {
                   "type": "tip",
                   "title": "haben for Physical and Emotional States",
-                  "content": "German uses haben (to have) for many states that English expresses with 'to be': Ich habe Hunger. (I am hungry — literally 'I have hunger'). Ich habe Durst. (I am thirsty). Ich habe Angst. (I am afraid). Ich habe Lust. (I feel like it). Ich habe Recht. (I am right). Ich habe Glück. (I am lucky). These are fixed expressions — do not substitute sein for haben in these phrases."
+                  "content": "English: German uses haben (to have) for many states that English expresses with 'to be': Ich habe Hunger. (I am hungry — literally 'I have hunger'). Ich habe Durst. (I am thirsty). Ich habe Angst. (I am afraid). Ich habe Lust. (I feel like it). Ich habe Recht. (I am right). Ich habe Glück. (I am lucky). These are fixed expressions — do not substitute sein for haben in these phrases.\nفارسی: آلمانی از haben (داشتن) برای بسیاری از حالت‌هایی استفاده می‌کند که انگلیسی با 'to be' بیان می‌کند: Ich habe Hunger. (من گرسنه‌ام — تحت‌اللفظی: من گرسنگی دارم). Ich habe Durst. (من تشنه‌ام). Ich habe Angst. (من می‌ترسم). Ich habe Lust. (حوصله دارم / مایل هستم). Ich habe Recht. (من درست می‌گویم / حق با من است). Ich habe Glück. (من خوش‌شانس هستم). این‌ها عبارت‌های ثابت‌اند — در این عبارت‌ها sein را به‌جای haben به‌کار نبرید."
                 },
                 {
                   "type": "table",
@@ -1104,85 +1202,99 @@
                   "headers": [
                     "Wrong",
                     "Why wrong",
-                    "Correct"
+                    "Correct",
+                    "Persian note"
                   ],
                   "rows": [
                     [
                       "Ich lernen Deutsch.",
                       "Infinitive used — verb must match subject",
-                      "Ich lerne Deutsch."
+                      "Ich lerne Deutsch.",
+                      "فعل به‌صورت مصدر آمده — باید با فاعل هماهنگ شود"
                     ],
                     [
                       "Du lernen Deutsch.",
                       "Infinitive used — du requires -st ending",
-                      "Du lernst Deutsch."
+                      "Du lernst Deutsch.",
+                      "مصدر آمده — برای du باید پسوند -st اضافه شود"
                     ],
                     [
                       "Heute ich gehe zur Arbeit.",
                       "V2 rule broken — verb must be position 2",
-                      "Heute gehe ich zur Arbeit."
+                      "Heute gehe ich zur Arbeit.",
+                      "قانون V2 شکسته شده — فعل باید در جایگاه ۲ باشد"
                     ],
                     [
                       "Ich bin Hunger.",
                       "sein used for a haben-state",
-                      "Ich habe Hunger."
+                      "Ich habe Hunger.",
+                      "برای حالتِ داشتنِ گرسنگی باید haben به‌کار برود"
                     ],
                     [
                       "Er ist ein Auto.",
                       "sein used for possession — use haben",
-                      "Er hat ein Auto."
+                      "Er hat ein Auto.",
+                      "برای مالکیت باید haben استفاده شود"
                     ]
                   ]
                 },
                 {
                   "type": "explanation",
                   "title": "Präsens — Complete Summary",
-                  "content": "You now have all the tools for German Präsens: 1) Regular verbs: Stamm + correct Endung (-e, -st, -t, -en, -t, -en). 2) Verbs with -t/-d stems: insert an extra -e before -st and -t. 3) Stem-vowel irregular verbs: only du and er/sie/es change (a→ä, e→ie, e→i). 4) sein and haben: fully irregular, memorize directly. 5) V2 rule: the conjugated verb is always position 2, no exceptions."
+                  "content": "English: You now have all the tools for German Präsens: 1) Regular verbs: Stamm + correct Endung (-e, -st, -t, -en, -t, -en). 2) Verbs with -t/-d stems: insert an extra -e before -st and -t. 3) Stem-vowel irregular verbs: only du and er/sie/es change (a→ä, e→ie, e→i). 4) sein and haben: fully irregular, memorize directly. 5) V2 rule: the conjugated verb is always position 2, no exceptions.\nفارسی: اکنون همهٔ ابزارهای لازم برای Präsens آلمانی را دارید: 1) فعل‌های منظم: Stamm + پسوندِ درست (-e، -st، -t، -en، -t، -en). 2) فعل‌هایی با Stammِ پایان‌یافته به -t/-d: قبل از -st و -t یک -e اضافه کنید. 3) فعل‌های نامنظمِ دارای تغییر واکه: فقط du و er/sie/es تغییر می‌کنند (a→ä، e→ie، e→i). 4) sein و haben: کاملاً نامنظم‌اند و باید مستقیم حفظ شوند. 5) قانون V2: فعلِ صرف‌شده همیشه در جایگاه ۲ است، بدون استثنا."
                 }
               ],
               "vocabulary": [
                 {
                   "german": "sein",
                   "english": "to be",
+                  "persian": "بودن",
                   "example": "Ich bin müde. Du bist nett. Er ist hier."
                 },
                 {
                   "german": "haben",
                   "english": "to have",
+                  "persian": "داشتن",
                   "example": "Ich habe Zeit. Er hat Hunger. Wir haben Glück."
                 },
                 {
                   "german": "müde",
                   "english": "tired",
+                  "persian": "خسته",
                   "example": "Ich bin müde. (I am tired.)"
                 },
                 {
                   "german": "Hunger",
                   "english": "hunger / being hungry",
+                  "persian": "گرسنگی / گرسنه بودن",
                   "article": "der",
                   "example": "Er hat Hunger. (He is hungry.)"
                 },
                 {
                   "german": "Durst",
                   "english": "thirst / being thirsty",
+                  "persian": "تشنگی / تشنه بودن",
                   "article": "der",
                   "example": "Ich habe Durst. (I am thirsty.)"
                 },
                 {
                   "german": "Angst",
                   "english": "fear / being afraid",
+                  "persian": "ترس / ترسیدن",
                   "article": "die",
                   "example": "Sie hat Angst. (She is afraid.)"
                 },
                 {
                   "german": "Recht",
                   "english": "right / being correct",
+                  "persian": "حق / درست بودن",
                   "article": "das",
                   "example": "Du hast Recht! (You are right!)"
                 },
                 {
                   "german": "Glück",
                   "english": "luck / being lucky",
+                  "persian": "شانس / خوش‌شانس بودن",
                   "article": "das",
                   "example": "Ihr habt Glück! (You are lucky!)"
                 }
@@ -1195,8 +1307,8 @@
                   "instruction": "Fill in the correct form of 'sein'.",
                   "question": "Wir ___ heute sehr müde. (We are very tired today.)",
                   "correctAnswer": "sind",
-                  "hint": "sein is completely irregular. What is the wir form?",
-                  "explanation": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. The wir form is sind.",
+                  "hint": "English: sein is completely irregular. What is the wir form?\nفارسی: sein کاملاً نامنظم است. شکلِ wir آن چیست؟",
+                  "explanation": "English: sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. The wir form is sind.\nفارسی: sein: ich bin، du bist، er/sie/es ist، wir sind، ihr seid، sie/Sie sind. شکلِ wir، sind است.",
                   "order": 1
                 },
                 {
@@ -1210,28 +1322,28 @@
                       "id": "a",
                       "text": "Er ist Hunger.",
                       "isCorrect": false,
-                      "explanation": "German uses haben for physical states like hunger, not sein."
+                      "explanation": "English: German uses haben for physical states like hunger, not sein.\nفارسی: آلمانی برای حالت‌های جسمی مثل گرسنگی از haben استفاده می‌کند، نه sein."
                     },
                     {
                       "id": "b",
                       "text": "Er hat hungrig.",
                       "isCorrect": false,
-                      "explanation": "Close but wrong. In German: Er hat Hunger (noun) — not 'hat hungrig' (adjective with haben)."
+                      "explanation": "English: Close but wrong. In German: Er hat Hunger (noun) — not 'hat hungrig' (adjective with haben).\nفارسی: نزدیک است اما اشتباه. در آلمانی: Er hat Hunger (اسم) — نه 'hat hungrig' (صفت همراه haben)."
                     },
                     {
                       "id": "c",
                       "text": "Er hat Hunger.",
                       "isCorrect": true,
-                      "explanation": "Correct! Hunger is a noun in German. 'He has hunger' = Er hat Hunger = He is hungry."
+                      "explanation": "English: Correct! Hunger is a noun in German. 'He has hunger' = Er hat Hunger = He is hungry.\nفارسی: درست است! Hunger در آلمانی یک اسم است. 'او گرسنگی دارد' = Er hat Hunger = او گرسنه است."
                     },
                     {
                       "id": "d",
                       "text": "Er ist hungrig.",
                       "isCorrect": false,
-                      "explanation": "Er ist hungrig exists but is less natural. The common idiomatic expression is always Er hat Hunger."
+                      "explanation": "English: Er ist hungrig exists but is less natural. The common idiomatic expression is always Er hat Hunger.\nفارسی: Er ist hungrig وجود دارد، اما طبیعی‌تر نیست. عبارتِ رایج و اصطلاحی همیشه Er hat Hunger است."
                     }
                   ],
-                  "explanation": "Physical states in German use haben: Hunger haben (be hungry), Durst haben (be thirsty), Angst haben (be afraid), Glück haben (be lucky).",
+                  "explanation": "English: Physical states in German use haben: Hunger haben (be hungry), Durst haben (be thirsty), Angst haben (be afraid), Glück haben (be lucky).\nفارسی: حالت‌های جسمی در آلمانی با haben بیان می‌شوند: Hunger haben (گرسنه بودن)، Durst haben (تشنه بودن)، Angst haben (ترسیدن)، Glück haben (خوش‌شانس بودن).",
                   "order": 2
                 },
                 {
@@ -1245,28 +1357,28 @@
                       "id": "a",
                       "text": "habt",
                       "isCorrect": true,
-                      "explanation": "Correct! haben for ihr: habt. Ihr habt viel Glück!"
+                      "explanation": "English: Correct! haben for ihr: habt. Ihr habt viel Glück!\nفارسی: درست است! شکلِ haben برای ihr می‌شود habt. Ihr habt viel Glück!"
                     },
                     {
                       "id": "b",
                       "text": "haben",
                       "isCorrect": false,
-                      "explanation": "haben is the wir/sie/Sie form. The ihr form is habt."
+                      "explanation": "English: haben is the wir/sie/Sie form. The ihr form is habt.\nفارسی: haben شکلِ wir/sie/Sie است. شکلِ ihr می‌شود habt."
                     },
                     {
                       "id": "c",
                       "text": "hat",
                       "isCorrect": false,
-                      "explanation": "hat is the er/sie/es form. The ihr form is habt."
+                      "explanation": "English: hat is the er/sie/es form. The ihr form is habt.\nفارسی: hat شکلِ er/sie/es است. شکلِ ihr می‌شود habt."
                     },
                     {
                       "id": "d",
                       "text": "hast",
                       "isCorrect": false,
-                      "explanation": "hast is the du form. The ihr form is habt."
+                      "explanation": "English: hast is the du form. The ihr form is habt.\nفارسی: hast شکلِ du است. شکلِ ihr می‌شود habt."
                     }
                   ],
-                  "explanation": "haben: ich habe, du hast, er hat, wir haben, ihr habt, sie/Sie haben. The ihr form is habt.",
+                  "explanation": "English: haben: ich habe, du hast, er hat, wir haben, ihr habt, sie/Sie haben. The ihr form is habt.\nفارسی: haben: ich habe، du hast، er hat، wir haben، ihr habt، sie/Sie haben. شکلِ ihr می‌شود habt.",
                   "order": 3
                 },
                 {
@@ -1280,7 +1392,7 @@
                       "id": "true",
                       "text": "True",
                       "isCorrect": false,
-                      "explanation": "Wrong! This breaks the V2 rule. After 'Heute' (position 1), the verb must be position 2: Heute arbeite ich."
+                      "explanation": "English: Wrong! This breaks the V2 rule. After 'Heute' (position 1), the verb must be position 2: Heute arbeite ich.\nفارسی: اشتباه است! این قانون V2 را می‌شکند. بعد از 'Heute' (جایگاه 1)، فعل باید در جایگاه 2 باشد: Heute arbeite ich."
                     },
                     {
                       "id": "false",
@@ -1289,7 +1401,7 @@
                       "explanation": "Correct — it is wrong! V2 rule: Heute (pos. 1) + arbeite (pos. 2) + ich (pos. 3) → Heute arbeite ich."
                     }
                   ],
-                  "explanation": "V2 rule: verb is always position 2. When 'Heute' starts the sentence, the subject 'ich' moves after the verb: Heute arbeite ich.",
+                  "explanation": "English: V2 rule: verb is always position 2. When 'Heute' starts the sentence, the subject 'ich' moves after the verb: Heute arbeite ich.\nفارسی: قانون V2: فعل همیشه در جایگاه 2 است. وقتی 'Heute' جمله را شروع می‌کند، فاعل 'ich' بعد از فعل می‌آید: Heute arbeite ich.",
                   "order": 4
                 }
               ]
@@ -1327,7 +1439,7 @@
                 {
                   "type": "explanation",
                   "title": "Core Rule: The Conjugated Verb in Position 2",
-                  "content": "In German main clauses, the conjugated verb is always in position 2. Even when a time or place expression starts the sentence, the verb stays in position 2 and the subject moves after it. Example: Morgen gehe ich zum Arzt. (Tomorrow I go to the doctor.)"
+                  "content": "English: In German main clauses, the conjugated verb is always in position 2. Even when a time or place expression starts the sentence, the verb stays in position 2 and the subject moves after it. Example: Morgen gehe ich zum Arzt. (Tomorrow I go to the doctor.)\nفارسی: در جمله‌های اصلی آلمانی، فعلِ صرف‌شده همیشه در جایگاه ۲ قرار می‌گیرد. حتی وقتی جمله با زمان یا مکان شروع می‌شود، فعل در جایگاه ۲ می‌ماند و فاعل بعد از آن می‌آید. مثال: Morgen gehe ich zum Arzt. (فردا به دکتر می‌روم.)"
                 },
                 {
                   "type": "table",
@@ -1336,6 +1448,7 @@
                     "Type",
                     "German",
                     "English",
+                    "Persian",
                     "Why"
                   ],
                   "rows": [
@@ -1343,18 +1456,21 @@
                       "Subject first",
                       "Ich gehe morgen zum Arzt.",
                       "I go to the doctor tomorrow.",
+                      "من فردا به دکتر می‌روم.",
                       "Verb is position 2"
                     ],
                     [
                       "Time first",
                       "Morgen gehe ich zum Arzt.",
                       "Tomorrow I go to the doctor.",
+                      "فردا من به دکتر می‌روم.",
                       "Verb still position 2"
                     ],
                     [
                       "Place first",
                       "In Berlin arbeite ich morgen.",
                       "In Berlin I work tomorrow.",
+                      "در برلین من فردا کار می‌کنم.",
                       "Verb still position 2"
                     ]
                   ]
@@ -1362,7 +1478,7 @@
                 {
                   "type": "explanation",
                   "title": "Yes/No Questions: Verb Comes First",
-                  "content": "In yes/no questions (questions answered with yes or no), the conjugated verb comes first. Example: Kommst du morgen? (Are you coming tomorrow?)"
+                  "content": "English: In yes/no questions (questions answered with yes or no), the conjugated verb comes first. Example: Kommst du morgen? (Are you coming tomorrow?)\nفارسی: در سؤال‌های بله/خیر (سؤال‌هایی که جوابشان بله یا خیر است)، فعلِ صرف‌شده در ابتدا می‌آید. مثال: Kommst du morgen? (آیا فردا می‌آیی؟)"
                 },
                 {
                   "type": "table",
@@ -1370,30 +1486,34 @@
                   "headers": [
                     "Question type",
                     "Formula",
-                    "Example"
+                    "Example",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "Yes/No",
                       "Verb + Subject + ...",
-                      "Kommst du morgen?"
+                      "Kommst du morgen?",
+                      "آیا فردا می‌آیی؟"
                     ],
                     [
                       "W-question",
                       "W-word + Verb + Subject + ...",
-                      "Wann kommst du?"
+                      "Wann kommst du?",
+                      "چه زمانی می‌آیی؟"
                     ],
                     [
                       "W-question (place)",
                       "Wo + Verb + Subject + ...",
-                      "Wo wohnst du?"
+                      "Wo wohnst du?",
+                      "کجا زندگی می‌کنی؟"
                     ]
                   ]
                 },
                 {
                   "type": "explanation",
                   "title": "TeKaMoLo for Longer Sentences",
-                  "content": "In longer German sentences, information often follows this order: TeKaMoLo = Temporal (time) + Kausal (reason) + Modal (how/by what method) + Lokal (place). This helps your sentences sound natural and organized."
+                  "content": "English: In longer German sentences, information often follows this order: TeKaMoLo = Temporal (time) + Kausal (reason) + Modal (how/by what method) + Lokal (place). This helps your sentences sound natural and organized.\nفارسی: در جمله‌های طولانی آلمانی، اطلاعات اغلب این ترتیب را دنبال می‌کنند: TeKaMoLo = زمان + دلیل + حالت/روش + مکان. این کار باعث می‌شود جمله‌ها طبیعی‌تر و منظم‌تر به نظر برسند."
                 },
                 {
                   "type": "table",
@@ -1401,45 +1521,52 @@
                   "headers": [
                     "Element",
                     "German part",
-                    "Meaning"
+                    "Meaning",
+                    "Persian"
                   ],
                   "rows": [
                     [
                       "Te (time)",
                       "Heute",
-                      "today"
+                      "today",
+                      "امروز"
                     ],
                     [
                       "Verb (position 2)",
                       "muss",
-                      "must"
+                      "must",
+                      "باید"
                     ],
                     [
                       "Subject",
                       "ich",
-                      "I"
+                      "I",
+                      "من"
                     ],
                     [
                       "Ka (reason)",
                       "wegen seiner Prüfung",
-                      "because of his exam"
+                      "because of his exam",
+                      "به‌خاطر امتحان او"
                     ],
                     [
                       "Mo (method)",
                       "mit dem Auto",
-                      "by car"
+                      "by car",
+                      "با ماشین"
                     ],
                     [
                       "Lo (place)",
                       "in die Universität",
-                      "to the university"
+                      "to the university",
+                      "به دانشگاه"
                     ]
                   ]
                 },
                 {
                   "type": "example",
                   "title": "Complete Example",
-                  "content": "Heute muss ich meinem Freund das Buch wegen seiner Prüfung mit dem Auto in die Universität nicht bringen. (Today I do not have to bring the book to my friend to the university by car because of his exam.)"
+                  "content": "English: Heute muss ich meinem Freund das Buch wegen seiner Prüfung mit dem Auto in die Universität nicht bringen. (Today I do not have to bring the book to my friend to the university by car because of his exam.)\nفارسی: امروز لازم نیست کتاب را به‌خاطر امتحان او با ماشین به دانشگاه برای دوستم ببرم."
                 }
               ],
               "vocabulary": [
@@ -1496,22 +1623,22 @@
                       "id": "a",
                       "text": "Morgen ich gehe zum Arzt.",
                       "isCorrect": false,
-                      "explanation": "Wrong. In main clauses, the conjugated verb must be in position 2."
+                      "explanation": "English: Wrong. In main clauses, the conjugated verb must be in position 2.\nفارسی: اشتباه است. در جمله‌های اصلی، فعلِ صرف‌شده باید در جایگاه ۲ باشد."
                     },
                     {
                       "id": "b",
                       "text": "Morgen gehe ich zum Arzt.",
                       "isCorrect": true,
-                      "explanation": "Correct. Time element in position 1, verb in position 2, subject after verb."
+                      "explanation": "English: Correct. Time element in position 1, verb in position 2, subject after verb.\nفارسی: درست است. عنصر زمان در جایگاه ۱ است، فعل در جایگاه ۲ و فاعل بعد از فعل می‌آید."
                     },
                     {
                       "id": "c",
                       "text": "Ich morgen gehe zum Arzt.",
                       "isCorrect": false,
-                      "explanation": "Unnatural order. Verb should remain in position 2."
+                      "explanation": "English: Unnatural order. Verb should remain in position 2.\nفارسی: ترتیب طبیعی نیست. فعل باید در جایگاه ۲ بماند."
                     }
                   ],
-                  "explanation": "V2 rule: position 1 can change, but the conjugated verb stays in position 2.",
+                  "explanation": "English: V2 rule: position 1 can change, but the conjugated verb stays in position 2.\nفارسی: قانون V2: جایگاه ۱ می‌تواند تغییر کند، اما فعلِ صرف‌شده همیشه در جایگاه ۲ می‌ماند.",
                   "order": 1
                 },
                 {
@@ -1540,7 +1667,7 @@
                       "explanation": "This is marked/colloquial and not the standard pattern taught at A1."
                     }
                   ],
-                  "explanation": "Yes/no question formula: Verb + Subject + ...",
+                  "explanation": "English: Yes/no question formula: Verb + Subject + ...\nفارسی: فرمول سؤالِ بله/خیر: فعل + فاعل + ...",
                   "order": 2
                 },
                 {
@@ -1550,8 +1677,8 @@
                   "instruction": "Fill in the correct word order.",
                   "question": "Wann ___ du? (When are you coming?)",
                   "correctAnswer": "kommst",
-                  "hint": "W-question pattern: W-word + verb + subject.",
-                  "explanation": "W-questions keep the verb in position 2: Wann kommst du?",
+                  "hint": "English: W-question pattern: W-word + verb + subject.\nفارسی: الگوی سؤالِ W: واژهٔ W + فعل + فاعل.",
+                  "explanation": "English: W-questions keep the verb in position 2: Wann kommst du?\nفارسی: در سؤال‌های W، فعل در جایگاه ۲ می‌ماند: Wann kommst du?",
                   "order": 3
                 }
               ]
@@ -1569,47 +1696,47 @@
                 {
                   "type": "explanation",
                   "title": "Important Clarification",
-                  "content": "TeKaMoLo is not a complete sentence formula. It only describes the preferred order of adverbial information: Temporal (time), Kausal (reason), Modal (manner), Lokal (place). The real sentence backbone is the V2 rule: in statements, the conjugated verb is always in position 2."
+                  "content": "English: TeKaMoLo is not a complete sentence formula. It only describes the preferred order of adverbial information: Temporal (time), Kausal (reason), Modal (manner), Lokal (place). The real sentence backbone is the V2 rule: in statements, the conjugated verb is always in position 2.\nفارسی: TeKaMoLo فرمول کامل جمله نیست؛ فقط ترتیبِ ترجیحیِ اطلاعات قیدی را نشان می‌دهد: زمان، دلیل، حالت/روش، مکان. ستون اصلی جمله قانون V2 است: در جمله‌های خبری، فعلِ صرف‌شده همیشه در جایگاه ۲ قرار می‌گیرد."
                 },
                 {
                   "type": "table",
                   "title": "Complete Main-Clause Formula",
-                  "headers": ["Order", "Element", "Note"],
+                  "headers": ["Order", "Element", "Note", "Persian"],
                   "rows": [
-                    ["1", "Position 1", "Any single element can come first (subject, time, place, object, adverb)"],
-                    ["2", "Conjugated verb", "Always position 2 in statements"],
-                    ["3", "Subject (if not in position 1)", "Moves after the verb"],
-                    ["4", "Dative object", "Usually before accusative object"],
-                    ["5", "Accusative object", "Usually after dative object"],
-                    ["6", "TeKaMoLo", "Time -> Cause -> Manner -> Place"],
-                    ["7", "nicht (if needed)", "Usually before final verb element"],
-                    ["8", "Final verb element", "Infinitive/Partizip II/separable prefix in multi-verb structures"]
+                    ["1", "Position 1", "Any single element can come first (subject, time, place, object, adverb)", "هر یک عنصر می‌تواند اول بیاید (فاعل، زمان، مکان، مفعول، قید)"],
+                    ["2", "Conjugated verb", "Always position 2 in statements", "فعلِ صرف‌شده در جمله خبری همیشه جایگاه ۲ را دارد"],
+                    ["3", "Subject (if not in position 1)", "Moves after the verb", "اگر فاعل در جایگاه ۱ نباشد، بعد از فعل می‌آید"],
+                    ["4", "Dative object", "Usually before accusative object", "معمولاً قبل از مفعول آکوزاتیو می‌آید"],
+                    ["5", "Accusative object", "Usually after dative object", "معمولاً بعد از مفعول داتیو می‌آید"],
+                    ["6", "TeKaMoLo", "Time -> Cause -> Manner -> Place", "زمان -> دلیل -> حالت/روش -> مکان"],
+                    ["7", "nicht (if needed)", "Usually before final verb element", "معمولاً قبل از بخش نهایی فعل می‌آید"],
+                    ["8", "Final verb element", "Infinitive/Partizip II/separable prefix in multi-verb structures", "در ساختارهای چندفعلی: مصدر / Partizip II / پیشوند جداشدنی"]
                   ]
                 },
                 {
                   "type": "table",
                   "title": "Question Patterns",
-                  "headers": ["Type", "Formula", "Example"],
+                  "headers": ["Type", "Formula", "Example", "Persian"],
                   "rows": [
-                    ["Yes/No question", "Verb + Subject + ...", "Kommst du morgen?"],
-                    ["W-question", "W-word + Verb + Subject + ...", "Wann kommst du?"],
-                    ["Statement", "Position 1 + Verb + ...", "Morgen gehe ich zum Arzt."]
+                    ["Yes/No question", "Verb + Subject + ...", "Kommst du morgen?", "آیا فردا می‌آیی؟"],
+                    ["W-question", "W-word + Verb + Subject + ...", "Wann kommst du?", "چه زمانی می‌آیی؟"],
+                    ["Statement", "Position 1 + Verb + ...", "Morgen gehe ich zum Arzt.", "فردا من به دکتر می‌روم."]
                   ]
                 },
                 {
                   "type": "explanation",
                   "title": "Object Order Rules and Exceptions",
-                  "content": "Default order with two objects is usually Dativ before Akkusativ: Ich gebe meinem Bruder ein Geschenk. Important exception: if the accusative object is a pronoun, it often comes before the dative object: Ich gebe es meiner Schwester. Also, in longer sentences, the accusative element does not always need to stand immediately after the dative element; it can appear later depending on focus and structure."
+                  "content": "English: Default order with two objects is usually Dativ before Akkusativ: Ich gebe meinem Bruder ein Geschenk. Important exception: if the accusative object is a pronoun, it often comes before the dative object: Ich gebe es meiner Schwester. Also, in longer sentences, the accusative element does not always need to stand immediately after the dative element; it can appear later depending on focus and structure.\nفارسی: ترتیب پیش‌فرض برای دو مفعول معمولاً «داتیو قبل از آکوزاتیو» است: Ich gebe meinem Bruder ein Geschenk. یک استثنای مهم این است که اگر مفعول آکوزاتیو یک ضمیر باشد، اغلب قبل از مفعول داتیو می‌آید: Ich gebe es meiner Schwester. همچنین در جمله‌های طولانی‌تر، عنصر آکوزاتیو همیشه لازم نیست بلافاصله بعد از عنصر داتیو بیاید؛ بسته به تأکید و ساختار، می‌تواند دیرتر ظاهر شود."
                 },
                 {
                   "type": "tip",
                   "title": "Negation Position in Multi-Verb Clauses",
-                  "content": "In many multi-verb sentences, nicht appears toward the end, usually before the final verb element. Example: Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen."
+                  "content": "English: In many multi-verb sentences, nicht appears toward the end, usually before the final verb element. Example: Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen.\nفارسی: در بسیاری از جمله‌های چندفعلی، nicht نزدیکِ پایان جمله می‌آید، معمولاً قبل از بخش نهایی فعل. مثال: Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen."
                 },
                 {
                   "type": "example",
                   "title": "Full Analysis Example",
-                  "content": "Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen. -> Position 1: Heute, Verb (V2): muss, Subject: ich, Dative object: meinem Freund, Accusative object: das Buch, Kausal: wegen seiner Pruefung, Modal: mit dem Auto, Lokal: zur Universitaet, Negation: nicht, Final verb: bringen."
+                  "content": "English: Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen. -> Position 1: Heute, Verb (V2): muss, Subject: ich, Dative object: meinem Freund, Accusative object: das Buch, Kausal: wegen seiner Pruefung, Modal: mit dem Auto, Lokal: zur Universitaet, Negation: nicht, Final verb: bringen.\nفارسی: Heute muss ich meinem Freund das Buch wegen seiner Pruefung mit dem Auto zur Universitaet nicht bringen. -> جایگاه ۱: Heute، فعل (V2): muss، فاعل: ich، مفعول داتیو: meinem Freund، مفعول آکوزاتیو: das Buch، دلیل: wegen seiner Pruefung، روش: mit dem Auto، مکان: zur Universitaet، منفی‌ساز: nicht، فعل نهایی: bringen."
                 }
               ],
               "vocabulary": [
@@ -1636,6 +1763,7 @@
                 {
                   "german": "nicht",
                   "english": "not",
+                  "persian": "نه / نیست / هرگز",
                   "example": "Ich kann heute nicht kommen."
                 },
                 {
@@ -1656,19 +1784,19 @@
                       "id": "a",
                       "text": "The full sentence formula in German",
                       "isCorrect": false,
-                      "explanation": "Not fully. TeKaMoLo only defines adverbial order, not the full clause architecture."
+                      "explanation": "English: Not fully. TeKaMoLo only defines adverbial order, not the full clause architecture.\nفارسی: نه، به‌طور کامل نه. TeKaMoLo فقط ترتیب قیدها را تعریف می‌کند، نه ساختار کامل جمله را."
                     },
                     {
                       "id": "b",
                       "text": "Only the order of adverbials: time, cause, manner, place",
                       "isCorrect": true,
-                      "explanation": "Correct. TeKaMoLo is about adverbials, while V2 remains the core structural rule."
+                      "explanation": "English: Correct. TeKaMoLo is about adverbials, while V2 remains the core structural rule.\nفارسی: درست است. TeKaMoLo مربوط به قیدهاست، در حالی که V2 قانون ساختاریِ اصلی باقی می‌ماند."
                     },
                     {
                       "id": "c",
                       "text": "Only question word order",
                       "isCorrect": false,
-                      "explanation": "Question patterns are separate (verb-first or W-word + verb)."
+                      "explanation": "English: Question patterns are separate (verb-first or W-word + verb).\nفارسی: الگوهای سؤال جدا هستند (فعل-اول یا واژهٔ W + فعل)."
                     }
                   ],
                   "explanation": "TeKaMoLo = Temporal, Kausal, Modal, Lokal. It complements, not replaces, the V2 rule.",
@@ -1685,22 +1813,22 @@
                       "id": "a",
                       "text": "Du kommst morgen?",
                       "isCorrect": false,
-                      "explanation": "Possible as colloquial intonation, but not the standard beginner pattern."
+                      "explanation": "English: Possible as colloquial intonation, but not the standard beginner pattern.\nفارسی: از نظر لحنِ محاوره‌ای ممکن است، اما الگوی استانداردِ مبتدی نیست."
                     },
                     {
                       "id": "b",
                       "text": "Kommst du morgen?",
                       "isCorrect": true,
-                      "explanation": "Correct. In yes/no questions, the conjugated verb comes first."
+                      "explanation": "English: Correct. In yes/no questions, the conjugated verb comes first.\nفارسی: درست است. در سؤال‌های بله/خیر، فعلِ صرف‌شده اول می‌آید."
                     },
                     {
                       "id": "c",
                       "text": "Morgen kommst du?",
                       "isCorrect": false,
-                      "explanation": "Marked conversational structure, not standard teaching pattern."
+                      "explanation": "English: Marked conversational structure, not standard teaching pattern.\nفارسی: ساختاری نشاندار و محاوره‌ای است، نه الگوی آموزشیِ استاندارد."
                     }
                   ],
-                  "explanation": "Yes/no question formula: Verb + Subject + ...",
+                  "explanation": "English: Yes/no question formula: Verb + Subject + ...\nفارسی: فرمول سؤالِ بله/خیر: فعل + فاعل + ...",
                   "order": 2
                 },
                 {
@@ -1714,22 +1842,22 @@
                       "id": "a",
                       "text": "Ich gebe meiner Schwester es.",
                       "isCorrect": false,
-                      "explanation": "With an accusative pronoun, standard order is usually pronoun before dative object."
+                      "explanation": "English: With an accusative pronoun, standard order is usually pronoun before dative object.\nفارسی: وقتی مفعولِ آکوزاتیو ضمیر است، ترتیبِ استاندارد معمولاً ضمیر قبل از مفعول داتیو است."
                     },
                     {
                       "id": "b",
                       "text": "Ich gebe es meiner Schwester.",
                       "isCorrect": true,
-                      "explanation": "Correct. Accusative pronoun (es) comes before dative object (meiner Schwester)."
+                      "explanation": "English: Correct. Accusative pronoun (es) comes before dative object (meiner Schwester).\nفارسی: درست است. ضمیر آکوزاتیو (es) قبل از مفعول داتیو (meiner Schwester) می‌آید."
                     },
                     {
                       "id": "c",
                       "text": "Ich es gebe meiner Schwester.",
                       "isCorrect": false,
-                      "explanation": "Wrong verb placement."
+                      "explanation": "English: Wrong verb placement.\nفارسی: جایگاه فعل اشتباه است."
                     }
                   ],
-                  "explanation": "Default is often dative before accusative, but accusative pronouns are a key exception.",
+                  "explanation": "English: Default is often dative before accusative, but accusative pronouns are a key exception.\nفارسی: قاعدهٔ پیش‌فرض اغلب داتیو قبل از آکوزاتیو است، اما ضمیرهای آکوزاتیو یک استثنای مهم هستند.",
                   "order": 3
                 },
                 {
@@ -1743,16 +1871,16 @@
                       "id": "true",
                       "text": "True",
                       "isCorrect": false,
-                      "explanation": "False. In complex sentences, information structure can shift object placement."
+                      "explanation": "English: False. In complex sentences, information structure can shift object placement.\nفارسی: نادرست. در جمله‌های پیچیده، ساختار اطلاعات می‌تواند جایگاه مفعول را جابه‌جا کند."
                     },
                     {
                       "id": "false",
                       "text": "False",
                       "isCorrect": true,
-                      "explanation": "Correct. Dative-before-accusative is the common default, but sentence complexity and emphasis can change placement."
+                      "explanation": "English: Correct. Dative-before-accusative is the common default, but sentence complexity and emphasis can change placement.\nفارسی: درست است. داتیو-قبل-از-آکوزاتیو قاعدهٔ رایجِ پیش‌فرض است، اما پیچیدگی جمله و تأکید می‌توانند جایگاه را تغییر دهند."
                     }
                   ],
-                  "explanation": "Use default order as a guide, but learn exceptions and focus-driven variation.",
+                  "explanation": "English: Use default order as a guide, but learn exceptions and focus-driven variation.\nفارسی: ترتیب پیش‌فرض را به‌عنوان راهنما استفاده کنید، اما استثناها و تغییراتِ وابسته به تأکید را هم یاد بگیرید.",
                   "order": 4
                 }
               ]
@@ -1866,7 +1994,7 @@
                 {
                   "type": "explanation",
                   "title": "The Main Difference",
-                  "content": "Use kein to negate nouns that are indefinite (with ein/eine) or have no article. Use nicht for verbs, adjectives, adverbs, whole clauses, and for nouns that are already definite/specific (das Auto, mein Auto, dieser Mann)."
+                  "content": "English: Use kein to negate nouns that are indefinite (with ein/eine) or have no article. Use nicht for verbs, adjectives, adverbs, whole clauses, and for nouns that are already definite/specific (das Auto, mein Auto, dieser Mann).\nفارسی: از kein برای منفی کردنِ اسم‌هایی استفاده کنید که نکره‌اند (با ein/eine) یا اصلاً آرتیکل ندارند. از nicht برای فعل‌ها، صفت‌ها، قیدها، کل جمله‌ها، و برای اسم‌هایی استفاده کنید که از قبل معین/مشخص هستند (das Auto، mein Auto، dieser Mann)."
                 },
                 {
                   "type": "table",
@@ -1928,55 +2056,62 @@
                 {
                   "type": "tip",
                   "title": "Quick Decision Method",
-                  "content": "Ask three questions: 1) Am I negating a noun? If no -> nicht. 2) Is that noun indefinite (ein/eine) or without article? If yes -> kein. 3) Is the noun definite/specific (der/die/das, possessive, demonstrative)? If yes -> nicht."
+                  "content": "English: Ask three questions: 1) Am I negating a noun? If no -> nicht. 2) Is that noun indefinite (ein/eine) or without article? If yes -> kein. 3) Is the noun definite/specific (der/die/das, possessive, demonstrative)? If yes -> nicht.\nفارسی: سه سؤال بپرسید: 1) آیا دارید یک اسم را منفی می‌کنید؟ اگر نه -> nicht. 2) آیا آن اسم نکره است (ein/eine) یا بدون آرتیکل است؟ اگر بله -> kein. 3) آیا اسم معین/مشخص است (der/die/das، ضمیر ملکی، اشاره‌ای)؟ اگر بله -> nicht."
                 },
                 {
                   "type": "warning",
                   "title": "Meaning Difference",
-                  "content": "Ich habe kein Auto means I have no car (in general). Ich habe das Auto nicht means I do not have that car (a specific known car). This is a meaning contrast, not only a grammar contrast."
+                  "content": "English: Ich habe kein Auto means I have no car (in general). Ich habe das Auto nicht means I do not have that car (a specific known car). This is a meaning contrast, not only a grammar contrast.\nفارسی: Ich habe kein Auto یعنی «من ماشین ندارم» به‌صورت کلی. Ich habe das Auto nicht یعنی «من آن ماشین را ندارم» (یک ماشینِ مشخص). این فقط تفاوتِ گرامری نیست، بلکه تفاوتِ معنایی هم هست."
                 },
                 {
                   "type": "example",
                   "title": "Contrast Pairs",
-                  "content": "Ich habe kein Auto. (I do not have a car.) | Ich habe das Auto nicht. (I do not have that car.) | Sie hat keine Schwester. (She has no sister.) | Das ist nicht gut. (That is not good.)"
+                  "content": "English: Ich habe kein Auto. (I do not have a car.) | Ich habe das Auto nicht. (I do not have that car.) | Sie hat keine Schwester. (She has no sister.) | Das ist nicht gut. (That is not good.)\nفارسی: Ich habe kein Auto. (من ماشین ندارم.) | Ich habe das Auto nicht. (من آن ماشین را ندارم.) | Sie hat keine Schwester. (او خواهر ندارد.) | Das ist nicht gut. (این خوب نیست.)"
                 }
               ],
               "vocabulary": [
                 {
                   "german": "kein / keine",
                   "english": "no / not any",
+                  "persian": "هیچ / هیچ‌گونه",
                   "example": "Ich habe kein Auto."
                 },
                 {
                   "german": "nicht",
                   "english": "not",
+                  "persian": "نه / نیست",
                   "example": "Ich arbeite nicht."
                 },
                 {
                   "german": "Schwester",
                   "english": "sister",
+                  "persian": "خواهر",
                   "article": "die",
                   "example": "Sie hat keine Schwester."
                 },
                 {
                   "german": "Auto",
                   "english": "car",
+                  "persian": "ماشین / خودرو",
                   "article": "das",
                   "example": "Ich habe kein Auto."
                 },
                 {
                   "german": "gut",
                   "english": "good",
+                  "persian": "خوب",
                   "example": "Das ist nicht gut."
                 },
                 {
                   "german": "mein",
                   "english": "my",
+                  "persian": "مالِ من / من",
                   "example": "Das ist mein Auto."
                 },
                 {
                   "german": "dieser",
                   "english": "this (masculine)",
+                  "persian": "این (مذکر)",
                   "example": "Dieser Mann ist nett."
                 }
               ],
@@ -1992,22 +2127,22 @@
                       "id": "a",
                       "text": "Ich habe nicht Auto.",
                       "isCorrect": false,
-                      "explanation": "For noun negation with ein/eine, use kein."
+                      "explanation": "English: For noun negation with ein/eine, use kein.\nفارسی: برای منفی کردنِ اسم‌های نکره با ein/eine از kein استفاده کنید."
                     },
                     {
                       "id": "b",
                       "text": "Ich habe kein Auto.",
                       "isCorrect": true,
-                      "explanation": "Correct. ein Auto -> kein Auto."
+                      "explanation": "English: Correct. ein Auto -> kein Auto.\nفارسی: درست است. ein Auto -> kein Auto."
                     },
                     {
                       "id": "c",
                       "text": "Ich kein habe Auto.",
                       "isCorrect": false,
-                      "explanation": "Wrong word order and wrong placement."
+                      "explanation": "English: Wrong word order and wrong placement.\nفارسی: ترتیب واژه‌ها و جایگاه‌ها اشتباه است."
                     }
                   ],
-                  "explanation": "Negating an indefinite noun (ein/eine) uses kein.",
+                  "explanation": "English: Negating an indefinite noun (ein/eine) uses kein.\nفارسی: برای منفی کردنِ یک اسم نکره (ein/eine) از kein استفاده می‌کنیم.",
                   "order": 1
                 },
                 {
@@ -2021,22 +2156,22 @@
                       "id": "a",
                       "text": "Ich habe kein Auto.",
                       "isCorrect": false,
-                      "explanation": "This means: I have no car (general)."
+                      "explanation": "English: This means: I have no car (general).\nفارسی: این یعنی من به‌طور کلی ماشین ندارم."
                     },
                     {
                       "id": "b",
                       "text": "Ich habe das Auto nicht.",
                       "isCorrect": true,
-                      "explanation": "Correct. Definite/specific noun (das Auto) is negated with nicht."
+                      "explanation": "English: Correct. Definite/specific noun (das Auto) is negated with nicht.\nفارسی: درست است. اسمِ معین/مشخص (das Auto) با nicht منفی می‌شود."
                     },
                     {
                       "id": "c",
                       "text": "Ich habe keine das Auto.",
                       "isCorrect": false,
-                      "explanation": "You cannot use kein with a definite article noun phrase."
+                      "explanation": "English: You cannot use kein with a definite article noun phrase.\nفارسی: نمی‌توانید با یک گروه اسمیِ دارای آرتیکل معین از kein استفاده کنید."
                     }
                   ],
-                  "explanation": "For specific nouns with definite/possessive/demonstrative determiners, use nicht.",
+                  "explanation": "English: For specific nouns with definite/possessive/demonstrative determiners, use nicht.\nفارسی: برای اسم‌های مشخص با آرتیکل معین، صفت ملکی یا ضمیر اشاره‌ای از nicht استفاده کنید.",
                   "order": 2
                 },
                 {
@@ -2046,8 +2181,8 @@
                   "instruction": "Fill in the correct word.",
                   "question": "Das ist ___ gut. (That is not good.)",
                   "correctAnswer": "nicht",
-                  "hint": "You are negating an adjective, not a noun.",
-                  "explanation": "Use nicht for adjectives/adverbs/verbs/whole clauses.",
+                  "hint": "English: You are negating an adjective, not a noun.\nفارسی: شما یک صفت را منفی می‌کنید، نه یک اسم را.",
+                  "explanation": "English: Use nicht for adjectives/adverbs/verbs/whole clauses.\nفارسی: برای صفت‌ها، قیدها، فعل‌ها و کل جمله‌ها از nicht استفاده کنید.",
                   "order": 3
                 },
                 {
@@ -2061,16 +2196,16 @@
                       "id": "true",
                       "text": "True",
                       "isCorrect": true,
-                      "explanation": "Correct. Schwester is an indefinite noun here, so keine is correct."
+                      "explanation": "English: Correct. Schwester is an indefinite noun here, so keine is correct.\nفارسی: درست است. Schwester در اینجا یک اسم نکره است، پس keine درست است."
                     },
                     {
                       "id": "false",
                       "text": "False",
                       "isCorrect": false,
-                      "explanation": "The sentence is correct and means she has no sister."
+                      "explanation": "English: The sentence is correct and means she has no sister.\nفارسی: این جمله درست است و یعنی او خواهر ندارد."
                     }
                   ],
-                  "explanation": "Noun negation with eine Schwester becomes keine Schwester.",
+                  "explanation": "English: Noun negation with eine Schwester becomes keine Schwester.\nفارسی: منفی کردنِ eine Schwester به keine Schwester تبدیل می‌شود.",
                   "order": 4
                 }
               ]
@@ -2238,12 +2373,12 @@
                 {
                   "type": "explanation",
                   "title": "Why Start with Verbs?",
-                  "content": "Statistical analysis of real German conversations shows that just 20 verbs account for a huge proportion of everything Germans say. Every sentence needs a verb — and these 20 are the ones you will encounter in every single conversation, every day. Before memorizing noun lists, master these verbs and you will have the skeleton of the language."
+                  "content": "English: Statistical analysis of real German conversations shows that just 20 verbs account for a huge proportion of everything Germans say. Every sentence needs a verb — and these 20 are the ones you will encounter in every single conversation, every day. Before memorizing noun lists, master these verbs and you will have the skeleton of the language.\nفارسی: تحلیل آماریِ مکالمه‌های واقعی آلمانی نشان می‌دهد که فقط ۲۰ فعل بخش بزرگی از آنچه آلمانی‌زبان‌ها می‌گویند را تشکیل می‌دهند. هر جمله به فعل نیاز دارد، و این ۲۰ فعل همان‌هایی هستند که هر روز و در هر مکالمه با آن‌ها روبه‌رو می‌شوید. قبل از حفظ کردن فهرست اسم‌ها، این فعل‌ها را یاد بگیرید تا اسکلت زبان را داشته باشید."
                 },
                 {
                   "type": "explanation",
                   "title": "sein — To Be (Rank #1, the Most Important Word in German)",
-                  "content": "sein is the most frequently used word in the entire German language. It describes who you are, how you feel, your profession, nationality, and location. It is highly irregular — there is no shortcut. You must memorize all its forms directly from the start."
+                  "content": "English: sein is the most frequently used word in the entire German language. It describes who you are, how you feel, your profession, nationality, and location. It is highly irregular — there is no shortcut. You must memorize all its forms directly from the start.\nفارسی: sein پرکاربردترین واژه در کل زبان آلمانی است. این فعل برای بیان هویت، حالت، شغل، ملیت و مکان به‌کار می‌رود. این فعل بسیار نامنظم است و راه میان‌بُری ندارد. باید همهٔ شکل‌های آن را از همان ابتدا حفظ کنید."
                 },
                 {
                   "type": "table",
@@ -2252,6 +2387,7 @@
                     "Person",
                     "Form",
                     "English",
+                    "Persian",
                     "Example"
                   ],
                   "rows": [
@@ -2259,36 +2395,42 @@
                       "ich",
                       "bin",
                       "I am",
+                      "من هستم",
                       "Ich bin müde. (I am tired.)"
                     ],
                     [
                       "du",
                       "bist",
                       "you are",
+                      "تو هستی",
                       "Du bist nett. (You are nice.)"
                     ],
                     [
                       "er / sie / es",
                       "ist",
                       "he / she / it is",
+                      "او است",
                       "Er ist Arzt. (He is a doctor.)"
                     ],
                     [
                       "wir",
                       "sind",
                       "we are",
+                      "ما هستیم",
                       "Wir sind hier. (We are here.)"
                     ],
                     [
                       "ihr",
                       "seid",
                       "you (plural) are",
+                      "شما هستید",
                       "Ihr seid laut. (You are loud.)"
                     ],
                     [
                       "sie / Sie",
                       "sind",
                       "they / you (formal) are",
+                      "آن‌ها هستند / شما (محترمانه) هستید",
                       "Sie sind freundlich. (They are friendly.)"
                     ]
                   ]
@@ -2296,7 +2438,7 @@
                 {
                   "type": "explanation",
                   "title": "haben — To Have (Rank #2)",
-                  "content": "haben expresses possession and is also the auxiliary verb used to form the Perfekt tense (conversational past) with most verbs. Together, sein and haben are the two pillars of German grammar — they appear in almost every conversation and every tense."
+                  "content": "English: haben expresses possession and is also the auxiliary verb used to form the Perfekt tense (conversational past) with most verbs. Together, sein and haben are the two pillars of German grammar — they appear in almost every conversation and every tense.\nفارسی: haben برای بیان مالکیت به‌کار می‌رود و همچنین فعل کمکیِ ساخت زمان Perfekt (گذشتهٔ گفتاری) برای بیشتر فعل‌هاست. sein و haben با هم دو ستون اصلی گرامر آلمانی هستند؛ آن‌ها در تقریباً هر مکالمه و هر زمان دیده می‌شوند."
                 },
                 {
                   "type": "table",
@@ -2305,6 +2447,7 @@
                     "Person",
                     "Form",
                     "English",
+                    "Persian",
                     "Example"
                   ],
                   "rows": [
@@ -2312,36 +2455,42 @@
                       "ich",
                       "habe",
                       "I have",
+                      "من دارم",
                       "Ich habe Zeit. (I have time.)"
                     ],
                     [
                       "du",
                       "hast",
                       "you have",
+                      "تو داری",
                       "Du hast Hunger? (Are you hungry?)"
                     ],
                     [
                       "er / sie / es",
                       "hat",
                       "he / she / it has",
+                      "او دارد",
                       "Er hat ein Auto. (He has a car.)"
                     ],
                     [
                       "wir",
                       "haben",
                       "we have",
+                      "ما داریم",
                       "Wir haben Arbeit. (We have work.)"
                     ],
                     [
                       "ihr",
                       "habt",
                       "you (plural) have",
+                      "شما دارید",
                       "Ihr habt Glück! (You are lucky!)"
                     ],
                     [
                       "sie / Sie",
                       "haben",
                       "they / you (formal) have",
+                      "آن‌ها دارند / شما (محترمانه) دارید",
                       "Sie haben Fragen. (They have questions.)"
                     ]
                   ]
@@ -2349,12 +2498,12 @@
                 {
                   "type": "tip",
                   "title": "Native Speaker Tip: haben for Physical States",
-                  "content": "Unlike English, German uses haben (to have) for physical and emotional states: Ich habe Hunger (I am hungry — literally 'I have hunger'), Ich habe Durst (I am thirsty), Ich habe Angst (I am afraid), Ich habe Lust (I feel like it). This is one of the most common translation traps for English speakers and must be memorized as fixed phrases."
+                  "content": "English: Unlike English, German uses haben (to have) for physical and emotional states: Ich habe Hunger (I am hungry — literally 'I have hunger'), Ich habe Durst (I am thirsty), Ich habe Angst (I am afraid), Ich habe Lust (I feel like it). This is one of the most common translation traps for English speakers and must be memorized as fixed phrases.\nفارسی: برخلاف انگلیسی، آلمانی از haben (داشتن) برای حالت‌های جسمی و احساسی استفاده می‌کند: Ich habe Hunger (من گرسنه‌ام — تحت‌اللفظی: من گرسنگی دارم)، Ich habe Durst (من تشنه‌ام)، Ich habe Angst (من می‌ترسم)، Ich habe Lust (حوصله دارم / مایل هستم). این یکی از رایج‌ترین دام‌های ترجمه برای انگلیسی‌زبان‌هاست و باید به‌صورت عبارت ثابت حفظ شود."
                 },
                 {
                   "type": "explanation",
                   "title": "Modal Verbs: können, müssen, wollen (Ranks 4, 5, 6)",
-                  "content": "Modal verbs modify the meaning of other verbs and appear constantly in daily speech. The key grammar rule: the modal verb takes position 2 in the sentence, and the main verb goes to the END as an infinitive. Example: Ich kann Deutsch sprechen. (I can speak German.) — sprechen goes to the very end."
+                  "content": "English: Modal verbs modify the meaning of other verbs and appear constantly in daily speech. The key grammar rule: the modal verb takes position 2 in the sentence, and the main verb goes to the END as an infinitive. Example: Ich kann Deutsch sprechen. (I can speak German.) — sprechen goes to the very end.\nفارسی: فعل‌های modal معنای فعل‌های دیگر را تغییر می‌دهند و در گفتار روزمره بسیار زیاد دیده می‌شوند. قانون مهم گرامری این است که فعل modal در جایگاه ۲ جمله قرار می‌گیرد و فعل اصلی به‌صورت مصدر به انتهای جمله می‌رود. مثال: Ich kann Deutsch sprechen. (من می‌توانم آلمانی صحبت کنم.) — sprechen به انتهای جمله می‌رود."
                 },
                 {
                   "type": "table",
@@ -2364,6 +2513,7 @@
                     "English",
                     "ich form",
                     "Example Sentence",
+                    "Persian",
                     "Key Note"
                   ],
                   "rows": [
@@ -2372,6 +2522,7 @@
                       "can / to be able to",
                       "ich kann",
                       "Ich kann das machen. (I can do that.)",
+                      "توانستن / قادر بودن",
                       "Ability and possibility — the most versatile modal verb"
                     ],
                     [
@@ -2379,6 +2530,7 @@
                       "must / have to",
                       "ich muss",
                       "Ich muss arbeiten. (I have to work.)",
+                      "باید / مجبور بودن",
                       "Strong obligation; muss nicht = don't have to (NOT must not!)"
                     ],
                     [
@@ -2386,6 +2538,7 @@
                       "to want to",
                       "ich will",
                       "Ich will nach Hause gehen. (I want to go home.)",
+                      "خواستن",
                       "Strong intention or wish — not polite for requests, use möchten instead"
                     ]
                   ]
@@ -2393,7 +2546,7 @@
                 {
                   "type": "warning",
                   "title": "Critical Trap: muss nicht ≠ must not",
-                  "content": "Ich muss nicht does NOT mean 'I must not' — it means 'I do not have to' (no obligation). To say 'I must not / I am not allowed to', use: ich darf nicht. Compare: Du musst nicht kommen. (You do not have to come.) vs. Du darfst nicht rauchen. (You must not smoke.) This distinction trips up nearly every English speaker."
+                  "content": "English: Ich muss nicht does NOT mean 'I must not' — it means 'I do not have to' (no obligation). To say 'I must not / I am not allowed to', use: ich darf nicht. Compare: Du musst nicht kommen. (You do not have to come.) vs. Du darfst nicht rauchen. (You must not smoke.) This distinction trips up nearly every English speaker.\nفارسی: Ich muss nicht به‌معنی 'نباید' نیست؛ یعنی 'لازم نیست / مجبور نیستم' (عدمِ الزام). برای گفتنِ 'نباید / اجازه ندارم' از ich darf nicht استفاده می‌کنیم. مقایسه کنید: Du musst nicht kommen. (لازم نیست بیایی.) در برابر Du darfst nicht rauchen. (نباید سیگار بکشی.) این تفاوت تقریباً برای همهٔ انگلیسی‌زبان‌ها گیج‌کننده است."
                 },
                 {
                   "type": "explanation",
@@ -2618,7 +2771,7 @@
                   "question": "Ich ___ müde. (I am tired.)",
                   "correctAnswer": "bin",
                   "hint": "ich + sein = ?",
-                  "explanation": "The first-person singular of sein is bin. Full conjugation: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+                  "explanation": "English: The first-person singular of sein is bin. Full conjugation: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\nفارسی: شکلِ اول‌شخصِ مفردِ sein، bin است. صرف کامل: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
                   "order": 1
                 },
                 {
@@ -2632,7 +2785,7 @@
                       "id": "a",
                       "text": "Ich will arbeiten.",
                       "isCorrect": false,
-                      "explanation": "wollen = to want. This means 'I want to work'."
+                      "explanation": "English: wollen = to want. This means 'I want to work'.\nفارسی: wollen یعنی خواستن. این جمله یعنی «من می‌خواهم کار کنم»."
                     },
                     {
                       "id": "b",
@@ -2650,7 +2803,7 @@
                       "id": "d",
                       "text": "Ich arbeite müssen.",
                       "isCorrect": false,
-                      "explanation": "Wrong word order! With modals: Subject + modal verb (position 2) + infinitive (end)."
+                      "explanation": "English: Wrong word order! With modals: Subject + modal verb (position 2) + infinitive (end).\nفارسی: ترتیب واژه‌ها اشتباه است! در جمله‌های دارای فعل modal: فاعل + فعل modal (جایگاه 2) + مصدر (در پایان)."
                     }
                   ],
                   "explanation": "müssen means 'must / have to'. Structure: Subject + modal verb + [rest of sentence] + infinitive at the END.",
@@ -2688,7 +2841,7 @@
                       "explanation": "wissen is for factual knowledge (Ich weiß, dass...), not familiarity with places."
                     }
                   ],
-                  "explanation": "wissen = knowing facts/information (followed by clauses or es). kennen = being familiar with a person, place, or thing.",
+                  "explanation": "English: wissen = knowing facts/information (followed by clauses or es). kennen = being familiar with a person, place, or thing.\nفارسی: wissen یعنی دانستنِ حقایق/اطلاعات (و بعد از آن جملهٔ وابسته یا es می‌آید). kennen یعنی آشنایی داشتن با یک شخص، مکان یا چیز.",
                   "order": 3
                 },
                 {
@@ -2711,7 +2864,7 @@
                       "explanation": "Correct! 'Ich muss nicht kommen' = I do not have to come. 'I must not come' = Ich darf nicht kommen."
                     }
                   ],
-                  "explanation": "muss nicht = do not have to (no obligation). darf nicht = must not / not allowed to (prohibition). This is one of the most critical distinctions in A1 German.",
+                  "explanation": "English: muss nicht = do not have to (no obligation). darf nicht = must not / not allowed to (prohibition). This is one of the most critical distinctions in A1 German.\nفارسی: muss nicht یعنی «لازم نیست / مجبور نیستم» (نبودِ الزام). darf nicht یعنی «نباید / اجازه ندارم» (ممنوعیت). این یکی از مهم‌ترین تفاوت‌ها در آلمانی A1 است.",
                   "order": 4
                 }
               ]
@@ -2969,7 +3122,7 @@
                       "explanation": "The sentence is perfectly correct German."
                     }
                   ],
-                  "explanation": "Freund = male friend OR boyfriend. Freundin = female friend OR girlfriend. Germans often say 'mein bester Freund' (my best friend) to clarify platonic friendship.",
+                  "explanation": "English: Freund = male friend OR boyfriend. Freundin = female friend OR girlfriend. Germans often say 'mein bester Freund' (my best friend) to clarify platonic friendship.\nفارسی: Freund = دوستِ مذکر یا دوست‌پسر. Freundin = دوستِ مؤنث یا دوست‌دختر. آلمانی‌ها برای مشخص کردنِ دوستیِ معمولی اغلب می‌گویند mein bester Freund (بهترین دوستِ من).",
                   "order": 2
                 },
                 {
@@ -2998,7 +3151,7 @@
                 {
                   "type": "explanation",
                   "title": "Adjectives: the Backbone of Description",
-                  "content": "Adjectives describe nouns. In German, adjectives can be used in two positions: after a verb (predicative) — Das ist gut. (That is good.) — or directly before a noun (attributive) — ein gutes Restaurant (a good restaurant). For A1 learners, focus first on predicative use (after sein). The 10 adjectives below cover the most essential properties you need to describe the world around you."
+                  "content": "English: Adjectives describe nouns. In German, adjectives can be used in two positions: after a verb (predicative) — Das ist gut. (That is good.) — or directly before a noun (attributive) — ein gutes Restaurant (a good restaurant). For A1 learners, focus first on predicative use (after sein). The 10 adjectives below cover the most essential properties you need to describe the world around you.\nفارسی: صفت‌ها اسم‌ها را توصیف می‌کنند. در آلمانی، صفت‌ها در دو جایگاه به‌کار می‌روند: بعد از فعل (حالتی/خبری) — Das ist gut. (آن خوب است.) — یا دقیقاً قبل از اسم (توصیفی) — ein gutes Restaurant (یک رستوران خوب). برای زبان‌آموزان A1، ابتدا روی کاربرد خبریِ صفت‌ها بعد از sein تمرکز کنید. 10 صفت زیر مهم‌ترین ویژگی‌هایی را پوشش می‌دهند که برای توصیف دنیای اطرافتان لازم دارید."
                 },
                 {
                   "type": "table",
@@ -3018,7 +3171,7 @@
                       "good",
                       "schlecht",
                       "bad",
-                      "Das Essen ist gut. (The food is good.)"
+                      "Das Essen ist gut. (The food is good.) / Das Essen ist gut. (غذا خوب است.)"
                     ],
                     [
                       "32",
@@ -3026,7 +3179,7 @@
                       "bad",
                       "gut",
                       "good",
-                      "Das Wetter ist schlecht. (The weather is bad.)"
+                      "Das Wetter ist schlecht. (The weather is bad.) / Das Wetter ist schlecht. (هوا بد است.)"
                     ],
                     [
                       "33",
@@ -3034,7 +3187,7 @@
                       "big / large / tall",
                       "klein",
                       "small / little",
-                      "Die Wohnung ist groß. (The apartment is big.)"
+                      "Die Wohnung ist groß. (The apartment is big.) / Die Wohnung ist groß. (آپارتمان بزرگ است.)"
                     ],
                     [
                       "34",
@@ -3042,7 +3195,7 @@
                       "small / little",
                       "groß",
                       "big",
-                      "Das Kind ist noch klein. (The child is still small.)"
+                      "Das Kind ist noch klein. (The child is still small.) / Das Kind ist noch klein. (کودک هنوز کوچک است.)"
                     ],
                     [
                       "35",
@@ -3050,7 +3203,7 @@
                       "new",
                       "alt",
                       "old",
-                      "Ich habe ein neues Handy. (I have a new phone.)"
+                      "Ich habe ein neues Handy. (I have a new phone.) / Ich habe ein neues Handy. (من یک تلفن جدید دارم.)"
                     ],
                     [
                       "36",
@@ -3058,7 +3211,7 @@
                       "old",
                       "neu",
                       "new",
-                      "Das Haus ist sehr alt. (The house is very old.)"
+                      "Das Haus ist sehr alt. (The house is very old.) / Das Haus ist sehr alt. (خانه خیلی قدیمی است.)"
                     ],
                     [
                       "37",
@@ -3066,7 +3219,7 @@
                       "important",
                       "unwichtig",
                       "unimportant",
-                      "Das ist sehr wichtig! (That is very important!)"
+                      "Das ist sehr wichtig! (That is very important!) / Das ist sehr wichtig! (این خیلی مهم است!)"
                     ],
                     [
                       "38",
@@ -3074,7 +3227,7 @@
                       "correct / right",
                       "falsch",
                       "wrong / incorrect",
-                      "Die Antwort ist richtig. (The answer is correct.)"
+                      "Die Antwort ist richtig. (The answer is correct.) / Die Antwort ist richtig. (پاسخ درست است.)"
                     ],
                     [
                       "39",
@@ -3082,7 +3235,7 @@
                       "easy / simple",
                       "schwer / schwierig",
                       "difficult / hard",
-                      "Deutsch ist nicht einfach! (German is not easy!)"
+                      "Deutsch ist nicht einfach! (German is not easy!) / Deutsch ist nicht einfach! (آلمانی آسان نیست!)"
                     ],
                     [
                       "40",
@@ -3090,80 +3243,90 @@
                       "difficult / hard / heavy",
                       "einfach / leicht",
                       "easy / light",
-                      "Die Prüfung war schwer. (The exam was hard.)"
+                      "Die Prüfung war schwer. (The exam was hard.) / Die Prüfung war schwer. (امتحان سخت بود.)"
                     ]
                   ]
                 },
                 {
                   "type": "tip",
                   "title": "groß — Three Meanings in One Word",
-                  "content": "groß is remarkably versatile: it means big (eine große Stadt — a big city), tall for people (Er ist groß — He is tall), and great/significant (ein großes Problem — a big/major problem). For buildings, use hoch (tall) instead: ein hohes Gebäude (a tall building). For people, always use groß, never hoch."
+                  "content": "English: groß is remarkably versatile: it means big (eine große Stadt — a big city), tall for people (Er ist groß — He is tall), and great/significant (ein großes Problem — a big/major problem). For buildings, use hoch (tall) instead: ein hohes Gebäude (a tall building). For people, always use groß, never hoch.\nفارسی: groß بسیار چندمنظوره است: به معنی «بزرگ» برای اشیا و مکان‌هاست (eine große Stadt — یک شهر بزرگ)، برای قدِ انسان‌ها یعنی «بلندقد» (Er ist groß — او قدبلند است)، و همچنین می‌تواند معنی «بزرگ/مهم» بدهد (ein großes Problem — یک مشکل بزرگ/مهم). برای ساختمان‌ها به‌جای آن از hoch (بلند) استفاده کنید: ein hohes Gebäude (یک ساختمان بلند). برای انسان‌ها همیشه groß به‌کار ببرید، نه hoch."
                 },
                 {
                   "type": "tip",
                   "title": "schwer — Hard AND Heavy",
-                  "content": "schwer has two meanings that context always disambiguates: difficult (Das ist schwer — That is difficult) and physically heavy (Der Koffer ist schwer — The suitcase is heavy). To be unambiguous when meaning 'difficult', you can use schwierig instead: Das ist schwierig."
+                  "content": "English: schwer has two meanings that context always disambiguates: difficult (Das ist schwer — That is difficult) and physically heavy (Der Koffer ist schwer — The suitcase is heavy). To be unambiguous when meaning 'difficult', you can use schwierig instead: Das ist schwierig.\nفارسی: schwer دو معنی دارد که بافت جمله همیشه آن را روشن می‌کند: «سخت/دشوار» (Das ist schwer — این دشوار است) و «سنگین» به‌معنای فیزیکی (Der Koffer ist schwer — چمدان سنگین است). اگر بخواهید بدون ابهام معنی «دشوار» بدهید، می‌توانید از schwierig استفاده کنید: Das ist schwierig."
                 },
                 {
                   "type": "warning",
                   "title": "richtig vs. wahr — Correct vs. True",
-                  "content": "richtig = correct, right, proper — used for answers, directions, and actions: Die Antwort ist richtig. (The answer is correct.) wahr = true in the sense of factually or emotionally true: Das ist wahr. (That is true.) Practical rule: for answers and facts in a test/conversation, use richtig. For truth about reality or reality claims, use wahr."
+                  "content": "English: richtig = correct, right, proper — used for answers, directions, and actions: Die Antwort ist richtig. (The answer is correct.) wahr = true in the sense of factually or emotionally true: Das ist wahr. (That is true.) Practical rule: for answers and facts in a test/conversation, use richtig. For truth about reality or reality claims, use wahr.\nفارسی: richtig یعنی «درست / صحیح / بجا» و برای پاسخ‌ها، جهت‌ها و کارها استفاده می‌شود: Die Antwort ist richtig. (پاسخ درست است.) wahr یعنی «واقعی / حقیقتی» در معنایِ واقعاً درست بودن از نظر fact یا احساس: Das ist wahr. (این حقیقت دارد.) قاعدهٔ عملی: برای جواب‌ها و واقعیت‌ها در آزمون یا گفت‌وگو از richtig استفاده کنید؛ برای حقیقتِ مربوط به واقعیت از wahr."
                 },
                 {
                   "type": "example",
                   "title": "These 10 Adjectives in Conversation",
-                  "content": "— Wie ist deine neue Wohnung? — Sie ist groß und schön, aber ein bisschen alt. Das Bad ist sehr klein, aber das ist nicht so wichtig. — Und wie ist die Arbeit? — Die Arbeit ist gut, aber manchmal schwer. Es gibt viele neue Dinge zu lernen. Ist Deutsch auch schwer für dich? — Ja, Deutsch ist nicht einfach! Aber die richtigen Grundlagen zu lernen ist sehr wichtig."
+                  "content": "English: — Wie ist deine neue Wohnung? — Sie ist groß und schön, aber ein bisschen alt. Das Bad ist sehr klein, aber das ist nicht so wichtig. — Und wie ist die Arbeit? — Die Arbeit ist gut, aber manchmal schwer. Es gibt viele neue Dinge zu lernen. Ist Deutsch auch schwer für dich? — Ja, Deutsch ist nicht einfach! Aber die richtigen Grundlagen zu lernen ist sehr wichtig.\nفارسی: — آپارتمان جدیدت چطور است؟ — بزرگ و زیباست، اما کمی قدیمی است. حمام خیلی کوچک است، اما آن‌قدر مهم نیست. — و کار چطور است؟ — کار خوب است، اما گاهی سخت است. چیزهای جدید زیادی برای یاد گرفتن وجود دارد. آلمانی برای تو هم سخت است؟ — بله، آلمانی آسان نیست! اما یاد گرفتنِ پایه‌های درست خیلی مهم است."
                 }
               ],
               "vocabulary": [
                 {
                   "german": "gut",
                   "english": "good",
+                  "persian": "خوب",
                   "example": "Das ist sehr gut! (That is very good!)"
                 },
                 {
                   "german": "schlecht",
                   "english": "bad",
+                  "persian": "بد",
                   "example": "Das Wetter ist schlecht. (The weather is bad.)"
                 },
                 {
                   "german": "groß",
                   "english": "big / large / tall",
+                  "persian": "بزرگ / قدبلند",
                   "example": "Er ist sehr groß. (He is very tall.)"
                 },
                 {
                   "german": "klein",
                   "english": "small / little",
+                  "persian": "کوچک",
                   "example": "Das ist ein kleines Problem. (That is a small problem.)"
                 },
                 {
                   "german": "neu",
                   "english": "new",
+                  "persian": "جدید",
                   "example": "Ich suche eine neue Arbeit. (I am looking for a new job.)"
                 },
                 {
                   "german": "alt",
                   "english": "old",
+                  "persian": "قدیمی",
                   "example": "Das Haus ist sehr alt. (The house is very old.)"
                 },
                 {
                   "german": "wichtig",
                   "english": "important",
+                  "persian": "مهم",
                   "example": "Das ist sehr wichtig. (That is very important.)"
                 },
                 {
                   "german": "richtig",
                   "english": "correct / right",
+                  "persian": "درست / صحیح",
                   "example": "Das ist richtig! (That is correct!)"
                 },
                 {
                   "german": "einfach",
                   "english": "easy / simple",
+                  "persian": "ساده / آسان",
                   "example": "Das ist ganz einfach. (That is quite simple.)"
                 },
                 {
                   "german": "schwer",
                   "english": "difficult / hard / heavy",
+                  "persian": "سخت / سنگین",
                   "example": "Das war sehr schwer. (That was very hard.)"
                 }
               ],
@@ -3179,28 +3342,28 @@
                       "id": "a",
                       "text": "groß",
                       "isCorrect": false,
-                      "explanation": "groß means big, not old."
+                      "explanation": "English: groß means big, not old.\nفارسی: groß یعنی بزرگ، نه قدیمی."
                     },
                     {
                       "id": "b",
                       "text": "gut",
                       "isCorrect": false,
-                      "explanation": "gut means good, not old."
+                      "explanation": "English: gut means good, not old.\nفارسی: gut یعنی خوب، نه قدیمی."
                     },
                     {
                       "id": "c",
                       "text": "alt",
                       "isCorrect": true,
-                      "explanation": "Correct! alt means old — the direct opposite of neu (new)."
+                      "explanation": "English: Correct! alt means old — the direct opposite of neu (new).\nفارسی: درست است! alt یعنی قدیمی و دقیقاً متضاد neu (جدید) است."
                     },
                     {
                       "id": "d",
                       "text": "schwer",
                       "isCorrect": false,
-                      "explanation": "schwer means difficult or heavy, not old."
+                      "explanation": "English: schwer means difficult or heavy, not old.\nفارسی: schwer یعنی سخت یا سنگین، نه قدیمی."
                     }
                   ],
-                  "explanation": "Learn adjective opposites as pairs: neu/alt, gut/schlecht, groß/klein, richtig/falsch, einfach/schwer.",
+                  "explanation": "English: Learn adjective opposites as pairs: neu/alt, gut/schlecht, groß/klein, richtig/falsch, einfach/schwer.\nفارسی: متضادهای صفت‌ها را به‌صورت جفتی یاد بگیرید: neu/alt، gut/schlecht، groß/klein، richtig/falsch، einfach/schwer.",
                   "order": 1
                 },
                 {
@@ -3214,28 +3377,28 @@
                       "id": "a",
                       "text": "Die Antwort ist wahr.",
                       "isCorrect": false,
-                      "explanation": "wahr means 'true' (factually true), not 'correct'."
+                      "explanation": "English: wahr means 'true' (factually true), not 'correct'.\nفارسی: wahr یعنی «حقیقی / راست» (از نظر واقعیت درست)، نه «صحیح»."
                     },
                     {
                       "id": "b",
                       "text": "Die Antwort ist richtig.",
                       "isCorrect": true,
-                      "explanation": "Correct! richtig = correct/right — used for answers and proper usage."
+                      "explanation": "English: Correct! richtig = correct/right — used for answers and proper usage.\nفارسی: درست است! richtig یعنی درست / صحیح — برای پاسخ‌ها و کاربرد درست به‌کار می‌رود."
                     },
                     {
                       "id": "c",
                       "text": "Die Antwort ist wichtig.",
                       "isCorrect": false,
-                      "explanation": "wichtig means important, not correct."
+                      "explanation": "English: wichtig means important, not correct.\nفارسی: wichtig یعنی مهم، نه درست."
                     },
                     {
                       "id": "d",
                       "text": "Die Antwort ist gut.",
                       "isCorrect": false,
-                      "explanation": "gut means good, not specifically correct."
+                      "explanation": "English: gut means good, not specifically correct.\nفارسی: gut یعنی خوب، اما لزوماً به معنی درست نیست."
                     }
                   ],
-                  "explanation": "richtig = correct/right (answers, directions, behavior). wahr = true (facts about reality). Die Antwort ist richtig. vs. Das ist wahr.",
+                  "explanation": "English: richtig = correct/right (answers, directions, behavior). wahr = true (facts about reality). Die Antwort ist richtig. vs. Das ist wahr.\nفارسی: richtig یعنی درست/صحیح (برای پاسخ‌ها، جهت‌ها و رفتار). wahr یعنی حقیقی/واقعی (برای حقیقتِ مربوط به واقعیت). Die Antwort ist richtig. در برابر Das ist wahr.",
                   "order": 2
                 },
                 {
@@ -3249,16 +3412,16 @@
                       "id": "true",
                       "text": "True",
                       "isCorrect": true,
-                      "explanation": "Correct! eine große Stadt (a big city) and Er ist groß (He is tall) — both use groß."
+                      "explanation": "English: Correct! eine große Stadt (a big city) and Er ist groß (He is tall) — both use groß.\nفارسی: درست است! eine große Stadt (یک شهر بزرگ) و Er ist groß (او قدبلند است) — هر دو از groß استفاده می‌کنند."
                     },
                     {
                       "id": "false",
                       "text": "False",
                       "isCorrect": false,
-                      "explanation": "Actually true! groß works for size (objects) AND height (people)."
+                      "explanation": "English: Actually true! groß works for size (objects) AND height (people).\nفارسی: در واقع درست است! groß هم برای اندازهٔ اشیا و هم برای قدِ انسان‌ها به‌کار می‌رود."
                     }
                   ],
-                  "explanation": "groß = big (objects/places) AND tall (people). For buildings, use hoch (tall): ein hohes Gebäude. But for people: Er ist groß (He is tall).",
+                  "explanation": "English: groß = big (objects/places) AND tall (people). For buildings, use hoch (tall): ein hohes Gebäude. But for people: Er ist groß (He is tall).\nفارسی: groß یعنی بزرگ برای اشیا و مکان‌ها، و قدبلند برای انسان‌ها. برای ساختمان‌ها از hoch (بلند) استفاده کنید: ein hohes Gebäude. اما برای انسان‌ها: Er ist groß (او قدبلند است).",
                   "order": 3
                 }
               ]
@@ -3276,7 +3439,7 @@
                 {
                   "type": "explanation",
                   "title": "The Good News About German Adverbs",
-                  "content": "Adverbs never change their form in German. Unlike adjectives, they have no case endings, no gender, no plural. You learn a word once and use it everywhere. The 20 adverbs in this lesson fall into three groups: time adverbs (when?), degree and quantity adverbs (how much?), and place and manner adverbs (where? how?)."
+                  "content": "English: Adverbs never change their form in German. Unlike adjectives, they have no case endings, no gender, no plural. You learn a word once and use it everywhere. The 20 adverbs in this lesson fall into three groups: time adverbs (when?), degree and quantity adverbs (how much?), and place and manner adverbs (where? how?).\nفارسی: قیدها در آلمانی شکل خود را عوض نمی‌کنند. برخلاف صفت‌ها، آن‌ها نه صرفِ حالت دارند، نه جنس، نه جمع. یک‌بار کلمه را یاد می‌گیرید و در همه‌جا از آن استفاده می‌کنید. 20 قید این درس در سه گروه قرار می‌گیرند: قیدهای زمان (چه وقت؟)، قیدهای درجه و مقدار (چقدر؟)، و قیدهای مکان و حالت (کجا؟ چگونه؟)."
                 },
                 {
                   "type": "table",
@@ -3294,77 +3457,77 @@
                       "heute",
                       "today",
                       "Was machst du heute? (What are you doing today?)",
-                      "heute Morgen = this morning; heute Abend = tonight"
+                      "heute Morgen = this morning; heute Abend = tonight / heute Morgen = امروز صبح؛ heute Abend = امشب"
                     ],
                     [
                       "42",
                       "morgen",
                       "tomorrow",
                       "Ich komme morgen. (I will come tomorrow.)",
-                      "morgen früh = tomorrow morning. Note: der Morgen (noun) = morning"
+                      "morgen früh = tomorrow morning. Note: der Morgen (noun) = morning / morgen früh = فردا صبح. نکته: der Morgen (اسم) = صبح"
                     ],
                     [
                       "43",
                       "jetzt",
                       "now",
                       "Ich muss jetzt gehen. (I have to go now.)",
-                      "jetzt = right now; gerade = at this very moment"
+                      "jetzt = right now; gerade = at this very moment / jetzt = همین حالا؛ gerade = درست در همین لحظه"
                     ],
                     [
                       "44",
                       "immer",
                       "always",
                       "Er kommt immer zu spät. (He always comes too late.)",
-                      "Opposite: nie (never)"
+                      "Opposite: nie (never) / متضاد: nie (هرگز)"
                     ],
                     [
                       "45",
                       "oft",
                       "often",
                       "Ich gehe oft ins Kino. (I often go to the cinema.)",
-                      "Opposite: selten (rarely)"
+                      "Opposite: selten (rarely) / متضاد: selten (به‌ندرت)"
                     ],
                     [
                       "46",
                       "manchmal",
                       "sometimes",
                       "Manchmal bin ich müde. (Sometimes I am tired.)",
-                      "Often placed at the start of a sentence for emphasis"
+                      "Often placed at the start of a sentence for emphasis / اغلب برای تأکید در ابتدای جمله می‌آید"
                     ],
                     [
                       "47",
                       "nie",
                       "never",
                       "Ich trinke nie Alkohol. (I never drink alcohol.)",
-                      "Opposite: immer (always)"
+                      "Opposite: immer (always) / متضاد: immer (همیشه)"
                     ],
                     [
                       "48",
                       "schon",
                       "already / yet",
                       "Bist du schon fertig? (Are you already done?)",
-                      "Multiple meanings — see tip below"
+                      "Multiple meanings — see tip below / چند معنی دارد — نکتهٔ پایین را ببینید"
                     ],
                     [
                       "49",
                       "noch",
                       "still / yet",
                       "Ich bin noch nicht fertig. (I am still not done.)",
-                      "noch nicht = not yet; nicht mehr = no longer"
+                      "noch nicht = not yet; nicht mehr = no longer / noch nicht = هنوز نه؛ nicht mehr = دیگر نه"
                     ],
                     [
                       "50",
                       "nur",
                       "only / just",
                       "Ich spreche nur ein bisschen Deutsch. (I only speak a little German.)",
-                      "Restricts or limits the statement"
+                      "Restricts or limits the statement / جمله را محدود یا مقید می‌کند"
                     ]
                   ]
                 },
                 {
                   "type": "tip",
                   "title": "schon vs. noch — A Critical Pair",
-                  "content": "schon = already (action happened sooner than expected): Bist du schon da? (Are you already there?) noch = still (situation is ongoing): Bist du noch da? (Are you still there?) With negation, the contrast becomes stark: noch nicht = not yet (something hasn't happened but will); schon nicht mehr = no longer (something used to happen but does not now). Mastering this pair is a milestone in natural German."
+                  "content": "English: schon = already (action happened sooner than expected): Bist du schon da? (Are you already there?) noch = still (situation is ongoing): Bist du noch da? (Are you still there?) With negation, the contrast becomes stark: noch nicht = not yet (something hasn't happened but will); schon nicht mehr = no longer (something used to happen but does not now). Mastering this pair is a milestone in natural German.\nفارسی: schon یعنی «از قبل / قبلاً» (رخداد زودتر از انتظار انجام شده است): Bist du schon da? (آیا از قبل آنجا هستی؟) noch یعنی «هنوز / همچنان» (وضعیت ادامه دارد): Bist du noch da? (آیا هنوز آنجا هستی؟) با منفی‌سازی، تفاوت خیلی روشن می‌شود: noch nicht = هنوز نه (چیزی هنوز اتفاق نیفتاده اما خواهد افتاد)؛ schon nicht mehr = دیگر نه (چیزی قبلاً رخ می‌داده اما اکنون دیگر نه). تسلط بر این جفت، یک نقطهٔ مهم در آلمانیِ طبیعی است."
                 },
                 {
                   "type": "table",
@@ -3382,183 +3545,203 @@
                       "auch",
                       "also / too / as well",
                       "Ich bin auch müde. (I am also tired.)",
-                      "Position: right after the subject or the verb in most cases"
+                      "Position: right after the subject or the verb in most cases / جایگاه: در بیشتر موارد بلافاصله بعد از فاعل یا فعل"
                     ],
                     [
                       "52",
                       "sehr",
                       "very",
                       "Das ist sehr gut! (That is very good!)",
-                      "sehr intensifies adjectives and other adverbs"
+                      "sehr intensifies adjectives and other adverbs / sehr صفت‌ها و قیدهای دیگر را شدت می‌بخشد"
                     ],
                     [
                       "53",
                       "viel",
                       "much / a lot",
                       "Ich habe viel Arbeit. (I have a lot of work.)",
-                      "viele (with -e) before countable plurals: viele Freunde"
+                      "viele (with -e) before countable plurals: viele Freunde / viele (با -e) قبل از جمع‌های قابل‌شمارش: viele Freunde"
                     ],
                     [
                       "54",
                       "mehr",
                       "more",
                       "Ich brauche mehr Zeit. (I need more time.)",
-                      "Comparative of viel; mehr und mehr = more and more"
+                      "Comparative of viel; mehr und mehr = more and more / صورتِ مقایسه‌ایِ viel؛ mehr und mehr = بیشتر و بیشتر"
                     ],
                     [
                       "55",
                       "wenig",
                       "little / not much",
                       "Ich habe wenig Zeit. (I have little time.)",
-                      "wenige (with -e) before countable plurals: wenige Chancen"
+                      "wenige (with -e) before countable plurals: wenige Chancen / wenige (با -e) قبل از جمع‌های قابل‌شمارش: wenige Chancen"
                     ],
                     [
                       "56",
                       "hier",
                       "here",
                       "Ich wohne hier. (I live here.)",
-                      "hier = at this place; hierher = to here (direction)"
+                      "hier = at this place; hierher = to here (direction) / hier = در این مکان؛ hierher = به اینجا (جهت)"
                     ],
                     [
                       "57",
                       "dort",
                       "there",
                       "Er wohnt dort. (He lives there.)",
-                      "dort = at that place; dorthin = to there (direction)"
+                      "dort = at that place; dorthin = to there (direction) / dort = در آنجا؛ dorthin = به آنجا (جهت)"
                     ],
                     [
                       "58",
                       "zusammen",
                       "together",
                       "Wir machen das zusammen. (We will do that together.)",
-                      "Key word for teamwork, relationships, shared activities"
+                      "Key word for teamwork, relationships, shared activities / واژهٔ کلیدی برای کار گروهی، رابطه‌ها و فعالیت‌های مشترک"
                     ],
                     [
                       "59",
                       "allein",
                       "alone / by oneself",
                       "Ich bin allein zu Hause. (I am alone at home.)",
-                      "allein also means 'only' in formal/literary contexts"
+                      "allein also means 'only' in formal/literary contexts / allein در بافت‌های رسمی یا ادبی همچنین به معنی «فقط» است"
                     ],
                     [
                       "60",
                       "zuerst",
                       "first / at first",
                       "Zuerst esse ich, dann gehe ich. (First I eat, then I go.)",
-                      "zuerst = first in a sequence; then comes dann (then)"
+                      "zuerst = first in a sequence; then comes dann (then) / zuerst = اول در یک توالی؛ بعد dann (سپس) می‌آید"
                     ]
                   ]
                 },
                 {
                   "type": "tip",
                   "title": "viel vs. viele — A Very Common Grammar Trap",
-                  "content": "viel (without ending) goes before uncountable nouns and in adverbial use: viel Zeit (a lot of time), viel arbeiten (to work a lot), Das kostet viel. (That costs a lot.) viele (with -e ending) goes before countable plural nouns: viele Menschen (many people), viele Probleme (many problems). The rule: can you count individual items? Use viele. Cannot count? Use viel."
+                  "content": "English: viel (without ending) goes before uncountable nouns and in adverbial use: viel Zeit (a lot of time), viel arbeiten (to work a lot), Das kostet viel. (That costs a lot.) viele (with -e ending) goes before countable plural nouns: viele Menschen (many people), viele Probleme (many problems). The rule: can you count individual items? Use viele. Cannot count? Use viel.\nفارسی: viel (بدون پسوند) قبل از اسم‌های غیرقابل‌شمارش و در کاربرد قیدی می‌آید: viel Zeit (زمان زیاد)، viel arbeiten (خیلی کار کردن)، Das kostet viel. (این خیلی هزینه دارد.) viele (با پسوند -e) قبل از جمع‌های قابل‌شمارش می‌آید: viele Menschen (افراد زیاد)، viele Probleme (مشکلات زیاد). قاعده: آیا می‌توانی واحدها را جداگانه بشماری؟ از viele استفاده کن. نمی‌توانی بشماری؟ از viel استفاده کن."
                 },
                 {
                   "type": "example",
                   "title": "Adverbs in a Real Conversation",
-                  "content": "— Bist du schon fertig? — Nein, ich bin noch nicht fertig. Ich brauche noch mehr Zeit. — Du arbeitest immer so viel! — Ja, manchmal ist es zu viel. Aber heute mache ich es zusammen mit Anna, sie hilft mir hier sehr oft. — Wohnst du noch dort in Schwabing? — Nein, jetzt wohne ich hier in Mitte. Es ist viel besser — ich bin nie allein, und es gibt immer etwas zu tun."
+                  "content": "English: — Bist du schon fertig? — Nein, ich bin noch nicht fertig. Ich brauche noch mehr Zeit. — Du arbeitest immer so viel! — Ja, manchmal ist es zu viel. Aber heute mache ich es zusammen mit Anna, sie hilft mir hier sehr oft. — Wohnst du noch dort in Schwabing? — Nein, jetzt wohne ich hier in Mitte. Es ist viel besser — ich bin nie allein, und es gibt immer etwas zu tun.\nفارسی: — تو از قبل تمام کرده‌ای؟ — نه، هنوز تمام نکرده‌ام. هنوز به وقت بیشتری نیاز دارم. — تو همیشه این‌قدر زیاد کار می‌کنی! — بله، گاهی زیادی است. اما امروز آن را با آنا با هم انجام می‌دهم، او اینجا خیلی وقت‌ها به من کمک می‌کند. — هنوز آنجا در شوابینگ زندگی می‌کنی؟ — نه، حالا اینجا در میته زندگی می‌کنم. خیلی بهتر است — من هرگز تنها نیستم و همیشه چیزی برای انجام دادن وجود دارد."
                 }
               ],
               "vocabulary": [
                 {
                   "german": "heute",
                   "english": "today",
+                  "persian": "امروز",
                   "example": "Was machst du heute? (What are you doing today?)"
                 },
                 {
                   "german": "morgen",
                   "english": "tomorrow",
+                  "persian": "فردا",
                   "example": "Ich komme morgen. (I will come tomorrow.)"
                 },
                 {
                   "german": "jetzt",
                   "english": "now",
+                  "persian": "الان / حالا",
                   "example": "Ich muss jetzt gehen. (I have to go now.)"
                 },
                 {
                   "german": "immer",
                   "english": "always",
+                  "persian": "همیشه",
                   "example": "Er kommt immer zu spät. (He always comes too late.)"
                 },
                 {
                   "german": "oft",
                   "english": "often",
+                  "persian": "اغلب",
                   "example": "Ich gehe oft ins Kino. (I often go to the cinema.)"
                 },
                 {
                   "german": "manchmal",
                   "english": "sometimes",
+                  "persian": "گاهی / بعضی وقت‌ها",
                   "example": "Manchmal bin ich müde. (Sometimes I am tired.)"
                 },
                 {
                   "german": "nie",
                   "english": "never",
+                  "persian": "هرگز",
                   "example": "Ich trinke nie Alkohol. (I never drink alcohol.)"
                 },
                 {
                   "german": "schon",
                   "english": "already / yet",
+                  "persian": "قبلاً / از قبل",
                   "example": "Bist du schon fertig? (Are you already done?)"
                 },
                 {
                   "german": "noch",
                   "english": "still / yet",
+                  "persian": "هنوز / همچنان",
                   "example": "Ich bin noch hier. (I am still here.)"
                 },
                 {
                   "german": "nur",
                   "english": "only / just",
+                  "persian": "فقط / تنها",
                   "example": "Ich habe nur eine Frage. (I only have one question.)"
                 },
                 {
                   "german": "auch",
                   "english": "also / too",
+                  "persian": "همچنین / هم",
                   "example": "Ich bin auch müde. (I am also tired.)"
                 },
                 {
                   "german": "sehr",
                   "english": "very",
+                  "persian": "خیلی / بسیار",
                   "example": "Das ist sehr wichtig! (That is very important!)"
                 },
                 {
                   "german": "viel",
                   "english": "much / a lot",
+                  "persian": "زیاد / بسیار",
                   "example": "Ich habe viel Arbeit. (I have a lot of work.)"
                 },
                 {
                   "german": "mehr",
                   "english": "more",
+                  "persian": "بیشتر",
                   "example": "Ich brauche mehr Zeit. (I need more time.)"
                 },
                 {
                   "german": "wenig",
                   "english": "little / not much",
+                  "persian": "کم / اندک",
                   "example": "Ich habe wenig Zeit. (I have little time.)"
                 },
                 {
                   "german": "hier",
                   "english": "here",
+                  "persian": "اینجا",
                   "example": "Ich wohne hier. (I live here.)"
                 },
                 {
                   "german": "dort",
                   "english": "there",
+                  "persian": "آنجا",
                   "example": "Er arbeitet dort. (He works there.)"
                 },
                 {
                   "german": "zusammen",
                   "english": "together",
+                  "persian": "با هم",
                   "example": "Wir machen das zusammen. (We will do that together.)"
                 },
                 {
                   "german": "allein",
                   "english": "alone / by oneself",
+                  "persian": "تنها / به‌تنهایی",
                   "example": "Ich bin allein zu Hause. (I am alone at home.)"
                 },
                 {
                   "german": "zuerst",
                   "english": "first / at first",
+                  "persian": "اول / نخست",
                   "example": "Zuerst kommt die Arbeit. (Work comes first.)"
                 }
               ],
@@ -3574,28 +3757,28 @@
                       "id": "a",
                       "text": "Are you already here?",
                       "isCorrect": false,
-                      "explanation": "That would be 'Bist du schon hier?' — schon = already."
+                      "explanation": "English: That would be 'Bist du schon hier?' — schon = already.\nفارسی: آن می‌شود 'Bist du schon hier?' — schon یعنی «از قبل / قبلاً»."
                     },
                     {
                       "id": "b",
                       "text": "Are you still here?",
                       "isCorrect": true,
-                      "explanation": "Correct! noch = still. 'Are you still here?'"
+                      "explanation": "English: Correct! noch = still. 'Are you still here?'\nفارسی: درست است! noch یعنی «هنوز / همچنان». 'آیا هنوز اینجا هستی؟'"
                     },
                     {
                       "id": "c",
                       "text": "Are you coming here?",
                       "isCorrect": false,
-                      "explanation": "That requires a verb of motion: Kommst du hierher?"
+                      "explanation": "English: That requires a verb of motion: Kommst du hierher?\nفارسی: برای این معنا به فعلِ حرکت نیاز است: Kommst du hierher?"
                     },
                     {
                       "id": "d",
                       "text": "Were you ever here?",
                       "isCorrect": false,
-                      "explanation": "That would need past tense: Warst du je hier?"
+                      "explanation": "English: That would need past tense: Warst du je hier?\nفارسی: برای این معنا به زمانِ گذشته نیاز است: Warst du je hier?"
                     }
                   ],
-                  "explanation": "noch = still (ongoing). Bist du noch hier? = Are you still here? Compare: schon = already. Bist du schon hier? = Are you already here?",
+                  "explanation": "English: noch = still (ongoing). Bist du noch hier? = Are you still here? Compare: schon = already. Bist du schon hier? = Are you already here?\nفارسی: noch یعنی «هنوز / همچنان» (ادامه‌دار). Bist du noch hier? یعنی «آیا هنوز اینجا هستی؟» مقایسه کنید: schon یعنی «از قبل». Bist du schon hier? یعنی «آیا از قبل اینجا هستی؟»",
                   "order": 1
                 },
                 {
@@ -3609,28 +3792,28 @@
                       "id": "a",
                       "text": "viel Freunde",
                       "isCorrect": false,
-                      "explanation": "Freunde is a countable plural noun — use viele, not viel."
+                      "explanation": "English: Freunde is a countable plural noun — use viele, not viel.\nفارسی: Freunde یک اسم جمعِ قابل‌شمارش است — از viele استفاده کن، نه viel."
                     },
                     {
                       "id": "b",
                       "text": "viele Freunde",
                       "isCorrect": true,
-                      "explanation": "Correct! viele is used with countable plural nouns."
+                      "explanation": "English: Correct! viele is used with countable plural nouns.\nفارسی: درست است! viele با اسم‌های جمعِ قابل‌شمارش به‌کار می‌رود."
                     },
                     {
                       "id": "c",
                       "text": "sehr Freunde",
                       "isCorrect": false,
-                      "explanation": "sehr means 'very' and modifies adjectives and adverbs, not nouns directly."
+                      "explanation": "English: sehr means 'very' and modifies adjectives and adverbs, not nouns directly.\nفارسی: sehr یعنی «خیلی / بسیار» و صفت‌ها و قیدها را توصیف می‌کند، نه خودِ اسم‌ها را."
                     },
                     {
                       "id": "d",
                       "text": "mehr Freunde",
                       "isCorrect": false,
-                      "explanation": "mehr means 'more' (comparative), not 'many'."
+                      "explanation": "English: mehr means 'more' (comparative), not 'many'.\nفارسی: mehr یعنی «بیشتر» (صورتِ مقایسه‌ای)، نه «زیاد / بسیاری»."
                     }
                   ],
-                  "explanation": "viel = much/a lot (uncountable: viel Zeit, viel Arbeit). viele = many (countable plurals: viele Freunde, viele Menschen).",
+                  "explanation": "English: viel = much/a lot (uncountable: viel Zeit, viel Arbeit). viele = many (countable plurals: viele Freunde, viele Menschen).\nفارسی: viel = مقدار زیاد / خیلی (برای اسم‌های غیرقابل‌شمارش: viel Zeit، viel Arbeit). viele = زیاد / بسیاری (برای جمع‌های قابل‌شمارش: viele Freunde، viele Menschen).",
                   "order": 2
                 },
                 {
@@ -3640,8 +3823,8 @@
                   "instruction": "Fill in the correct adverb.",
                   "question": "Er kommt ___ zu spät. (He always comes too late.)",
                   "correctAnswer": "immer",
-                  "hint": "The opposite of 'nie' (never).",
-                  "explanation": "immer = always. The frequency scale: immer (always) — oft (often) — manchmal (sometimes) — selten (rarely) — nie (never).",
+                  "hint": "The opposite of 'nie' (never). / متضادِ nie (هرگز).",
+                  "explanation": "English: immer = always. The frequency scale: immer (always) — oft (often) — manchmal (sometimes) — selten (rarely) — nie (never).\nفارسی: immer یعنی «همیشه». مقیاس فراوانی: immer (همیشه) — oft (اغلب) — manchmal (گاهی) — selten (به‌ندرت) — nie (هرگز).",
                   "order": 3
                 }
               ]

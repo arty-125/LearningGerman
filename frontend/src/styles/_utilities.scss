@@ -1,3 +1,5 @@
+@use 'mixins' as m;
+
 // Reusable utility classes used across components.
 
 // ─── Display ────────────────────────────────────────────────────────────────
@@ -69,6 +71,41 @@
   font-size: var(--font-size-lg);
   color: var(--color-text-secondary);
   margin-top: var(--space-2);
+}
+
+// ─── Prose / Reading Template ───────────────────────────────────────────────
+.prose {
+  max-width: var(--prose-max-width);
+  color: var(--color-text-secondary);
+  line-height: var(--prose-line-height);
+  text-wrap: pretty;
+
+  > * + * {
+    margin-top: var(--prose-block-gap);
+  }
+
+  p {
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  ul,
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--prose-list-gap);
+    padding-left: var(--space-5);
+  }
+
+  li {
+    line-height: var(--line-height-base);
+  }
+}
+
+.prose--lead {
+  max-width: var(--prose-lead-max-width);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
 }
 
 // ─── Empty state ─────────────────────────────────────────────────────────────
