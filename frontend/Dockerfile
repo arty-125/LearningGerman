@@ -11,12 +11,18 @@ RUN npm run build -- --configuration production
 # ─── Stage 2: Serve with nginx ───────────────────────────────────────────────
 FROM nginx:alpine
 
-# nginx will substitute $PORT at container startup via the templates mechanism
-COPY nginx.conf /etc/nginx/templates/default.conf.template
+# Copy startup script — envsubst '$PORT' only, all other nginx vars left intact
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
+# Copy nginx config as a template (processed by start.sh at container startup)
+COPY nginx.conf /etc/nginx/nginx.conf.template
 
 # Copy the built Angular app
 COPY --from=builder /app/dist/learning-german/browser /usr/share/nginx/html
 
-# Railway injects PORT at runtime; default to 8080 for local docker runs
+# Railway injects PORT at runtime
 ENV PORT=8080
 EXPOSE 8080
+
+CMD ["/start.sh"]
