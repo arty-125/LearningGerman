@@ -11,18 +11,15 @@ RUN npm run build -- --configuration production
 # ─── Stage 2: Serve with nginx ───────────────────────────────────────────────
 FROM nginx:alpine
 
-# Copy startup script — envsubst '$PORT' only, all other nginx vars left intact
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
+# nginx config — port 8080 hardcoded (Railway always maps containers on 8080)
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy nginx config as a template (processed by start.sh at container startup)
-COPY nginx.conf /etc/nginx/nginx.conf.template
+# Remove default nginx config to avoid conflicts
+RUN rm -f /etc/nginx/conf.d/default.conf.template
 
 # Copy the built Angular app
 COPY --from=builder /app/dist/learning-german/browser /usr/share/nginx/html
 
-# Railway injects PORT at runtime
-ENV PORT=8080
 EXPOSE 8080
 
-CMD ["/start.sh"]
+CMD ["nginx", "-g", "daemon off;"]
