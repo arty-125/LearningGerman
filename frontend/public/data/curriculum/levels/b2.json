@@ -1,0 +1,177 @@
+{
+  "id": "b2",
+  "code": "B2",
+  "title": "Upper-Intermediate",
+  "description": "Achieve fluency. Understand complex texts, debate abstract topics and communicate with native-like precision.",
+  "color": "#f59e0b",
+  "lightColor": "#fef3c7",
+  "order": 4,
+  "categories": [
+    {
+      "id": "b2-grammar",
+      "levelId": "b2",
+      "title": "Grammar",
+      "description": "Complex grammar for near-native level expression",
+      "icon": "ðŸ“–",
+      "order": 1,
+      "topics": [
+        {
+          "id": "b2-grammar-konjunktiv-i",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Konjunktiv I (Indirect Speech)",
+          "description": "Reporting what others said â€” used in formal writing and news",
+          "difficulty": 5,
+          "estimatedMinutes": 40,
+          "order": 1,
+          "tags": [
+            "konjunktiv-i",
+            "indirect-speech",
+            "formal"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b2-grammar-extended-attributives",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Extended Attributive Phrases",
+          "description": "Complex noun phrases common in written German",
+          "difficulty": 5,
+          "estimatedMinutes": 35,
+          "order": 2,
+          "tags": [
+            "attributive",
+            "complex",
+            "written-German"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b2-grammar-two-way-prepositions",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Two-Way Prepositions (WechselprÃ¤positionen)",
+          "description": "Mastering an/auf/in/Ã¼ber/unter/vor/hinter/neben/zwischen",
+          "difficulty": 4,
+          "estimatedMinutes": 35,
+          "order": 3,
+          "tags": [
+            "prepositions",
+            "akkusativ",
+            "dativ"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "b2-vocabulary",
+      "levelId": "b2",
+      "title": "Vocabulary",
+      "description": "Advanced and nuanced vocabulary",
+      "icon": "ðŸ’¬",
+      "order": 2,
+      "topics": [
+        {
+          "id": "b2-vocab-idioms",
+          "categoryId": "b2-vocabulary",
+          "levelId": "b2",
+          "title": "Idioms & Fixed Expressions",
+          "description": "Common German idioms that native speakers actually use",
+          "difficulty": 4,
+          "estimatedMinutes": 25,
+          "order": 1,
+          "tags": [
+            "idioms",
+            "expressions",
+            "native"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b2-vocab-academic",
+          "categoryId": "b2-vocabulary",
+          "levelId": "b2",
+          "title": "Academic & Formal Language",
+          "description": "Language for university, research and formal writing",
+          "difficulty": 5,
+          "estimatedMinutes": 30,
+          "order": 2,
+          "tags": [
+            "academic",
+            "formal",
+            "writing"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b2-vocab-business",
+          "categoryId": "b2-vocabulary",
+          "levelId": "b2",
+          "title": "Business German",
+          "description": "Professional meetings, negotiations and business writing",
+          "difficulty": 4,
+          "estimatedMinutes": 30,
+          "order": 3,
+          "tags": [
+            "business",
+            "professional",
+            "workplace"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "b2-conversation",
+      "levelId": "b2",
+      "title": "Conversation",
+      "description": "Near-native communication across all contexts",
+      "icon": "ðŸ—£ï¸",
+      "order": 3,
+      "topics": [
+        {
+          "id": "b2-conv-debate",
+          "categoryId": "b2-conversation",
+          "levelId": "b2",
+          "title": "Debates & Discussions",
+          "description": "Structure complex arguments and participate in formal debates",
+          "difficulty": 5,
+          "estimatedMinutes": 30,
+          "order": 1,
+          "tags": [
+            "debate",
+            "argumentation",
+            "complex"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b2-conv-presentations",
+          "categoryId": "b2-conversation",
+          "levelId": "b2",
+          "title": "Presentations",
+          "description": "Give structured presentations in professional contexts",
+          "difficulty": 5,
+          "estimatedMinutes": 30,
+          "order": 2,
+          "tags": [
+            "presentations",
+            "professional",
+            "formal"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    }
+  ]
+}

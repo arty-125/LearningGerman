@@ -1,0 +1,211 @@
+{
+  "id": "b1",
+  "code": "B1",
+  "title": "Intermediate",
+  "description": "Reach independence. Discuss complex topics, express opinions and understand authentic German texts.",
+  "color": "#8b5cf6",
+  "lightColor": "#ede9fe",
+  "order": 3,
+  "categories": [
+    {
+      "id": "b1-grammar",
+      "levelId": "b1",
+      "title": "Grammar",
+      "description": "Advanced grammatical structures for independent communication",
+      "icon": "ðŸ“–",
+      "order": 1,
+      "topics": [
+        {
+          "id": "b1-grammar-konjunktiv-ii",
+          "categoryId": "b1-grammar",
+          "levelId": "b1",
+          "title": "Konjunktiv II (Subjunctive)",
+          "description": "Hypothetical situations, polite requests and wishes",
+          "difficulty": 4,
+          "estimatedMinutes": 40,
+          "order": 1,
+          "tags": [
+            "konjunktiv",
+            "hypothetical",
+            "polite"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-grammar-passive",
+          "categoryId": "b1-grammar",
+          "levelId": "b1",
+          "title": "Passive Voice (Passiv)",
+          "description": "werden-Passiv and Zustandspassiv",
+          "difficulty": 4,
+          "estimatedMinutes": 35,
+          "order": 2,
+          "tags": [
+            "passive",
+            "werden",
+            "advanced"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-grammar-subordinate-clauses",
+          "categoryId": "b1-grammar",
+          "levelId": "b1",
+          "title": "Subordinate Clauses",
+          "description": "weil, dass, obwohl, wenn and subordinating conjunctions",
+          "difficulty": 4,
+          "estimatedMinutes": 35,
+          "order": 3,
+          "tags": [
+            "subordinate",
+            "conjunctions",
+            "word-order"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-grammar-infinitive-constructions",
+          "categoryId": "b1-grammar",
+          "levelId": "b1",
+          "title": "Infinitive Constructions",
+          "description": "zu + Infinitiv, um...zu, ohne...zu, anstatt...zu",
+          "difficulty": 4,
+          "estimatedMinutes": 30,
+          "order": 4,
+          "tags": [
+            "infinitive",
+            "zu",
+            "constructions"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-grammar-genitive",
+          "categoryId": "b1-grammar",
+          "levelId": "b1",
+          "title": "Genitiv Case",
+          "description": "Expressing possession and genitive prepositions",
+          "difficulty": 4,
+          "estimatedMinutes": 30,
+          "order": 5,
+          "tags": [
+            "genitive",
+            "cases",
+            "possession"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "b1-vocabulary",
+      "levelId": "b1",
+      "title": "Vocabulary",
+      "description": "Sophisticated vocabulary for complex topics",
+      "icon": "ðŸ’¬",
+      "order": 2,
+      "topics": [
+        {
+          "id": "b1-vocab-current-events",
+          "categoryId": "b1-vocabulary",
+          "levelId": "b1",
+          "title": "Current Events & Media",
+          "description": "Language for discussing news, politics and media",
+          "difficulty": 3,
+          "estimatedMinutes": 25,
+          "order": 1,
+          "tags": [
+            "news",
+            "media",
+            "politics"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-vocab-health",
+          "categoryId": "b1-vocabulary",
+          "levelId": "b1",
+          "title": "Health & Medical",
+          "description": "Body, illness, doctor visits and health system vocabulary",
+          "difficulty": 3,
+          "estimatedMinutes": 25,
+          "order": 2,
+          "tags": [
+            "health",
+            "medicine",
+            "doctor"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-vocab-environment",
+          "categoryId": "b1-vocabulary",
+          "levelId": "b1",
+          "title": "Environment & Nature",
+          "description": "Climate, sustainability and environmental issues",
+          "difficulty": 3,
+          "estimatedMinutes": 20,
+          "order": 3,
+          "tags": [
+            "environment",
+            "nature",
+            "climate"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "b1-conversation",
+      "levelId": "b1",
+      "title": "Conversation",
+      "description": "Expressing yourself in complex situations",
+      "icon": "ðŸ—£ï¸",
+      "order": 3,
+      "topics": [
+        {
+          "id": "b1-conv-opinions",
+          "categoryId": "b1-conversation",
+          "levelId": "b1",
+          "title": "Expressing Opinions",
+          "description": "Agree, disagree, argue your point and express nuance",
+          "difficulty": 3,
+          "estimatedMinutes": 25,
+          "order": 1,
+          "tags": [
+            "opinions",
+            "debate",
+            "expressions"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "b1-conv-formal",
+          "categoryId": "b1-conversation",
+          "levelId": "b1",
+          "title": "Formal Communication",
+          "description": "Formal emails, letters and professional language",
+          "difficulty": 4,
+          "estimatedMinutes": 30,
+          "order": 2,
+          "tags": [
+            "formal",
+            "writing",
+            "professional"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    }
+  ]
+}

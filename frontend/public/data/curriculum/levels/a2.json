@@ -1,0 +1,282 @@
+{
+  "id": "a2",
+  "code": "A2",
+  "title": "Elementary",
+  "description": "Expand your skills. Communicate in familiar contexts, talk about past events and express preferences.",
+  "color": "#3b82f6",
+  "lightColor": "#dbeafe",
+  "order": 2,
+  "categories": [
+    {
+      "id": "a2-grammar",
+      "levelId": "a2",
+      "title": "Grammar",
+      "description": "Expand your grammatical toolkit with new tenses and structures",
+      "icon": "ðŸ“–",
+      "order": 1,
+      "topics": [
+        {
+          "id": "a2-grammar-perfekt",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "Perfekt (Present Perfect)",
+          "description": "Talk about past events using haben and sein",
+          "difficulty": 3,
+          "estimatedMinutes": 35,
+          "order": 1,
+          "tags": [
+            "past-tense",
+            "perfekt",
+            "haben",
+            "sein"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-grammar-praeteritum",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "PrÃ¤teritum (Simple Past)",
+          "description": "Written past tense with sein, haben and modal verbs",
+          "difficulty": 3,
+          "estimatedMinutes": 30,
+          "order": 2,
+          "tags": [
+            "past-tense",
+            "prateritum",
+            "narrative"
+          ],
+          "prerequisites": [
+            "a2-grammar-perfekt"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a2-grammar-modal-verbs",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "Modal Verbs",
+          "description": "kÃ¶nnen, mÃ¼ssen, wollen, sollen, dÃ¼rfen, mÃ¶chten",
+          "difficulty": 3,
+          "estimatedMinutes": 35,
+          "order": 3,
+          "tags": [
+            "modals",
+            "verbs"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-grammar-separable-verbs",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "Separable Verbs (Trennbare Verben)",
+          "description": "aufstehen, anrufen, mitnehmen â€” prefix verbs and word order",
+          "difficulty": 3,
+          "estimatedMinutes": 25,
+          "order": 4,
+          "tags": [
+            "verbs",
+            "separable",
+            "word-order"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-grammar-relative-clauses",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "Relative Clauses",
+          "description": "Introduction to relative pronouns der/die/das in subordinate clauses",
+          "difficulty": 4,
+          "estimatedMinutes": 30,
+          "order": 5,
+          "tags": [
+            "relative-clauses",
+            "subordinate",
+            "pronouns"
+          ],
+          "prerequisites": [
+            "a2-grammar-modal-verbs"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a2-grammar-adjective-endings",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "Adjective Endings",
+          "description": "Adjective declension with definite, indefinite and no article",
+          "difficulty": 4,
+          "estimatedMinutes": 35,
+          "order": 6,
+          "tags": [
+            "adjectives",
+            "declension",
+            "endings"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "a2-vocabulary",
+      "levelId": "a2",
+      "title": "Vocabulary",
+      "description": "Expand your vocabulary for more situations",
+      "icon": "ðŸ’¬",
+      "order": 2,
+      "topics": [
+        {
+          "id": "a2-vocab-work",
+          "categoryId": "a2-vocabulary",
+          "levelId": "a2",
+          "title": "Work & Professions",
+          "description": "Jobs, the workplace and work-related vocabulary",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 1,
+          "tags": [
+            "work",
+            "professions",
+            "workplace"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-vocab-travel",
+          "categoryId": "a2-vocabulary",
+          "levelId": "a2",
+          "title": "Travel & Transport",
+          "description": "Getting around: directions, transport, booking",
+          "difficulty": 2,
+          "estimatedMinutes": 25,
+          "order": 2,
+          "tags": [
+            "travel",
+            "transport",
+            "directions"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-vocab-shopping",
+          "categoryId": "a2-vocabulary",
+          "levelId": "a2",
+          "title": "Shopping",
+          "description": "Shopping vocabulary, prices and clothes",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 3,
+          "tags": [
+            "shopping",
+            "money",
+            "clothes"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-vocab-weather",
+          "categoryId": "a2-vocabulary",
+          "levelId": "a2",
+          "title": "Weather",
+          "description": "Describe the weather and seasons",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 4,
+          "tags": [
+            "weather",
+            "seasons"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-vocab-hobbies",
+          "categoryId": "a2-vocabulary",
+          "levelId": "a2",
+          "title": "Hobbies & Leisure",
+          "description": "Talk about what you like to do in your free time",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 5,
+          "tags": [
+            "hobbies",
+            "leisure",
+            "interests"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "a2-conversation",
+      "levelId": "a2",
+      "title": "Conversation",
+      "description": "More complex real-life communication",
+      "icon": "ðŸ—£ï¸",
+      "order": 3,
+      "topics": [
+        {
+          "id": "a2-conv-making-plans",
+          "categoryId": "a2-conversation",
+          "levelId": "a2",
+          "title": "Making Plans",
+          "description": "Invite someone, make and cancel arrangements",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 1,
+          "tags": [
+            "plans",
+            "invitations",
+            "social"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-conv-restaurant",
+          "categoryId": "a2-conversation",
+          "levelId": "a2",
+          "title": "At the Restaurant",
+          "description": "Order food, ask for the bill and complain politely",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 2,
+          "tags": [
+            "restaurant",
+            "food",
+            "ordering"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a2-conv-phone",
+          "categoryId": "a2-conversation",
+          "levelId": "a2",
+          "title": "Phone Calls",
+          "description": "How to make and handle phone calls in German",
+          "difficulty": 3,
+          "estimatedMinutes": 25,
+          "order": 3,
+          "tags": [
+            "phone",
+            "formal",
+            "communication"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        }
+      ]
+    }
+  ]
+}

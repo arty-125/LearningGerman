@@ -1,21 +1,46 @@
-import { Injectable, inject, signal, computed } from '@angular/core';
+import { Injectable, inject, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { catchError, of } from 'rxjs';
+import { catchError, forkJoin, map, of, switchMap } from 'rxjs';
 import type { Curriculum, Level, Category, Topic, Lesson } from '../models';
+
+interface CurriculumIndex {
+  version: string;
+  levelFiles: string[];
+}
 
 @Injectable({ providedIn: 'root' })
 export class CurriculumService {
   private readonly http = inject(HttpClient);
 
-  // Load curriculum JSON from the public folder once on startup.
-  private readonly curriculum = toSignal(
-    this.http.get<Curriculum>('/data/curriculum.json').pipe(
+  private loadCurriculum() {
+    return this.http.get<CurriculumIndex>('/data/curriculum/index.json').pipe(
+      switchMap((index) => {
+        if (!index.levelFiles || index.levelFiles.length === 0) {
+          return of<Curriculum>({ version: index.version ?? '1.0', levels: [] });
+        }
+
+        const requests = index.levelFiles.map((file) =>
+          this.http.get<Level>(`/data/curriculum/${file}`)
+        );
+
+        return forkJoin(requests).pipe(
+          map((levels) => ({
+            version: index.version ?? '1.0',
+            levels,
+          }))
+        );
+      }),
       catchError(() => {
-        console.error('Failed to load curriculum.json');
+        console.error('Failed to load split curriculum data.');
         return of<Curriculum>({ version: '1.0', levels: [] });
       })
-    ),
+    );
+  }
+
+  // Load curriculum JSON from the public folder once on startup.
+  private readonly curriculum = toSignal(
+    this.loadCurriculum(),
     { initialValue: null }
   );
 

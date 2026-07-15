@@ -1,0 +1,4258 @@
+{
+  "id": "a1",
+  "code": "A1",
+  "title": "Beginner",
+  "description": "Build your foundation. Learn to introduce yourself, ask basic questions, and handle everyday situations.",
+  "color": "#10b981",
+  "lightColor": "#d1fae5",
+  "order": 1,
+  "categories": [
+    {
+      "id": "a1-grammar",
+      "levelId": "a1",
+      "title": "Grammar",
+      "description": "Core grammatical structures every beginner must know",
+      "icon": "ðŸ“–",
+      "order": 1,
+      "topics": [
+        {
+          "id": "a1-grammar-personal-pronouns",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Personal Pronouns",
+          "description": "Learn ich, du, er, sie, es, wir, ihr, Sie and their usage",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 1,
+          "tags": [
+            "pronouns",
+            "basics",
+            "foundation"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-grammar-present-tense",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Present Tense Verbs",
+          "description": "Conjugate regular and common irregular verbs in the present tense â€” and master the V2 rule that governs every German sentence",
+          "difficulty": 2,
+          "estimatedMinutes": 90,
+          "order": 2,
+          "tags": [
+            "verbs",
+            "present",
+            "conjugation",
+            "V2",
+            "sein",
+            "haben",
+            "irregular"
+          ],
+          "prerequisites": [
+            "a1-grammar-personal-pronouns"
+          ],
+          "lessons": [
+            {
+              "id": "a1-grammar-present-tense-lesson-1",
+              "topicId": "a1-grammar-present-tense",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "PrÃ¤sens â€” What It Is and When to Use It",
+              "shortDescription": "The German present tense covers both 'I do' and 'I am doing' â€” and the conjugated verb always sits in position 2, no exceptions.",
+              "order": 1,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Das PrÃ¤sens â€” Germany's Most-Used Tense",
+                  "content": "PrÃ¤sens is the present tense and the most important tense in everyday German. Unlike English, German does not separate 'I learn' from 'I am learning' â€” both are simply Ich lerne Deutsch. This single tense covers what English expresses with two: the simple present and the present continuous. This is actually good news: one tense to learn instead of two."
+                },
+                {
+                  "type": "list",
+                  "title": "The 4 Main Uses of PrÃ¤sens",
+                  "items": [
+                    "1. Current actions â€” something happening right now: Ich esse gerade. (I am eating right now.)",
+                    "2. Habits and repeated actions â€” things done regularly: Ich trainiere jeden Tag. (I train every day.)",
+                    "3. General facts and truths â€” permanent or universal truths: Die Erde ist rund. (The earth is round.)",
+                    "4. Near future â€” when the time is specified, PrÃ¤sens replaces the future tense: Morgen fahre ich nach Toronto. (Tomorrow I am going to Toronto.)"
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "One German Tense = Two English Tenses",
+                  "content": "Ich lerne Deutsch has two valid English translations: 'I learn German' (habit/ongoing) and 'I am learning German' (happening now). German does not distinguish between them â€” context tells you which meaning is intended. This is one of the first adjustments English speakers must make when learning German."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Sentence Structure: The V2 Rule",
+                  "content": "The single most important word order rule in German: the conjugated verb always occupies Position 2 in a main clause. It is never in position 1 or position 3. Position 1 can be the subject, a time adverb, or any other element â€” but the verb immediately follows in position 2, and the subject moves after it if necessary. Formula: Position 1 + conjugated verb + rest of sentence."
+                },
+                {
+                  "type": "table",
+                  "title": "Sentence Analysis: Ich lerne heute Deutsch",
+                  "headers": [
+                    "Position",
+                    "Word",
+                    "Role"
+                  ],
+                  "rows": [
+                    [
+                      "1",
+                      "Ich",
+                      "Subject (Subjekt)"
+                    ],
+                    [
+                      "2",
+                      "lerne",
+                      "Conjugated verb â€” always position 2"
+                    ],
+                    [
+                      "3",
+                      "heute",
+                      "Time adverb (today)"
+                    ],
+                    [
+                      "4",
+                      "Deutsch",
+                      "Object (what is being learned)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "Inversion: When the Subject Is Not First",
+                  "content": "When anything other than the subject starts the sentence (a time word, place, adverb), the verb still holds position 2 â€” the subject moves to position 3. This is called inversion and is mandatory in German. Wrong: Heute ich lerne Deutsch. Right: Heute lerne ich Deutsch. (Today I learn German.) The verb lerne never moves â€” it is always position 2."
+                },
+                {
+                  "type": "example",
+                  "title": "The V2 Rule with Different Position-1 Elements",
+                  "content": "Subject first (normal): Ich lerne heute Deutsch. | Time word first (inversion): Heute lerne ich Deutsch. | Place first (inversion): In Berlin lerne ich Deutsch. | Adverb first (inversion): Gern lerne ich Deutsch. Notice that lerne is always in position 2 regardless of what starts the sentence."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "lernen",
+                  "english": "to learn",
+                  "example": "Ich lerne Deutsch. (I learn / am learning German.)"
+                },
+                {
+                  "german": "essen",
+                  "english": "to eat",
+                  "example": "Ich esse gerade. (I am eating right now.)"
+                },
+                {
+                  "german": "trainieren",
+                  "english": "to train / work out",
+                  "example": "Ich trainiere jeden Tag. (I train every day.)"
+                },
+                {
+                  "german": "fahren",
+                  "english": "to drive / go (by vehicle)",
+                  "example": "Morgen fahre ich nach Berlin. (Tomorrow I am going to Berlin.)"
+                },
+                {
+                  "german": "arbeiten",
+                  "english": "to work",
+                  "example": "Er arbeitet heute nicht. (He is not working today.)"
+                },
+                {
+                  "german": "gehen",
+                  "english": "to go (on foot)",
+                  "example": "Heute gehe ich zur Arbeit. (Today I am going to work.)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-present-l1-ex1",
+                  "lessonId": "a1-grammar-present-tense-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "How do you express both 'I learn German' and 'I am learning German' in German?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich lerne Deutsch / Ich bin lernend Deutsch",
+                      "isCorrect": false,
+                      "explanation": "'Ich bin lernend' is technically possible but almost never used in natural spoken German."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Both are simply: Ich lerne Deutsch.",
+                      "isCorrect": true,
+                      "explanation": "Correct! German PrÃ¤sens covers both English meanings. Context tells you which is intended."
+                    },
+                    {
+                      "id": "c",
+                      "text": "They are two different tenses in German too",
+                      "isCorrect": false,
+                      "explanation": "No â€” German PrÃ¤sens is one tense that covers both English present simple and present continuous."
+                    }
+                  ],
+                  "explanation": "German PrÃ¤sens = English simple present + present continuous. One form, two English meanings.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-present-l1-ex2",
+                  "lessonId": "a1-grammar-present-tense-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the grammatically correct sentence.",
+                  "question": "Which sentence correctly applies the V2 rule?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Heute ich gehe zur Arbeit.",
+                      "isCorrect": false,
+                      "explanation": "Wrong! After 'Heute' (position 1), the verb must come next (position 2), then the subject."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Heute gehe ich zur Arbeit.",
+                      "isCorrect": true,
+                      "explanation": "Correct! Heute (pos. 1) + gehe (pos. 2) + ich (pos. 3). Verb is always position 2."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Heute ich zur Arbeit gehe.",
+                      "isCorrect": false,
+                      "explanation": "Wrong! The verb cannot go to the end in a main clause. V2 rule: verb is always position 2."
+                    }
+                  ],
+                  "explanation": "V2 rule: the conjugated verb is ALWAYS position 2. When something other than the subject comes first, the subject moves to position 3.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-present-l1-ex3",
+                  "lessonId": "a1-grammar-present-tense-lesson-1",
+                  "type": "true-false",
+                  "instruction": "True or False?",
+                  "question": "'Morgen fahre ich nach Berlin' uses PrÃ¤sens to express a future action.",
+                  "options": [
+                    {
+                      "id": "true",
+                      "text": "True",
+                      "isCorrect": true,
+                      "explanation": "Correct! German uses PrÃ¤sens for the near future when a time marker (like 'morgen') makes the future meaning clear."
+                    },
+                    {
+                      "id": "false",
+                      "text": "False",
+                      "isCorrect": false,
+                      "explanation": "Actually true â€” this is PrÃ¤sens use #4. 'Morgen' signals the future, so PrÃ¤sens works perfectly."
+                    }
+                  ],
+                  "explanation": "PrÃ¤sens use #4: near future with a time marker. Morgen fahre ich nach Berlin = Tomorrow I am going to Berlin.",
+                  "order": 3
+                },
+                {
+                  "id": "a1-present-l1-ex4",
+                  "lessonId": "a1-grammar-present-tense-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Which use of PrÃ¤sens is this?",
+                  "question": "Die Erde ist rund. (The earth is round.)",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Current action happening right now",
+                      "isCorrect": false,
+                      "explanation": "The earth being round is not a current action â€” it is always true."
+                    },
+                    {
+                      "id": "b",
+                      "text": "A habit or repeated action",
+                      "isCorrect": false,
+                      "explanation": "Habits involve a person doing something regularly. This is a universal truth."
+                    },
+                    {
+                      "id": "c",
+                      "text": "A general fact / universal truth",
+                      "isCorrect": true,
+                      "explanation": "Correct! Die Erde ist rund is a permanent, universal fact â€” PrÃ¤sens use #3."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Near future",
+                      "isCorrect": false,
+                      "explanation": "No time marker for future here â€” the earth being round is a timeless truth."
+                    }
+                  ],
+                  "explanation": "PrÃ¤sens use #3: general facts. Die Erde ist rund â€” always true, no time reference needed.",
+                  "order": 4
+                }
+              ]
+            },
+            {
+              "id": "a1-grammar-present-tense-lesson-2",
+              "topicId": "a1-grammar-present-tense",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "Regular Verb Conjugation â€” Stamm + Endung",
+              "shortDescription": "Learn the system behind regular German verb conjugation: remove -en from any infinitive to get the Stamm, then add the correct Endung for each subject.",
+              "order": 2,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Der Infinitiv â€” The Base Form of Every Verb",
+                  "content": "Every German verb has an infinitive â€” its base, unconjugated form. German infinitives almost always end in -en (lernen, machen, fahren) or occasionally just -n (sammeln, wandern). In a dictionary, verbs are always listed in the infinitive. When you use a verb in a sentence, you must conjugate it â€” change it to match the subject."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Stamm and Endung â€” The Two Parts of Every Regular Verb",
+                  "content": "To conjugate a regular German verb, split the infinitive into two parts: Stamm (stem â€” the root that carries the meaning and stays constant) and Endung (ending â€” what changes depending on the subject). The formula is: Infinitiv minus -en = Stamm. Then add the correct ending for the subject. Example: lernen â†’ lern (Stamm) + correct ending."
+                },
+                {
+                  "type": "table",
+                  "title": "The Standard Personal Endings (PrÃ¤sens)",
+                  "headers": [
+                    "Subject pronoun",
+                    "Ending",
+                    "English meaning"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "-e",
+                      "I"
+                    ],
+                    [
+                      "du",
+                      "-st",
+                      "you (informal singular)"
+                    ],
+                    [
+                      "er / sie / es",
+                      "-t",
+                      "he / she / it"
+                    ],
+                    [
+                      "wir",
+                      "-en",
+                      "we"
+                    ],
+                    [
+                      "ihr",
+                      "-t",
+                      "you (informal plural)"
+                    ],
+                    [
+                      "sie / Sie",
+                      "-en",
+                      "they / you (formal)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "lernen â€” Model Regular Verb (Stamm: lern-)",
+                  "headers": [
+                    "Subject",
+                    "Stamm",
+                    "Endung",
+                    "Form",
+                    "English"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "lern",
+                      "-e",
+                      "lerne",
+                      "I learn / I am learning"
+                    ],
+                    [
+                      "du",
+                      "lern",
+                      "-st",
+                      "lernst",
+                      "you learn"
+                    ],
+                    [
+                      "er / sie / es",
+                      "lern",
+                      "-t",
+                      "lernt",
+                      "he / she / it learns"
+                    ],
+                    [
+                      "wir",
+                      "lern",
+                      "-en",
+                      "lernen",
+                      "we learn"
+                    ],
+                    [
+                      "ihr",
+                      "lern",
+                      "-t",
+                      "lernt",
+                      "you (pl.) learn"
+                    ],
+                    [
+                      "sie / Sie",
+                      "lern",
+                      "-en",
+                      "lernen",
+                      "they / you (formal) learn"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "Two More Regular Verbs: machen and kaufen",
+                  "headers": [
+                    "Subject",
+                    "machen (to do/make)",
+                    "kaufen (to buy)"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "mache",
+                      "kaufe"
+                    ],
+                    [
+                      "du",
+                      "machst",
+                      "kaufst"
+                    ],
+                    [
+                      "er / sie / es",
+                      "macht",
+                      "kauft"
+                    ],
+                    [
+                      "wir",
+                      "machen",
+                      "kaufen"
+                    ],
+                    [
+                      "ihr",
+                      "macht",
+                      "kauft"
+                    ],
+                    [
+                      "sie / Sie",
+                      "machen",
+                      "kaufen"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Special Case: Verbs Ending in -ten and -den",
+                  "content": "When the Stamm ends in -t or -d (arbeit-, find-, red-), an extra -e is inserted before the endings -st and -t to make pronunciation possible. Without it, 'arbeittest' would be unpronounceable. So: arbeiten â†’ du arbeitest (not 'arbeitst'), er arbeitet (not 'arbeitt'). Similarly: finden â†’ du findest, er findet."
+                },
+                {
+                  "type": "table",
+                  "title": "arbeiten â€” Verb with -t Stem (Extra -e Inserted)",
+                  "headers": [
+                    "Subject",
+                    "Form",
+                    "Note"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "arbeite",
+                      "regular -e ending"
+                    ],
+                    [
+                      "du",
+                      "arbeitest",
+                      "extra -e inserted before -st"
+                    ],
+                    [
+                      "er / sie / es",
+                      "arbeitet",
+                      "extra -e inserted before -t"
+                    ],
+                    [
+                      "wir",
+                      "arbeiten",
+                      "regular -en ending"
+                    ],
+                    [
+                      "ihr",
+                      "arbeitet",
+                      "extra -e inserted before -t"
+                    ],
+                    [
+                      "sie / Sie",
+                      "arbeiten",
+                      "regular -en ending"
+                    ]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Regular Verbs in Real Sentences",
+                  "content": "Ich spiele FuÃŸball. (I play football.) | Du kaufst das Buch. (You are buying the book.) | Er macht die Hausaufgaben. (He does the homework.) | Wir lernen jeden Tag Deutsch. (We learn German every day.) | Ihr arbeitet viel zu viel! (You work way too much!)"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "lernen",
+                  "english": "to learn",
+                  "example": "Ich lerne jeden Tag. (I learn every day.)"
+                },
+                {
+                  "german": "machen",
+                  "english": "to do / to make",
+                  "example": "Er macht die Arbeit. (He does the work.)"
+                },
+                {
+                  "german": "spielen",
+                  "english": "to play",
+                  "example": "Wir spielen FuÃŸball. (We play football.)"
+                },
+                {
+                  "german": "kaufen",
+                  "english": "to buy",
+                  "example": "Sie kauft ein Buch. (She buys a book.)"
+                },
+                {
+                  "german": "arbeiten",
+                  "english": "to work",
+                  "example": "Ihr arbeitet heute? (Are you working today?)"
+                },
+                {
+                  "german": "fragen",
+                  "english": "to ask",
+                  "example": "Ich frage den Lehrer. (I ask the teacher.)"
+                },
+                {
+                  "german": "wohnen",
+                  "english": "to live / reside",
+                  "example": "Er wohnt in MÃ¼nchen. (He lives in Munich.)"
+                },
+                {
+                  "german": "kommen",
+                  "english": "to come",
+                  "example": "Sie kommen morgen. (They are coming tomorrow.)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-present-l2-ex1",
+                  "lessonId": "a1-grammar-present-tense-lesson-2",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct PrÃ¤sens form.",
+                  "question": "Du ___ jeden Tag Deutsch. (You learn German every day.) [lernen]",
+                  "correctAnswer": "lernst",
+                  "hint": "Stamm: lern- + ending for 'du' = ?",
+                  "explanation": "lernen â†’ Stamm: lern- + du ending (-st) = lernst. Du lernst jeden Tag Deutsch.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-present-l2-ex2",
+                  "lessonId": "a1-grammar-present-tense-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct form.",
+                  "question": "What is the correct conjugation of 'arbeiten' for 'er'?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "er arbeitt",
+                      "isCorrect": false,
+                      "explanation": "Not a real German form. The stem 'arbeit-' ends in -t, so an extra -e is inserted before the personal ending."
+                    },
+                    {
+                      "id": "b",
+                      "text": "er arbeitet",
+                      "isCorrect": true,
+                      "explanation": "Correct! arbeit- + extra -e + -t = arbeitet. The -e is inserted because the stem ends in -t."
+                    },
+                    {
+                      "id": "c",
+                      "text": "er arbeit",
+                      "isCorrect": false,
+                      "explanation": "Missing the personal ending entirely. The form is: arbeit + e + t = arbeitet."
+                    },
+                    {
+                      "id": "d",
+                      "text": "er arbeite",
+                      "isCorrect": false,
+                      "explanation": "That is the ich form (arbeit + -e). For er/sie/es, the ending is -(e)t."
+                    }
+                  ],
+                  "explanation": "Verbs with a stem ending in -t or -d insert an extra -e before -st and -t: du arbeitest, er arbeitet.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-present-l2-ex3",
+                  "lessonId": "a1-grammar-present-tense-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "What is the Stamm (stem) of the verb 'spielen'?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "spielen",
+                      "isCorrect": false,
+                      "explanation": "That is the full infinitive. The Stamm is what you get after removing -en."
+                    },
+                    {
+                      "id": "b",
+                      "text": "spiel",
+                      "isCorrect": true,
+                      "explanation": "Correct! spielen minus -en = spiel. All conjugations are built on this stem."
+                    },
+                    {
+                      "id": "c",
+                      "text": "spiele",
+                      "isCorrect": false,
+                      "explanation": "That is the ich form (spiel + -e). The Stamm itself is just 'spiel'."
+                    },
+                    {
+                      "id": "d",
+                      "text": "spielt",
+                      "isCorrect": false,
+                      "explanation": "That is the er/sie/es form (spiel + -t). The Stamm is just 'spiel'."
+                    }
+                  ],
+                  "explanation": "Stamm = Infinitiv minus -en. spielen â†’ spiel. Then: ich spiele, du spielst, er spielt, wir spielen, ihr spielt, sie spielen.",
+                  "order": 3
+                },
+                {
+                  "id": "a1-present-l2-ex4",
+                  "lessonId": "a1-grammar-present-tense-lesson-2",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct form of 'machen'.",
+                  "question": "Ihr ___ heute Hausaufgaben. (You are doing homework today.)",
+                  "correctAnswer": "macht",
+                  "hint": "Stamm: mach- + ending for 'ihr' = ?",
+                  "explanation": "machen â†’ Stamm: mach- + ihr ending (-t) = macht. Note: ihr and er/sie/es both use -t; the subject makes the meaning clear.",
+                  "order": 4
+                }
+              ]
+            },
+            {
+              "id": "a1-grammar-present-tense-lesson-3",
+              "topicId": "a1-grammar-present-tense",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "Irregular Verbs â€” Stem Vowel Changes",
+              "shortDescription": "Many high-frequency German verbs change their stem vowel in the du and er/sie/es forms. Learn the three patterns: aâ†’Ã¤, eâ†’ie, and eâ†’i.",
+              "order": 3,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "UnregelmÃ¤ÃŸige Verben â€” What Makes a Verb Irregular",
+                  "content": "Irregular (unregelmÃ¤ÃŸig) verbs use the same personal endings as regular verbs â€” the endings themselves (-e, -st, -t, -en, -t, -en) do not change. What changes is the vowel inside the stem, but only for the second person singular (du) and third person singular (er/sie/es). The other four forms â€” ich, wir, ihr, sie/Sie â€” keep the original stem vowel and conjugate exactly like regular verbs."
+                },
+                {
+                  "type": "table",
+                  "title": "The Three Main Stem Vowel Change Patterns",
+                  "headers": [
+                    "Change type",
+                    "Affects",
+                    "Example infinitive",
+                    "du form",
+                    "er/sie/es form"
+                  ],
+                  "rows": [
+                    [
+                      "a â†’ Ã¤",
+                      "du and er/sie/es only",
+                      "fahren",
+                      "fÃ¤hrst",
+                      "fÃ¤hrt"
+                    ],
+                    [
+                      "e â†’ ie",
+                      "du and er/sie/es only",
+                      "lesen",
+                      "liest",
+                      "liest"
+                    ],
+                    [
+                      "e â†’ i",
+                      "du and er/sie/es only",
+                      "sprechen",
+                      "sprichst",
+                      "spricht"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "fahren (aâ†’Ã¤) â€” Full Conjugation",
+                  "headers": [
+                    "Subject",
+                    "Form",
+                    "English"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "fahre",
+                      "I drive / go â€” original stem, no change"
+                    ],
+                    [
+                      "du",
+                      "fÃ¤hrst",
+                      "you drive â€” aâ†’Ã¤ change"
+                    ],
+                    [
+                      "er / sie / es",
+                      "fÃ¤hrt",
+                      "he/she/it drives â€” aâ†’Ã¤ change"
+                    ],
+                    [
+                      "wir",
+                      "fahren",
+                      "we drive â€” original stem, no change"
+                    ],
+                    [
+                      "ihr",
+                      "fahrt",
+                      "you (pl.) drive â€” original stem, no change"
+                    ],
+                    [
+                      "sie / Sie",
+                      "fahren",
+                      "they/you (formal) drive â€” no change"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Only du and er/sie/es Change â€” All Others Stay Regular",
+                  "content": "This is the most important thing to remember: only the du form and the er/sie/es form get the changed vowel. All other forms â€” ich, wir, ihr, sie/Sie â€” use the original stem and follow the normal pattern. You only need to memorize two special forms per verb, not six."
+                },
+                {
+                  "type": "table",
+                  "title": "lesen (eâ†’ie) and sprechen (eâ†’i) â€” Full Conjugations",
+                  "headers": [
+                    "Subject",
+                    "lesen (to read)",
+                    "sprechen (to speak)"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "lese",
+                      "spreche"
+                    ],
+                    [
+                      "du",
+                      "liest â† eâ†’ie",
+                      "sprichst â† eâ†’i"
+                    ],
+                    [
+                      "er / sie / es",
+                      "liest â† eâ†’ie",
+                      "spricht â† eâ†’i"
+                    ],
+                    [
+                      "wir",
+                      "lesen",
+                      "sprechen"
+                    ],
+                    [
+                      "ihr",
+                      "lest",
+                      "sprecht"
+                    ],
+                    [
+                      "sie / Sie",
+                      "lesen",
+                      "sprechen"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "Common Irregular Verbs â€” Quick Reference",
+                  "headers": [
+                    "Infinitive",
+                    "English",
+                    "Change",
+                    "du form",
+                    "er/sie/es form"
+                  ],
+                  "rows": [
+                    [
+                      "fahren",
+                      "to drive / go",
+                      "a â†’ Ã¤",
+                      "fÃ¤hrst",
+                      "fÃ¤hrt"
+                    ],
+                    [
+                      "schlafen",
+                      "to sleep",
+                      "a â†’ Ã¤",
+                      "schlÃ¤fst",
+                      "schlÃ¤ft"
+                    ],
+                    [
+                      "laufen",
+                      "to run / walk",
+                      "au â†’ Ã¤u",
+                      "lÃ¤ufst",
+                      "lÃ¤uft"
+                    ],
+                    [
+                      "lesen",
+                      "to read",
+                      "e â†’ ie",
+                      "liest",
+                      "liest"
+                    ],
+                    [
+                      "sehen",
+                      "to see",
+                      "e â†’ ie",
+                      "siehst",
+                      "sieht"
+                    ],
+                    [
+                      "sprechen",
+                      "to speak",
+                      "e â†’ i",
+                      "sprichst",
+                      "spricht"
+                    ],
+                    [
+                      "geben",
+                      "to give",
+                      "e â†’ i",
+                      "gibst",
+                      "gibt"
+                    ],
+                    [
+                      "nehmen",
+                      "to take",
+                      "e â†’ i (special)",
+                      "nimmst",
+                      "nimmt"
+                    ],
+                    [
+                      "essen",
+                      "to eat",
+                      "e â†’ i (special)",
+                      "isst",
+                      "isst"
+                    ]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "nehmen and essen Are Extra Irregular",
+                  "content": "nehmen and essen go beyond a simple vowel swap: nehmen â†’ du nimmst, er nimmt (the entire consonant cluster changes). essen â†’ du isst, er isst (the -ss merges with the -st ending). Both must be memorized individually â€” they cannot be predicted from the pattern alone. Both are extremely high-frequency verbs."
+                },
+                {
+                  "type": "example",
+                  "title": "Irregular Verbs in Natural Sentences",
+                  "content": "Ich fahre nach Berlin. (I am going to Berlin.) vs. Du fÃ¤hrst nach Berlin. (You are going to Berlin.) | Er liest ein Buch. (He is reading a book.) | Sie spricht sehr gut Deutsch! (She speaks German very well!) | Was isst du gern? (What do you like to eat?) | Er nimmt den Bus. (He takes the bus.)"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "fahren",
+                  "english": "to drive / go (by vehicle)",
+                  "example": "Ich fahre nach Berlin. Du fÃ¤hrst auch?"
+                },
+                {
+                  "german": "schlafen",
+                  "english": "to sleep",
+                  "example": "Er schlÃ¤ft bis 10 Uhr. (He sleeps until 10 o'clock.)"
+                },
+                {
+                  "german": "laufen",
+                  "english": "to run / walk",
+                  "example": "Sie lÃ¤uft jeden Morgen. (She runs every morning.)"
+                },
+                {
+                  "german": "lesen",
+                  "english": "to read",
+                  "example": "Er liest jeden Abend. (He reads every evening.)"
+                },
+                {
+                  "german": "sehen",
+                  "english": "to see",
+                  "example": "Siehst du das? (Do you see that?)"
+                },
+                {
+                  "german": "sprechen",
+                  "english": "to speak",
+                  "example": "Sie spricht drei Sprachen. (She speaks three languages.)"
+                },
+                {
+                  "german": "nehmen",
+                  "english": "to take",
+                  "example": "Er nimmt die U-Bahn. (He takes the underground.)"
+                },
+                {
+                  "german": "geben",
+                  "english": "to give",
+                  "example": "Was gibst du mir? (What are you giving me?)"
+                },
+                {
+                  "german": "essen",
+                  "english": "to eat",
+                  "example": "Was isst du gern? (What do you like to eat?)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-present-l3-ex1",
+                  "lessonId": "a1-grammar-present-tense-lesson-3",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct form of 'lesen'.",
+                  "question": "Er ___ ein Buch. (He is reading a book.)",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "lest",
+                      "isCorrect": false,
+                      "explanation": "lest is the ihr form. For er/sie/es, lesen has the eâ†’ie change."
+                    },
+                    {
+                      "id": "b",
+                      "text": "lesen",
+                      "isCorrect": false,
+                      "explanation": "lesen is the infinitive or wir/sie form, not the er form."
+                    },
+                    {
+                      "id": "c",
+                      "text": "liest",
+                      "isCorrect": true,
+                      "explanation": "Correct! lesen â†’ eâ†’ie for er/sie/es: liest. Er liest ein Buch."
+                    },
+                    {
+                      "id": "d",
+                      "text": "lese",
+                      "isCorrect": false,
+                      "explanation": "lese is the ich form. For er/sie/es the vowel changes: eâ†’ie â†’ liest."
+                    }
+                  ],
+                  "explanation": "lesen is an eâ†’ie irregular verb. Only du and er/sie/es get the changed vowel: du liest, er liest.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-present-l3-ex2",
+                  "lessonId": "a1-grammar-present-tense-lesson-3",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct form of 'fahren'.",
+                  "question": "Du ___ morgen nach Wien. (You are going to Vienna tomorrow.)",
+                  "correctAnswer": "fÃ¤hrst",
+                  "hint": "fahren: aâ†’Ã¤ change for du. Stem changes to fÃ¤hr-, then add the du ending -st.",
+                  "explanation": "fahren â†’ aâ†’Ã¤ for du: fÃ¤hr- + -st = fÃ¤hrst. Du fÃ¤hrst morgen nach Wien.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-present-l3-ex3",
+                  "lessonId": "a1-grammar-present-tense-lesson-3",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "Which forms of a stem-vowel irregular verb get the changed vowel?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "All six forms change",
+                      "isCorrect": false,
+                      "explanation": "Only two forms change â€” the rest stay with the original stem vowel."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Only ich changes",
+                      "isCorrect": false,
+                      "explanation": "The ich form never changes in stem-vowel irregular verbs."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Only du and er/sie/es change",
+                      "isCorrect": true,
+                      "explanation": "Correct! Only the 2nd and 3rd person singular get the changed vowel. All other forms keep the original stem."
+                    },
+                    {
+                      "id": "d",
+                      "text": "wir, ihr, sie/Sie all change",
+                      "isCorrect": false,
+                      "explanation": "These plural forms always keep the original stem vowel."
+                    }
+                  ],
+                  "explanation": "Stem vowel changes apply ONLY to du and er/sie/es. Ich, wir, ihr, sie/Sie always use the original stem.",
+                  "order": 3
+                }
+              ]
+            },
+            {
+              "id": "a1-grammar-present-tense-lesson-4",
+              "topicId": "a1-grammar-present-tense",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "sein and haben â€” The Two Essential Verbs",
+              "shortDescription": "sein (to be) and haben (to have) are completely irregular and must be memorized â€” they appear in every single German conversation and form the basis of all past tenses.",
+              "order": 4,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Why sein and haben Are Special",
+                  "content": "sein and haben are the two highest-frequency verbs in German. They are completely irregular â€” they do not follow the Stamm + Endung pattern at all and must be memorized directly. Beyond their standalone meanings (to be, to have), they are the two auxiliary verbs used to form the Perfekt (conversational past tense), making them even more essential. Every single German conversation uses both of these verbs multiple times."
+                },
+                {
+                  "type": "table",
+                  "title": "sein â€” Full PrÃ¤sens Conjugation",
+                  "headers": [
+                    "Subject",
+                    "Form",
+                    "English",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "bin",
+                      "I am",
+                      "Ich bin mÃ¼de. (I am tired.)"
+                    ],
+                    [
+                      "du",
+                      "bist",
+                      "you are",
+                      "Bist du sicher? (Are you sure?)"
+                    ],
+                    [
+                      "er / sie / es",
+                      "ist",
+                      "he / she / it is",
+                      "Er ist Arzt. (He is a doctor.)"
+                    ],
+                    [
+                      "wir",
+                      "sind",
+                      "we are",
+                      "Wir sind hier. (We are here.)"
+                    ],
+                    [
+                      "ihr",
+                      "seid",
+                      "you (pl.) are",
+                      "Ihr seid laut! (You are loud!)"
+                    ],
+                    [
+                      "sie / Sie",
+                      "sind",
+                      "they / you (formal) are",
+                      "Sie sind nett. (They are nice.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "haben â€” Full PrÃ¤sens Conjugation",
+                  "headers": [
+                    "Subject",
+                    "Form",
+                    "English",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "habe",
+                      "I have",
+                      "Ich habe ein Auto. (I have a car.)"
+                    ],
+                    [
+                      "du",
+                      "hast",
+                      "you have",
+                      "Hast du Zeit? (Do you have time?)"
+                    ],
+                    [
+                      "er / sie / es",
+                      "hat",
+                      "he / she / it has",
+                      "Er hat Hunger. (He is hungry.)"
+                    ],
+                    [
+                      "wir",
+                      "haben",
+                      "we have",
+                      "Wir haben eine Frage. (We have a question.)"
+                    ],
+                    [
+                      "ihr",
+                      "habt",
+                      "you (pl.) have",
+                      "Ihr habt GlÃ¼ck! (You are lucky!)"
+                    ],
+                    [
+                      "sie / Sie",
+                      "haben",
+                      "they / you (formal) have",
+                      "Sie haben Recht. (They are right.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "haben for Physical and Emotional States",
+                  "content": "German uses haben (to have) for many states that English expresses with 'to be': Ich habe Hunger. (I am hungry â€” literally 'I have hunger'). Ich habe Durst. (I am thirsty). Ich habe Angst. (I am afraid). Ich habe Lust. (I feel like it). Ich habe Recht. (I am right). Ich habe GlÃ¼ck. (I am lucky). These are fixed expressions â€” do not substitute sein for haben in these phrases."
+                },
+                {
+                  "type": "table",
+                  "title": "Common Mistakes and Their Corrections",
+                  "headers": [
+                    "Wrong",
+                    "Why wrong",
+                    "Correct"
+                  ],
+                  "rows": [
+                    [
+                      "Ich lernen Deutsch.",
+                      "Infinitive used â€” verb must match subject",
+                      "Ich lerne Deutsch."
+                    ],
+                    [
+                      "Du lernen Deutsch.",
+                      "Infinitive used â€” du requires -st ending",
+                      "Du lernst Deutsch."
+                    ],
+                    [
+                      "Heute ich gehe zur Arbeit.",
+                      "V2 rule broken â€” verb must be position 2",
+                      "Heute gehe ich zur Arbeit."
+                    ],
+                    [
+                      "Ich bin Hunger.",
+                      "sein used for a haben-state",
+                      "Ich habe Hunger."
+                    ],
+                    [
+                      "Er ist ein Auto.",
+                      "sein used for possession â€” use haben",
+                      "Er hat ein Auto."
+                    ]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "PrÃ¤sens â€” Complete Summary",
+                  "content": "You now have all the tools for German PrÃ¤sens: 1) Regular verbs: Stamm + correct Endung (-e, -st, -t, -en, -t, -en). 2) Verbs with -t/-d stems: insert an extra -e before -st and -t. 3) Stem-vowel irregular verbs: only du and er/sie/es change (aâ†’Ã¤, eâ†’ie, eâ†’i). 4) sein and haben: fully irregular, memorize directly. 5) V2 rule: the conjugated verb is always position 2, no exceptions."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "sein",
+                  "english": "to be",
+                  "example": "Ich bin mÃ¼de. Du bist nett. Er ist hier."
+                },
+                {
+                  "german": "haben",
+                  "english": "to have",
+                  "example": "Ich habe Zeit. Er hat Hunger. Wir haben GlÃ¼ck."
+                },
+                {
+                  "german": "mÃ¼de",
+                  "english": "tired",
+                  "example": "Ich bin mÃ¼de. (I am tired.)"
+                },
+                {
+                  "german": "Hunger",
+                  "english": "hunger / being hungry",
+                  "article": "der",
+                  "example": "Er hat Hunger. (He is hungry.)"
+                },
+                {
+                  "german": "Durst",
+                  "english": "thirst / being thirsty",
+                  "article": "der",
+                  "example": "Ich habe Durst. (I am thirsty.)"
+                },
+                {
+                  "german": "Angst",
+                  "english": "fear / being afraid",
+                  "article": "die",
+                  "example": "Sie hat Angst. (She is afraid.)"
+                },
+                {
+                  "german": "Recht",
+                  "english": "right / being correct",
+                  "article": "das",
+                  "example": "Du hast Recht! (You are right!)"
+                },
+                {
+                  "german": "GlÃ¼ck",
+                  "english": "luck / being lucky",
+                  "article": "das",
+                  "example": "Ihr habt GlÃ¼ck! (You are lucky!)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-present-l4-ex1",
+                  "lessonId": "a1-grammar-present-tense-lesson-4",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct form of 'sein'.",
+                  "question": "Wir ___ heute sehr mÃ¼de. (We are very tired today.)",
+                  "correctAnswer": "sind",
+                  "hint": "sein is completely irregular. What is the wir form?",
+                  "explanation": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. The wir form is sind.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-present-l4-ex2",
+                  "lessonId": "a1-grammar-present-tense-lesson-4",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct translation.",
+                  "question": "How do you say 'He is hungry' in German?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Er ist Hunger.",
+                      "isCorrect": false,
+                      "explanation": "German uses haben for physical states like hunger, not sein."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Er hat hungrig.",
+                      "isCorrect": false,
+                      "explanation": "Close but wrong. In German: Er hat Hunger (noun) â€” not 'hat hungrig' (adjective with haben)."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Er hat Hunger.",
+                      "isCorrect": true,
+                      "explanation": "Correct! Hunger is a noun in German. 'He has hunger' = Er hat Hunger = He is hungry."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Er ist hungrig.",
+                      "isCorrect": false,
+                      "explanation": "Er ist hungrig exists but is less natural. The common idiomatic expression is always Er hat Hunger."
+                    }
+                  ],
+                  "explanation": "Physical states in German use haben: Hunger haben (be hungry), Durst haben (be thirsty), Angst haben (be afraid), GlÃ¼ck haben (be lucky).",
+                  "order": 2
+                },
+                {
+                  "id": "a1-present-l4-ex3",
+                  "lessonId": "a1-grammar-present-tense-lesson-4",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct form of 'haben'.",
+                  "question": "Ihr ___ viel GlÃ¼ck! (You are very lucky!)",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "habt",
+                      "isCorrect": true,
+                      "explanation": "Correct! haben for ihr: habt. Ihr habt viel GlÃ¼ck!"
+                    },
+                    {
+                      "id": "b",
+                      "text": "haben",
+                      "isCorrect": false,
+                      "explanation": "haben is the wir/sie/Sie form. The ihr form is habt."
+                    },
+                    {
+                      "id": "c",
+                      "text": "hat",
+                      "isCorrect": false,
+                      "explanation": "hat is the er/sie/es form. The ihr form is habt."
+                    },
+                    {
+                      "id": "d",
+                      "text": "hast",
+                      "isCorrect": false,
+                      "explanation": "hast is the du form. The ihr form is habt."
+                    }
+                  ],
+                  "explanation": "haben: ich habe, du hast, er hat, wir haben, ihr habt, sie/Sie haben. The ihr form is habt.",
+                  "order": 3
+                },
+                {
+                  "id": "a1-present-l4-ex4",
+                  "lessonId": "a1-grammar-present-tense-lesson-4",
+                  "type": "true-false",
+                  "instruction": "True or False?",
+                  "question": "'Heute ich arbeite' is a correct German sentence.",
+                  "options": [
+                    {
+                      "id": "true",
+                      "text": "True",
+                      "isCorrect": false,
+                      "explanation": "Wrong! This breaks the V2 rule. After 'Heute' (position 1), the verb must be position 2: Heute arbeite ich."
+                    },
+                    {
+                      "id": "false",
+                      "text": "False",
+                      "isCorrect": true,
+                      "explanation": "Correct â€” it is wrong! V2 rule: Heute (pos. 1) + arbeite (pos. 2) + ich (pos. 3) â†’ Heute arbeite ich."
+                    }
+                  ],
+                  "explanation": "V2 rule: verb is always position 2. When 'Heute' starts the sentence, the subject 'ich' moves after the verb: Heute arbeite ich.",
+                  "order": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-sentence-structure",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Sentence Structure",
+          "description": "Understand German word order: Subject-Verb-Object and verb-second rule",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 3,
+          "tags": [
+            "word-order",
+            "syntax",
+            "basics"
+          ],
+          "prerequisites": [
+            "a1-grammar-present-tense"
+          ],
+          "lessons": [
+            {
+              "id": "a1-grammar-sentence-structure-lesson-1",
+              "topicId": "a1-grammar-sentence-structure",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "Verb Position: Main Clauses, Questions, and TeKaMoLo",
+              "shortDescription": "Master German word order: verb in position 2 in statements, verb-first yes/no questions, W-questions, and the TeKaMoLo order for long sentences.",
+              "order": 1,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Core Rule: The Conjugated Verb in Position 2",
+                  "content": "In German main clauses, the conjugated verb is always in position 2. Even when a time or place expression starts the sentence, the verb stays in position 2 and the subject moves after it. Example: Morgen gehe ich zum Arzt. (Tomorrow I go to the doctor.)"
+                },
+                {
+                  "type": "table",
+                  "title": "Statement Word Order (V2)",
+                  "headers": [
+                    "Type",
+                    "German",
+                    "English",
+                    "Why"
+                  ],
+                  "rows": [
+                    [
+                      "Subject first",
+                      "Ich gehe morgen zum Arzt.",
+                      "I go to the doctor tomorrow.",
+                      "Verb is position 2"
+                    ],
+                    [
+                      "Time first",
+                      "Morgen gehe ich zum Arzt.",
+                      "Tomorrow I go to the doctor.",
+                      "Verb still position 2"
+                    ],
+                    [
+                      "Place first",
+                      "In Berlin arbeite ich morgen.",
+                      "In Berlin I work tomorrow.",
+                      "Verb still position 2"
+                    ]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "Yes/No Questions: Verb Comes First",
+                  "content": "In yes/no questions (questions answered with yes or no), the conjugated verb comes first. Example: Kommst du morgen? (Are you coming tomorrow?)"
+                },
+                {
+                  "type": "table",
+                  "title": "Question Word Order",
+                  "headers": [
+                    "Question type",
+                    "Formula",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "Yes/No",
+                      "Verb + Subject + ...",
+                      "Kommst du morgen?"
+                    ],
+                    [
+                      "W-question",
+                      "W-word + Verb + Subject + ...",
+                      "Wann kommst du?"
+                    ],
+                    [
+                      "W-question (place)",
+                      "Wo + Verb + Subject + ...",
+                      "Wo wohnst du?"
+                    ]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "TeKaMoLo for Longer Sentences",
+                  "content": "In longer German sentences, information often follows this order: TeKaMoLo = Temporal (time) + Kausal (reason) + Modal (how/by what method) + Lokal (place). This helps your sentences sound natural and organized."
+                },
+                {
+                  "type": "table",
+                  "title": "TeKaMoLo Example Analysis",
+                  "headers": [
+                    "Element",
+                    "German part",
+                    "Meaning"
+                  ],
+                  "rows": [
+                    [
+                      "Te (time)",
+                      "Heute",
+                      "today"
+                    ],
+                    [
+                      "Verb (position 2)",
+                      "muss",
+                      "must"
+                    ],
+                    [
+                      "Subject",
+                      "ich",
+                      "I"
+                    ],
+                    [
+                      "Ka (reason)",
+                      "wegen seiner PrÃ¼fung",
+                      "because of his exam"
+                    ],
+                    [
+                      "Mo (method)",
+                      "mit dem Auto",
+                      "by car"
+                    ],
+                    [
+                      "Lo (place)",
+                      "in die UniversitÃ¤t",
+                      "to the university"
+                    ]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Complete Example",
+                  "content": "Heute muss ich meinem Freund das Buch wegen seiner PrÃ¼fung mit dem Auto in die UniversitÃ¤t nicht bringen. (Today I do not have to bring the book to my friend to the university by car because of his exam.)"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "morgen",
+                  "english": "tomorrow",
+                  "example": "Morgen gehe ich zum Arzt."
+                },
+                {
+                  "german": "wann",
+                  "english": "when",
+                  "example": "Wann kommst du?"
+                },
+                {
+                  "german": "kommen",
+                  "english": "to come",
+                  "example": "Kommst du morgen?"
+                },
+                {
+                  "german": "gehen",
+                  "english": "to go",
+                  "example": "Ich gehe zum Arzt."
+                },
+                {
+                  "german": "zum Arzt",
+                  "english": "to the doctor",
+                  "example": "Morgen gehe ich zum Arzt."
+                },
+                {
+                  "german": "wegen",
+                  "english": "because of",
+                  "example": "wegen seiner PrÃ¼fung"
+                },
+                {
+                  "german": "mit dem Auto",
+                  "english": "by car",
+                  "example": "Ich fahre mit dem Auto."
+                },
+                {
+                  "german": "in die UniversitÃ¤t",
+                  "english": "to the university",
+                  "example": "Er geht in die UniversitÃ¤t."
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-structure-l1-ex1",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct sentence.",
+                  "question": "How do you say: 'Tomorrow I go to the doctor'?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Morgen ich gehe zum Arzt.",
+                      "isCorrect": false,
+                      "explanation": "Wrong. In main clauses, the conjugated verb must be in position 2."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Morgen gehe ich zum Arzt.",
+                      "isCorrect": true,
+                      "explanation": "Correct. Time element in position 1, verb in position 2, subject after verb."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich morgen gehe zum Arzt.",
+                      "isCorrect": false,
+                      "explanation": "Unnatural order. Verb should remain in position 2."
+                    }
+                  ],
+                  "explanation": "V2 rule: position 1 can change, but the conjugated verb stays in position 2.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-structure-l1-ex2",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct yes/no question.",
+                  "question": "Are you coming tomorrow?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Du kommst morgen?",
+                      "isCorrect": false,
+                      "explanation": "Possible in spoken surprise intonation, but not standard yes/no question form for beginners."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Kommst du morgen?",
+                      "isCorrect": true,
+                      "explanation": "Correct. Yes/no questions put the verb first."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Morgen kommst du?",
+                      "isCorrect": false,
+                      "explanation": "This is marked/colloquial and not the standard pattern taught at A1."
+                    }
+                  ],
+                  "explanation": "Yes/no question formula: Verb + Subject + ...",
+                  "order": 2
+                },
+                {
+                  "id": "a1-structure-l1-ex3",
+                  "lessonId": "a1-grammar-sentence-structure-lesson-1",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct word order.",
+                  "question": "Wann ___ du? (When are you coming?)",
+                  "correctAnswer": "kommst",
+                  "hint": "W-question pattern: W-word + verb + subject.",
+                  "explanation": "W-questions keep the verb in position 2: Wann kommst du?",
+                  "order": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-nominativ",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Nominativ (Subject Case)",
+          "description": "The nominative case: who or what performs the action",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 4,
+          "tags": [
+            "cases",
+            "nominativ",
+            "articles"
+          ],
+          "prerequisites": [
+            "a1-grammar-sentence-structure"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a1-grammar-akkusativ",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Akkusativ (Direct Object)",
+          "description": "The accusative case: who or what receives the action",
+          "difficulty": 3,
+          "estimatedMinutes": 25,
+          "order": 5,
+          "tags": [
+            "cases",
+            "akkusativ",
+            "articles"
+          ],
+          "prerequisites": [
+            "a1-grammar-nominativ"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a1-grammar-dativ-intro",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Dativ Introduction",
+          "description": "Introduction to the dative case: indirect objects and common prepositions",
+          "difficulty": 3,
+          "estimatedMinutes": 30,
+          "order": 6,
+          "tags": [
+            "cases",
+            "dativ",
+            "prepositions"
+          ],
+          "prerequisites": [
+            "a1-grammar-akkusativ"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a1-grammar-articles",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Definite & Indefinite Articles",
+          "description": "der, die, das / ein, eine â€” German grammatical gender and articles",
+          "difficulty": 2,
+          "estimatedMinutes": 25,
+          "order": 7,
+          "tags": [
+            "articles",
+            "gender",
+            "der-die-das"
+          ],
+          "prerequisites": [
+            "a1-grammar-personal-pronouns"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a1-grammar-negation",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Negation (nicht / kein)",
+          "description": "How to say 'not' and 'no/none' in German",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 8,
+          "tags": [
+            "negation",
+            "nicht",
+            "kein"
+          ],
+          "prerequisites": [
+            "a1-grammar-sentence-structure"
+          ],
+          "lessons": [
+            {
+              "id": "a1-grammar-negation-lesson-1",
+              "topicId": "a1-grammar-negation",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "Negation in German: kein vs nicht",
+              "shortDescription": "Learn the practical decision system for negation: when to use kein for nouns and when to use nicht for everything else.",
+              "order": 1,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "The Main Difference",
+                  "content": "Use kein to negate nouns that are indefinite (with ein/eine) or have no article. Use nicht for verbs, adjectives, adverbs, whole clauses, and for nouns that are already definite/specific (das Auto, mein Auto, dieser Mann)."
+                },
+                {
+                  "type": "table",
+                  "title": "kein in Typical Noun Negation",
+                  "headers": [
+                    "Positive",
+                    "Negative",
+                    "Why"
+                  ],
+                  "rows": [
+                    [
+                      "Ich habe ein Auto.",
+                      "Ich habe kein Auto.",
+                      "Noun with ein -> kein"
+                    ],
+                    [
+                      "Sie hat eine Schwester.",
+                      "Sie hat keine Schwester.",
+                      "Noun with eine -> keine"
+                    ],
+                    [
+                      "Ich habe Zeit.",
+                      "Ich habe keine Zeit.",
+                      "Noun without article -> kein(e)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "nicht for Verbs, Adjectives, and Specific Nouns",
+                  "headers": [
+                    "Positive",
+                    "Negative",
+                    "Why"
+                  ],
+                  "rows": [
+                    [
+                      "Ich arbeite.",
+                      "Ich arbeite nicht.",
+                      "Verb negation"
+                    ],
+                    [
+                      "Das ist gut.",
+                      "Das ist nicht gut.",
+                      "Adjective negation"
+                    ],
+                    [
+                      "Ich habe das Auto.",
+                      "Ich habe das Auto nicht.",
+                      "Specific noun with definite article"
+                    ],
+                    [
+                      "Ich habe mein Auto.",
+                      "Ich habe mein Auto nicht.",
+                      "Specific noun with possessive"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Quick Decision Method",
+                  "content": "Ask three questions: 1) Am I negating a noun? If no -> nicht. 2) Is that noun indefinite (ein/eine) or without article? If yes -> kein. 3) Is the noun definite/specific (der/die/das, possessive, demonstrative)? If yes -> nicht."
+                },
+                {
+                  "type": "warning",
+                  "title": "Meaning Difference",
+                  "content": "Ich habe kein Auto means I have no car (in general). Ich habe das Auto nicht means I do not have that car (a specific known car). This is a meaning contrast, not only a grammar contrast."
+                },
+                {
+                  "type": "example",
+                  "title": "Contrast Pairs",
+                  "content": "Ich habe kein Auto. (I do not have a car.) | Ich habe das Auto nicht. (I do not have that car.) | Sie hat keine Schwester. (She has no sister.) | Das ist nicht gut. (That is not good.)"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "kein / keine",
+                  "english": "no / not any",
+                  "example": "Ich habe kein Auto."
+                },
+                {
+                  "german": "nicht",
+                  "english": "not",
+                  "example": "Ich arbeite nicht."
+                },
+                {
+                  "german": "Schwester",
+                  "english": "sister",
+                  "article": "die",
+                  "example": "Sie hat keine Schwester."
+                },
+                {
+                  "german": "Auto",
+                  "english": "car",
+                  "article": "das",
+                  "example": "Ich habe kein Auto."
+                },
+                {
+                  "german": "gut",
+                  "english": "good",
+                  "example": "Das ist nicht gut."
+                },
+                {
+                  "german": "mein",
+                  "english": "my",
+                  "example": "Das ist mein Auto."
+                },
+                {
+                  "german": "dieser",
+                  "english": "this (masculine)",
+                  "example": "Dieser Mann ist nett."
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-negation-l1-ex1",
+                  "lessonId": "a1-grammar-negation-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct negation.",
+                  "question": "Ich habe ein Auto. -> (negative)",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich habe nicht Auto.",
+                      "isCorrect": false,
+                      "explanation": "For noun negation with ein/eine, use kein."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich habe kein Auto.",
+                      "isCorrect": true,
+                      "explanation": "Correct. ein Auto -> kein Auto."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich kein habe Auto.",
+                      "isCorrect": false,
+                      "explanation": "Wrong word order and wrong placement."
+                    }
+                  ],
+                  "explanation": "Negating an indefinite noun (ein/eine) uses kein.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-negation-l1-ex2",
+                  "lessonId": "a1-grammar-negation-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct sentence.",
+                  "question": "Which sentence means 'I do not have that car'?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich habe kein Auto.",
+                      "isCorrect": false,
+                      "explanation": "This means: I have no car (general)."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich habe das Auto nicht.",
+                      "isCorrect": true,
+                      "explanation": "Correct. Definite/specific noun (das Auto) is negated with nicht."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich habe keine das Auto.",
+                      "isCorrect": false,
+                      "explanation": "You cannot use kein with a definite article noun phrase."
+                    }
+                  ],
+                  "explanation": "For specific nouns with definite/possessive/demonstrative determiners, use nicht.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-negation-l1-ex3",
+                  "lessonId": "a1-grammar-negation-lesson-1",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct word.",
+                  "question": "Das ist ___ gut. (That is not good.)",
+                  "correctAnswer": "nicht",
+                  "hint": "You are negating an adjective, not a noun.",
+                  "explanation": "Use nicht for adjectives/adverbs/verbs/whole clauses.",
+                  "order": 3
+                },
+                {
+                  "id": "a1-negation-l1-ex4",
+                  "lessonId": "a1-grammar-negation-lesson-1",
+                  "type": "true-false",
+                  "instruction": "True or False?",
+                  "question": "'Sie hat keine Schwester.' means 'She does not have a sister.'",
+                  "options": [
+                    {
+                      "id": "true",
+                      "text": "True",
+                      "isCorrect": true,
+                      "explanation": "Correct. Schwester is an indefinite noun here, so keine is correct."
+                    },
+                    {
+                      "id": "false",
+                      "text": "False",
+                      "isCorrect": false,
+                      "explanation": "The sentence is correct and means she has no sister."
+                    }
+                  ],
+                  "explanation": "Noun negation with eine Schwester becomes keine Schwester.",
+                  "order": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-vocabulary",
+      "levelId": "a1",
+      "title": "Vocabulary",
+      "description": "Essential words and phrases for everyday situations",
+      "icon": "ðŸ’¬",
+      "order": 2,
+      "topics": [
+        {
+          "id": "a1-vocab-numbers",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Numbers",
+          "description": "Cardinal numbers 1â€“1000, ordinal numbers, counting",
+          "difficulty": 1,
+          "estimatedMinutes": 20,
+          "order": 1,
+          "tags": [
+            "numbers",
+            "counting",
+            "basics"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-family",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Family",
+          "description": "Family members: Mutter, Vater, Geschwister and more",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 2,
+          "tags": [
+            "family",
+            "nouns"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-food",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Food & Drink",
+          "description": "Common foods, drinks and ordering at a restaurant",
+          "difficulty": 1,
+          "estimatedMinutes": 20,
+          "order": 3,
+          "tags": [
+            "food",
+            "drink",
+            "restaurant"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-colors",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Colors",
+          "description": "All basic colors and their adjective forms",
+          "difficulty": 1,
+          "estimatedMinutes": 10,
+          "order": 4,
+          "tags": [
+            "colors",
+            "adjectives"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-daily-activities",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Daily Activities",
+          "description": "Verbs and phrases for your daily routine",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 5,
+          "tags": [
+            "daily-life",
+            "verbs",
+            "routine"
+          ],
+          "prerequisites": [
+            "a1-grammar-present-tense"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-days-months",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Days, Months & Time",
+          "description": "Days of the week, months of the year, telling time",
+          "difficulty": 1,
+          "estimatedMinutes": 20,
+          "order": 6,
+          "tags": [
+            "time",
+            "days",
+            "months"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-body",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Body Parts",
+          "description": "Essential body parts vocabulary",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 7,
+          "tags": [
+            "body",
+            "nouns"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-vocab-top100",
+          "categoryId": "a1-vocabulary",
+          "levelId": "a1",
+          "title": "Top 100 Most Common German Words",
+          "description": "The 100 highest-frequency German words drawn from real everyday conversation â€” master these and you will understand the backbone of daily German speech",
+          "difficulty": 1,
+          "estimatedMinutes": 110,
+          "order": 8,
+          "tags": [
+            "high-frequency",
+            "vocabulary",
+            "core",
+            "foundation",
+            "verbs",
+            "nouns",
+            "adjectives"
+          ],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "a1-vocab-top100-lesson-1",
+              "topicId": "a1-vocab-top100",
+              "categoryId": "a1-vocabulary",
+              "levelId": "a1",
+              "title": "The 20 Most Essential German Verbs",
+              "shortDescription": "Master the 20 highest-frequency German verbs â€” from sein and haben to everyday action verbs.",
+              "order": 1,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Why Start with Verbs?",
+                  "content": "Statistical analysis of real German conversations shows that just 20 verbs account for a huge proportion of everything Germans say. Every sentence needs a verb â€” and these 20 are the ones you will encounter in every single conversation, every day. Before memorizing noun lists, master these verbs and you will have the skeleton of the language."
+                },
+                {
+                  "type": "explanation",
+                  "title": "sein â€” To Be (Rank #1, the Most Important Word in German)",
+                  "content": "sein is the most frequently used word in the entire German language. It describes who you are, how you feel, your profession, nationality, and location. It is highly irregular â€” there is no shortcut. You must memorize all its forms directly from the start."
+                },
+                {
+                  "type": "table",
+                  "title": "sein â€” Full Present Tense (PrÃ¤sens)",
+                  "headers": [
+                    "Person",
+                    "Form",
+                    "English",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "bin",
+                      "I am",
+                      "Ich bin mÃ¼de. (I am tired.)"
+                    ],
+                    [
+                      "du",
+                      "bist",
+                      "you are",
+                      "Du bist nett. (You are nice.)"
+                    ],
+                    [
+                      "er / sie / es",
+                      "ist",
+                      "he / she / it is",
+                      "Er ist Arzt. (He is a doctor.)"
+                    ],
+                    [
+                      "wir",
+                      "sind",
+                      "we are",
+                      "Wir sind hier. (We are here.)"
+                    ],
+                    [
+                      "ihr",
+                      "seid",
+                      "you (plural) are",
+                      "Ihr seid laut. (You are loud.)"
+                    ],
+                    [
+                      "sie / Sie",
+                      "sind",
+                      "they / you (formal) are",
+                      "Sie sind freundlich. (They are friendly.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "haben â€” To Have (Rank #2)",
+                  "content": "haben expresses possession and is also the auxiliary verb used to form the Perfekt tense (conversational past) with most verbs. Together, sein and haben are the two pillars of German grammar â€” they appear in almost every conversation and every tense."
+                },
+                {
+                  "type": "table",
+                  "title": "haben â€” Full Present Tense (PrÃ¤sens)",
+                  "headers": [
+                    "Person",
+                    "Form",
+                    "English",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "ich",
+                      "habe",
+                      "I have",
+                      "Ich habe Zeit. (I have time.)"
+                    ],
+                    [
+                      "du",
+                      "hast",
+                      "you have",
+                      "Du hast Hunger? (Are you hungry?)"
+                    ],
+                    [
+                      "er / sie / es",
+                      "hat",
+                      "he / she / it has",
+                      "Er hat ein Auto. (He has a car.)"
+                    ],
+                    [
+                      "wir",
+                      "haben",
+                      "we have",
+                      "Wir haben Arbeit. (We have work.)"
+                    ],
+                    [
+                      "ihr",
+                      "habt",
+                      "you (plural) have",
+                      "Ihr habt GlÃ¼ck! (You are lucky!)"
+                    ],
+                    [
+                      "sie / Sie",
+                      "haben",
+                      "they / you (formal) have",
+                      "Sie haben Fragen. (They have questions.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Native Speaker Tip: haben for Physical States",
+                  "content": "Unlike English, German uses haben (to have) for physical and emotional states: Ich habe Hunger (I am hungry â€” literally 'I have hunger'), Ich habe Durst (I am thirsty), Ich habe Angst (I am afraid), Ich habe Lust (I feel like it). This is one of the most common translation traps for English speakers and must be memorized as fixed phrases."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Modal Verbs: kÃ¶nnen, mÃ¼ssen, wollen (Ranks 4, 5, 6)",
+                  "content": "Modal verbs modify the meaning of other verbs and appear constantly in daily speech. The key grammar rule: the modal verb takes position 2 in the sentence, and the main verb goes to the END as an infinitive. Example: Ich kann Deutsch sprechen. (I can speak German.) â€” sprechen goes to the very end."
+                },
+                {
+                  "type": "table",
+                  "title": "The Three Core Modal Verbs",
+                  "headers": [
+                    "Verb",
+                    "English",
+                    "ich form",
+                    "Example Sentence",
+                    "Key Note"
+                  ],
+                  "rows": [
+                    [
+                      "kÃ¶nnen",
+                      "can / to be able to",
+                      "ich kann",
+                      "Ich kann das machen. (I can do that.)",
+                      "Ability and possibility â€” the most versatile modal verb"
+                    ],
+                    [
+                      "mÃ¼ssen",
+                      "must / have to",
+                      "ich muss",
+                      "Ich muss arbeiten. (I have to work.)",
+                      "Strong obligation; muss nicht = don't have to (NOT must not!)"
+                    ],
+                    [
+                      "wollen",
+                      "to want to",
+                      "ich will",
+                      "Ich will nach Hause gehen. (I want to go home.)",
+                      "Strong intention or wish â€” not polite for requests, use mÃ¶chten instead"
+                    ]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "Critical Trap: muss nicht â‰  must not",
+                  "content": "Ich muss nicht does NOT mean 'I must not' â€” it means 'I do not have to' (no obligation). To say 'I must not / I am not allowed to', use: ich darf nicht. Compare: Du musst nicht kommen. (You do not have to come.) vs. Du darfst nicht rauchen. (You must not smoke.) This distinction trips up nearly every English speaker."
+                },
+                {
+                  "type": "explanation",
+                  "title": "werden â€” A Verb with Three Jobs (Rank #3)",
+                  "content": "werden has three uses: 1) Main verb meaning 'to become': Er wird Arzt. (He is becoming a doctor.) 2) Future auxiliary: Ich werde kommen. (I will come.) 3) Passive voice auxiliary: Das Haus wird gebaut. (The house is being built.) At A1 level, focus on meanings 1 and 2."
+                },
+                {
+                  "type": "table",
+                  "title": "High-Frequency Action Verbs (Ranks 7â€“20)",
+                  "headers": [
+                    "Rank",
+                    "Verb",
+                    "English",
+                    "Key Example"
+                  ],
+                  "rows": [
+                    [
+                      "7",
+                      "machen",
+                      "to do / make",
+                      "Was machst du? (What are you doing?)"
+                    ],
+                    [
+                      "8",
+                      "sagen",
+                      "to say / tell",
+                      "Was sagst du? (What are you saying?)"
+                    ],
+                    [
+                      "9",
+                      "gehen",
+                      "to go",
+                      "Wir gehen nach Hause. (We are going home.)"
+                    ],
+                    [
+                      "10",
+                      "kommen",
+                      "to come",
+                      "Kommst du mit? (Are you coming along?)"
+                    ],
+                    [
+                      "11",
+                      "wissen",
+                      "to know (a fact)",
+                      "Ich weiÃŸ es nicht. (I do not know.)"
+                    ],
+                    [
+                      "12",
+                      "kennen",
+                      "to know (a person/place)",
+                      "Ich kenne Berlin gut. (I know Berlin well.)"
+                    ],
+                    [
+                      "13",
+                      "sehen",
+                      "to see",
+                      "Siehst du das? (Do you see that?)"
+                    ],
+                    [
+                      "14",
+                      "sprechen",
+                      "to speak",
+                      "Sprechen Sie Deutsch? (Do you speak German?)"
+                    ],
+                    [
+                      "15",
+                      "finden",
+                      "to find / to think about",
+                      "Wie findest du das? (What do you think of it?)"
+                    ],
+                    [
+                      "16",
+                      "geben",
+                      "to give",
+                      "Gibst du mir das Buch? (Will you give me the book?)"
+                    ],
+                    [
+                      "17",
+                      "nehmen",
+                      "to take",
+                      "Ich nehme den Bus. (I take the bus.)"
+                    ],
+                    [
+                      "18",
+                      "brauchen",
+                      "to need",
+                      "Ich brauche Hilfe. (I need help.)"
+                    ],
+                    [
+                      "19",
+                      "arbeiten",
+                      "to work",
+                      "Ich arbeite heute nicht. (I am not working today.)"
+                    ],
+                    [
+                      "20",
+                      "wohnen",
+                      "to live / reside",
+                      "Wo wohnst du? (Where do you live?)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "wissen vs. kennen â€” Two Ways to Say 'Know'",
+                  "content": "German has two verbs for 'to know': wissen is for facts and information â€” things you know in your mind: Ich weiÃŸ, dass er kommt. (I know that he is coming.) Ich weiÃŸ es nicht. (I do not know.) kennen is for people, places, and things you are personally familiar with: Ich kenne ihn. (I know him.) Kennst du Berlin? (Do you know Berlin?) Mixing these is the single most common vocabulary mistake at A1 level."
+                },
+                {
+                  "type": "example",
+                  "title": "A Real Conversation Using These 20 Verbs",
+                  "content": "â€” Hallo! Ich bin Anna. Kennst du Berlin? â€” Ja, ich kenne es gut. Ich wohne hier seit drei Jahren. Ich arbeite bei einer Firma in Mitte. â€” Was machst du dort? â€” Ich spreche mit Kunden und mache PrÃ¤sentationen. Ich muss jeden Tag frÃ¼h kommen. â€” Kannst du heute Abend kommen? Wir wollen zusammen essen gehen. â€” Ich weiÃŸ nicht... Ich habe viel Arbeit heute. Aber ich will kommen, wenn ich kann."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "sein",
+                  "english": "to be",
+                  "example": "Ich bin hier. (I am here.)"
+                },
+                {
+                  "german": "haben",
+                  "english": "to have",
+                  "example": "Ich habe Zeit. (I have time.)"
+                },
+                {
+                  "german": "werden",
+                  "english": "to become / will (future)",
+                  "example": "Er wird Arzt. (He is becoming a doctor.)"
+                },
+                {
+                  "german": "kÃ¶nnen",
+                  "english": "can / to be able to",
+                  "example": "Ich kann Deutsch sprechen. (I can speak German.)"
+                },
+                {
+                  "german": "mÃ¼ssen",
+                  "english": "must / have to",
+                  "example": "Ich muss jetzt gehen. (I have to go now.)"
+                },
+                {
+                  "german": "wollen",
+                  "english": "to want to",
+                  "example": "Ich will Deutsch lernen. (I want to learn German.)"
+                },
+                {
+                  "german": "machen",
+                  "english": "to do / to make",
+                  "example": "Was machst du? (What are you doing?)"
+                },
+                {
+                  "german": "sagen",
+                  "english": "to say / to tell",
+                  "example": "Ich sage die Wahrheit. (I am telling the truth.)"
+                },
+                {
+                  "german": "gehen",
+                  "english": "to go",
+                  "example": "Wir gehen jetzt. (We are going now.)"
+                },
+                {
+                  "german": "kommen",
+                  "english": "to come",
+                  "example": "Kommst du mit? (Are you coming along?)"
+                },
+                {
+                  "german": "wissen",
+                  "english": "to know (a fact)",
+                  "example": "Ich weiÃŸ es nicht. (I do not know.)"
+                },
+                {
+                  "german": "kennen",
+                  "english": "to know (a person/place)",
+                  "example": "Ich kenne ihn gut. (I know him well.)"
+                },
+                {
+                  "german": "sehen",
+                  "english": "to see",
+                  "example": "Siehst du das? (Do you see that?)"
+                },
+                {
+                  "german": "sprechen",
+                  "english": "to speak",
+                  "example": "Sprechen Sie Deutsch? (Do you speak German?)"
+                },
+                {
+                  "german": "finden",
+                  "english": "to find / to think about sth.",
+                  "example": "Wie findest du das? (What do you think of this?)"
+                },
+                {
+                  "german": "geben",
+                  "english": "to give",
+                  "example": "Gibst du mir das? (Will you give me that?)"
+                },
+                {
+                  "german": "nehmen",
+                  "english": "to take",
+                  "example": "Ich nehme den Bus. (I take the bus.)"
+                },
+                {
+                  "german": "brauchen",
+                  "english": "to need",
+                  "example": "Ich brauche das nicht. (I do not need that.)"
+                },
+                {
+                  "german": "arbeiten",
+                  "english": "to work",
+                  "example": "Ich arbeite heute nicht. (I am not working today.)"
+                },
+                {
+                  "german": "wohnen",
+                  "english": "to live / reside",
+                  "example": "Ich wohne in MÃ¼nchen. (I live in Munich.)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-top100-l1-ex1",
+                  "lessonId": "a1-vocab-top100-lesson-1",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct form of sein.",
+                  "question": "Ich ___ mÃ¼de. (I am tired.)",
+                  "correctAnswer": "bin",
+                  "hint": "ich + sein = ?",
+                  "explanation": "The first-person singular of sein is bin. Full conjugation: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-top100-l1-ex2",
+                  "lessonId": "a1-vocab-top100-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "How do you say 'I have to work' in German?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich will arbeiten.",
+                      "isCorrect": false,
+                      "explanation": "wollen = to want. This means 'I want to work'."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich kann arbeiten.",
+                      "isCorrect": false,
+                      "explanation": "kÃ¶nnen = can. This means 'I can work'."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich muss arbeiten.",
+                      "isCorrect": true,
+                      "explanation": "Correct! mÃ¼ssen = must / have to. The infinitive goes to the end."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Ich arbeite mÃ¼ssen.",
+                      "isCorrect": false,
+                      "explanation": "Wrong word order! With modals: Subject + modal verb (position 2) + infinitive (end)."
+                    }
+                  ],
+                  "explanation": "mÃ¼ssen means 'must / have to'. Structure: Subject + modal verb + [rest of sentence] + infinitive at the END.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-top100-l1-ex3",
+                  "lessonId": "a1-vocab-top100-lesson-1",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct sentence.",
+                  "question": "Which sentence correctly uses wissen vs. kennen?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich weiÃŸ ihn gut.",
+                      "isCorrect": false,
+                      "explanation": "wissen is NOT used for people. Use kennen: Ich kenne ihn gut."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich kenne, dass er krank ist.",
+                      "isCorrect": false,
+                      "explanation": "kennen is NOT used with dass-clauses. Use wissen: Ich weiÃŸ, dass er krank ist."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich kenne Berlin gut.",
+                      "isCorrect": true,
+                      "explanation": "Correct! kennen is used for places, people, and things you are familiar with."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Ich weiÃŸ Berlin gut.",
+                      "isCorrect": false,
+                      "explanation": "wissen is for factual knowledge (Ich weiÃŸ, dass...), not familiarity with places."
+                    }
+                  ],
+                  "explanation": "wissen = knowing facts/information (followed by clauses or es). kennen = being familiar with a person, place, or thing.",
+                  "order": 3
+                },
+                {
+                  "id": "a1-top100-l1-ex4",
+                  "lessonId": "a1-vocab-top100-lesson-1",
+                  "type": "true-false",
+                  "instruction": "True or False?",
+                  "question": "'Ich muss nicht kommen' means 'I must not come'.",
+                  "options": [
+                    {
+                      "id": "true",
+                      "text": "True",
+                      "isCorrect": false,
+                      "explanation": "This is a very common trap! muss nicht means 'do not have to', NOT 'must not'."
+                    },
+                    {
+                      "id": "false",
+                      "text": "False",
+                      "isCorrect": true,
+                      "explanation": "Correct! 'Ich muss nicht kommen' = I do not have to come. 'I must not come' = Ich darf nicht kommen."
+                    }
+                  ],
+                  "explanation": "muss nicht = do not have to (no obligation). darf nicht = must not / not allowed to (prohibition). This is one of the most critical distinctions in A1 German.",
+                  "order": 4
+                }
+              ]
+            },
+            {
+              "id": "a1-vocab-top100-lesson-2",
+              "topicId": "a1-vocab-top100",
+              "categoryId": "a1-vocabulary",
+              "levelId": "a1",
+              "title": "10 Core Nouns and Their Articles",
+              "shortDescription": "Master the 10 highest-frequency German nouns with their grammatical gender, plurals, and everyday usage.",
+              "order": 2,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Why Articles Matter So Much in German",
+                  "content": "In German, every noun has a grammatical gender: masculine (der), feminine (die), or neuter (das). Unlike French or Spanish, German gender cannot be reliably predicted from meaning alone â€” it must be memorized with the noun. Professional learners always learn nouns together with their article: not just 'Haus' but 'das Haus', not just 'Familie' but 'die Familie'. One powerful rule: nouns ending in -ung are always feminine (die) â€” die Wohnung, die Zeitung, die LÃ¶sung."
+                },
+                {
+                  "type": "table",
+                  "title": "The 10 Most Common German Nouns",
+                  "headers": [
+                    "Rank",
+                    "Article + Noun",
+                    "English",
+                    "Plural",
+                    "Example Sentence"
+                  ],
+                  "rows": [
+                    [
+                      "21",
+                      "die Zeit",
+                      "time",
+                      "die Zeiten",
+                      "Ich habe keine Zeit. (I have no time.)"
+                    ],
+                    [
+                      "22",
+                      "der Tag",
+                      "day",
+                      "die Tage",
+                      "Guten Tag! (Good day! / Hello!)"
+                    ],
+                    [
+                      "23",
+                      "das Jahr",
+                      "year",
+                      "die Jahre",
+                      "Ich lerne seit einem Jahr Deutsch. (I have been learning German for a year.)"
+                    ],
+                    [
+                      "24",
+                      "der Mensch",
+                      "person / human being",
+                      "die Menschen",
+                      "Die Menschen hier sind nett. (The people here are nice.)"
+                    ],
+                    [
+                      "25",
+                      "die Arbeit",
+                      "work / job",
+                      "die Arbeiten",
+                      "Ich gehe zur Arbeit. (I am going to work.)"
+                    ],
+                    [
+                      "26",
+                      "das Haus",
+                      "house",
+                      "die HÃ¤user",
+                      "Das Haus ist groÃŸ. (The house is big.)"
+                    ],
+                    [
+                      "27",
+                      "die Wohnung",
+                      "apartment / flat",
+                      "die Wohnungen",
+                      "Ich suche eine Wohnung. (I am looking for an apartment.)"
+                    ],
+                    [
+                      "28",
+                      "die Familie",
+                      "family",
+                      "die Familien",
+                      "Meine Familie wohnt in Berlin. (My family lives in Berlin.)"
+                    ],
+                    [
+                      "29",
+                      "der Freund",
+                      "friend (male) / boyfriend",
+                      "die Freunde",
+                      "Das ist mein Freund. (This is my friend / boyfriend.)"
+                    ],
+                    [
+                      "30",
+                      "das Kind",
+                      "child",
+                      "die Kinder",
+                      "Die Kinder spielen drauÃŸen. (The children are playing outside.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Mensch vs. Person â€” Two Words for 'Person'",
+                  "content": "der Mensch (plural: die Menschen) emphasizes the human being â€” used naturally in everyday speech and philosophically: Die Menschen in Deutschland... (The people in Germany...). die Person (plural: die Personen) is more neutral and administrative: Wie viele Personen? (How many persons?). In everyday conversational German, Mensch is significantly more common."
+                },
+                {
+                  "type": "warning",
+                  "title": "der Freund â€” Context Changes the Meaning",
+                  "content": "der Freund has two meanings: a male friend OR a boyfriend, depending entirely on context. Das ist mein Freund could mean either 'This is my friend' or 'This is my boyfriend'. To clarify, Germans say mein bester Freund (my best friend) for platonic friendship. The female equivalent is die Freundin, which similarly means female friend or girlfriend. This ambiguity confuses learners â€” context always resolves it."
+                },
+                {
+                  "type": "tip",
+                  "title": "Haus vs. Wohnung â€” House vs. Apartment",
+                  "content": "das Haus is a standalone house with its own entrance and garden. die Wohnung is an apartment or flat within a larger building. In German cities, the vast majority of people live in Wohnungen. When someone asks Wo wohnst du? (Where do you live?), a typical city answer is: Ich wohne in einer Wohnung in MÃ¼nchen-Schwabing."
+                },
+                {
+                  "type": "example",
+                  "title": "These 10 Nouns in Conversation",
+                  "content": "â€” Wo wohnst du? â€” Ich wohne in einer Wohnung in MÃ¼nchen. Das Haus ist alt, aber die Wohnung ist schÃ¶n. â€” Hast du Familie hier? â€” Ja, meine Familie und meine Freunde wohnen alle hier. Ich habe auch zwei Kinder. â€” Und wie ist die Arbeit? â€” Gut, aber ich habe wenig Zeit. Der Arbeitstag ist lang. Dieses Jahr mÃ¶chte ich mehr Zeit fÃ¼r meine Familie haben."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "Zeit",
+                  "english": "time",
+                  "article": "die",
+                  "plural": "Zeiten",
+                  "example": "Ich habe keine Zeit. (I have no time.)"
+                },
+                {
+                  "german": "Tag",
+                  "english": "day",
+                  "article": "der",
+                  "plural": "Tage",
+                  "example": "Guten Tag! (Good day!)"
+                },
+                {
+                  "german": "Jahr",
+                  "english": "year",
+                  "article": "das",
+                  "plural": "Jahre",
+                  "example": "Dieses Jahr lerne ich Deutsch. (This year I am learning German.)"
+                },
+                {
+                  "german": "Mensch",
+                  "english": "person / human being",
+                  "article": "der",
+                  "plural": "Menschen",
+                  "example": "Die Menschen hier sind freundlich. (The people here are friendly.)"
+                },
+                {
+                  "german": "Arbeit",
+                  "english": "work / job",
+                  "article": "die",
+                  "plural": "Arbeiten",
+                  "example": "Ich gehe zur Arbeit. (I am going to work.)"
+                },
+                {
+                  "german": "Haus",
+                  "english": "house",
+                  "article": "das",
+                  "plural": "HÃ¤user",
+                  "example": "Das Haus ist sehr groÃŸ. (The house is very big.)"
+                },
+                {
+                  "german": "Wohnung",
+                  "english": "apartment / flat",
+                  "article": "die",
+                  "plural": "Wohnungen",
+                  "example": "Ich suche eine Wohnung. (I am looking for an apartment.)"
+                },
+                {
+                  "german": "Familie",
+                  "english": "family",
+                  "article": "die",
+                  "plural": "Familien",
+                  "example": "Meine Familie wohnt hier. (My family lives here.)"
+                },
+                {
+                  "german": "Freund",
+                  "english": "friend (male) / boyfriend",
+                  "article": "der",
+                  "plural": "Freunde",
+                  "example": "Das ist mein Freund Klaus. (This is my friend Klaus.)"
+                },
+                {
+                  "german": "Kind",
+                  "english": "child",
+                  "article": "das",
+                  "plural": "Kinder",
+                  "example": "Die Kinder spielen drauÃŸen. (The children play outside.)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-top100-l2-ex1",
+                  "lessonId": "a1-vocab-top100-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct article.",
+                  "question": "What is the correct article for 'Wohnung' (apartment)?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "der Wohnung",
+                      "isCorrect": false,
+                      "explanation": "Wohnung is not masculine."
+                    },
+                    {
+                      "id": "b",
+                      "text": "die Wohnung",
+                      "isCorrect": true,
+                      "explanation": "Correct! die Wohnung â€” feminine. Nouns ending in -ung are always feminine."
+                    },
+                    {
+                      "id": "c",
+                      "text": "das Wohnung",
+                      "isCorrect": false,
+                      "explanation": "Wohnung is not neuter. Nouns ending in -ung are always feminine (die)."
+                    }
+                  ],
+                  "explanation": "Nouns ending in -ung are always feminine (die): die Wohnung, die Zeitung, die LÃ¶sung, die Arbeit. This is one of the most reliable gender rules in German.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-top100-l2-ex2",
+                  "lessonId": "a1-vocab-top100-lesson-2",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "A German says: 'Das ist mein Freund.' What does this most likely mean?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Always 'This is my boyfriend'",
+                      "isCorrect": false,
+                      "explanation": "Not always â€” Freund means both male friend and boyfriend depending on context."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Always 'This is my (male) friend'",
+                      "isCorrect": false,
+                      "explanation": "Context matters â€” it could be boyfriend too."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Either 'my friend' or 'my boyfriend' â€” context decides",
+                      "isCorrect": true,
+                      "explanation": "Correct! Freund is ambiguous. Context and relationship always clarify."
+                    },
+                    {
+                      "id": "d",
+                      "text": "This sentence is grammatically wrong",
+                      "isCorrect": false,
+                      "explanation": "The sentence is perfectly correct German."
+                    }
+                  ],
+                  "explanation": "Freund = male friend OR boyfriend. Freundin = female friend OR girlfriend. Germans often say 'mein bester Freund' (my best friend) to clarify platonic friendship.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-top100-l2-ex3",
+                  "lessonId": "a1-vocab-top100-lesson-2",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct article (der/die/das).",
+                  "question": "___ Kind spielt drauÃŸen. (The child plays outside.)",
+                  "correctAnswer": "Das",
+                  "hint": "Kind (child) â€” what is its grammatical gender?",
+                  "explanation": "das Kind â€” Kind is neuter (das). Plural: die Kinder. Example: Das Kind ist mÃ¼de. / Die Kinder spielen.",
+                  "order": 3
+                }
+              ]
+            },
+            {
+              "id": "a1-vocab-top100-lesson-3",
+              "topicId": "a1-vocab-top100",
+              "categoryId": "a1-vocabulary",
+              "levelId": "a1",
+              "title": "10 Core German Adjectives",
+              "shortDescription": "The 10 most frequent German adjectives â€” each presented with its opposite for efficient learning.",
+              "order": 3,
+              "estimatedMinutes": 15,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Adjectives: the Backbone of Description",
+                  "content": "Adjectives describe nouns. In German, adjectives can be used in two positions: after a verb (predicative) â€” Das ist gut. (That is good.) â€” or directly before a noun (attributive) â€” ein gutes Restaurant (a good restaurant). For A1 learners, focus first on predicative use (after sein). The 10 adjectives below cover the most essential properties you need to describe the world around you."
+                },
+                {
+                  "type": "table",
+                  "title": "The 10 Core Adjectives with Their Opposites",
+                  "headers": [
+                    "Rank",
+                    "Adjective",
+                    "English",
+                    "Opposite",
+                    "English opposite",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "31",
+                      "gut",
+                      "good",
+                      "schlecht",
+                      "bad",
+                      "Das Essen ist gut. (The food is good.)"
+                    ],
+                    [
+                      "32",
+                      "schlecht",
+                      "bad",
+                      "gut",
+                      "good",
+                      "Das Wetter ist schlecht. (The weather is bad.)"
+                    ],
+                    [
+                      "33",
+                      "groÃŸ",
+                      "big / large / tall",
+                      "klein",
+                      "small / little",
+                      "Die Wohnung ist groÃŸ. (The apartment is big.)"
+                    ],
+                    [
+                      "34",
+                      "klein",
+                      "small / little",
+                      "groÃŸ",
+                      "big",
+                      "Das Kind ist noch klein. (The child is still small.)"
+                    ],
+                    [
+                      "35",
+                      "neu",
+                      "new",
+                      "alt",
+                      "old",
+                      "Ich habe ein neues Handy. (I have a new phone.)"
+                    ],
+                    [
+                      "36",
+                      "alt",
+                      "old",
+                      "neu",
+                      "new",
+                      "Das Haus ist sehr alt. (The house is very old.)"
+                    ],
+                    [
+                      "37",
+                      "wichtig",
+                      "important",
+                      "unwichtig",
+                      "unimportant",
+                      "Das ist sehr wichtig! (That is very important!)"
+                    ],
+                    [
+                      "38",
+                      "richtig",
+                      "correct / right",
+                      "falsch",
+                      "wrong / incorrect",
+                      "Die Antwort ist richtig. (The answer is correct.)"
+                    ],
+                    [
+                      "39",
+                      "einfach",
+                      "easy / simple",
+                      "schwer / schwierig",
+                      "difficult / hard",
+                      "Deutsch ist nicht einfach! (German is not easy!)"
+                    ],
+                    [
+                      "40",
+                      "schwer",
+                      "difficult / hard / heavy",
+                      "einfach / leicht",
+                      "easy / light",
+                      "Die PrÃ¼fung war schwer. (The exam was hard.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "groÃŸ â€” Three Meanings in One Word",
+                  "content": "groÃŸ is remarkably versatile: it means big (eine groÃŸe Stadt â€” a big city), tall for people (Er ist groÃŸ â€” He is tall), and great/significant (ein groÃŸes Problem â€” a big/major problem). For buildings, use hoch (tall) instead: ein hohes GebÃ¤ude (a tall building). For people, always use groÃŸ, never hoch."
+                },
+                {
+                  "type": "tip",
+                  "title": "schwer â€” Hard AND Heavy",
+                  "content": "schwer has two meanings that context always disambiguates: difficult (Das ist schwer â€” That is difficult) and physically heavy (Der Koffer ist schwer â€” The suitcase is heavy). To be unambiguous when meaning 'difficult', you can use schwierig instead: Das ist schwierig."
+                },
+                {
+                  "type": "warning",
+                  "title": "richtig vs. wahr â€” Correct vs. True",
+                  "content": "richtig = correct, right, proper â€” used for answers, directions, and actions: Die Antwort ist richtig. (The answer is correct.) wahr = true in the sense of factually or emotionally true: Das ist wahr. (That is true.) Practical rule: for answers and facts in a test/conversation, use richtig. For truth about reality or reality claims, use wahr."
+                },
+                {
+                  "type": "example",
+                  "title": "These 10 Adjectives in Conversation",
+                  "content": "â€” Wie ist deine neue Wohnung? â€” Sie ist groÃŸ und schÃ¶n, aber ein bisschen alt. Das Bad ist sehr klein, aber das ist nicht so wichtig. â€” Und wie ist die Arbeit? â€” Die Arbeit ist gut, aber manchmal schwer. Es gibt viele neue Dinge zu lernen. Ist Deutsch auch schwer fÃ¼r dich? â€” Ja, Deutsch ist nicht einfach! Aber die richtigen Grundlagen zu lernen ist sehr wichtig."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "gut",
+                  "english": "good",
+                  "example": "Das ist sehr gut! (That is very good!)"
+                },
+                {
+                  "german": "schlecht",
+                  "english": "bad",
+                  "example": "Das Wetter ist schlecht. (The weather is bad.)"
+                },
+                {
+                  "german": "groÃŸ",
+                  "english": "big / large / tall",
+                  "example": "Er ist sehr groÃŸ. (He is very tall.)"
+                },
+                {
+                  "german": "klein",
+                  "english": "small / little",
+                  "example": "Das ist ein kleines Problem. (That is a small problem.)"
+                },
+                {
+                  "german": "neu",
+                  "english": "new",
+                  "example": "Ich suche eine neue Arbeit. (I am looking for a new job.)"
+                },
+                {
+                  "german": "alt",
+                  "english": "old",
+                  "example": "Das Haus ist sehr alt. (The house is very old.)"
+                },
+                {
+                  "german": "wichtig",
+                  "english": "important",
+                  "example": "Das ist sehr wichtig. (That is very important.)"
+                },
+                {
+                  "german": "richtig",
+                  "english": "correct / right",
+                  "example": "Das ist richtig! (That is correct!)"
+                },
+                {
+                  "german": "einfach",
+                  "english": "easy / simple",
+                  "example": "Das ist ganz einfach. (That is quite simple.)"
+                },
+                {
+                  "german": "schwer",
+                  "english": "difficult / hard / heavy",
+                  "example": "Das war sehr schwer. (That was very hard.)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-top100-l3-ex1",
+                  "lessonId": "a1-vocab-top100-lesson-3",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "Which adjective is the opposite of 'neu' (new)?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "groÃŸ",
+                      "isCorrect": false,
+                      "explanation": "groÃŸ means big, not old."
+                    },
+                    {
+                      "id": "b",
+                      "text": "gut",
+                      "isCorrect": false,
+                      "explanation": "gut means good, not old."
+                    },
+                    {
+                      "id": "c",
+                      "text": "alt",
+                      "isCorrect": true,
+                      "explanation": "Correct! alt means old â€” the direct opposite of neu (new)."
+                    },
+                    {
+                      "id": "d",
+                      "text": "schwer",
+                      "isCorrect": false,
+                      "explanation": "schwer means difficult or heavy, not old."
+                    }
+                  ],
+                  "explanation": "Learn adjective opposites as pairs: neu/alt, gut/schlecht, groÃŸ/klein, richtig/falsch, einfach/schwer.",
+                  "order": 1
+                },
+                {
+                  "id": "a1-top100-l3-ex2",
+                  "lessonId": "a1-vocab-top100-lesson-3",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct translation.",
+                  "question": "How do you say 'The answer is correct' in German?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Die Antwort ist wahr.",
+                      "isCorrect": false,
+                      "explanation": "wahr means 'true' (factually true), not 'correct'."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Die Antwort ist richtig.",
+                      "isCorrect": true,
+                      "explanation": "Correct! richtig = correct/right â€” used for answers and proper usage."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Die Antwort ist wichtig.",
+                      "isCorrect": false,
+                      "explanation": "wichtig means important, not correct."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Die Antwort ist gut.",
+                      "isCorrect": false,
+                      "explanation": "gut means good, not specifically correct."
+                    }
+                  ],
+                  "explanation": "richtig = correct/right (answers, directions, behavior). wahr = true (facts about reality). Die Antwort ist richtig. vs. Das ist wahr.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-top100-l3-ex3",
+                  "lessonId": "a1-vocab-top100-lesson-3",
+                  "type": "true-false",
+                  "instruction": "True or False?",
+                  "question": "In German, 'groÃŸ' can describe both a big city and a tall person.",
+                  "options": [
+                    {
+                      "id": "true",
+                      "text": "True",
+                      "isCorrect": true,
+                      "explanation": "Correct! eine groÃŸe Stadt (a big city) and Er ist groÃŸ (He is tall) â€” both use groÃŸ."
+                    },
+                    {
+                      "id": "false",
+                      "text": "False",
+                      "isCorrect": false,
+                      "explanation": "Actually true! groÃŸ works for size (objects) AND height (people)."
+                    }
+                  ],
+                  "explanation": "groÃŸ = big (objects/places) AND tall (people). For buildings, use hoch (tall): ein hohes GebÃ¤ude. But for people: Er ist groÃŸ (He is tall).",
+                  "order": 3
+                }
+              ]
+            },
+            {
+              "id": "a1-vocab-top100-lesson-4",
+              "topicId": "a1-vocab-top100",
+              "categoryId": "a1-vocabulary",
+              "levelId": "a1",
+              "title": "20 Essential Adverbs of Time, Degree & Place",
+              "shortDescription": "Ranks 41â€“60: adverbs for when (heute, immer, nie), how much (sehr, viel), and where (hier, dort) â€” all unchanging in form.",
+              "order": 4,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "The Good News About German Adverbs",
+                  "content": "Adverbs never change their form in German. Unlike adjectives, they have no case endings, no gender, no plural. You learn a word once and use it everywhere. The 20 adverbs in this lesson fall into three groups: time adverbs (when?), degree and quantity adverbs (how much?), and place and manner adverbs (where? how?)."
+                },
+                {
+                  "type": "table",
+                  "title": "10 Time Adverbs (Ranks 41â€“50)",
+                  "headers": [
+                    "Rank",
+                    "German",
+                    "English",
+                    "Example",
+                    "Key Note"
+                  ],
+                  "rows": [
+                    [
+                      "41",
+                      "heute",
+                      "today",
+                      "Was machst du heute? (What are you doing today?)",
+                      "heute Morgen = this morning; heute Abend = tonight"
+                    ],
+                    [
+                      "42",
+                      "morgen",
+                      "tomorrow",
+                      "Ich komme morgen. (I will come tomorrow.)",
+                      "morgen frÃ¼h = tomorrow morning. Note: der Morgen (noun) = morning"
+                    ],
+                    [
+                      "43",
+                      "jetzt",
+                      "now",
+                      "Ich muss jetzt gehen. (I have to go now.)",
+                      "jetzt = right now; gerade = at this very moment"
+                    ],
+                    [
+                      "44",
+                      "immer",
+                      "always",
+                      "Er kommt immer zu spÃ¤t. (He always comes too late.)",
+                      "Opposite: nie (never)"
+                    ],
+                    [
+                      "45",
+                      "oft",
+                      "often",
+                      "Ich gehe oft ins Kino. (I often go to the cinema.)",
+                      "Opposite: selten (rarely)"
+                    ],
+                    [
+                      "46",
+                      "manchmal",
+                      "sometimes",
+                      "Manchmal bin ich mÃ¼de. (Sometimes I am tired.)",
+                      "Often placed at the start of a sentence for emphasis"
+                    ],
+                    [
+                      "47",
+                      "nie",
+                      "never",
+                      "Ich trinke nie Alkohol. (I never drink alcohol.)",
+                      "Opposite: immer (always)"
+                    ],
+                    [
+                      "48",
+                      "schon",
+                      "already / yet",
+                      "Bist du schon fertig? (Are you already done?)",
+                      "Multiple meanings â€” see tip below"
+                    ],
+                    [
+                      "49",
+                      "noch",
+                      "still / yet",
+                      "Ich bin noch nicht fertig. (I am still not done.)",
+                      "noch nicht = not yet; nicht mehr = no longer"
+                    ],
+                    [
+                      "50",
+                      "nur",
+                      "only / just",
+                      "Ich spreche nur ein bisschen Deutsch. (I only speak a little German.)",
+                      "Restricts or limits the statement"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "schon vs. noch â€” A Critical Pair",
+                  "content": "schon = already (action happened sooner than expected): Bist du schon da? (Are you already there?) noch = still (situation is ongoing): Bist du noch da? (Are you still there?) With negation, the contrast becomes stark: noch nicht = not yet (something hasn't happened but will); schon nicht mehr = no longer (something used to happen but does not now). Mastering this pair is a milestone in natural German."
+                },
+                {
+                  "type": "table",
+                  "title": "10 Degree, Quantity & Place Adverbs (Ranks 51â€“60)",
+                  "headers": [
+                    "Rank",
+                    "German",
+                    "English",
+                    "Example",
+                    "Key Note"
+                  ],
+                  "rows": [
+                    [
+                      "51",
+                      "auch",
+                      "also / too / as well",
+                      "Ich bin auch mÃ¼de. (I am also tired.)",
+                      "Position: right after the subject or the verb in most cases"
+                    ],
+                    [
+                      "52",
+                      "sehr",
+                      "very",
+                      "Das ist sehr gut! (That is very good!)",
+                      "sehr intensifies adjectives and other adverbs"
+                    ],
+                    [
+                      "53",
+                      "viel",
+                      "much / a lot",
+                      "Ich habe viel Arbeit. (I have a lot of work.)",
+                      "viele (with -e) before countable plurals: viele Freunde"
+                    ],
+                    [
+                      "54",
+                      "mehr",
+                      "more",
+                      "Ich brauche mehr Zeit. (I need more time.)",
+                      "Comparative of viel; mehr und mehr = more and more"
+                    ],
+                    [
+                      "55",
+                      "wenig",
+                      "little / not much",
+                      "Ich habe wenig Zeit. (I have little time.)",
+                      "wenige (with -e) before countable plurals: wenige Chancen"
+                    ],
+                    [
+                      "56",
+                      "hier",
+                      "here",
+                      "Ich wohne hier. (I live here.)",
+                      "hier = at this place; hierher = to here (direction)"
+                    ],
+                    [
+                      "57",
+                      "dort",
+                      "there",
+                      "Er wohnt dort. (He lives there.)",
+                      "dort = at that place; dorthin = to there (direction)"
+                    ],
+                    [
+                      "58",
+                      "zusammen",
+                      "together",
+                      "Wir machen das zusammen. (We will do that together.)",
+                      "Key word for teamwork, relationships, shared activities"
+                    ],
+                    [
+                      "59",
+                      "allein",
+                      "alone / by oneself",
+                      "Ich bin allein zu Hause. (I am alone at home.)",
+                      "allein also means 'only' in formal/literary contexts"
+                    ],
+                    [
+                      "60",
+                      "zuerst",
+                      "first / at first",
+                      "Zuerst esse ich, dann gehe ich. (First I eat, then I go.)",
+                      "zuerst = first in a sequence; then comes dann (then)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "viel vs. viele â€” A Very Common Grammar Trap",
+                  "content": "viel (without ending) goes before uncountable nouns and in adverbial use: viel Zeit (a lot of time), viel arbeiten (to work a lot), Das kostet viel. (That costs a lot.) viele (with -e ending) goes before countable plural nouns: viele Menschen (many people), viele Probleme (many problems). The rule: can you count individual items? Use viele. Cannot count? Use viel."
+                },
+                {
+                  "type": "example",
+                  "title": "Adverbs in a Real Conversation",
+                  "content": "â€” Bist du schon fertig? â€” Nein, ich bin noch nicht fertig. Ich brauche noch mehr Zeit. â€” Du arbeitest immer so viel! â€” Ja, manchmal ist es zu viel. Aber heute mache ich es zusammen mit Anna, sie hilft mir hier sehr oft. â€” Wohnst du noch dort in Schwabing? â€” Nein, jetzt wohne ich hier in Mitte. Es ist viel besser â€” ich bin nie allein, und es gibt immer etwas zu tun."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "heute",
+                  "english": "today",
+                  "example": "Was machst du heute? (What are you doing today?)"
+                },
+                {
+                  "german": "morgen",
+                  "english": "tomorrow",
+                  "example": "Ich komme morgen. (I will come tomorrow.)"
+                },
+                {
+                  "german": "jetzt",
+                  "english": "now",
+                  "example": "Ich muss jetzt gehen. (I have to go now.)"
+                },
+                {
+                  "german": "immer",
+                  "english": "always",
+                  "example": "Er kommt immer zu spÃ¤t. (He always comes too late.)"
+                },
+                {
+                  "german": "oft",
+                  "english": "often",
+                  "example": "Ich gehe oft ins Kino. (I often go to the cinema.)"
+                },
+                {
+                  "german": "manchmal",
+                  "english": "sometimes",
+                  "example": "Manchmal bin ich mÃ¼de. (Sometimes I am tired.)"
+                },
+                {
+                  "german": "nie",
+                  "english": "never",
+                  "example": "Ich trinke nie Alkohol. (I never drink alcohol.)"
+                },
+                {
+                  "german": "schon",
+                  "english": "already / yet",
+                  "example": "Bist du schon fertig? (Are you already done?)"
+                },
+                {
+                  "german": "noch",
+                  "english": "still / yet",
+                  "example": "Ich bin noch hier. (I am still here.)"
+                },
+                {
+                  "german": "nur",
+                  "english": "only / just",
+                  "example": "Ich habe nur eine Frage. (I only have one question.)"
+                },
+                {
+                  "german": "auch",
+                  "english": "also / too",
+                  "example": "Ich bin auch mÃ¼de. (I am also tired.)"
+                },
+                {
+                  "german": "sehr",
+                  "english": "very",
+                  "example": "Das ist sehr wichtig! (That is very important!)"
+                },
+                {
+                  "german": "viel",
+                  "english": "much / a lot",
+                  "example": "Ich habe viel Arbeit. (I have a lot of work.)"
+                },
+                {
+                  "german": "mehr",
+                  "english": "more",
+                  "example": "Ich brauche mehr Zeit. (I need more time.)"
+                },
+                {
+                  "german": "wenig",
+                  "english": "little / not much",
+                  "example": "Ich habe wenig Zeit. (I have little time.)"
+                },
+                {
+                  "german": "hier",
+                  "english": "here",
+                  "example": "Ich wohne hier. (I live here.)"
+                },
+                {
+                  "german": "dort",
+                  "english": "there",
+                  "example": "Er arbeitet dort. (He works there.)"
+                },
+                {
+                  "german": "zusammen",
+                  "english": "together",
+                  "example": "Wir machen das zusammen. (We will do that together.)"
+                },
+                {
+                  "german": "allein",
+                  "english": "alone / by oneself",
+                  "example": "Ich bin allein zu Hause. (I am alone at home.)"
+                },
+                {
+                  "german": "zuerst",
+                  "english": "first / at first",
+                  "example": "Zuerst kommt die Arbeit. (Work comes first.)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-top100-l4-ex1",
+                  "lessonId": "a1-vocab-top100-lesson-4",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "What does 'Bist du noch hier?' mean?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Are you already here?",
+                      "isCorrect": false,
+                      "explanation": "That would be 'Bist du schon hier?' â€” schon = already."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Are you still here?",
+                      "isCorrect": true,
+                      "explanation": "Correct! noch = still. 'Are you still here?'"
+                    },
+                    {
+                      "id": "c",
+                      "text": "Are you coming here?",
+                      "isCorrect": false,
+                      "explanation": "That requires a verb of motion: Kommst du hierher?"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Were you ever here?",
+                      "isCorrect": false,
+                      "explanation": "That would need past tense: Warst du je hier?"
+                    }
+                  ],
+                  "explanation": "noch = still (ongoing). Bist du noch hier? = Are you still here? Compare: schon = already. Bist du schon hier? = Are you already here?",
+                  "order": 1
+                },
+                {
+                  "id": "a1-top100-l4-ex2",
+                  "lessonId": "a1-vocab-top100-lesson-4",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct form.",
+                  "question": "Which is correct: 'Ich habe ___ Freunde.' (I have many friends.)",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "viel Freunde",
+                      "isCorrect": false,
+                      "explanation": "Freunde is a countable plural noun â€” use viele, not viel."
+                    },
+                    {
+                      "id": "b",
+                      "text": "viele Freunde",
+                      "isCorrect": true,
+                      "explanation": "Correct! viele is used with countable plural nouns."
+                    },
+                    {
+                      "id": "c",
+                      "text": "sehr Freunde",
+                      "isCorrect": false,
+                      "explanation": "sehr means 'very' and modifies adjectives and adverbs, not nouns directly."
+                    },
+                    {
+                      "id": "d",
+                      "text": "mehr Freunde",
+                      "isCorrect": false,
+                      "explanation": "mehr means 'more' (comparative), not 'many'."
+                    }
+                  ],
+                  "explanation": "viel = much/a lot (uncountable: viel Zeit, viel Arbeit). viele = many (countable plurals: viele Freunde, viele Menschen).",
+                  "order": 2
+                },
+                {
+                  "id": "a1-top100-l4-ex3",
+                  "lessonId": "a1-vocab-top100-lesson-4",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct adverb.",
+                  "question": "Er kommt ___ zu spÃ¤t. (He always comes too late.)",
+                  "correctAnswer": "immer",
+                  "hint": "The opposite of 'nie' (never).",
+                  "explanation": "immer = always. The frequency scale: immer (always) â€” oft (often) â€” manchmal (sometimes) â€” selten (rarely) â€” nie (never).",
+                  "order": 3
+                }
+              ]
+            },
+            {
+              "id": "a1-vocab-top100-lesson-5",
+              "topicId": "a1-vocab-top100",
+              "categoryId": "a1-vocabulary",
+              "levelId": "a1",
+              "title": "Conjunctions, Prepositions & Essential Phrases",
+              "shortDescription": "Ranks 61â€“100: the grammar words that link ideas, the 12 most common prepositions, and 20 survival phrases every learner must know.",
+              "order": 5,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Conjunctions: The Architecture of German Sentences",
+                  "content": "Conjunctions connect sentences and clauses. German has two types with critically different effects on word order. Coordinating conjunctions (und, oder, aber) connect two main clauses and do NOT change word order â€” the verb remains in position 2. Subordinating conjunctions (weil, dass, wenn) introduce a subordinate clause and send the conjugated verb to the VERY END of that clause. This verb-final rule is one of the defining characteristics of German sentence structure."
+                },
+                {
+                  "type": "table",
+                  "title": "8 Essential Conjunctions (Ranks 61â€“68)",
+                  "headers": [
+                    "Rank",
+                    "German",
+                    "English",
+                    "Type",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "61",
+                      "und",
+                      "and",
+                      "coordinating",
+                      "Ich arbeite und lerne Deutsch. (I work and learn German.) â€” normal word order"
+                    ],
+                    [
+                      "62",
+                      "oder",
+                      "or",
+                      "coordinating",
+                      "Kaffee oder Tee? (Coffee or tea?) â€” normal word order"
+                    ],
+                    [
+                      "63",
+                      "aber",
+                      "but / however",
+                      "coordinating",
+                      "Ich will kommen, aber ich habe keine Zeit. (I want to come, but I have no time.) â€” normal word order"
+                    ],
+                    [
+                      "64",
+                      "weil",
+                      "because",
+                      "subordinating",
+                      "Ich lerne Deutsch, weil ich in Deutschland wohne. (I learn German because I live in Germany.) â€” verb to END"
+                    ],
+                    [
+                      "65",
+                      "dass",
+                      "that",
+                      "subordinating",
+                      "Ich weiÃŸ, dass er kommt. (I know that he is coming.) â€” verb to END"
+                    ],
+                    [
+                      "66",
+                      "wenn",
+                      "if / when / whenever",
+                      "subordinating",
+                      "Wenn ich Zeit habe, komme ich. (If I have time, I will come.) â€” verb to END; main verb inverts after wenn-clause"
+                    ],
+                    [
+                      "67",
+                      "dann",
+                      "then / in that case",
+                      "adverb/connector",
+                      "Zuerst arbeite ich, dann gehe ich. (First I work, then I go.) â€” causes inversion: dann + verb + subject"
+                    ],
+                    [
+                      "68",
+                      "also",
+                      "so / therefore / thus",
+                      "adverb/connector",
+                      "Ich bin mÃ¼de, also gehe ich nach Hause. (I am tired, so I am going home.) â€” causes inversion"
+                    ]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "weil and dass Always Push the Verb to the End",
+                  "content": "This is the most important word order rule for subordinate clauses. Compare: Ich gehe nach Hause. (verb in position 2) vs. weil ich nach Hause gehe. (verb at the END â€” because I am going home). And: Ich weiÃŸ, dass er nach Hause geht. (I know that he is going home â€” geht is at the end). This structure is called Verbendstellung (verb-final position) and is non-negotiable in standard German."
+                },
+                {
+                  "type": "explanation",
+                  "title": "The 12 Most Essential German Prepositions",
+                  "content": "German prepositions determine the grammatical case of the noun that follows them. Some always take Akkusativ (fÃ¼r, ohne, gegen), some always take Dativ (mit, von, nach, bei), and some are two-way prepositions that take Akkusativ for direction/movement and Dativ for location/state (Ã¼ber, unter, vor, hinter, zwischen). At A1 level, focus on learning the prepositions with their most common meanings."
+                },
+                {
+                  "type": "table",
+                  "title": "12 Core Prepositions (Ranks 69â€“80)",
+                  "headers": [
+                    "Rank",
+                    "German",
+                    "English",
+                    "Case",
+                    "Example"
+                  ],
+                  "rows": [
+                    [
+                      "69",
+                      "mit",
+                      "with / by (transport)",
+                      "Dativ",
+                      "Ich fahre mit dem Bus. (I am going by bus.)"
+                    ],
+                    [
+                      "70",
+                      "ohne",
+                      "without",
+                      "Akkusativ",
+                      "Kaffee ohne Zucker. (Coffee without sugar.)"
+                    ],
+                    [
+                      "71",
+                      "fÃ¼r",
+                      "for",
+                      "Akkusativ",
+                      "Das ist fÃ¼r dich. (That is for you.)"
+                    ],
+                    [
+                      "72",
+                      "von",
+                      "from / of / by",
+                      "Dativ",
+                      "Ich komme von der Arbeit. (I am coming from work.)"
+                    ],
+                    [
+                      "73",
+                      "nach",
+                      "to (cities/countries) / after",
+                      "Dativ",
+                      "Ich fahre nach Berlin. (I am going to Berlin.)"
+                    ],
+                    [
+                      "74",
+                      "bei",
+                      "at / near / staying with",
+                      "Dativ",
+                      "Ich bin bei meiner Freundin. (I am at my girlfriend's place.)"
+                    ],
+                    [
+                      "75",
+                      "Ã¼ber",
+                      "about / over / above",
+                      "Akk./Dativ",
+                      "Wir sprechen Ã¼ber die Arbeit. (We are talking about work.)"
+                    ],
+                    [
+                      "76",
+                      "unter",
+                      "under / below / among",
+                      "Akk./Dativ",
+                      "Das Buch liegt unter dem Tisch. (The book is under the table.)"
+                    ],
+                    [
+                      "77",
+                      "vor",
+                      "before / in front of / ago",
+                      "Akk./Dativ",
+                      "Er steht vor dem Haus. (He is standing in front of the house.)"
+                    ],
+                    [
+                      "78",
+                      "hinter",
+                      "behind",
+                      "Akk./Dativ",
+                      "Das Auto steht hinter dem Haus. (The car is behind the house.)"
+                    ],
+                    [
+                      "79",
+                      "zwischen",
+                      "between",
+                      "Akk./Dativ",
+                      "Die Bank liegt zwischen dem Supermarkt und der Post. (The bank is between the supermarket and the post office.)"
+                    ],
+                    [
+                      "80",
+                      "gegen",
+                      "against / around (time)",
+                      "Akkusativ",
+                      "Ich komme gegen 8 Uhr. (I will come around 8 o'clock.)"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "nach vs. in vs. zu â€” Getting the Destination Right",
+                  "content": "Choosing the right preposition for travel destinations is one of the most common A1 challenges. Use nach for cities and most countries (no article): nach Berlin, nach Deutschland, nach Hause. Use in for countries that require an article: in die TÃ¼rkei, in den Iran, in die USA. Use zu for people and specific local destinations: zum Arzt (to the doctor), zur Arbeit (to work), zu meiner Freundin (to my girlfriend's place). These three cover virtually every destination scenario."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Essential German Phrases (Ranks 81â€“100)",
+                  "content": "These 20 words and expressions are the social oil that keeps every German conversation flowing. They are the first words you need to understand and the first ones native speakers will direct at you. Knowing them fluently â€” without hesitation â€” signals respect and basic competence in German-speaking environments."
+                },
+                {
+                  "type": "table",
+                  "title": "20 Essential Phrases & Expressions (Ranks 81â€“100)",
+                  "headers": [
+                    "Rank",
+                    "German",
+                    "English",
+                    "Formality",
+                    "Key Note"
+                  ],
+                  "rows": [
+                    [
+                      "81",
+                      "ja",
+                      "yes",
+                      "all contexts",
+                      "Simple agreement. Ja? = Really? (surprised or asking for confirmation)"
+                    ],
+                    [
+                      "82",
+                      "nein",
+                      "no",
+                      "all contexts",
+                      "Direct refusal. Nein, danke = No, thank you."
+                    ],
+                    [
+                      "83",
+                      "bitte",
+                      "please / you're welcome / here you go / pardon?",
+                      "all contexts",
+                      "4 uses: please (request), you're welcome (after danke), here you go (handing sth.), pardon? (did not hear)"
+                    ],
+                    [
+                      "84",
+                      "danke",
+                      "thank you",
+                      "all contexts",
+                      "Danke schÃ¶n = Thank you very much. Danke sehr = Thank you very much (stronger). Vielen Dank = Many thanks."
+                    ],
+                    [
+                      "85",
+                      "Entschuldigung",
+                      "excuse me / sorry",
+                      "all contexts",
+                      "Getting someone's attention: Entschuldigung! Starting a question: Entschuldigung, wo ist...?"
+                    ],
+                    [
+                      "86",
+                      "Hallo",
+                      "hello / hi",
+                      "informal to neutral",
+                      "Safe in almost all everyday contexts. More formal option: Guten Tag."
+                    ],
+                    [
+                      "87",
+                      "Guten Morgen",
+                      "good morning",
+                      "formal to neutral",
+                      "Used until approximately 11am. Morgen! is the short informal version between colleagues."
+                    ],
+                    [
+                      "88",
+                      "TschÃ¼ss",
+                      "bye / goodbye",
+                      "informal to neutral",
+                      "Very widely used across Germany. More formal: Auf Wiedersehen (Goodbye / Until we meet again)."
+                    ],
+                    [
+                      "89",
+                      "natÃ¼rlich",
+                      "of course / naturally",
+                      "all contexts",
+                      "NatÃ¼rlich! = Of course! Confident agreement. Can also mean 'obviously' in context."
+                    ],
+                    [
+                      "90",
+                      "vielleicht",
+                      "maybe / perhaps",
+                      "all contexts",
+                      "Ich komme vielleicht. (I might come.) Less certain than wahrscheinlich (probably)."
+                    ],
+                    [
+                      "91",
+                      "wirklich",
+                      "really / truly",
+                      "all contexts",
+                      "Wirklich? = Really? (surprise). Das ist wirklich toll! (That is really great!)"
+                    ],
+                    [
+                      "92",
+                      "genau",
+                      "exactly / precisely / right",
+                      "all contexts",
+                      "Native speakers use genau constantly to confirm understanding: Genau! = Exactly! Right!"
+                    ],
+                    [
+                      "93",
+                      "gern",
+                      "gladly / like to / with pleasure",
+                      "all contexts",
+                      "Ich trinke gern Kaffee. (I like to drink coffee.) Gern geschehen! (My pleasure! / You are welcome!)"
+                    ],
+                    [
+                      "94",
+                      "leider",
+                      "unfortunately / I am afraid",
+                      "all contexts",
+                      "Leider nicht. (Unfortunately not.) Ich kann leider nicht kommen. (I am afraid I cannot come.)"
+                    ],
+                    [
+                      "95",
+                      "sofort",
+                      "immediately / right away",
+                      "all contexts",
+                      "Ich komme sofort! (I am coming right away!) Expresses urgency or quick response."
+                    ],
+                    [
+                      "96",
+                      "mÃ¶glich",
+                      "possible",
+                      "all contexts",
+                      "Das ist mÃ¶glich. (That is possible.) Das ist nicht mÃ¶glich! (That is impossible!)"
+                    ],
+                    [
+                      "97",
+                      "das Problem",
+                      "the problem",
+                      "all contexts",
+                      "Kein Problem! (No problem!) â€” one of the most reassuring phrases in German."
+                    ],
+                    [
+                      "98",
+                      "die Frage",
+                      "the question",
+                      "all contexts",
+                      "Gute Frage! (Good question!) Ich habe eine Frage. (I have a question.)"
+                    ],
+                    [
+                      "99",
+                      "die Antwort",
+                      "the answer / reply",
+                      "all contexts",
+                      "Was ist die Antwort? (What is the answer?) Ich warte auf deine Antwort. (I am waiting for your reply.)"
+                    ],
+                    [
+                      "100",
+                      "das Beispiel",
+                      "the example",
+                      "all contexts",
+                      "Zum Beispiel... (For example...) â€” abbreviated as z.B. in writing. Used constantly."
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "bitte â€” The Most Versatile Word in German",
+                  "content": "bitte is used in at least four different situations you will encounter immediately: 1) Please in requests: Einen Kaffee, bitte. (A coffee, please.) 2) You are welcome after danke: Danke! â€” Bitte! 3) Here you go when handing something: Hier, bitte! 4) Pardon? when you did not hear: Bitte? Learn all four â€” they all appear in the first week of living in a German-speaking country."
+                },
+                {
+                  "type": "example",
+                  "title": "A Complete Conversation Using Ranks 61â€“100",
+                  "content": "â€” Entschuldigung, sprechen Sie Deutsch? â€” Ja, natÃ¼rlich. Aber ich spreche nur ein bisschen. â€” Kein Problem! Ich habe eine Frage: Wo ist der Bahnhof? â€” Hmm, ich weiÃŸ nicht genau... Er ist vielleicht dort hinten, aber ich bin nicht sicher. â€” Wirklich? Auf der Karte ist er hier. â€” Ach sofort â€” ich kenne die StraÃŸe! Gehen Sie geradeaus, dann links. Das ist das Beispiel: geradeaus, dann links. â€” Danke sehr! â€” Bitte! Gute Reise!"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "und",
+                  "english": "and",
+                  "example": "Ich arbeite und lerne Deutsch. (I work and learn German.)"
+                },
+                {
+                  "german": "oder",
+                  "english": "or",
+                  "example": "Kaffee oder Tee? (Coffee or tea?)"
+                },
+                {
+                  "german": "aber",
+                  "english": "but / however",
+                  "example": "Ich will, aber ich kann nicht. (I want to, but I cannot.)"
+                },
+                {
+                  "german": "weil",
+                  "english": "because",
+                  "example": "Ich lerne Deutsch, weil ich hier wohne. (I learn German because I live here.)"
+                },
+                {
+                  "german": "dass",
+                  "english": "that (conjunction)",
+                  "example": "Ich weiÃŸ, dass er kommt. (I know that he is coming.)"
+                },
+                {
+                  "german": "wenn",
+                  "english": "if / when / whenever",
+                  "example": "Wenn ich Zeit habe, komme ich. (If I have time, I will come.)"
+                },
+                {
+                  "german": "dann",
+                  "english": "then",
+                  "example": "Zuerst esse ich, dann gehe ich. (First I eat, then I go.)"
+                },
+                {
+                  "german": "also",
+                  "english": "so / therefore",
+                  "example": "Ich bin mÃ¼de, also gehe ich schlafen. (I am tired, so I am going to sleep.)"
+                },
+                {
+                  "german": "mit",
+                  "english": "with / by (transport)",
+                  "example": "Ich fahre mit dem Zug. (I am going by train.)"
+                },
+                {
+                  "german": "ohne",
+                  "english": "without",
+                  "example": "Kaffee ohne Milch, bitte. (Coffee without milk, please.)"
+                },
+                {
+                  "german": "fÃ¼r",
+                  "english": "for",
+                  "example": "Das ist fÃ¼r dich. (That is for you.)"
+                },
+                {
+                  "german": "von",
+                  "english": "from / of",
+                  "example": "Ich komme von der Arbeit. (I am coming from work.)"
+                },
+                {
+                  "german": "nach",
+                  "english": "to (cities) / after",
+                  "example": "Ich fahre nach MÃ¼nchen. (I am going to Munich.)"
+                },
+                {
+                  "german": "bei",
+                  "english": "at / with (staying at)",
+                  "example": "Ich bin bei meinen Eltern. (I am at my parents' place.)"
+                },
+                {
+                  "german": "Ã¼ber",
+                  "english": "about / over / above",
+                  "example": "Wir sprechen Ã¼ber die Arbeit. (We talk about work.)"
+                },
+                {
+                  "german": "unter",
+                  "english": "under / below",
+                  "example": "Das liegt unter dem Tisch. (That is under the table.)"
+                },
+                {
+                  "german": "vor",
+                  "english": "before / in front of",
+                  "example": "Ich warte vor dem Eingang. (I am waiting in front of the entrance.)"
+                },
+                {
+                  "german": "hinter",
+                  "english": "behind",
+                  "example": "Das Auto steht hinter dem Haus. (The car is behind the house.)"
+                },
+                {
+                  "german": "zwischen",
+                  "english": "between",
+                  "example": "Er sitzt zwischen uns. (He sits between us.)"
+                },
+                {
+                  "german": "gegen",
+                  "english": "against / around (time)",
+                  "example": "Ich komme gegen 9 Uhr. (I will come around 9 o'clock.)"
+                },
+                {
+                  "german": "ja",
+                  "english": "yes",
+                  "example": "Ja, natÃ¼rlich! (Yes, of course!)"
+                },
+                {
+                  "german": "nein",
+                  "english": "no",
+                  "example": "Nein, danke. (No, thank you.)"
+                },
+                {
+                  "german": "bitte",
+                  "english": "please / you're welcome / here you go / pardon?",
+                  "example": "Einen Kaffee, bitte! (A coffee, please!)"
+                },
+                {
+                  "german": "danke",
+                  "english": "thank you",
+                  "example": "Danke schÃ¶n! (Thank you very much!)"
+                },
+                {
+                  "german": "Entschuldigung",
+                  "english": "excuse me / sorry",
+                  "example": "Entschuldigung, wo ist die Toilette? (Excuse me, where is the toilet?)"
+                },
+                {
+                  "german": "Hallo",
+                  "english": "hello / hi",
+                  "example": "Hallo! Wie geht's? (Hello! How are you?)"
+                },
+                {
+                  "german": "Guten Morgen",
+                  "english": "good morning",
+                  "example": "Guten Morgen! Wie geht es Ihnen? (Good morning! How are you?)"
+                },
+                {
+                  "german": "TschÃ¼ss",
+                  "english": "bye / goodbye",
+                  "example": "TschÃ¼ss! Bis morgen! (Bye! See you tomorrow!)"
+                },
+                {
+                  "german": "natÃ¼rlich",
+                  "english": "of course / naturally",
+                  "example": "NatÃ¼rlich! Kein Problem. (Of course! No problem.)"
+                },
+                {
+                  "german": "vielleicht",
+                  "english": "maybe / perhaps",
+                  "example": "Ich komme vielleicht spÃ¤ter. (Maybe I will come later.)"
+                },
+                {
+                  "german": "wirklich",
+                  "english": "really / truly",
+                  "example": "Das ist wirklich schÃ¶n! (That is really beautiful!)"
+                },
+                {
+                  "german": "genau",
+                  "english": "exactly / right / precisely",
+                  "example": "Genau! Das meine ich auch. (Exactly! That is what I mean too.)"
+                },
+                {
+                  "german": "gern",
+                  "english": "gladly / like to",
+                  "example": "Ich trinke gern Tee. (I like to drink tea.)"
+                },
+                {
+                  "german": "leider",
+                  "english": "unfortunately",
+                  "example": "Ich kann leider nicht kommen. (Unfortunately I cannot come.)"
+                },
+                {
+                  "german": "sofort",
+                  "english": "immediately / right away",
+                  "example": "Ich komme sofort! (I am coming right away!)"
+                },
+                {
+                  "german": "mÃ¶glich",
+                  "english": "possible",
+                  "example": "Ist das mÃ¶glich? (Is that possible?)"
+                },
+                {
+                  "german": "Problem",
+                  "english": "problem",
+                  "article": "das",
+                  "plural": "Probleme",
+                  "example": "Kein Problem! (No problem!)"
+                },
+                {
+                  "german": "Frage",
+                  "english": "question",
+                  "article": "die",
+                  "plural": "Fragen",
+                  "example": "Gute Frage! (Good question!)"
+                },
+                {
+                  "german": "Antwort",
+                  "english": "answer / reply",
+                  "article": "die",
+                  "plural": "Antworten",
+                  "example": "Ich warte auf deine Antwort. (I am waiting for your reply.)"
+                },
+                {
+                  "german": "Beispiel",
+                  "english": "example",
+                  "article": "das",
+                  "plural": "Beispiele",
+                  "example": "Zum Beispiel... (For example...)"
+                }
+              ],
+              "exercises": [
+                {
+                  "id": "a1-top100-l5-ex1",
+                  "lessonId": "a1-vocab-top100-lesson-5",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the grammatically correct sentence.",
+                  "question": "Which sentence uses 'weil' correctly?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich lerne Deutsch, weil ich lebe in Deutschland.",
+                      "isCorrect": false,
+                      "explanation": "Wrong! After weil the verb must go to the END: weil ich in Deutschland lebe."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich lerne Deutsch, weil in Deutschland ich lebe.",
+                      "isCorrect": false,
+                      "explanation": "Wrong word order in the weil-clause. The conjugated verb must come last."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich lerne Deutsch, weil ich in Deutschland lebe.",
+                      "isCorrect": true,
+                      "explanation": "Correct! weil sends the conjugated verb (lebe) to the very end of its clause."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Weil ich in Deutschland lebe ich, lerne Deutsch.",
+                      "isCorrect": false,
+                      "explanation": "Multiple errors â€” extra pronoun and wrong main clause order."
+                    }
+                  ],
+                  "explanation": "weil is a subordinating conjunction â€” it sends the conjugated verb to the END: Ich lerne Deutsch, weil ich in Deutschland LEBE. (lebe is last!)",
+                  "order": 1
+                },
+                {
+                  "id": "a1-top100-l5-ex2",
+                  "lessonId": "a1-vocab-top100-lesson-5",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "How do you say 'I am going to Berlin' in German?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Ich fahre zu Berlin.",
+                      "isCorrect": false,
+                      "explanation": "zu is used for people and local destinations (zum Arzt), not cities."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Ich fahre in Berlin.",
+                      "isCorrect": false,
+                      "explanation": "in + Akkusativ is for countries with an article (in die TÃ¼rkei), not cities."
+                    },
+                    {
+                      "id": "c",
+                      "text": "Ich fahre nach Berlin.",
+                      "isCorrect": true,
+                      "explanation": "Correct! nach is used for cities and most countries (without an article)."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Ich fahre bei Berlin.",
+                      "isCorrect": false,
+                      "explanation": "bei means 'at / near' â€” not used for travel destinations."
+                    }
+                  ],
+                  "explanation": "nach for cities and most countries: nach Berlin, nach Deutschland, nach Hause. in + Akkusativ for countries with articles: in die TÃ¼rkei, in die USA.",
+                  "order": 2
+                },
+                {
+                  "id": "a1-top100-l5-ex3",
+                  "lessonId": "a1-vocab-top100-lesson-5",
+                  "type": "multiple-choice",
+                  "instruction": "Choose the correct answer.",
+                  "question": "Someone gives you your coffee and says 'Hier, bitte!' â€” what do they mean?",
+                  "options": [
+                    {
+                      "id": "a",
+                      "text": "Please be here!",
+                      "isCorrect": false,
+                      "explanation": "Not correct in this context."
+                    },
+                    {
+                      "id": "b",
+                      "text": "Here you go!",
+                      "isCorrect": true,
+                      "explanation": "Correct! Hier, bitte! = Here you go! â€” bitte when presenting something means 'here you go'."
+                    },
+                    {
+                      "id": "c",
+                      "text": "You are welcome!",
+                      "isCorrect": false,
+                      "explanation": "Bitte as 'you are welcome' comes AFTER someone says danke, not when handing something."
+                    },
+                    {
+                      "id": "d",
+                      "text": "Please ask here!",
+                      "isCorrect": false,
+                      "explanation": "Not correct in this context."
+                    }
+                  ],
+                  "explanation": "bitte has 4 uses: 1) please (request), 2) you are welcome (after danke), 3) here you go (handing something), 4) pardon? (did not hear). Hier, bitte! = Here you go!",
+                  "order": 3
+                },
+                {
+                  "id": "a1-top100-l5-ex4",
+                  "lessonId": "a1-vocab-top100-lesson-5",
+                  "type": "fill-in-blank",
+                  "instruction": "Fill in the correct word.",
+                  "question": "Zum ___ : Ich trinke gern Kaffee. (For example: I like to drink coffee.)",
+                  "correctAnswer": "Beispiel",
+                  "hint": "Rank #100. Abbreviated as 'z.B.' in writing.",
+                  "explanation": "Zum Beispiel = For example. Abbreviated as z.B. in formal writing. One of the most useful phrases in academic, professional, and everyday German.",
+                  "order": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-conversation",
+      "levelId": "a1",
+      "title": "Conversation",
+      "description": "Practical communication for real-life situations",
+      "icon": "ðŸ—£ï¸",
+      "order": 3,
+      "topics": [
+        {
+          "id": "a1-conv-greetings",
+          "categoryId": "a1-conversation",
+          "levelId": "a1",
+          "title": "Greetings & Farewells",
+          "description": "Formal and informal ways to say hello and goodbye",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 1,
+          "tags": [
+            "greetings",
+            "social",
+            "formal",
+            "informal"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-conv-introductions",
+          "categoryId": "a1-conversation",
+          "levelId": "a1",
+          "title": "Introductions",
+          "description": "Introduce yourself: name, age, nationality, job",
+          "difficulty": 1,
+          "estimatedMinutes": 20,
+          "order": 2,
+          "tags": [
+            "introductions",
+            "self-presentation"
+          ],
+          "prerequisites": [
+            "a1-conv-greetings"
+          ],
+          "lessons": []
+        },
+        {
+          "id": "a1-conv-asking-help",
+          "categoryId": "a1-conversation",
+          "levelId": "a1",
+          "title": "Asking for Help",
+          "description": "How to ask for directions, help and clarification",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 3,
+          "tags": [
+            "questions",
+            "help",
+            "practical"
+          ],
+          "prerequisites": [
+            "a1-conv-introductions"
+          ],
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": "a1-pronunciation",
+      "levelId": "a1",
+      "title": "Pronunciation",
+      "description": "Master German sounds, the alphabet and spelling rules",
+      "icon": "ðŸŽµ",
+      "order": 4,
+      "topics": [
+        {
+          "id": "a1-pron-alphabet",
+          "categoryId": "a1-pronunciation",
+          "levelId": "a1",
+          "title": "The German Alphabet",
+          "description": "All 26 letters plus Ã„, Ã–, Ãœ and ÃŸ with pronunciation",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 1,
+          "tags": [
+            "alphabet",
+            "sounds",
+            "basics"
+          ],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "a1-pron-vowels",
+          "categoryId": "a1-pronunciation",
+          "levelId": "a1",
+          "title": "Vowel Sounds",
+          "description": "Long and short vowels, umlauts and diphthongs",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 2,
+          "tags": [
+            "vowels",
+            "umlauts",
+            "phonetics"
+          ],
+          "prerequisites": [
+            "a1-pron-alphabet"
+          ],
+          "lessons": []
+        }
+      ]
+    }
+  ]
+}
