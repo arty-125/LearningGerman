@@ -1,0 +1,27 @@
+<div class="layout" [class.layout--sidebar-open]="sidebarOpen()">
+
+  <!-- Mobile overlay -->
+  @if (sidebarOpen()) {
+    <div class="layout__overlay" (click)="closeSidebar()" aria-hidden="true"></div>
+  }
+
+  <!-- Sidebar -->
+  <app-sidebar
+    class="layout__sidebar"
+    [isOpen]="sidebarOpen()"
+    (closeRequested)="closeSidebar()"
+  />
+
+  <!-- Main area: header + content -->
+  <div class="layout__main">
+    <app-header
+      class="layout__header"
+      (menuToggled)="toggleSidebar()"
+    />
+
+    <main class="layout__content" id="main-content">
+      <router-outlet />
+    </main>
+  </div>
+
+</div>

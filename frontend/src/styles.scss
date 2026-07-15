@@ -1,0 +1,84 @@
+// ─── Global stylesheet entry point ───────────────────────────────────────────
+// Imports all style partials in the correct order.
+
+@use 'styles/variables';
+@use 'styles/mixins' as m;
+@use 'styles/typography';
+@use 'styles/utilities';
+@use 'styles/animations';
+
+// ─── CSS Reset ───────────────────────────────────────────────────────────────
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+// ─── Global scrollbar ────────────────────────────────────────────────────────
+
+html {
+  @include m.custom-scrollbar;
+}
+
+// ─── Angular router transitions ──────────────────────────────────────────────
+
+router-outlet + * {
+  animation: fade-in-up var(--transition-slow) ease forwards;
+}
+
+// ─── Global focus styles ─────────────────────────────────────────────────────
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+// ─── Selection color ─────────────────────────────────────────────────────────
+
+::selection {
+  background: var(--color-primary-light);
+  color: var(--color-primary-hover);
+}

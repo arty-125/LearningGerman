@@ -1,0 +1,123 @@
+<div class="page dashboard">
+
+  <!-- ─── Hero welcome ──────────────────────────────────────────────────── -->
+  <section class="dashboard__hero animate-fade-in-up">
+    <div class="dashboard__hero-text">
+      <h1 class="dashboard__greeting">Willkommen! 👋</h1>
+      <p class="dashboard__subtitle">
+        Pick up where you left off, or explore a new topic.
+      </p>
+    </div>
+
+    <!-- Stats -->
+    <div class="dashboard__stats">
+      <div class="dashboard__stat">
+        <span class="dashboard__stat-value">{{ totalXp() }}</span>
+        <span class="dashboard__stat-label">Total XP</span>
+      </div>
+      <div class="dashboard__stat-divider" aria-hidden="true"></div>
+      <div class="dashboard__stat">
+        <span class="dashboard__stat-value">{{ streakDays() }}</span>
+        <span class="dashboard__stat-label">Day Streak</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Levels ────────────────────────────────────────────────────────── -->
+  <section class="dashboard__section animate-fade-in-up" style="animation-delay: 100ms">
+    <div class="dashboard__section-header">
+      <h2 class="dashboard__section-title">German Levels</h2>
+      <p class="dashboard__section-sub">Choose your level and start learning</p>
+    </div>
+
+    @if (curriculumService.isLoaded()) {
+      <div class="dashboard__levels-grid">
+        @for (card of levelCards(); track card.id; let i = $index) {
+          <a
+            [routerLink]="['/levels', card.id]"
+            class="level-card stagger-{{ i + 1 }} animate-fade-in-up"
+            [style.--level-color]="card.color"
+            [style.--level-color-light]="card.lightColor"
+          >
+            <!-- Badge and arrow -->
+            <div class="level-card__top">
+              <app-level-badge [level]="card.code" />
+              <svg class="level-card__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </div>
+
+            <!-- Title -->
+            <h3 class="level-card__title">{{ card.title }}</h3>
+            <p class="level-card__description">{{ card.description }}</p>
+
+            <!-- Stats -->
+            <div class="level-card__stats">
+              <span class="level-card__stat">
+                <strong>{{ card.totalTopics }}</strong> topics
+              </span>
+              <span class="level-card__stat">
+                <strong>{{ card.totalLessons }}</strong> lessons
+              </span>
+            </div>
+
+            <!-- Progress -->
+            <div class="level-card__progress">
+              <app-progress-bar
+                [value]="card.progressPercent"
+                [color]="card.code.toLowerCase()"
+              />
+              <span class="level-card__progress-label">
+                {{ card.progressPercent }}% complete
+              </span>
+            </div>
+          </a>
+        }
+      </div>
+    } @else {
+      <!-- Loading skeletons -->
+      <div class="dashboard__levels-grid">
+        @for (n of [1, 2, 3, 4]; track n) {
+          <div class="level-card-skeleton">
+            <div class="skeleton" style="height: 24px; width: 48px; border-radius: 6px;"></div>
+            <div class="skeleton" style="height: 20px; width: 120px; margin-top: 12px; border-radius: 6px;"></div>
+            <div class="skeleton" style="height: 16px; width: 180px; margin-top: 8px; border-radius: 4px;"></div>
+            <div class="skeleton" style="height: 8px; margin-top: 16px; border-radius: 4px;"></div>
+          </div>
+        }
+      </div>
+    }
+  </section>
+
+  <!-- ─── Getting started tips ─────────────────────────────────────────── -->
+  <section class="dashboard__section animate-fade-in-up" style="animation-delay: 200ms">
+    <div class="dashboard__section-header">
+      <h2 class="dashboard__section-title">How It Works</h2>
+    </div>
+
+    <div class="dashboard__tips-grid">
+      <div class="tip-card">
+        <div class="tip-card__icon">📚</div>
+        <h4 class="tip-card__title">Study Topics</h4>
+        <p class="tip-card__text">Browse grammar, vocabulary, and conversation topics organized by CEFR level.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-card__icon">✏️</div>
+        <h4 class="tip-card__title">Practice Exercises</h4>
+        <p class="tip-card__text">Reinforce your learning with interactive exercises after each lesson.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-card__icon">📈</div>
+        <h4 class="tip-card__title">Track Progress</h4>
+        <p class="tip-card__text">Monitor your progress across all levels with detailed statistics.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-card__icon">🏆</div>
+        <h4 class="tip-card__title">Earn XP</h4>
+        <p class="tip-card__text">Complete lessons and exercises to earn experience points and maintain your streak.</p>
+      </div>
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,49 @@
+<a
+  [routerLink]="['/levels', levelId(), 'categories', categoryId(), 'topics', topicId()]"
+  class="topic-card"
+  [class]="'topic-card--' + status()"
+  (click)="topicClicked.emit(topicId())"
+>
+  <!-- Status indicator -->
+  <div class="topic-card__status-dot" [class]="'topic-card__status-dot--' + status()" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <div class="topic-card__header">
+    <div class="topic-card__meta">
+      <app-level-badge [level]="levelCode()" />
+      @if (estimatedMinutes() > 0) {
+        <span class="topic-card__time">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          {{ estimatedMinutes() }} min
+        </span>
+      }
+    </div>
+    <span class="topic-card__difficulty" [attr.title]="'Difficulty: ' + difficulty() + '/5'">
+      {{ difficultyStars }}
+    </span>
+  </div>
+
+  <!-- Title & description -->
+  <h3 class="topic-card__title">{{ title() }}</h3>
+  @if (description()) {
+    <p class="topic-card__description">{{ description() }}</p>
+  }
+
+  <!-- Footer -->
+  <div class="topic-card__footer">
+    @if (lessonCount() > 0) {
+      <app-progress-bar
+        [value]="progressPercent"
+        [color]="levelCode().toLowerCase()"
+      />
+      <span class="topic-card__lessons">
+        {{ completedLessons() }}/{{ lessonCount() }} lessons
+      </span>
+    } @else {
+      <span class="topic-card__coming-soon">Coming soon</span>
+    }
+  </div>
+</a>

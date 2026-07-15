@@ -1,0 +1,231 @@
+@use '../../../styles/mixins' as m;
+
+:host { display: block; }
+
+.dashboard {
+  // ─── Hero ─────────────────────────────────────────────────────────────
+  &__hero {
+    @include m.flex-between;
+    gap: var(--space-6);
+    background: linear-gradient(135deg, var(--color-primary) 0%, #7c3aed 100%);
+    color: var(--color-text-inverse);
+    border-radius: var(--radius-2xl);
+    padding: var(--space-8) var(--space-10);
+    margin-bottom: var(--space-8);
+
+    @include m.max-md {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: var(--space-6);
+    }
+  }
+
+  &__greeting {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    color: inherit;
+    margin-bottom: var(--space-2);
+  }
+
+  &__subtitle {
+    font-size: var(--font-size-lg);
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+  }
+
+  // ─── Stats ────────────────────────────────────────────────────────────
+  &__stats {
+    @include m.flex-start;
+    gap: var(--space-6);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-xl);
+    padding: var(--space-5) var(--space-6);
+    backdrop-filter: blur(8px);
+    flex-shrink: 0;
+  }
+
+  &__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-1);
+    text-align: center;
+  }
+
+  &__stat-value {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-extrabold);
+    color: white;
+  }
+
+  &__stat-label {
+    font-size: var(--font-size-xs);
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__stat-divider {
+    width: 1px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  // ─── Section ──────────────────────────────────────────────────────────
+  &__section {
+    margin-bottom: var(--space-8);
+  }
+
+  &__section-header {
+    margin-bottom: var(--space-6);
+  }
+
+  &__section-title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  &__section-sub {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    margin: var(--space-1) 0 0;
+  }
+
+  // ─── Levels grid ──────────────────────────────────────────────────────
+  &__levels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-5);
+  }
+
+  // ─── Tips grid ────────────────────────────────────────────────────────
+  &__tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: var(--space-4);
+  }
+}
+
+// ─── Level card ─────────────────────────────────────────────────────────────
+
+.level-card {
+  @include m.card;
+  @include m.card-hover;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+  border-top: 3px solid var(--level-color, var(--color-primary));
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: var(--level-color-light, var(--color-primary-light));
+    border-radius: 50%;
+    transform: translate(30%, -30%);
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  &__top {
+    @include m.flex-between;
+    align-items: flex-start;
+  }
+
+  &__arrow {
+    color: var(--color-text-muted);
+    transition: transform var(--transition-base), color var(--transition-fast);
+  }
+
+  &:hover &__arrow {
+    transform: translateX(4px);
+    color: var(--level-color, var(--color-primary));
+  }
+
+  &__title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  &__description {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-base);
+    margin: 0;
+    flex: 1;
+  }
+
+  &__stats {
+    @include m.flex-start;
+    gap: var(--space-4);
+  }
+
+  &__stat {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+
+    strong {
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-text);
+    }
+  }
+
+  &__progress {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  &__progress-label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+  }
+}
+
+.level-card-skeleton {
+  @include m.card;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+}
+
+// ─── Tip card ───────────────────────────────────────────────────────────────
+
+.tip-card {
+  @include m.card;
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+
+  &__icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  &__title {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  &__text {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-base);
+    margin: 0;
+  }
+}

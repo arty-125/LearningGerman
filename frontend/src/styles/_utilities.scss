@@ -1,0 +1,109 @@
+// Reusable utility classes used across components.
+
+// ─── Display ────────────────────────────────────────────────────────────────
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.grid { display: grid; }
+.hidden { display: none; }
+
+// ─── Flex Alignment ──────────────────────────────────────────────────────────
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: var(--space-2); }
+.gap-3 { gap: var(--space-3); }
+.gap-4 { gap: var(--space-4); }
+.gap-6 { gap: var(--space-6); }
+.gap-8 { gap: var(--space-8); }
+
+// ─── Spacing ─────────────────────────────────────────────────────────────────
+.p-4 { padding: var(--space-4); }
+.p-6 { padding: var(--space-6); }
+.p-8 { padding: var(--space-8); }
+.mt-4 { margin-top: var(--space-4); }
+.mt-6 { margin-top: var(--space-6); }
+.mt-8 { margin-top: var(--space-8); }
+
+// ─── Typography ──────────────────────────────────────────────────────────────
+.text-sm { font-size: var(--font-size-sm); }
+.text-base { font-size: var(--font-size-base); }
+.text-lg { font-size: var(--font-size-lg); }
+.text-xl { font-size: var(--font-size-xl); }
+.text-muted { color: var(--color-text-muted); }
+.text-secondary { color: var(--color-text-secondary); }
+.font-medium { font-weight: var(--font-weight-medium); }
+.font-semibold { font-weight: var(--font-weight-semibold); }
+.font-bold { font-weight: var(--font-weight-bold); }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+// ─── Width / Height ──────────────────────────────────────────────────────────
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.min-h-screen { min-height: 100vh; }
+
+// ─── Page structure ──────────────────────────────────────────────────────────
+.page {
+  padding: var(--space-8);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    padding: var(--space-4);
+  }
+}
+
+.page__header {
+  margin-bottom: var(--space-8);
+}
+
+.page__title {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  line-height: var(--line-height-tight);
+}
+
+.page__subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-2);
+}
+
+// ─── Empty state ─────────────────────────────────────────────────────────────
+.empty-state {
+  text-align: center;
+  padding: var(--space-16) var(--space-8);
+
+  &__icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-4);
+    opacity: 0.4;
+  }
+
+  &__title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text);
+    margin-bottom: var(--space-2);
+  }
+
+  &__description {
+    color: var(--color-text-secondary);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+// ─── Skeleton loader ─────────────────────────────────────────────────────────
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.skeleton {
+  background: var(--color-surface-3);
+  border-radius: var(--radius-md);
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+}

@@ -1,0 +1,113 @@
+<div class="page level-overview">
+
+  @if (level(); as lvl) {
+
+    <!-- Breadcrumb -->
+    <app-breadcrumb [items]="breadcrumbs()" class="level-overview__breadcrumb" />
+
+    <!-- ─── Header ──────────────────────────────────────────────────────── -->
+    <header class="level-overview__header animate-fade-in-up" [class]="'level-overview__header--' + levelColorClass()">
+      <div class="level-overview__header-content">
+        <span class="level-overview__code">{{ lvl.code }}</span>
+        <h1 class="level-overview__title">{{ lvl.title }}</h1>
+        <p class="level-overview__description">{{ lvl.description }}</p>
+
+        <div class="level-overview__meta">
+          <span class="level-overview__meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+            {{ totalTopics() }} topics
+          </span>
+          <span class="level-overview__meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            {{ totalLessons() }} lessons
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ─── Categories ──────────────────────────────────────────────────── -->
+    <div class="level-overview__categories animate-fade-in-up" style="animation-delay: 100ms">
+
+      @for (category of lvl.categories; track category.id; let i = $index) {
+        <section class="category-section stagger-{{ i + 1 }} animate-fade-in-up">
+
+          <!-- Category header -->
+          <div class="category-section__header">
+            <div class="category-section__icon-wrap">
+              <span class="category-section__icon" aria-hidden="true">{{ category.icon }}</span>
+            </div>
+            <div class="category-section__info">
+              <h2 class="category-section__title">{{ category.title }}</h2>
+              <p class="category-section__description">{{ category.description }}</p>
+            </div>
+            <a
+              [routerLink]="['/levels', lvl.id, 'categories', category.id]"
+              class="category-section__see-all"
+            >
+              See all
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Topics grid (preview: up to 4) -->
+          <div class="category-section__topics">
+            @for (topic of category.topics.slice(0, 4); track topic.id) {
+              <a
+                [routerLink]="topic.lessons.length > 0
+                  ? ['/levels', lvl.id, 'categories', category.id, 'topics', topic.id]
+                  : ['/levels', lvl.id, 'categories', category.id]"
+                class="topic-pill"
+              >
+                <span class="topic-pill__title">{{ topic.title }}</span>
+                @if (topic.lessons.length === 0) {
+                  <span class="topic-pill__badge topic-pill__badge--soon">Soon</span>
+                } @else {
+                  <span class="topic-pill__badge">{{ topic.lessons.length }}</span>
+                }
+              </a>
+            }
+
+            @if (category.topics.length > 4) {
+              <a
+                [routerLink]="['/levels', lvl.id, 'categories', category.id]"
+                class="topic-pill topic-pill--more"
+              >
+                +{{ category.topics.length - 4 }} more
+              </a>
+            }
+          </div>
+
+        </section>
+      }
+
+    </div>
+
+  } @else if (curriculumService.isLoaded()) {
+    <!-- Level not found -->
+    <div class="empty-state">
+      <div class="empty-state__icon">🔍</div>
+      <h2 class="empty-state__title">Level Not Found</h2>
+      <p class="empty-state__description">
+        The level "{{ levelId() }}" does not exist.
+      </p>
+      <a routerLink="/dashboard" class="btn-primary" style="margin-top: 1.5rem; display: inline-block;">
+        Back to Dashboard
+      </a>
+    </div>
+  } @else {
+    <!-- Loading -->
+    <div class="level-overview__loading">
+      <div class="skeleton" style="height: 200px; border-radius: 16px;"></div>
+    </div>
+  }
+
+</div>

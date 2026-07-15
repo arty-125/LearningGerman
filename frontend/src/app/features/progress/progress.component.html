@@ -1,0 +1,80 @@
+<div class="page progress-page">
+
+  <div class="page__header animate-fade-in-up">
+    <h1 class="page__title">My Progress</h1>
+    <p class="page__subtitle">Track your German learning journey across all levels</p>
+  </div>
+
+  <!-- ─── Overall stats ───────────────────────────────────────────────── -->
+  <section class="progress-page__overview animate-fade-in-up" style="animation-delay: 50ms" aria-label="Overall statistics">
+    <div class="stats-card">
+      <div class="stats-card__value">{{ totalXp() }}</div>
+      <div class="stats-card__label">Total XP</div>
+      <div class="stats-card__icon" aria-hidden="true">⭐</div>
+    </div>
+    <div class="stats-card">
+      <div class="stats-card__value">{{ streakDays() }}</div>
+      <div class="stats-card__label">Day Streak</div>
+      <div class="stats-card__icon" aria-hidden="true">🔥</div>
+    </div>
+    <div class="stats-card">
+      <div class="stats-card__value">{{ overallProgress() }}%</div>
+      <div class="stats-card__label">Overall Progress</div>
+      <div class="stats-card__icon" aria-hidden="true">📈</div>
+    </div>
+  </section>
+
+  <!-- ─── Level progress ─────────────────────────────────────────────── -->
+  <section class="progress-page__levels animate-fade-in-up" style="animation-delay: 100ms" aria-label="Progress by level">
+    <h2 class="progress-page__section-title">Progress by Level</h2>
+
+    <div class="level-progress-list">
+      @for (stat of levelStats(); track stat.id; let i = $index) {
+        <div class="level-progress-card stagger-{{ i + 1 }} animate-fade-in-up">
+          <div class="level-progress-card__header">
+            <app-level-badge [level]="stat.code" />
+            <span class="level-progress-card__title">{{ stat.title }}</span>
+            <a [routerLink]="['/levels', stat.id]" class="level-progress-card__link">
+              Explore
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="level-progress-card__bar">
+            <app-progress-bar
+              [value]="stat.progressPercent"
+              [color]="stat.code.toLowerCase()"
+              [showLabel]="true"
+            />
+          </div>
+
+          <div class="level-progress-card__stats">
+            <span>{{ stat.lessonsCompleted }} / {{ stat.lessonsTotal }} lessons</span>
+            <span>{{ stat.topicsTotal }} topics</span>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+
+  <!-- ─── Danger zone ─────────────────────────────────────────────────── -->
+  <section class="progress-page__danger animate-fade-in-up" style="animation-delay: 200ms" aria-label="Danger zone">
+    <h2 class="progress-page__section-title">Settings</h2>
+    <div class="danger-card">
+      <div class="danger-card__info">
+        <h3 class="danger-card__title">Reset All Progress</h3>
+        <p class="danger-card__description">
+          This will permanently delete all your progress, XP, and streak data.
+          This action cannot be undone.
+        </p>
+      </div>
+      <button class="danger-card__btn" type="button" (click)="resetProgress()">
+        Reset Progress
+      </button>
+    </div>
+  </section>
+
+</div>

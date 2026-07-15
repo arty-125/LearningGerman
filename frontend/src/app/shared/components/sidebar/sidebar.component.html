@@ -1,0 +1,105 @@
+<nav class="sidebar" role="navigation" aria-label="Main navigation">
+
+  <!-- Brand -->
+  <div class="sidebar__brand">
+    <span class="sidebar__brand-icon" aria-hidden="true">🇩🇪</span>
+    <div class="sidebar__brand-text">
+      <strong>Deutsch</strong> Lernen
+    </div>
+  </div>
+
+  <div class="sidebar__body">
+
+    <!-- Main navigation -->
+    <ul class="sidebar__nav" role="list">
+
+      <li>
+        <a
+          routerLink="/dashboard"
+          routerLinkActive="is-active"
+          class="sidebar__link"
+          (click)="onLinkClick()"
+          title="Dashboard"
+        >
+          <svg class="sidebar__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7" rx="1"/>
+            <rect x="14" y="3" width="7" height="7" rx="1"/>
+            <rect x="3" y="14" width="7" height="7" rx="1"/>
+            <rect x="14" y="14" width="7" height="7" rx="1"/>
+          </svg>
+          <span class="sidebar__link-label">Dashboard</span>
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- Level navigation -->
+    <div class="sidebar__section">
+      <span class="sidebar__section-label">Levels</span>
+      <ul class="sidebar__nav" role="list">
+        @for (level of navLevels(); track level.id) {
+          <li>
+            <a
+              [routerLink]="['/levels', level.id]"
+              routerLinkActive="is-active"
+              class="sidebar__link sidebar__link--level"
+              (click)="onLinkClick()"
+              [title]="level.code + ' – ' + level.title"
+            >
+              <span
+                class="sidebar__level-badge"
+                [style.background]="level.color + '20'"
+                [style.color]="level.color"
+                aria-hidden="true"
+              >{{ level.code }}</span>
+              <span class="sidebar__link-label">{{ level.title }}</span>
+            </a>
+          </li>
+        }
+
+        <!-- Placeholder if curriculum not yet loaded -->
+        @if (navLevels().length === 0) {
+          @for (skeleton of [1, 2, 3, 4]; track skeleton) {
+            <li class="sidebar__link-skeleton">
+              <div class="skeleton" style="width: 40px; height: 22px; border-radius: 4px;"></div>
+              <div class="skeleton" style="width: 100px; height: 16px; border-radius: 4px;"></div>
+            </li>
+          }
+        }
+      </ul>
+    </div>
+
+    <!-- Secondary navigation -->
+    <div class="sidebar__section">
+      <span class="sidebar__section-label">Personal</span>
+      <ul class="sidebar__nav" role="list">
+
+        <li>
+          <a
+            routerLink="/progress"
+            routerLinkActive="is-active"
+            class="sidebar__link"
+            (click)="onLinkClick()"
+            title="My Progress"
+          >
+            <svg class="sidebar__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="20" x2="18" y2="10"/>
+              <line x1="12" y1="20" x2="12" y2="4"/>
+              <line x1="6" y1="20" x2="6" y2="14"/>
+            </svg>
+            <span class="sidebar__link-label">My Progress</span>
+            <span class="sidebar__xp-chip">{{ progressService.totalXp() }} XP</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="sidebar__footer">
+    <span class="sidebar__footer-text">Phase 1 Infrastructure</span>
+  </div>
+
+</nav>

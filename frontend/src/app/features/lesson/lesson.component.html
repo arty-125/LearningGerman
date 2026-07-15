@@ -1,0 +1,149 @@
+<div class="page lesson">
+
+  @if (lesson(); as ls) {
+
+    <!-- Breadcrumb -->
+    <app-breadcrumb [items]="breadcrumbs()" class="lesson__breadcrumb" />
+
+    <!-- ─── Lesson header ────────────────────────────────────────────────── -->
+    <header class="lesson__header animate-fade-in-up">
+      <div class="lesson__header-meta">
+        <app-level-badge [level]="levelCode()" />
+        @if (ls.estimatedMinutes > 0) {
+          <span class="lesson__time">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            {{ ls.estimatedMinutes }} min
+          </span>
+        }
+      </div>
+      <h1 class="lesson__title">{{ ls.title }}</h1>
+      <p class="lesson__short-desc">{{ ls.shortDescription }}</p>
+    </header>
+
+    <!-- ─── Content ─────────────────────────────────────────────────────── -->
+    <div class="lesson__content animate-fade-in-up" style="animation-delay: 80ms">
+
+      <!-- Sections -->
+      @for (section of ls.sections; track section.type + ($index)) {
+        <div class="lesson-section" [class]="'lesson-section--' + section.type">
+          @if (section.title) {
+            <h2 class="lesson-section__title">{{ section.title }}</h2>
+          }
+          <div class="lesson-section__body">
+            @if (section.type === 'list' && section.items) {
+              <ul class="lesson-section__list">
+                @for (item of section.items; track item) {
+                  <li>{{ item }}</li>
+                }
+              </ul>
+            } @else if (section.type === 'table' && section.rows) {
+              <div class="lesson-section__table-wrap">
+                <table class="lesson-section__table">
+                  @if (section.headers) {
+                    <thead>
+                      <tr>
+                        @for (h of section.headers; track h) {
+                          <th>{{ h }}</th>
+                        }
+                      </tr>
+                    </thead>
+                  }
+                  <tbody>
+                    @for (row of section.rows; track $index) {
+                      <tr>
+                        @for (cell of row; track $index) {
+                          <td>{{ cell }}</td>
+                        }
+                      </tr>
+                    }
+                  </tbody>
+                </table>
+              </div>
+            } @else {
+              <p>{{ section.content }}</p>
+            }
+          </div>
+        </div>
+      }
+
+      <!-- Vocabulary table -->
+      @if (ls.vocabulary && ls.vocabulary.length > 0) {
+        <div class="lesson-vocabulary">
+          <h2 class="lesson-vocabulary__title">📖 Vocabulary</h2>
+          <div class="lesson-vocabulary__table-wrap">
+            <table class="lesson-vocabulary__table">
+              <thead>
+                <tr>
+                  <th>German</th>
+                  <th>English</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (item of ls.vocabulary; track item.german) {
+                  <tr>
+                    <td>
+                      @if (item.article) {
+                        <em class="vocab-article">{{ item.article }}</em>
+                      }
+                      <strong>{{ item.german }}</strong>
+                      @if (item.plural) {
+                        <span class="vocab-plural">({{ item.plural }})</span>
+                      }
+                    </td>
+                    <td>{{ item.english }}</td>
+                    <td>{{ item.example ?? '—' }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      }
+
+      <!-- Exercises placeholder -->
+      @if (ls.exercises.length > 0) {
+        <div class="lesson-exercises">
+          <h2 class="lesson-exercises__title">✏️ Exercises</h2>
+          <p class="lesson-exercises__placeholder">
+            {{ ls.exercises.length }} exercise(s) available — exercise engine coming in a future phase.
+          </p>
+        </div>
+      }
+
+    </div>
+
+    <!-- ─── Completion action ────────────────────────────────────────────── -->
+    <div class="lesson__actions animate-fade-in-up" style="animation-delay: 160ms">
+      @if (progressService.getLessonStatus(lessonId()) === 'completed') {
+        <div class="lesson__completed-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+          Lesson Completed!
+        </div>
+      } @else {
+        <button class="lesson__complete-btn" type="button" (click)="markComplete()">
+          Mark as Complete
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </button>
+      }
+    </div>
+
+  } @else if (curriculumService.isLoaded()) {
+    <div class="empty-state">
+      <div class="empty-state__icon">📚</div>
+      <h2 class="empty-state__title">Lesson Not Found</h2>
+      <p class="empty-state__description">This lesson does not exist yet.</p>
+      <a routerLink="/dashboard" style="margin-top: 1.5rem; display: inline-block; color: var(--color-primary);">
+        ← Back to Dashboard
+      </a>
+    </div>
+  }
+
+</div>

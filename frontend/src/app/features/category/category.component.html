@@ -1,0 +1,67 @@
+<div class="page category">
+
+  @if (category(); as cat) {
+
+    <!-- Breadcrumb -->
+    <app-breadcrumb [items]="breadcrumbs()" class="category__breadcrumb" />
+
+    <!-- ─── Header ──────────────────────────────────────────────────────── -->
+    <header class="category__header animate-fade-in-up">
+      <div class="category__icon-wrap">
+        <span class="category__icon" aria-hidden="true">{{ cat.icon }}</span>
+      </div>
+      <div class="category__header-text">
+        <h1 class="category__title">{{ cat.title }}</h1>
+        <p class="category__description">{{ cat.description }}</p>
+        <div class="category__meta">
+          <span class="category__meta-item">{{ cat.topics.length }} topics</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ─── Topics grid ─────────────────────────────────────────────────── -->
+    <section class="category__topics animate-fade-in-up" style="animation-delay: 80ms" aria-label="Topics">
+
+      @if (cat.topics.length > 0) {
+        <div class="category__topics-grid">
+          @for (topic of cat.topics; track topic.id; let i = $index) {
+            <app-topic-card
+              class="stagger-{{ i + 1 }} animate-fade-in-up"
+              [topicId]="topic.id"
+              [title]="topic.title"
+              [description]="topic.description"
+              [levelId]="levelId()"
+              [categoryId]="categoryId()"
+              [levelCode]="levelCode()"
+              [difficulty]="topic.difficulty"
+              [estimatedMinutes]="topic.estimatedMinutes"
+              [status]="getTopicStatus(topic.id)"
+              [lessonCount]="topic.lessons.length"
+              [completedLessons]="getCompletedLessons(topic.lessons)"
+            />
+          }
+        </div>
+      } @else {
+        <div class="empty-state">
+          <div class="empty-state__icon">📝</div>
+          <h3 class="empty-state__title">No Topics Yet</h3>
+          <p class="empty-state__description">
+            Topics for this category are being prepared. Check back soon!
+          </p>
+        </div>
+      }
+
+    </section>
+
+  } @else if (curriculumService.isLoaded()) {
+    <div class="empty-state">
+      <div class="empty-state__icon">🔍</div>
+      <h2 class="empty-state__title">Category Not Found</h2>
+      <p class="empty-state__description">This category does not exist.</p>
+      <a [routerLink]="['/levels', levelId()]" style="margin-top: 1.5rem; display: inline-block;">
+        ← Back to level
+      </a>
+    </div>
+  }
+
+</div>

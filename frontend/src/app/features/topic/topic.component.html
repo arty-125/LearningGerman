@@ -1,0 +1,112 @@
+<div class="page topic">
+
+  @if (topic(); as t) {
+
+    <!-- Breadcrumb -->
+    <app-breadcrumb [items]="breadcrumbs()" class="topic__breadcrumb" />
+
+    <!-- ─── Header ──────────────────────────────────────────────────────── -->
+    <header class="topic__header animate-fade-in-up">
+      <div class="topic__header-meta">
+        <app-level-badge [level]="levelCode()" />
+        @if (t.estimatedMinutes > 0) {
+          <span class="topic__time">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            {{ t.estimatedMinutes }} min total
+          </span>
+        }
+        <span class="topic__count">{{ t.lessons.length }} lessons</span>
+      </div>
+      <h1 class="topic__title">{{ t.title }}</h1>
+      @if (t.description) {
+        <p class="topic__description">{{ t.description }}</p>
+      }
+      @if (t.tags && t.tags.length > 0) {
+        <div class="topic__tags">
+          @for (tag of t.tags; track tag) {
+            <span class="topic__tag">{{ tag }}</span>
+          }
+        </div>
+      }
+    </header>
+
+    <!-- ─── Lessons list ─────────────────────────────────────────────── -->
+    <section class="topic__lessons animate-fade-in-up" style="animation-delay: 80ms" aria-label="Lessons">
+
+      @if (t.lessons.length > 0) {
+        <ol class="topic__lessons-list">
+          @for (lesson of t.lessons; track lesson.id; let i = $index) {
+            @let status = getLessonStatus(lesson.id);
+            <li class="lesson-row lesson-row--{{ status }} stagger-{{ i + 1 }} animate-fade-in-up">
+              <a [routerLink]="['/lessons', lesson.id]" class="lesson-row__link">
+
+                <!-- Number -->
+                <div class="lesson-row__number" aria-hidden="true">{{ i + 1 }}</div>
+
+                <!-- Content -->
+                <div class="lesson-row__content">
+                  <h2 class="lesson-row__title">{{ lesson.title }}</h2>
+                  @if (lesson.shortDescription) {
+                    <p class="lesson-row__desc">{{ lesson.shortDescription }}</p>
+                  }
+                  <div class="lesson-row__meta">
+                    @if (lesson.estimatedMinutes > 0) {
+                      <span class="lesson-row__time">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                          <circle cx="12" cy="12" r="10"/>
+                          <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        {{ lesson.estimatedMinutes }} min
+                      </span>
+                    }
+                    @if (lesson.vocabulary && lesson.vocabulary.length > 0) {
+                      <span class="lesson-row__vocab">{{ lesson.vocabulary.length }} words</span>
+                    }
+                    @if (lesson.exercises && lesson.exercises.length > 0) {
+                      <span class="lesson-row__exercises">{{ lesson.exercises.length }} exercises</span>
+                    }
+                  </div>
+                </div>
+
+                <!-- Status -->
+                <div class="lesson-row__status" [title]="statusLabel(status)">
+                  <span class="lesson-row__status-icon lesson-row__status-icon--{{ status }}" aria-hidden="true">
+                    {{ statusIcon(status) }}
+                  </span>
+                  <span class="lesson-row__status-label">{{ statusLabel(status) }}</span>
+                </div>
+
+                <!-- Arrow -->
+                <svg class="lesson-row__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+
+              </a>
+            </li>
+          }
+        </ol>
+      } @else {
+        <div class="empty-state">
+          <div class="empty-state__icon">📝</div>
+          <h3 class="empty-state__title">Lessons Coming Soon</h3>
+          <p class="empty-state__description">Content for this topic is being prepared. Check back soon!</p>
+        </div>
+      }
+
+    </section>
+
+  } @else if (curriculumService.isLoaded()) {
+    <div class="empty-state">
+      <div class="empty-state__icon">🔍</div>
+      <h2 class="empty-state__title">Topic Not Found</h2>
+      <p class="empty-state__description">This topic does not exist.</p>
+      <a [routerLink]="['/levels', levelId(), 'categories', categoryId()]" style="margin-top: 1.5rem; display: inline-block;">
+        ← Back to category
+      </a>
+    </div>
+  }
+
+</div>

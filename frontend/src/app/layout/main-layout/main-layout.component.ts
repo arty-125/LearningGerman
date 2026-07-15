@@ -1,0 +1,23 @@
+import { Component, signal, inject } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from '../../shared/components/header/header.component';
+import { SidebarComponent } from '../../shared/components/sidebar/sidebar.component';
+
+@Component({
+  selector: 'app-main-layout',
+  standalone: true,
+  imports: [RouterOutlet, HeaderComponent, SidebarComponent],
+  templateUrl: './main-layout.component.html',
+  styleUrl: './main-layout.component.scss',
+})
+export class MainLayoutComponent {
+  readonly sidebarOpen = signal(false);
+
+  toggleSidebar(): void {
+    this.sidebarOpen.update((v) => !v);
+  }
+
+  closeSidebar(): void {
+    this.sidebarOpen.set(false);
+  }
+}
