@@ -1,8 +1,9 @@
 import { Injectable, inject, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { catchError, forkJoin, map, of, switchMap } from 'rxjs';
 import type { Curriculum, Level, Category, Topic, Lesson } from '../models';
+import { LanguageService, type LanguageCode } from './language.service';
 
 interface CurriculumIndex {
   version: string;
@@ -12,16 +13,19 @@ interface CurriculumIndex {
 @Injectable({ providedIn: 'root' })
 export class CurriculumService {
   private readonly http = inject(HttpClient);
+  private readonly languageService = inject(LanguageService);
 
-  private loadCurriculum() {
-    return this.http.get<CurriculumIndex>('/data/curriculum/index.json').pipe(
+  private loadCurriculum(language: LanguageCode) {
+    const basePath = language === 'fr' ? '/data/curriculum/fr' : '/data/curriculum';
+
+    return this.http.get<CurriculumIndex>(`${basePath}/index.json`).pipe(
       switchMap((index) => {
         if (!index.levelFiles || index.levelFiles.length === 0) {
           return of<Curriculum>({ version: index.version ?? '1.0', levels: [] });
         }
 
         const requests = index.levelFiles.map((file) =>
-          this.http.get<Level>(`/data/curriculum/${file}`)
+          this.http.get<Level>(`${basePath}/${file}`)
         );
 
         return forkJoin(requests).pipe(
@@ -32,7 +36,7 @@ export class CurriculumService {
         );
       }),
       catchError(() => {
-        console.error('Failed to load split curriculum data.');
+        console.error(`Failed to load split curriculum data for ${language}.`);
         return of<Curriculum>({ version: '1.0', levels: [] });
       })
     );
@@ -40,7 +44,9 @@ export class CurriculumService {
 
   // Load curriculum JSON from the public folder once on startup.
   private readonly curriculum = toSignal(
-    this.loadCurriculum(),
+    toObservable(this.languageService.language).pipe(
+      switchMap((language) => this.loadCurriculum(language))
+    ),
     { initialValue: null }
   );
 

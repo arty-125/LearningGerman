@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "language": "fr",
+  "levelFiles": [
+    "levels/a1.json",
+    "levels/a2.json",
+    "levels/b1.json",
+    "levels/b2.json"
+  ]
+}

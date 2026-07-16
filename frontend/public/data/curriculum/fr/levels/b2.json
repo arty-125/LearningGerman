@@ -1,0 +1,49 @@
+{
+  "id": "b2",
+  "code": "B2",
+  "title": "Intermédiaire avancé",
+  "description": "Parlez avec précision dans des contextes académiques, professionnels et argumentatifs.",
+  "color": "#f59e0b",
+  "lightColor": "#fef3c7",
+  "order": 4,
+  "categories": [
+    {
+      "id": "fr-b2-grammar",
+      "levelId": "b2",
+      "title": "Grammaire",
+      "description": "Structures avancées pour l'écrit et l'oral",
+      "icon": "📖",
+      "order": 1,
+      "topics": [
+        { "id": "fr-b2-grammar-reporting", "categoryId": "fr-b2-grammar", "levelId": "b2", "title": "Discours rapporté", "description": "Rapporter les paroles et les idées", "difficulty": 5, "estimatedMinutes": 30, "order": 1, "tags": ["reported-speech"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b2-grammar-phrases", "categoryId": "fr-b2-grammar", "levelId": "b2", "title": "Groupes nominaux étendus", "description": "Construire des phrases écrites plus denses", "difficulty": 5, "estimatedMinutes": 30, "order": 2, "tags": ["advanced-noun-phrases"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b2-grammar-prepositions", "categoryId": "fr-b2-grammar", "levelId": "b2", "title": "Prépositions complexes", "description": "Choisir la bonne préposition selon le contexte", "difficulty": 5, "estimatedMinutes": 30, "order": 3, "tags": ["prepositions"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-b2-vocabulary",
+      "levelId": "b2",
+      "title": "Vocabulaire",
+      "description": "Des mots et expressions pour les domaines spécialisés",
+      "icon": "💬",
+      "order": 2,
+      "topics": [
+        { "id": "fr-b2-vocab-idioms", "categoryId": "fr-b2-vocabulary", "levelId": "b2", "title": "Idiomes et expressions fixes", "description": "Les expressions idiomatiques courantes", "difficulty": 5, "estimatedMinutes": 20, "order": 1, "tags": ["idioms"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b2-vocab-academic", "categoryId": "fr-b2-vocabulary", "levelId": "b2", "title": "Langue académique et formelle", "description": "Le français de l'université et des textes formels", "difficulty": 5, "estimatedMinutes": 20, "order": 2, "tags": ["academic"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b2-vocab-business", "categoryId": "fr-b2-vocabulary", "levelId": "b2", "title": "Français des affaires", "description": "Réunions, négociation et communication professionnelle", "difficulty": 5, "estimatedMinutes": 20, "order": 3, "tags": ["business"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-b2-conversation",
+      "levelId": "b2",
+      "title": "Conversation",
+      "description": "S'exprimer avec aisance dans les débats et les présentations",
+      "icon": "🗣️",
+      "order": 3,
+      "topics": [
+        { "id": "fr-b2-conv-debates", "categoryId": "fr-b2-conversation", "levelId": "b2", "title": "Débats et discussions", "description": "Réagir, argumenter et nuancer", "difficulty": 5, "estimatedMinutes": 20, "order": 1, "tags": ["debates"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b2-conv-presentations", "categoryId": "fr-b2-conversation", "levelId": "b2", "title": "Présentations", "description": "Présenter clairement des idées complexes", "difficulty": 5, "estimatedMinutes": 20, "order": 2, "tags": ["presentations"], "prerequisites": [], "lessons": [] }
+      ]
+    }
+  ]
+}

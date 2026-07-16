@@ -1,0 +1,51 @@
+{
+  "id": "b1",
+  "code": "B1",
+  "title": "Intermédiaire",
+  "description": "Commencez à exprimer des idées plus nuancées, à parler d'opinions et de sujets abstraits en français.",
+  "color": "#8b5cf6",
+  "lightColor": "#ede9fe",
+  "order": 3,
+  "categories": [
+    {
+      "id": "fr-b1-grammar",
+      "levelId": "b1",
+      "title": "Grammaire",
+      "description": "Structures intermédiaires pour mieux argumenter",
+      "icon": "📖",
+      "order": 1,
+      "topics": [
+        { "id": "fr-b1-grammar-subjunctive", "categoryId": "fr-b1-grammar", "levelId": "b1", "title": "Subjonctif", "description": "Exprimer le doute, le souhait et la nécessité", "difficulty": 4, "estimatedMinutes": 30, "order": 1, "tags": ["subjunctive"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-grammar-passive", "categoryId": "fr-b1-grammar", "levelId": "b1", "title": "Voix passive", "description": "Transformer la phrase active en passive", "difficulty": 4, "estimatedMinutes": 30, "order": 2, "tags": ["passive"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-grammar-subordinate", "categoryId": "fr-b1-grammar", "levelId": "b1", "title": "Propositions subordonnées", "description": "Maîtriser les phrases plus longues", "difficulty": 4, "estimatedMinutes": 30, "order": 3, "tags": ["subordinate-clauses"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-grammar-infinitive", "categoryId": "fr-b1-grammar", "levelId": "b1", "title": "Constructions à l'infinitif", "description": "Infinitif après les verbes et les prépositions", "difficulty": 4, "estimatedMinutes": 25, "order": 4, "tags": ["infinitive"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-grammar-genitive", "categoryId": "fr-b1-grammar", "levelId": "b1", "title": "Expression de la possession", "description": "Formes de possession et structures équivalentes", "difficulty": 3, "estimatedMinutes": 20, "order": 5, "tags": ["possession"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-b1-vocabulary",
+      "levelId": "b1",
+      "title": "Vocabulaire",
+      "description": "Des sujets plus abstraits et actuels",
+      "icon": "💬",
+      "order": 2,
+      "topics": [
+        { "id": "fr-b1-vocab-media", "categoryId": "fr-b1-vocabulary", "levelId": "b1", "title": "Actualités et médias", "description": "Parler de ce qui se passe dans le monde", "difficulty": 3, "estimatedMinutes": 20, "order": 1, "tags": ["media"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-vocab-health", "categoryId": "fr-b1-vocabulary", "levelId": "b1", "title": "Santé", "description": "Santé, symptômes et consultation", "difficulty": 3, "estimatedMinutes": 20, "order": 2, "tags": ["health"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-vocab-environment", "categoryId": "fr-b1-vocabulary", "levelId": "b1", "title": "Environnement et nature", "description": "Nature, climat et écologie", "difficulty": 3, "estimatedMinutes": 20, "order": 3, "tags": ["environment"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-b1-conversation",
+      "levelId": "b1",
+      "title": "Conversation",
+      "description": "Débattre, donner son opinion et communiquer avec plus de précision",
+      "icon": "🗣️",
+      "order": 3,
+      "topics": [
+        { "id": "fr-b1-conv-opinions", "categoryId": "fr-b1-conversation", "levelId": "b1", "title": "Exprimer son opinion", "description": "Dire ce que l'on pense avec nuance", "difficulty": 3, "estimatedMinutes": 20, "order": 1, "tags": ["opinions"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-b1-conv-formal", "categoryId": "fr-b1-conversation", "levelId": "b1", "title": "Communication formelle", "description": "Écrire et parler avec un registre plus formel", "difficulty": 3, "estimatedMinutes": 20, "order": 2, "tags": ["formal"], "prerequisites": [], "lessons": [] }
+      ]
+    }
+  ]
+}

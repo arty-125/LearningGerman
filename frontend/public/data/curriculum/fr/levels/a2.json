@@ -1,0 +1,100 @@
+{
+  "id": "a2",
+  "code": "A2",
+  "title": "Élémentaire",
+  "description": "Développez vos compétences. Parlez du passé, des préférences et des situations familières en français.",
+  "color": "#3b82f6",
+  "lightColor": "#dbeafe",
+  "order": 2,
+  "categories": [
+    {
+      "id": "fr-a2-grammar",
+      "levelId": "a2",
+      "title": "Grammaire",
+      "description": "Nouveaux temps et nouvelles structures pour aller plus loin",
+      "icon": "📖",
+      "order": 1,
+      "topics": [
+        {
+          "id": "fr-a2-grammar-passe-compose",
+          "categoryId": "fr-a2-grammar",
+          "levelId": "a2",
+          "title": "Passé composé",
+          "description": "Parler d'actions terminées avec avoir et être",
+          "difficulty": 3,
+          "estimatedMinutes": 35,
+          "order": 1,
+          "tags": ["past-tense", "passe-compose", "avoir", "etre"],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "fr-a2-grammar-passe-compose-lesson-1",
+              "topicId": "fr-a2-grammar-passe-compose",
+              "categoryId": "fr-a2-grammar",
+              "levelId": "a2",
+              "title": "Le passé composé",
+              "shortDescription": "Le passé composé est le temps le plus courant pour raconter un événement passé en français parlé.",
+              "order": 1,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Qu'est-ce que le passé composé ?",
+                  "content": "English:\nLe passé composé is the main spoken past tense in French. It expresses completed actions and often corresponds to English simple past or present perfect.\n\nفارسی:\nزمان passé composé مهم‌ترین زمان گذشته در گفتار فرانسوی است. برای بیان عمل‌های تمام‌شده به‌کار می‌رود و اغلب معادل past ساده یا present perfect انگلیسی است."
+                },
+                {
+                  "type": "tip",
+                  "title": "Formule",
+                  "content": "Sujet + auxiliaire avoir/être + participe passé"
+                },
+                {
+                  "type": "list",
+                  "title": "Idées importantes",
+                  "items": [
+                    "La plupart des verbes utilisent avoir.",
+                    "Les verbes de mouvement et les verbes pronominaux utilisent souvent être.",
+                    "Le participe passé s'accorde parfois avec le sujet avec être."
+                  ]
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
+        { "id": "fr-a2-grammar-imparfait", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Imparfait", "description": "Décrire les habitudes et les états dans le passé", "difficulty": 3, "estimatedMinutes": 30, "order": 2, "tags": ["past-tense", "imparfait"], "prerequisites": ["fr-a2-grammar-passe-compose"], "lessons": [] },
+        { "id": "fr-a2-grammar-modal-verbs", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Verbes de modalité", "description": "pouvoir, devoir, vouloir et structures utiles", "difficulty": 3, "estimatedMinutes": 35, "order": 3, "tags": ["modals"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-grammar-pronominal-verbs", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Verbes pronominaux", "description": "se lever, se laver, s'habiller et autres verbes pronominaux", "difficulty": 3, "estimatedMinutes": 25, "order": 4, "tags": ["pronominal"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-grammar-relative-clauses", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Propositions relatives", "description": "Utiliser qui, que, dont et où", "difficulty": 4, "estimatedMinutes": 30, "order": 5, "tags": ["relative-clauses"], "prerequisites": ["fr-a2-grammar-modal-verbs"], "lessons": [] },
+        { "id": "fr-a2-grammar-adjective-agreement", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Accord des adjectifs", "description": "Accorder les adjectifs au féminin et au pluriel", "difficulty": 4, "estimatedMinutes": 35, "order": 6, "tags": ["adjectives", "agreement"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-a2-vocabulary",
+      "levelId": "a2",
+      "title": "Vocabulaire",
+      "description": "Le vocabulaire pour des situations plus variées",
+      "icon": "💬",
+      "order": 2,
+      "topics": [
+        { "id": "fr-a2-vocab-work", "categoryId": "fr-a2-vocabulary", "levelId": "a2", "title": "Travail et professions", "description": "Le monde du travail", "difficulty": 2, "estimatedMinutes": 20, "order": 1, "tags": ["work"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-vocab-travel", "categoryId": "fr-a2-vocabulary", "levelId": "a2", "title": "Voyages et transports", "description": "Se déplacer, réserver et demander son chemin", "difficulty": 2, "estimatedMinutes": 25, "order": 2, "tags": ["travel"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-vocab-shopping", "categoryId": "fr-a2-vocabulary", "levelId": "a2", "title": "Achats", "description": "Prix, vêtements et boutiques", "difficulty": 2, "estimatedMinutes": 20, "order": 3, "tags": ["shopping"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-vocab-weather", "categoryId": "fr-a2-vocabulary", "levelId": "a2", "title": "Météo", "description": "Parler du temps et des saisons", "difficulty": 1, "estimatedMinutes": 15, "order": 4, "tags": ["weather"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-vocab-hobbies", "categoryId": "fr-a2-vocabulary", "levelId": "a2", "title": "Loisirs", "description": "Parler de ses activités préférées", "difficulty": 2, "estimatedMinutes": 20, "order": 5, "tags": ["hobbies"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-a2-conversation",
+      "levelId": "a2",
+      "title": "Conversation",
+      "description": "Des échanges plus naturels et plus longs",
+      "icon": "🗣️",
+      "order": 3,
+      "topics": [
+        { "id": "fr-a2-conv-plans", "categoryId": "fr-a2-conversation", "levelId": "a2", "title": "Faire des projets", "description": "Inviter, accepter et refuser", "difficulty": 2, "estimatedMinutes": 20, "order": 1, "tags": ["plans"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-conv-restaurant", "categoryId": "fr-a2-conversation", "levelId": "a2", "title": "Au restaurant", "description": "Commander, demander l'addition et se plaindre poliment", "difficulty": 2, "estimatedMinutes": 20, "order": 2, "tags": ["restaurant"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a2-conv-phone", "categoryId": "fr-a2-conversation", "levelId": "a2", "title": "Appels téléphoniques", "description": "Répondre au téléphone et laisser un message", "difficulty": 2, "estimatedMinutes": 20, "order": 3, "tags": ["phone"], "prerequisites": [], "lessons": [] }
+      ]
+    }
+  ]
+}

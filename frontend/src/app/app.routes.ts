@@ -4,6 +4,12 @@ import { MainLayoutComponent } from './layout/main-layout/main-layout.component'
 export const routes: Routes = [
   {
     path: '',
+    loadComponent: () => import('./features/home/home.component').then((m) => m.HomeComponent),
+    title: 'Choose Language | LernDeutsch',
+    pathMatch: 'full',
+  },
+  {
+    path: '',
     component: MainLayoutComponent,
     children: [
       {

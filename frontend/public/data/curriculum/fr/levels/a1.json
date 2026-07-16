@@ -1,0 +1,405 @@
+{
+  "id": "a1",
+  "code": "A1",
+  "title": "Débutant",
+  "description": "Construisez vos bases. Apprenez à vous présenter, poser des questions simples et gérer les situations quotidiennes en français.",
+  "color": "#10b981",
+  "lightColor": "#d1fae5",
+  "order": 1,
+  "categories": [
+    {
+      "id": "fr-a1-grammar",
+      "levelId": "a1",
+      "title": "Grammaire",
+      "description": "Les structures grammaticales essentielles pour débuter en français",
+      "icon": "📖",
+      "order": 1,
+      "topics": [
+        {
+          "id": "fr-a1-grammar-personal-pronouns",
+          "categoryId": "fr-a1-grammar",
+          "levelId": "a1",
+          "title": "Pronoms personnels",
+          "description": "Apprenez je, tu, il, elle, on, nous, vous, ils, elles et leur usage.",
+          "difficulty": 1,
+          "estimatedMinutes": 15,
+          "order": 1,
+          "tags": ["pronouns", "basics", "foundation"],
+          "prerequisites": [],
+          "lessons": []
+        },
+        {
+          "id": "fr-a1-grammar-present-tense",
+          "categoryId": "fr-a1-grammar",
+          "levelId": "a1",
+          "title": "Verbes au présent",
+          "description": "Conjuguer les verbes réguliers et fréquents au présent de l'indicatif.",
+          "difficulty": 2,
+          "estimatedMinutes": 80,
+          "order": 2,
+          "tags": ["verbs", "present", "conjugation"],
+          "prerequisites": ["fr-a1-grammar-personal-pronouns"],
+          "lessons": [
+            {
+              "id": "fr-a1-grammar-present-tense-lesson-1",
+              "topicId": "fr-a1-grammar-present-tense",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "Le présent de l'indicatif",
+              "shortDescription": "Le présent décrit ce qui se passe maintenant, les habitudes et les vérités générales.",
+              "order": 1,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Quand utilise-t-on le présent ?",
+                  "content": "English:\nLe présent de l'indicatif sert à parler d'une action en cours, d'une habitude, d'un fait général ou d'un futur proche.\n\nفارسی:\nزمان présent de l'indicatif برای بیان عملِ جاری، عادت، حقیقتِ عمومی و حتی آیندهٔ نزدیک استفاده می‌شود."
+                },
+                {
+                  "type": "list",
+                  "title": "Usages principaux",
+                  "items": [
+                    "Action en cours: Je mange maintenant.",
+                    "Habitude: Je travaille tous les jours.",
+                    "Vérité générale: L'eau gèle à 0°C.",
+                    "Futur proche: Demain, je pars à Paris."
+                  ]
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-grammar-present-tense-lesson-2",
+              "topicId": "fr-a1-grammar-present-tense",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "Les verbes réguliers en -er",
+              "shortDescription": "Comprendre la base des verbes réguliers français au présent.",
+              "order": 2,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "La règle de base",
+                  "content": "English:\nPour la plupart des verbes en -er, on garde le radical et on ajoute les terminaisons -e, -es, -e, -ons, -ez, -ent.\n\nفارسی:\nبرای بیشتر فعل‌های -er، ریشه را نگه می‌داریم و پایانه‌های -e, -es, -e, -ons, -ez, -ent را اضافه می‌کنیم."
+                },
+                {
+                  "type": "table",
+                  "title": "Exemple: parler",
+                  "headers": ["Personne", "Forme", "Persian"],
+                  "rows": [
+                    ["je", "parle", "من صحبت می‌کنم"],
+                    ["tu", "parles", "تو صحبت می‌کنی"],
+                    ["il/elle/on", "parle", "او صحبت می‌کند"],
+                    ["nous", "parlons", "ما صحبت می‌کنیم"],
+                    ["vous", "parlez", "شما صحبت می‌کنید"],
+                    ["ils/elles", "parlent", "آن‌ها صحبت می‌کنند"]
+                  ]
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-grammar-present-tense-lesson-3",
+              "topicId": "fr-a1-grammar-present-tense",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "Les verbes irréguliers fréquents",
+              "shortDescription": "Être, avoir, aller, faire et venir sont indispensables dès le début.",
+              "order": 3,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Pourquoi ils sont importants",
+                  "content": "English:\nFrench has a small group of very frequent irregular verbs. Their forms must be memorized early because they appear in almost every conversation.\n\nفارسی:\nدر فرانسوی، گروهی از فعل‌های بی‌قاعده بسیار پرکاربرد وجود دارد. شکل‌های آن‌ها باید زود حفظ شوند چون در تقریباً هر مکالمه‌ای دیده می‌شوند."
+                },
+                {
+                  "type": "table",
+                  "title": "Conjugaison rapide",
+                  "headers": ["Verbe", "je", "tu", "il/elle/on"],
+                  "rows": [
+                    ["être", "suis", "es", "est"],
+                    ["avoir", "ai", "as", "a"],
+                    ["aller", "vais", "vas", "va"],
+                    ["faire", "fais", "fais", "fait"]
+                  ]
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-grammar-present-tense-lesson-4",
+              "topicId": "fr-a1-grammar-present-tense",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "Être et avoir",
+              "shortDescription": "Ces deux verbes sont essentiels pour l'identité, la possession et les temps composés.",
+              "order": 4,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Deux verbes indispensables",
+                  "content": "English:\nÊtre describes identity, state and location. Avoir expresses possession, age and many everyday expressions.\n\nفارسی:\nêtre برای هویت، حالت و موقعیت به‌کار می‌رود. avoir برای مالکیت، سن و بسیاری از عبارت‌های روزمره استفاده می‌شود."
+                },
+                {
+                  "type": "warning",
+                  "title": "Attention",
+                  "content": "Être and avoir are also the auxiliary verbs of the passé composé."
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
+        {
+          "id": "fr-a1-grammar-sentence-structure",
+          "categoryId": "fr-a1-grammar",
+          "levelId": "a1",
+          "title": "Structure de la phrase",
+          "description": "Construire des phrases simples, poser des questions et utiliser la négation.",
+          "difficulty": 2,
+          "estimatedMinutes": 45,
+          "order": 3,
+          "tags": ["word-order", "questions", "negation"],
+          "prerequisites": ["fr-a1-grammar-present-tense"],
+          "lessons": [
+            {
+              "id": "fr-a1-grammar-sentence-structure-lesson-1",
+              "topicId": "fr-a1-grammar-sentence-structure",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "L'ordre simple des mots",
+              "shortDescription": "Sujet + verbe + complément est la base de la phrase française.",
+              "order": 1,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Structure de base",
+                  "content": "English:\nFrench usually follows a simple Subject + Verb + Complement order in affirmative sentences.\n\nفارسی:\nفرانسوی در جمله‌های مثبت معمولاً از ترتیب سادهٔ فاعل + فعل + متمم پیروی می‌کند."
+                },
+                {
+                  "type": "example",
+                  "title": "Exemple",
+                  "content": "Je mange une pomme.\nمن یک سیب می‌خورم."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-grammar-sentence-structure-lesson-2",
+              "topicId": "fr-a1-grammar-sentence-structure",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "Questions et négation",
+              "shortDescription": "Poser des questions avec est-ce que et nier avec ne ... pas.",
+              "order": 2,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "Deux outils très fréquents",
+                  "content": "English:\nTo ask questions, French often uses est-ce que or inversion. To negate a sentence, the standard pattern is ne ... pas.\n\nفارسی:\nبرای پرسش، فرانسوی معمولاً از est-ce que یا وارونگی استفاده می‌کند. برای منفی کردن جمله، الگوی اصلی ne ... pas است."
+                },
+                {
+                  "type": "example",
+                  "title": "Exemples",
+                  "content": "Est-ce que tu viens ?\nTu viens ?\nJe ne comprends pas.\nمن نمی‌فهمم."
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
+        {
+          "id": "fr-a1-grammar-articles-agreement",
+          "categoryId": "fr-a1-grammar",
+          "levelId": "a1",
+          "title": "Genre et articles",
+          "description": "Comprendre le masculin et le féminin avec les articles français.",
+          "difficulty": 1,
+          "estimatedMinutes": 20,
+          "order": 4,
+          "tags": ["articles", "gender", "agreement"],
+          "prerequisites": ["fr-a1-grammar-personal-pronouns"],
+          "lessons": []
+        },
+        {
+          "id": "fr-a1-grammar-negation",
+          "categoryId": "fr-a1-grammar",
+          "levelId": "a1",
+          "title": "Négation",
+          "description": "Utiliser ne ... pas et les autres formes de négation courantes.",
+          "difficulty": 2,
+          "estimatedMinutes": 20,
+          "order": 5,
+          "tags": ["negation", "grammar"],
+          "prerequisites": ["fr-a1-grammar-sentence-structure"],
+          "lessons": [
+            {
+              "id": "fr-a1-grammar-negation-lesson-1",
+              "topicId": "fr-a1-grammar-negation",
+              "categoryId": "fr-a1-grammar",
+              "levelId": "a1",
+              "title": "Ne ... pas et les autres négations",
+              "shortDescription": "Apprenez la négation simple et les formes fréquentes comme ne ... jamais.",
+              "order": 1,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "La forme de base",
+                  "content": "English:\nThe most common French negation wraps the verb: ne + verb + pas. In speech, ne is often dropped, but in formal writing it is kept.\n\nفارسی:\nرایج‌ترین ساخت منفی در فرانسوی، فعل را بین ne و pas قرار می‌دهد. در گفتار، ne گاهی حذف می‌شود اما در نوشتار رسمی حفظ می‌شود."
+                },
+                {
+                  "type": "list",
+                  "title": "Autres négations utiles",
+                  "items": [
+                    "ne ... jamais = هرگز",
+                    "ne ... plus = دیگر نه / anymore",
+                    "ne ... rien = هیچ‌چیز",
+                    "ne ... personne = هیچ‌کس"
+                  ]
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-a1-vocabulary",
+      "levelId": "a1",
+      "title": "Vocabulaire",
+      "description": "Le vocabulaire de base pour parler de la vie quotidienne.",
+      "icon": "💬",
+      "order": 2,
+      "topics": [
+        { "id": "fr-a1-vocab-numbers", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Nombres", "description": "Les nombres de base en français", "difficulty": 1, "estimatedMinutes": 10, "order": 1, "tags": ["numbers"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-vocab-family", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Famille", "description": "Parler des membres de la famille", "difficulty": 1, "estimatedMinutes": 10, "order": 2, "tags": ["family"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-vocab-food", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Nourriture et boissons", "description": "Vocabulaire utile au café et au restaurant", "difficulty": 1, "estimatedMinutes": 10, "order": 3, "tags": ["food", "drink"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-vocab-colors", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Couleurs", "description": "Décrire les couleurs et les objets", "difficulty": 1, "estimatedMinutes": 10, "order": 4, "tags": ["colors"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-vocab-daily", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Activités quotidiennes", "description": "Les actions de tous les jours", "difficulty": 1, "estimatedMinutes": 10, "order": 5, "tags": ["daily"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-vocab-time", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Jours, mois et heure", "description": "Dire la date et l'heure", "difficulty": 1, "estimatedMinutes": 10, "order": 6, "tags": ["time"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-vocab-body", "categoryId": "fr-a1-vocabulary", "levelId": "a1", "title": "Parties du corps", "description": "Nommer le corps humain", "difficulty": 1, "estimatedMinutes": 10, "order": 7, "tags": ["body"], "prerequisites": [], "lessons": [] },
+        {
+          "id": "fr-a1-vocab-common-words",
+          "categoryId": "fr-a1-vocabulary",
+          "levelId": "a1",
+          "title": "Les 100 mots les plus fréquents",
+          "description": "Les mots les plus utiles pour construire rapidement des phrases simples.",
+          "difficulty": 2,
+          "estimatedMinutes": 60,
+          "order": 8,
+          "tags": ["frequency", "core-vocabulary"],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "fr-a1-vocab-common-words-lesson-1",
+              "topicId": "fr-a1-vocab-common-words",
+              "categoryId": "fr-a1-vocabulary",
+              "levelId": "a1",
+              "title": "Les 20 verbes les plus fréquents",
+              "shortDescription": "Commencez avec les verbes qui reviennent le plus souvent dans les conversations.",
+              "order": 1,
+              "estimatedMinutes": 12,
+              "sections": [
+                { "type": "explanation", "title": "Pourquoi commencer par les verbes ?", "content": "English:\nVerbs give a sentence its action and meaning. The most frequent verbs let you speak early with very little vocabulary.\n\nفارسی:\nفعل‌ها به جمله حرکت و معنا می‌دهند. با چند فعل بسیار پرکاربرد، خیلی زود می‌توانید صحبت کنید." },
+                { "type": "table", "title": "Verbes clés", "headers": ["Verbe", "Sens", "Persian"], "rows": [["être", "to be", "بودن"], ["avoir", "to have", "داشتن"], ["aller", "to go", "رفتن"], ["faire", "to do / make", "انجام دادن / ساختن"], ["venir", "to come", "آمدن"]] }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-vocab-common-words-lesson-2",
+              "topicId": "fr-a1-vocab-common-words",
+              "categoryId": "fr-a1-vocabulary",
+              "levelId": "a1",
+              "title": "10 noms essentiels et leurs articles",
+              "shortDescription": "Apprenez des noms utiles avec leur genre.",
+              "order": 2,
+              "estimatedMinutes": 12,
+              "sections": [
+                { "type": "explanation", "title": "Le genre est important", "content": "English:\nIn French, every noun has a gender and is usually learned with its article.\n\nفارسی:\nدر فرانسوی هر اسم جنسیت دارد و بهتر است همراه با حرف تعریف یاد گرفته شود." },
+                { "type": "table", "title": "Exemples", "headers": ["Nom", "Article", "Persian"], "rows": [["la maison", "feminine", "خانه"], ["le livre", "masculine", "کتاب"], ["la voiture", "feminine", "ماشین"], ["le travail", "masculine", "کار"], ["la famille", "feminine", "خانواده"]] }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-vocab-common-words-lesson-3",
+              "topicId": "fr-a1-vocab-common-words",
+              "categoryId": "fr-a1-vocabulary",
+              "levelId": "a1",
+              "title": "10 adjectifs de base",
+              "shortDescription": "Décrire les choses simplement.",
+              "order": 3,
+              "estimatedMinutes": 12,
+              "sections": [
+                { "type": "explanation", "title": "Les adjectifs en français", "content": "English:\nFrench adjectives often agree in gender and number with the noun they describe.\n\nفارسی:\nصفت‌های فرانسوی معمولاً از نظر جنس و شمار با اسم هماهنگ می‌شوند." },
+                { "type": "list", "title": "Exemples", "items": ["grand / grande", "petit / petite", "bon / bonne", "nouveau / nouvelle", "important / importante"] }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-vocab-common-words-lesson-4",
+              "topicId": "fr-a1-vocab-common-words",
+              "categoryId": "fr-a1-vocabulary",
+              "levelId": "a1",
+              "title": "20 adverbes essentiels",
+              "shortDescription": "Dire quand, où et comment quelque chose se passe.",
+              "order": 4,
+              "estimatedMinutes": 12,
+              "sections": [
+                { "type": "explanation", "title": "Les adverbes aident à préciser", "content": "English:\nAdverbs add time, place, frequency and degree to a sentence.\n\nفارسی:\nقیدها زمان، مکان، تکرار و درجه را به جمله اضافه می‌کنند." },
+                { "type": "list", "title": "Exemples", "items": ["aujourd'hui", "demain", "souvent", "toujours", "ici", "là-bas"] }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "fr-a1-vocab-common-words-lesson-5",
+              "topicId": "fr-a1-vocab-common-words",
+              "categoryId": "fr-a1-vocabulary",
+              "levelId": "a1",
+              "title": "Conjonctions, prépositions et phrases utiles",
+              "shortDescription": "Des connecteurs simples pour parler plus naturellement.",
+              "order": 5,
+              "estimatedMinutes": 12,
+              "sections": [
+                { "type": "explanation", "title": "Connecter les idées", "content": "English:\nSmall function words are essential in French because they connect ideas and make sentences flow naturally.\n\nفارسی:\nواژه‌های ربطی کوچک در فرانسوی بسیار مهم‌اند چون ایده‌ها را به هم وصل می‌کنند و جمله را طبیعی‌تر می‌سازند." },
+                { "type": "list", "title": "Mots utiles", "items": ["et", "mais", "pour", "avec", "dans", "merci", "s'il vous plaît"] }
+              ],
+              "exercises": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-a1-conversation",
+      "levelId": "a1",
+      "title": "Conversation",
+      "description": "Communiquer dans des situations simples et réelles.",
+      "icon": "🗣️",
+      "order": 3,
+      "topics": [
+        { "id": "fr-a1-conv-greetings", "categoryId": "fr-a1-conversation", "levelId": "a1", "title": "Salutations et au revoir", "description": "Dire bonjour et prendre congé", "difficulty": 1, "estimatedMinutes": 10, "order": 1, "tags": ["greetings"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-conv-introductions", "categoryId": "fr-a1-conversation", "levelId": "a1", "title": "Présentations", "description": "Se présenter et demander le nom", "difficulty": 1, "estimatedMinutes": 10, "order": 2, "tags": ["introductions"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-conv-help", "categoryId": "fr-a1-conversation", "levelId": "a1", "title": "Demander de l'aide", "description": "Demander de l'aide poliment", "difficulty": 1, "estimatedMinutes": 10, "order": 3, "tags": ["help"], "prerequisites": [], "lessons": [] }
+      ]
+    },
+    {
+      "id": "fr-a1-pronunciation",
+      "levelId": "a1",
+      "title": "Prononciation",
+      "description": "Lire les sons français avec confiance.",
+      "icon": "🔊",
+      "order": 4,
+      "topics": [
+        { "id": "fr-a1-pronunciation-alphabet", "categoryId": "fr-a1-pronunciation", "levelId": "a1", "title": "Alphabet français", "description": "Les lettres et leurs noms", "difficulty": 1, "estimatedMinutes": 10, "order": 1, "tags": ["alphabet"], "prerequisites": [], "lessons": [] },
+        { "id": "fr-a1-pronunciation-sounds", "categoryId": "fr-a1-pronunciation", "levelId": "a1", "title": "Sons et voyelles", "description": "Les voyelles, les nasales et les liaisons", "difficulty": 1, "estimatedMinutes": 10, "order": 2, "tags": ["sounds"], "prerequisites": [], "lessons": [] }
+      ]
+    }
+  ]
+}

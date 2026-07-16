@@ -1,0 +1,31 @@
+<main class="home">
+  <section class="home__hero">
+    <p class="home__eyebrow">Choose your language</p>
+    <h1 class="home__title">Start with German or French</h1>
+    <p class="home__lead">
+      Pick a language, then continue into the same learning structure with levels, topics, lessons, and progress tracking.
+    </p>
+  </section>
+
+  <section class="home__grid" aria-label="Language selection">
+    @for (language of languages; track language.code) {
+      <button
+        type="button"
+        class="language-card"
+        [style.--accent]="language.accent"
+        (click)="chooseLanguage(language.code)"
+      >
+        <span class="language-card__tag">{{ language.subtitle }}</span>
+        <h2 class="language-card__title">{{ language.title }}</h2>
+        <p class="language-card__description">{{ language.description }}</p>
+        <span class="language-card__cta">Continue</span>
+      </button>
+    }
+  </section>
+
+  <section class="home__note">
+    <p>
+      Your language choice is saved, so the app will open on the same track next time.
+    </p>
+  </section>
+</main>

@@ -14,8 +14,8 @@ import { RouterLink } from '@angular/router';
         <p class="not-found__description">
           The page you're looking for doesn't exist or has been moved.
         </p>
-        <a routerLink="/dashboard" class="not-found__home-btn">
-          ← Back to Dashboard
+        <a routerLink="/" class="not-found__home-btn">
+          ← Back to Home
         </a>
       </div>
     </div>
