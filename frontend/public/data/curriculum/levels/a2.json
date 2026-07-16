@@ -31,7 +31,250 @@
             "sein"
           ],
           "prerequisites": [],
-          "lessons": []
+          "lessons": [
+            {
+              "id": "a2-grammar-perfekt-lesson-1",
+              "topicId": "a2-grammar-perfekt",
+              "categoryId": "a2-grammar",
+              "levelId": "a2",
+              "title": "Perfekt (گذشته محاوره ای)",
+              "shortDescription": "Perfekt is the most common spoken past tense in German: Subjekt + haben/sein + Partizip II.",
+              "order": 1,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Perfekt چیست؟",
+                  "content": "Deutsch:\nPerfekt wird verwendet, um uber abgeschlossene Ereignisse in der Vergangenheit zu sprechen. In der gesprochenen Alltagssprache ist es die wichtigste Vergangenheitsform.\n\nEnglish:\nPerfekt is the most common tense for talking about completed actions in everyday spoken German.\n\nفارسی:\nزمان Perfekt پرکاربردترین زمان برای بیان اتفاقات تمام شده در گذشته در مکالمات روزمره آلمانی است."
+                },
+                {
+                  "type": "tip",
+                  "title": "2) فرمول Perfekt",
+                  "content": "Subjekt + haben/sein + Partizip II"
+                },
+                {
+                  "type": "explanation",
+                  "title": "3) Partizip II چیست؟",
+                  "content": "English:\nPartizip II is the past participle of a verb.\n\nفارسی:\nPartizip II همان اسم مفعول یا شکل سوم فعل است؛ شکلی که در زمان Perfekt، Plusquamperfekt و بعضی ساختارهای دیگر استفاده می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "4a) ساخت Partizip II: افعال باقاعده (Regular Verbs)",
+                  "headers": [
+                    "Infinitiv",
+                    "Partizip II",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    [
+                      "machen",
+                      "gemacht",
+                      "done",
+                      "انجام داده"
+                    ],
+                    [
+                      "lernen",
+                      "gelernt",
+                      "learned",
+                      "یاد گرفته"
+                    ],
+                    [
+                      "arbeiten",
+                      "gearbeitet",
+                      "worked",
+                      "کار کرده"
+                    ]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "قاعده افعال باقاعده",
+                  "content": "Formula: ge + verb stem + t"
+                },
+                {
+                  "type": "table",
+                  "title": "4b) افعال بی قاعده (Irregular Verbs)",
+                  "headers": [
+                    "Infinitiv",
+                    "Partizip II",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    [
+                      "gehen",
+                      "gegangen",
+                      "gone",
+                      "رفته"
+                    ],
+                    [
+                      "sehen",
+                      "gesehen",
+                      "seen",
+                      "دیده"
+                    ],
+                    [
+                      "essen",
+                      "gegessen",
+                      "eaten",
+                      "خورده"
+                    ],
+                    [
+                      "schreiben",
+                      "geschrieben",
+                      "written",
+                      "نوشته"
+                    ]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "نکته افعال بی قاعده",
+                  "content": "Diese Formen sind unregelmassig und mussen auswendig gelernt werden. / These forms are irregular and must be memorized. / این شکل ها بی قاعده هستند و باید حفظ شوند."
+                },
+                {
+                  "type": "table",
+                  "title": "4c) افعال جداشدنی (Separable Verbs)",
+                  "headers": [
+                    "Infinitiv",
+                    "Partizip II",
+                    "قاعده"
+                  ],
+                  "rows": [
+                    [
+                      "aufstehen",
+                      "aufgestanden",
+                      "ge بین پیشوند و ریشه قرار می گیرد"
+                    ],
+                    [
+                      "einkaufen",
+                      "eingekauft",
+                      "ge بین پیشوند و ریشه قرار می گیرد"
+                    ],
+                    [
+                      "anrufen",
+                      "angerufen",
+                      "ge بین پیشوند و ریشه قرار می گیرد"
+                    ]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "4d) افعال با پیشوند جدا نشدنی (Inseparable Verbs)",
+                  "headers": [
+                    "Infinitiv",
+                    "Partizip II",
+                    "قاعده"
+                  ],
+                  "rows": [
+                    [
+                      "verstehen",
+                      "verstanden",
+                      "بدون ge"
+                    ],
+                    [
+                      "besuchen",
+                      "besucht",
+                      "بدون ge"
+                    ],
+                    [
+                      "erzahlen",
+                      "erzahlt",
+                      "بدون ge"
+                    ]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "5) از haben استفاده کنیم یا sein؟",
+                  "content": "English:\nUse haben with most verbs.\n\nBeispiel / Example / مثال:\nIch habe gearbeitet.\nI have worked.\nمن کار کرده ام.\n\nUse sein mainly with:\n- verbs of movement from one place to another\n- verbs of change of state\n- sein, werden, bleiben\n\nBeispiel / Example / مثال:\nIch bin nach Hause gegangen.\nI went home.\nمن به خانه رفتم."
+                },
+                {
+                  "type": "table",
+                  "title": "6) ترتیب کلمات در Perfekt",
+                  "headers": [
+                    "Position",
+                    "Element",
+                    "توضیح"
+                  ],
+                  "rows": [
+                    [
+                      "1",
+                      "Subjekt",
+                      "فاعل"
+                    ],
+                    [
+                      "2",
+                      "haben/sein (konjugiert)",
+                      "فعل کمکی صرف شده"
+                    ],
+                    [
+                      "...",
+                      "Mittelfeld",
+                      "بخش میانی جمله"
+                    ],
+                    [
+                      "letzte Position",
+                      "Partizip II",
+                      "تقریبا همیشه انتهای جمله"
+                    ]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "مثال ترتیب کلمات",
+                  "content": "Ich habe gestern mit meinem Freund Fussball gespielt."
+                },
+                {
+                  "type": "example",
+                  "title": "7) مثال های بیشتر",
+                  "content": "Ich habe Deutsch gelernt.\nI have learned German.\nمن آلمانی یاد گرفته ام.\n\nWir sind nach Kanada gefahren.\nWe went to Canada.\nما به کانادا رفتیم."
+                },
+                {
+                  "type": "warning",
+                  "title": "8) اشتباهات رایج",
+                  "content": "Falsch: Ich bin gearbeitet.\nRichtig: Ich habe gearbeitet.\n\nFalsch: Ich habe gegangen.\nRichtig: Ich bin gegangen."
+                },
+                {
+                  "type": "list",
+                  "title": "9) نکات مهم",
+                  "items": [
+                    "Perfekt در مکالمه از Prateritum رایج تر است.",
+                    "Partizip II تقریبا همیشه در انتهای جمله می آید.",
+                    "بیشتر افعال با haben می آیند."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "das Perfekt",
+                  "english": "present perfect tense (spoken past)",
+                  "persian": "زمان پرفکت (گذشته محاوره ای)",
+                  "example": "Im Alltag benutzt man oft das Perfekt."
+                },
+                {
+                  "german": "das Partizip II",
+                  "english": "past participle",
+                  "persian": "اسم مفعول / شکل سوم فعل",
+                  "example": "Gelernt ist das Partizip II von lernen."
+                },
+                {
+                  "german": "abgeschlossen",
+                  "english": "completed, finished",
+                  "persian": "تمام شده",
+                  "example": "Die Handlung ist abgeschlossen."
+                },
+                {
+                  "german": "sich bewegen",
+                  "english": "to move",
+                  "persian": "حرکت کردن",
+                  "example": "Bei Bewegung nimmt man oft sein."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         },
         {
           "id": "a2-grammar-praeteritum",
