@@ -65,6 +65,360 @@
           ],
           "prerequisites": [],
           "lessons": []
+        },
+        {
+          "id": "b2-grammar-advanced-sentence-formulas",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Advanced Sentence Formulas (B2/C1)",
+          "description": "10 structured sentence formulas for building advanced German clauses",
+          "difficulty": 5,
+          "estimatedMinutes": 85,
+          "order": 4,
+          "tags": [
+            "sentence-structure",
+            "word-order",
+            "tekamolo",
+            "b2",
+            "c1"
+          ],
+          "prerequisites": [
+            "b2-grammar-konjunktiv-i"
+          ],
+          "lessons": [
+            {
+              "id": "b2-grammar-advanced-sentence-formulas-lesson-1",
+              "topicId": "b2-grammar-advanced-sentence-formulas",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "10 Advanced German Sentence Formulas (B2/C1)",
+              "shortDescription": "Master 10 high-value German sentence patterns with position-by-position grids, formulas, and bilingual EN/FA explanations.",
+              "order": 1,
+              "estimatedMinutes": 85,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "How to use this lesson",
+                  "content": "English:\nThese 10 formulas are designed to help you produce complex B2/C1 German sentences with control over word order.\n\nفارسی:\nاین 10 فرمول برای ساخت جمله های پیچیده آلمانی در سطح B2/C1 طراحی شده اند تا ترتیب کلمات را دقیق و حرفه ای مدیریت کنید."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 1 - Advanced Main Clause (Hauptsatz)",
+                  "headers": [
+                    "Position",
+                    "German Element",
+                    "Grammatical Role",
+                    "Question it answers",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["1", "Heute / Aufgrund des Wetters / In meiner Situation", "Topic / Emphasis", "When? Why? Under what condition?", "Heute"],
+                    ["2", "conjugated verb", "Main finite verb", "What happens?", "habe"],
+                    ["3", "Subject", "Nominative", "Who performs the action?", "ich"],
+                    ["4", "Dativ object", "Indirect object", "To whom?", "meinem Bruder"],
+                    ["5", "Akkusativ object", "Direct object", "What?", "ein wichtiges Buch"],
+                    ["6", "Adverb", "Additional information", "How?", "sehr gerne"],
+                    ["7", "Temporal (Te)", "Time", "When?", "gestern"],
+                    ["8", "Kausal (Ka)", "Reason", "Why?", "wegen seines Studiums"],
+                    ["9", "Modal (Mo)", "Manner", "How?", "mit grosser Freude"],
+                    ["10", "Lokal (Lo)", "Location", "Where?", "in der Bibliothek"],
+                    ["11", "Verb ending", "Remaining verb element", "-", "gegeben"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 1 pattern",
+                  "content": "[Topic] + [Verb] + [Subject] + [Dativ] + [Akkusativ] + [Adverb] + [TeKaMoLo] + [Remaining Verb]"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 1 example",
+                  "content": "DE: Heute habe ich meinem Bruder ein wichtiges Buch wegen seines Studiums mit grosser Freude in der Bibliothek gegeben.\nEN: Today I gave my brother an important book in the library with great pleasure because of his studies.\nFA: امروز با خوشحالی زیاد، به خاطر تحصیلاتش، یک کتاب مهم را در کتابخانه به برادرم دادم."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 2 - Modal Verb Sentence",
+                  "headers": [
+                    "Position",
+                    "German Element",
+                    "Grammatical Role",
+                    "Question",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["1", "Subject", "Nominative", "Who?", "Ich"],
+                    ["2", "Modal verb", "Finite verb", "Ability or obligation?", "muss"],
+                    ["3", "Dativ object", "Indirect object", "To whom?", "meinem Chef"],
+                    ["4", "Akkusativ object", "Direct object", "What?", "den Bericht"],
+                    ["5", "Temporal", "Time", "When?", "morgen"],
+                    ["6", "Kausal", "Reason", "Why?", "wegen des Projekts"],
+                    ["7", "Modal adverb", "Manner", "How?", "sorgfaltig"],
+                    ["8", "Lokal", "Place", "Where?", "im Buro"],
+                    ["9", "Main verb infinitive", "Main action", "What to do?", "erklaren"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 2 pattern",
+                  "content": "Subject + Modal Verb + Dativ + Akkusativ + TeKaMoLo + Infinitive Verb"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 2 example",
+                  "content": "DE: Ich muss meinem Chef den Bericht morgen wegen des Projekts sorgfaltig im Buro erklaren.\nEN: I have to explain the report to my boss carefully in the office tomorrow because of the project.\nFA: من باید فردا به خاطر پروژه، گزارش را با دقت در دفتر به رئیسم توضیح بدهم."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 3 - Perfect Tense (Perfekt)",
+                  "headers": ["Position", "Element", "Role", "Question", "Example"],
+                  "rows": [
+                    ["1", "Subject", "Actor", "Who?", "Ich"],
+                    ["2", "haben/sein", "Auxiliary verb", "Tense marker", "habe"],
+                    ["3", "Dativ", "Indirect object", "To whom?", "meinem Freund"],
+                    ["4", "Akkusativ", "Direct object", "What?", "ein Buch"],
+                    ["5", "TeKaMoLo", "Circumstances", "When/how/where?", "gestern"],
+                    ["6", "Partizip II", "Main action", "What happened?", "empfohlen"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 3 pattern",
+                  "content": "Subject + haben/sein + Objects + TeKaMoLo + Partizip II"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 3 example",
+                  "content": "DE: Ich habe meinem Freund gestern ein interessantes Buch empfohlen.\nEN: I recommended an interesting book to my friend yesterday.\nFA: من دیروز یک کتاب جالب را به دوستم پیشنهاد کردم."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 4 - Subordinate Clause (weil, dass, obwohl, wenn)",
+                  "headers": ["Position", "Element", "Role", "Example"],
+                  "rows": [
+                    ["1", "Conjunction", "Sentence connector", "weil"],
+                    ["2", "Subject", "Actor", "ich"],
+                    ["3", "Dativ", "Indirect object", "meinem Bruder"],
+                    ["4", "Akkusativ", "Direct object", "das Buch"],
+                    ["5", "TeKaMoLo", "Circumstances", "gestern im Park"],
+                    ["6", "Infinitive verbs", "Actions", "arbeiten"],
+                    ["7", "Finite verb", "Conjugated verb at end", "kann"]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "Critical rule for Formula 4",
+                  "content": "In subordinate clauses, the finite verb goes to the end. / در جمله های وابسته، فعل صرف شده به انتهای جمله می رود."
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 4 pattern",
+                  "content": "Conjunction + Subject + Objects + TeKaMoLo + Other verbs + Finite verb"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 4 example",
+                  "content": "DE: Ich bleibe zu Hause, weil ich krank bin.\nEN: I stay home because I am sick.\nFA: من خانه می مانم چون بیمار هستم."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 5 - Modal + Subordinate Clause",
+                  "headers": ["Element", "Role", "Example"],
+                  "rows": [
+                    ["Main sentence", "Main idea", "Ich habe mich entschieden"],
+                    ["weil/dass", "Connector", "weil"],
+                    ["Subject", "Actor", "ich"],
+                    ["Condition", "Situation", "mit meiner Situation"],
+                    ["Adverb", "Degree", "leichter"],
+                    ["Location", "Destination", "dorthin"],
+                    ["Infinitive", "Main action", "auswandern"],
+                    ["Modal verb", "Ability", "kann"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 5 pattern",
+                  "content": "Main Clause + weil/dass + Subject + Condition + Adverb + Location + Infinitive + Modal Verb"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 5 example",
+                  "content": "DE: Ich habe mich entschieden, weil ich leichter dorthin auswandern kann.\nEN: I decided because I can immigrate there more easily.\nFA: من تصمیم گرفتم چون می توانم راحت تر به آنجا مهاجرت کنم."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 6 - Genitive Structure",
+                  "headers": ["Element", "Role", "Example"],
+                  "rows": [
+                    ["Possessor", "Owner", "meines Freundes"],
+                    ["Adjective", "Description", "deutschen"],
+                    ["Noun", "Main thing", "Autos"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 6 pattern",
+                  "content": "Noun + Genitive Owner + Adjective + Noun"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 6 example",
+                  "content": "DE: Die Farbe meines neuen deutschen Autos ist schon.\nEN: The color of my new German car is beautiful.\nFA: رنگ ماشین جدید آلمانی من زیباست."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 7 - Relative Clause",
+                  "headers": ["Element", "Role", "Example"],
+                  "rows": [
+                    ["Main noun", "Thing/person described", "Das Buch"],
+                    ["Relative pronoun", "Connector", "das"],
+                    ["Subject", "Actor", "ich"],
+                    ["Object", "Receiver", "gestern"],
+                    ["Verb", "Goes last", "gekauft habe"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 7 pattern",
+                  "content": "Noun + Relative Pronoun + Subject + Objects + Verb at end"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 7 example",
+                  "content": "DE: Das Buch, das ich gestern gekauft habe, ist interessant.\nEN: The book that I bought yesterday is interesting.\nFA: کتابی که دیروز خریدم جالب است."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 8 - Passive Voice",
+                  "headers": ["Element", "Role", "Example"],
+                  "rows": [
+                    ["Subject", "Receiver of action", "Das Gebaude"],
+                    ["werden", "Passive auxiliary", "wird"],
+                    ["Partizip II", "Action", "gebaut"],
+                    ["von + Dativ", "Performer", "von einer Firma"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 8 pattern",
+                  "content": "Subject + werden + Partizip II + von + Dativ"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 8 example",
+                  "content": "DE: Das Gebaude wird von einer Firma gebaut.\nEN: The building is built by a company.\nFA: ساختمان توسط یک شرکت ساخته می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 9 - Konjunktiv II",
+                  "headers": ["Element", "Role", "Example"],
+                  "rows": [
+                    ["Wenn", "Condition connector", "Wenn"],
+                    ["Subject", "Actor", "ich"],
+                    ["Situation", "Condition", "mehr Zeit"],
+                    ["Konjunktiv verb", "Unreal situation", "hatte"],
+                    ["Result", "Outcome", "wurde lernen"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 9 pattern",
+                  "content": "Wenn + Subject + Condition + Konjunktiv II, wurde + Subject + Infinitive"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 9 example",
+                  "content": "DE: Wenn ich mehr Zeit hatte, wurde ich Deutsch lernen.\nEN: If I had more time, I would learn German.\nFA: اگر زمان بیشتری داشتم، آلمانی یاد می گرفتم."
+                },
+                {
+                  "type": "table",
+                  "title": "Formula 10 - Ultimate C1 Sentence Formula",
+                  "headers": ["Position", "Element", "Role", "Example"],
+                  "rows": [
+                    ["1", "Topic/Reason", "Context", "Aufgrund meiner Erfahrung"],
+                    ["2", "Verb", "Main action", "habe"],
+                    ["3", "Subject", "Actor", "ich"],
+                    ["4", "Dativ", "Receiver", "meinem Kollegen"],
+                    ["5", "Akkusativ", "Object", "die Informationen"],
+                    ["6", "Genitive", "Ownership", "meines Unternehmens"],
+                    ["7", "Relative Clause", "Extra description", "das ich leite"],
+                    ["8", "Temporal", "Time", "gestern"],
+                    ["9", "Modal", "Manner", "ausfuhrlich"],
+                    ["10", "Lokal", "Place", "im Buro"],
+                    ["11", "Subordinate clause", "Additional info", "obwohl ich wenig Zeit hatte"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "Formula 10 pattern",
+                  "content": "Topic + Verb + Subject + Dativ + Akkusativ + Genitive + Relative Clause + TeKaMoLo + Subordinate Clause"
+                },
+                {
+                  "type": "example",
+                  "title": "Formula 10 example",
+                  "content": "DE: Aufgrund meiner Erfahrung habe ich meinem Kollegen die Informationen meines Unternehmens, das ich seit drei Jahren leite, gestern ausfuhrlich im Buro erklart, obwohl ich wenig Zeit hatte.\nEN: Because of my experience, I explained my company's information, which I have managed for three years, to my colleague in detail yesterday at the office, although I had little time.\nFA: به دلیل تجربه ام، دیروز در دفتر با جزئیات اطلاعات شرکت خودم را که سه سال است مدیریت می کنم، برای همکارم توضیح دادم، با اینکه زمان کمی داشتم."
+                },
+                {
+                  "type": "tip",
+                  "title": "Master template for B2/C1",
+                  "content": "[Topic] + [Verb Position 2] + [Subject] + [Dativ] + [Akkusativ] + [Genitive] + [Adjective phrases] + [Adverbs] + [TeKaMoLo] + [Relative Clause] + [Subordinate Clause] + [Verb cluster at the end]"
+                },
+                {
+                  "type": "table",
+                  "title": "The 5 formulas to memorize first for B2",
+                  "headers": ["Level", "Formula"],
+                  "rows": [
+                    ["Daily German", "Subject + Verb + Objects + TeKaMoLo"],
+                    ["B1", "Main clause + weil/dass clause"],
+                    ["B2", "Modal + Infinitive + subordinate clause"],
+                    ["B2", "Relative clause"],
+                    ["C1", "Main clause + Relative + Subordinate + Genitive"]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "Final takeaway",
+                  "items": [
+                    "Mastering these 5 structures gives you access to 90%+ of complex sentence patterns used in real German.",
+                    "با تسلط بر این 5 ساختار، می توانید بیش از 90 درصد جمله های پیچیده آلمانی را بسازید.",
+                    "Practice by changing only one block at a time: Topic, verb position, and clause type."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "der Hauptsatz",
+                  "english": "main clause",
+                  "persian": "جمله اصلی",
+                  "example": "Im Hauptsatz steht das konjugierte Verb an Position 2."
+                },
+                {
+                  "german": "die Nebensatz",
+                  "english": "subordinate clause",
+                  "persian": "جمله وابسته",
+                  "example": "Im Nebensatz steht das finite Verb am Ende."
+                },
+                {
+                  "german": "das TeKaMoLo",
+                  "english": "temporal-causal-modal-local order",
+                  "persian": "ترتیب زمانی-علتی-حالی-مکانی",
+                  "example": "TeKaMoLo hilft bei der Reihenfolge von Adverbialen."
+                },
+                {
+                  "german": "der Genitiv",
+                  "english": "genitive case",
+                  "persian": "حالت اضافی / ملکی",
+                  "example": "Der Genitiv zeigt Besitz oder Zugehorigkeit."
+                },
+                {
+                  "german": "das Relativsatz",
+                  "english": "relative clause",
+                  "persian": "جمله موصولی",
+                  "example": "Relativsatze geben Zusatzinformationen uber ein Nomen."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         }
       ]
     },
