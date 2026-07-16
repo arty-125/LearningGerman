@@ -583,6 +583,248 @@
                 }
               ],
               "exercises": []
+            },
+            {
+              "id": "a2-grammar-dative-accusative-verbs-lesson-3",
+              "topicId": "a2-grammar-dative-accusative-verbs",
+              "categoryId": "a2-grammar",
+              "levelId": "a2",
+              "title": "TeKaMoLo — Adverb Order in German",
+              "shortDescription": "Learn the TeKaMoLo sequence: Time → Reason → Manner → Place. Master this and your sentences instantly sound more natural.",
+              "order": 3,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Grundregel | Basic Rule | قانون اصلی",
+                  "content": "Deutsch:\nIm Deutschen gibt es eine bevorzugte Reihenfolge fur Angaben: Te-Ka-Mo-Lo.\n\nEnglish:\nGerman prefers a specific order for adverbials: Temporal, Kausal, Modal, Lokal.\n\nفارسی:\nدر آلمانی ترتیب قیدها معمولا از این قانون پیروی می کند:\nزمان (Te) → دلیل (Ka) → روش (Mo) → مکان (Lo)"
+                },
+                {
+                  "type": "table",
+                  "title": "2) TeKaMoLo at a glance",
+                  "headers": [
+                    "Code",
+                    "Name (DE)",
+                    "Name (EN)",
+                    "Name (FA)",
+                    "Question",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["Te", "Temporal (Zeit)", "Time", "زمان", "Wann?", "heute, morgen, gestern"],
+                    ["Ka", "Kausal (Grund)", "Reason", "دلیل", "Warum?", "wegen meiner Arbeit"],
+                    ["Mo", "Modal (Art)", "Manner / How", "روش", "Wie? Mit wem?", "mit meiner Freundin, mit dem Zug"],
+                    ["Lo", "Lokal (Ort)", "Place", "مکان", "Wo? Wohin?", "im Park, nach Berlin"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "3) The order to memorize",
+                  "content": "Te → Ka → Mo → Lo\nZeit → Grund → Art → Ort\nTime → Reason → Manner → Place\nزمان → دلیل → روش → مکان"
+                },
+                {
+                  "type": "table",
+                  "title": "4) Sentence analysis — Example 1",
+                  "headers": [
+                    "Part",
+                    "Type",
+                    "German",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Verb", "—", "gehe", "می روم"],
+                    ["Te", "Time", "morgen", "فردا"],
+                    ["Ka", "Reason", "wegen des schonen Wetters", "به خاطر هوای خوب"],
+                    ["Mo", "Manner", "mit meiner Freundin", "با دوستم"],
+                    ["Lo", "Place", "in den Park", "به پارک"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Example 1 — full sentence",
+                  "content": "DE: Ich gehe morgen wegen des schonen Wetters mit meiner Freundin in den Park.\nEN: I go to the park tomorrow because of the beautiful weather with my friend.\nFA: من فردا به خاطر هوای خوب با دوستم به پارک می روم."
+                },
+                {
+                  "type": "table",
+                  "title": "5) Sentence analysis — Example 2",
+                  "headers": [
+                    "Part",
+                    "Type",
+                    "German",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Verb", "—", "lerne", "یاد می گیرم"],
+                    ["Te", "Time", "heute", "امروز"],
+                    ["Mo", "Manner", "mit meiner Freundin", "با دوستم"],
+                    ["Lo", "Place", "in der Bibliothek", "در کتابخانه"],
+                    ["Topic", "Object", "Deutsch", "آلمانی"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Example 2 — full sentence",
+                  "content": "DE: Ich lerne heute mit meiner Freundin in der Bibliothek Deutsch.\nEN: I study German today with my friend in the library.\nFA: من امروز با دوستم در کتابخانه آلمانی یاد می گیرم."
+                },
+                {
+                  "type": "table",
+                  "title": "6) Sentence analysis — Example 3",
+                  "headers": [
+                    "Part",
+                    "Type",
+                    "German",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Te", "Time", "nachste Woche", "هفته آینده"],
+                    ["Ka", "Reason", "wegen meiner Arbeit", "به خاطر کارم"],
+                    ["Mo", "Manner", "mit dem Zug", "با قطار"],
+                    ["Lo", "Place", "nach Berlin", "به برلین"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Example 3 — full sentence",
+                  "content": "DE: Ich fahre nachste Woche wegen meiner Arbeit mit dem Zug nach Berlin.\nEN: I travel to Berlin next week because of my work by train.\nFA: من هفته آینده به خاطر کارم با قطار به برلین می روم."
+                },
+                {
+                  "type": "list",
+                  "title": "7) Quick checklist before you write a sentence",
+                  "items": [
+                    "Do you have a time expression? → Put it first (Te)",
+                    "Do you have a reason (wegen...)? → Put it second (Ka)",
+                    "Do you have a manner or companion (mit...)? → Put it third (Mo)",
+                    "Do you have a place? → Put it last (Lo)",
+                    "Not every sentence needs all four. Use only what you have."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Zeitangabe",
+                  "english": "time expression",
+                  "persian": "قید زمان",
+                  "example": "morgen ist eine Zeitangabe."
+                },
+                {
+                  "german": "die Ortsangabe",
+                  "english": "place expression",
+                  "persian": "قید مکان",
+                  "example": "im Park ist eine Ortsangabe."
+                },
+                {
+                  "german": "die Angabe",
+                  "english": "adverbial expression",
+                  "persian": "قید / عبارت توصیفی",
+                  "example": "Die Angabe gibt mehr Information uber die Handlung."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "a2-grammar-dative-accusative-verbs-lesson-4",
+              "topicId": "a2-grammar-dative-accusative-verbs",
+              "categoryId": "a2-grammar",
+              "levelId": "a2",
+              "title": "Full Sentence: TeKaMoLo + Dativ + Akkusativ",
+              "shortDescription": "Combine adverb order (TeKaMoLo) with two objects. This is the complete sentence-building formula used at A2/B1.",
+              "order": 4,
+              "estimatedMinutes": 22,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Combining everything",
+                  "content": "Deutsch:\nWenn ein Verb sowohl TeKaMoLo-Angaben als auch Dativ- und Akkusativobjekte hat, gilt diese Reihenfolge.\n\nEnglish:\nWhen a sentence has both adverbials (TeKaMoLo) and two objects (Dativ + Akkusativ), use this combined order.\n\nفارسی:\nوقتی جمله هم قیود (TeKaMoLo) دارد و هم دو مفعول (داتیو + آکوزاتیو)، ترتیب اینطور می شود."
+                },
+                {
+                  "type": "tip",
+                  "title": "2) Master formula",
+                  "content": "Subject + Verb + Te + Ka + Mo + Lo + Dativ + Akkusativ\nزمان → دلیل → روش → مکان → شخص (داتیو) → چیز (آکوزاتیو)"
+                },
+                {
+                  "type": "table",
+                  "title": "3) Full analysis — Example 4",
+                  "headers": [
+                    "Part",
+                    "German",
+                    "Role",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Subject", "Ich", "Nominativ", "من"],
+                    ["Verb", "gebe", "Verb", "می دهم"],
+                    ["Te", "morgen", "Time", "فردا"],
+                    ["Lo", "in der Kuche", "Place", "در آشپزخانه"],
+                    ["Dativ", "meinem Bruder", "Indirect object", "به برادرم"],
+                    ["Akkusativ", "ein Geschenk", "Direct object", "یک هدیه"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Example 4 — full sentence",
+                  "content": "DE: Ich gebe meinem Bruder morgen in der Kuche ein Geschenk.\nEN: I give my brother a gift tomorrow in the kitchen.\nFA: من فردا در آشپزخانه به برادرم یک هدیه می دهم."
+                },
+                {
+                  "type": "table",
+                  "title": "4) Full analysis — Example 5 (A2/B1 bridge)",
+                  "headers": [
+                    "Part",
+                    "German",
+                    "Role",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Subject", "Ich", "Nominativ", "من"],
+                    ["Verb", "erklare", "Verb", "توضیح می دهم"],
+                    ["Te", "heute", "Time", "امروز"],
+                    ["Ka", "wegen der Prufung", "Reason", "به خاطر امتحان"],
+                    ["Lo", "im Cafe", "Place", "در کافه"],
+                    ["Dativ", "meiner Freundin", "Indirect object", "به دوستم"],
+                    ["Akkusativ", "die Grammatik", "Direct object", "گرامر"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Example 5 — full sentence",
+                  "content": "DE: Ich erklare meiner Freundin heute im Cafe wegen der Prufung die Grammatik.\nEN: I explain the grammar to my friend today in the cafe because of the exam.\nFA: من امروز در کافه به خاطر امتحان، گرامر را برای دوستم توضیح می دهم."
+                },
+                {
+                  "type": "warning",
+                  "title": "5) Pronoun reminder (from Lesson 2)",
+                  "content": "When both objects are nouns: Dativ before Akkusativ.\nIch gebe meinem Freund das Buch.\n\nWhen both objects are pronouns: Akkusativ before Dativ.\nIch gebe es ihm.\n\nفارسی:\nوقتی هر دو مفعول اسم باشند: داتیو قبل از آکوزاتیو.\nوقتی هر دو ضمیر باشند: آکوزاتیو قبل از داتیو."
+                },
+                {
+                  "type": "list",
+                  "title": "6) Summary: the four-step method",
+                  "items": [
+                    "Step 1 — Find subject and verb first.",
+                    "Step 2 — Ask Wann? Warum? Wie? Wo? → arrange in Te-Ka-Mo-Lo order.",
+                    "Step 3 — Ask Wem? (Dativ) and Was? (Akkusativ) → add objects after adverbials.",
+                    "Step 4 — If both objects are pronouns, swap: Akkusativ pronoun first, then Dativ."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Reihenfolge",
+                  "english": "the order / sequence",
+                  "persian": "ترتیب",
+                  "example": "Die Reihenfolge im Satz ist wichtig."
+                },
+                {
+                  "german": "erklaren",
+                  "english": "to explain",
+                  "persian": "توضیح دادن",
+                  "example": "Ich erklare dir die Aufgabe."
+                },
+                {
+                  "german": "das Geschenk",
+                  "english": "the gift",
+                  "persian": "هدیه",
+                  "example": "Er bringt seiner Mutter ein Geschenk."
+                }
+              ],
+              "exercises": []
             }
           ]
         },
