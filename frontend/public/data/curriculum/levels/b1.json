@@ -81,7 +81,114 @@
             "constructions"
           ],
           "prerequisites": [],
-          "lessons": []
+          "lessons": [
+            {
+              "id": "b1-grammar-infinitive-constructions-lesson-1",
+              "topicId": "b1-grammar-infinitive-constructions",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "anfangen + zu + Infinitiv (Natural German)",
+              "shortDescription": "Understand why Ich fange an, Deutsch zu lernen is natural and Ich fange Deutsch zu lernen an sounds heavy.",
+              "order": 1,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) سوال رایج زبان آموزان",
+                  "content": "English:\nMany learners ask: Why is an in the middle in Ich fange an, Deutsch zu lernen?\n\nفارسی:\nخیلی از زبان آموزان می پرسند چرا در جمله Ich fange an, Deutsch zu lernen بخش an در میانه جمله می آید و نه آخر جمله."
+                },
+                {
+                  "type": "warning",
+                  "title": "2) Natural vs unnatural phrasing",
+                  "content": "Less natural (understandable but heavy): Und warum fangen Sie Deutsch zu lernen an?\nNatural and standard: Und warum fangen Sie an, Deutsch zu lernen?\n\nEnglish:\nThe first sentence is not strictly ungrammatical, but it sounds old, heavy, and non-native in modern usage.\n\nفارسی:\nجمله اول از نظر درک معنایی ممکن است قابل فهم باشد، اما در آلمانی طبیعی امروز سنگین و غیرطبیعی به گوش می رسد."
+                },
+                {
+                  "type": "table",
+                  "title": "3) Core pattern comparison",
+                  "headers": [
+                    "Case",
+                    "Formula",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["Conjugated separable verb", "Subject + verb stem + ... + prefix", "Er fangt morgen an."],
+                    ["Separable infinitive with zu", "prefix + zu + verb", "anzufangen"],
+                    ["Conjugated verb + infinitive group", "Subject + verb stem + prefix, + infinitive group", "Ich fange an, Deutsch zu lernen."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "4) The key B1 rule",
+                  "content": "If the separable verb itself appears as a zu-infinitive, use one word: anfangen -> anzufangen, aufstehen -> aufzustehen, einkaufen -> einzukaufen. But if the separable verb is conjugated, keep normal split and then attach the infinitive group after a comma."
+                },
+                {
+                  "type": "table",
+                  "title": "5) Mini-grid: Why an is before the comma",
+                  "headers": [
+                    "Part",
+                    "Function",
+                    "In sentence"
+                  ],
+                  "rows": [
+                    ["Ich", "Subject", "Ich"],
+                    ["fange", "Finite verb stem", "fange"],
+                    ["an", "Separable prefix", "an"],
+                    ["Deutsch zu lernen", "Infinitive group", "Deutsch zu lernen"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "6) Correct model sentence",
+                  "content": "DE: Und warum fangen Sie an, Deutsch zu lernen?\nEN: And why are you starting to learn German?\nFA: و چرا شروع می کنید آلمانی یاد بگیرید؟"
+                },
+                {
+                  "type": "table",
+                  "title": "7) Three high-frequency examples",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich versuche, fruh aufzustehen.", "I try to get up early.", "من تلاش می کنم زود بیدار شوم."],
+                    ["Er versucht, morgen anzufangen.", "He tries to start tomorrow.", "او تلاش می کند فردا شروع کند."],
+                    ["Ich fange an, mit meinem Bruder Deutsch zu lernen.", "I start learning German with my brother.", "من شروع می کنم با برادرم آلمانی یاد بگیرم."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "8) جمع بندی خیلی مهم",
+                  "items": [
+                    "Conjugated separable verb: fangt ... an",
+                    "Separable zu-infinitive: anzufangen",
+                    "Natural modern pattern with infinitive group: Ich fange an, Deutsch zu lernen.",
+                    "The A2 to B1 jump is exactly this distinction."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Infinitivgruppe",
+                  "english": "infinitive group",
+                  "persian": "گروه مصدری",
+                  "example": "Deutsch zu lernen ist eine Infinitivgruppe."
+                },
+                {
+                  "german": "naturlich",
+                  "english": "natural (native-like)",
+                  "persian": "طبیعی",
+                  "example": "Diese Variante klingt naturlich."
+                },
+                {
+                  "german": "schwerfallig",
+                  "english": "heavy, clunky",
+                  "persian": "سنگین و نچسب",
+                  "example": "Dieser Satz klingt schwerfallig."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         },
         {
           "id": "b1-grammar-genitive",

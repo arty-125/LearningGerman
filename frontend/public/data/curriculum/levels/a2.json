@@ -326,7 +326,91 @@
             "word-order"
           ],
           "prerequisites": [],
-          "lessons": []
+          "lessons": [
+            {
+              "id": "a2-grammar-separable-verbs-lesson-1",
+              "topicId": "a2-grammar-separable-verbs",
+              "categoryId": "a2-grammar",
+              "levelId": "a2",
+              "title": "Trennbare Verben: Core Word Order",
+              "shortDescription": "Learn the core A2 pattern: in main clauses, the separable prefix moves to the end.",
+              "order": 1,
+              "estimatedMinutes": 28,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) قانون اصلی در جمله ساده",
+                  "content": "Deutsch:\nIm Hauptsatz steht bei trennbaren Verben der konjugierte Stamm auf Position 2 und das Prafix am Satzende.\n\nEnglish:\nIn a simple main clause, the conjugated verb stem is in position 2, and the separable prefix goes to the end.\n\nفارسی:\nدر جمله اصلی ساده، ریشه فعل جداشدنی صرف می شود و پیشوند جداشدنی به آخر جمله می رود."
+                },
+                {
+                  "type": "tip",
+                  "title": "A2 master formula",
+                  "content": "Subject + conjugated verb stem + ... + separable prefix"
+                },
+                {
+                  "type": "table",
+                  "title": "2) Grid: anfangen in a simple clause",
+                  "headers": [
+                    "Part",
+                    "Role",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["Ich", "Subject", "Ich"],
+                    ["fange", "Conjugated verb stem", "fange"],
+                    ["heute", "Time", "heute"],
+                    ["an", "Separable prefix", "an"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "3) Base examples",
+                  "content": "DE: Ich fange heute an.\nEN: I am starting today.\nFA: من امروز شروع می کنم.\n\nDE: Ich stehe jeden Tag um 6 Uhr auf.\nEN: I get up every day at 6.\nFA: من هر روز ساعت 6 بیدار می شوم.\n\nDE: Wir kaufen am Samstag ein.\nEN: We shop on Saturday.\nFA: ما شنبه خرید می کنیم."
+                },
+                {
+                  "type": "table",
+                  "title": "4) Three practical patterns",
+                  "headers": [
+                    "Pattern",
+                    "Natural German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Verb only", "Ich fange an.", "I start.", "من شروع می کنم."],
+                    ["Verb + noun phrase", "Ich fange mit Deutsch an.", "I start with German.", "من با آلمانی شروع می کنم."],
+                    ["Verb + infinitive group", "Ich fange an, Deutsch zu lernen.", "I start learning German.", "من شروع می کنم آلمانی یاد بگیرم."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "A2 learner alert",
+                  "content": "When another verb appears with zu, this becomes an infinitive-group structure. You will master this in B1 Infinitive Constructions. / وقتی فعل دوم با zu می آید، ساختار وارد گروه مصدری می شود. این بخش را در B1 کامل می کنیم."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "trennbar",
+                  "english": "separable",
+                  "persian": "جداشدنی",
+                  "example": "anfangen ist ein trennbares Verb."
+                },
+                {
+                  "german": "das Prafix",
+                  "english": "prefix",
+                  "persian": "پیشوند",
+                  "example": "Bei trennbaren Verben steht das Prafix oft am Ende."
+                },
+                {
+                  "german": "anfangen",
+                  "english": "to start",
+                  "persian": "شروع کردن",
+                  "example": "Ich fange heute mit dem Kurs an."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         },
         {
           "id": "a2-grammar-relative-clauses",
