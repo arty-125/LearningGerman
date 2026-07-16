@@ -2211,6 +2211,134 @@
               ]
             }
           ]
+        },
+        {
+          "id": "a1-grammar-personal-communication",
+          "categoryId": "a1-grammar",
+          "levelId": "a1",
+          "title": "Personal Communication Basics",
+          "description": "Core personal questions and everyday identity phrases: name, origin, living place, how are you, age, and language",
+          "difficulty": 2,
+          "estimatedMinutes": 35,
+          "order": 9,
+          "tags": [
+            "introductions",
+            "personal-info",
+            "wer-was",
+            "questions",
+            "a1-core"
+          ],
+          "prerequisites": [
+            "a1-grammar-present-tense"
+          ],
+          "lessons": [
+            {
+              "id": "a1-grammar-personal-communication-lesson-1",
+              "topicId": "a1-grammar-personal-communication",
+              "categoryId": "a1-grammar",
+              "levelId": "a1",
+              "title": "Who Are You? Where Are You From?",
+              "shortDescription": "A1 essentials for introductions, origin and living place, basic yes/no responses, and polite interaction.",
+              "order": 1,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "1) Essential introduction questions",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wer sind Sie?", "Who are you?", "شما چه کسی هستید؟"],
+                    ["Wie heißen Sie?", "What is your name?", "اسم شما چیست؟"],
+                    ["Ich heiße ...", "My name is ...", "اسم من ... است."],
+                    ["Mein Name ist ...", "My name is ...", "نام من ... است."],
+                    ["Woher kommst du?", "Where are you from?", "اهل کجا هستی؟"],
+                    ["Ich komme aus ...", "I come from ...", "من اهل ... هستم."],
+                    ["Wo lebst du?", "Where do you live?", "کجا زندگی می کنی؟"],
+                    ["Ich lebe in ...", "I live in ...", "من در ... زندگی می کنم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "2) Wer vs Was",
+                  "headers": [
+                    "Question word",
+                    "Use",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["Wer?", "for people", "Wer ist das?"],
+                    ["Was?", "for things / non-person", "Was ist das?"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "3) Negative question + doch",
+                  "content": "Deutsch:\nKommst du nicht aus dem Iran?\n- Doch. (Actually yes)\n- Nein. (No)\n\nEnglish:\nIn German, doch is the natural positive correction after a negative question.\n\nفارسی:\nدر آلمانی، در پاسخ به سوال منفی، doch یعنی: چرا، اتفاقا بله."
+                },
+                {
+                  "type": "table",
+                  "title": "4) Wie geht's? natural answers",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wie geht's? / Wie geht es dir? / Wie geht es Ihnen?", "How are you?", "حالت چطور است؟"],
+                    ["Es geht mir gut.", "I am fine.", "حالم خوب است."],
+                    ["Es geht mir sehr gut.", "I am very well.", "حالم خیلی خوب است."],
+                    ["Es geht so.", "So-so.", "بد نیست / معمولی است."],
+                    ["Es geht mir schlecht.", "I feel bad.", "حالم بد است."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "5) Common mistake",
+                  "content": "In this context, prefer Es geht mir gut over Ich bin gut.\n\nEN: Es geht mir ... is the standard pattern for health/mood.\nFA: برای حال عمومی، الگوی طبیعی Es geht mir ... است."
+                },
+                {
+                  "type": "table",
+                  "title": "6) Age and language",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wie alt sind Sie?", "How old are you?", "چند سال دارید؟"],
+                    ["Ich bin 23 Jahre alt.", "I am 23 years old.", "من 23 ساله هستم."],
+                    ["Welche Sprache sprechen Sie?", "Which language do you speak?", "شما چه زبانی صحبت می کنید؟"],
+                    ["Ich spreche Persisch und Deutsch.", "I speak Persian and German.", "من فارسی و آلمانی صحبت می کنم."]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "woher",
+                  "english": "from where",
+                  "persian": "از کجا",
+                  "example": "Woher kommst du?"
+                },
+                {
+                  "german": "doch",
+                  "english": "actually yes (after negative question)",
+                  "persian": "اتفاقا بله",
+                  "example": "Kommst du nicht aus dem Iran? - Doch!"
+                },
+                {
+                  "german": "heißen",
+                  "english": "to be called (name)",
+                  "persian": "نام داشتن",
+                  "example": "Ich heiße Mina."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         }
       ]
     },

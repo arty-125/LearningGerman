@@ -45,7 +45,7 @@
                 {
                   "type": "explanation",
                   "title": "1) Perfekt چیست؟",
-                  "content": "Deutsch:\nPerfekt wird verwendet, um uber abgeschlossene Ereignisse in der Vergangenheit zu sprechen. In der gesprochenen Alltagssprache ist es die wichtigste Vergangenheitsform.\n\nEnglish:\nPerfekt is the most common tense for talking about completed actions in everyday spoken German.\n\nفارسی:\nزمان Perfekt پرکاربردترین زمان برای بیان اتفاقات تمام شده در گذشته در مکالمات روزمره آلمانی است."
+                  "content": "Deutsch:\nPerfekt wird verwendet, um über abgeschlossene Ereignisse in der Vergangenheit zu sprechen. In der gesprochenen Alltagssprache ist es die wichtigste Vergangenheitsform.\n\nEnglish:\nPerfekt is the most common tense for talking about completed actions in everyday spoken German.\n\nفارسی:\nزمان Perfekt پرکاربردترین زمان برای بیان اتفاقات تمام شده در گذشته در مکالمات روزمره آلمانی است."
                 },
                 {
                   "type": "tip",
@@ -179,8 +179,8 @@
                       "بدون ge"
                     ],
                     [
-                      "erzahlen",
-                      "erzahlt",
+                      "erzählen",
+                      "erzählt",
                       "بدون ge"
                     ]
                   ]
@@ -240,7 +240,7 @@
                   "type": "list",
                   "title": "9) نکات مهم",
                   "items": [
-                    "Perfekt در مکالمه از Prateritum رایج تر است.",
+                    "Perfekt در مکالمه از Präteritum رایج تر است.",
                     "Partizip II تقریبا همیشه در انتهای جمله می آید.",
                     "بیشتر افعال با haben می آیند."
                   ]
@@ -473,10 +473,10 @@
                     ["schicken", "to send", "فرستادن"],
                     ["bringen", "to bring", "آوردن"],
                     ["erklären", "to explain", "توضیح دادن"],
-                    ["erzahlen", "to tell", "تعریف کردن"],
+                    ["erzählen", "to tell", "تعریف کردن"],
                     ["empfehlen", "to recommend", "توصیه کردن"],
                     ["leihen", "to lend", "قرض دادن"],
-                    ["kaufen (fur jdn)", "to buy for someone", "برای کسی خریدن"]
+                    ["kaufen (für jdn)", "to buy for someone", "برای کسی خریدن"]
                   ]
                 },
                 {
@@ -525,7 +525,7 @@
                 {
                   "type": "explanation",
                   "title": "1) Word order patterns students need",
-                  "content": "Deutsch:\nBei Verben mit Dativ und Akkusativ hangt die Reihenfolge von Nomen und Pronomen ab.\n\nEnglish:\nWith verbs that take Dative and Accusative, word order changes based on noun vs pronoun.\n\nفارسی:\nدر فعل های دارای داتیو و آکوزاتیو، ترتیب اجزا به اسمی یا ضمیری بودن مفعول ها بستگی دارد."
+                  "content": "Deutsch:\nBei Verben mit Dativ und Akkusativ hängt die Reihenfolge von Nomen und Pronomen ab.\n\nEnglish:\nWith verbs that take Dative and Accusative, word order changes based on noun vs pronoun.\n\nفارسی:\nدر فعل های دارای داتیو و آکوزاتیو، ترتیب اجزا به اسمی یا ضمیری بودن مفعول ها بستگی دارد."
                 },
                 {
                   "type": "table",
@@ -549,7 +549,7 @@
                 {
                   "type": "example",
                   "title": "4) More real-life examples",
-                  "content": "DE: Der Lehrer erklart uns die Grammatik.\nEN: The teacher explains the grammar to us.\nFA: معلم گرامر را برای ما توضیح می دهد.\n\nDE: Mein Vater erzahlt mir eine Geschichte.\nEN: My father tells me a story.\nFA: پدرم یک داستان برای من تعریف می کند.\n\nDE: Ich empfehle dir diesen Film.\nEN: I recommend this movie to you.\nFA: من این فیلم را به تو پیشنهاد می کنم.\n\nDE: Kannst du mir dein Auto leihen?\nEN: Can you lend me your car?\nFA: می توانی ماشینت را به من قرض بدهی؟"
+                  "content": "DE: Der Lehrer erklärt uns die Grammatik.\nEN: The teacher explains the grammar to us.\nFA: معلم گرامر را برای ما توضیح می دهد.\n\nDE: Mein Vater erzählt mir eine Geschichte.\nEN: My father tells me a story.\nFA: پدرم یک داستان برای من تعریف می کند.\n\nDE: Ich empfehle dir diesen Film.\nEN: I recommend this movie to you.\nFA: من این فیلم را به تو پیشنهاد می کنم.\n\nDE: Kannst du mir dein Auto leihen?\nEN: Can you lend me your car?\nFA: می توانی ماشینت را به من قرض بدهی؟"
                 },
                 {
                   "type": "list",
@@ -597,7 +597,7 @@
                 {
                   "type": "explanation",
                   "title": "1) Grundregel | Basic Rule | قانون اصلی",
-                  "content": "Deutsch:\nIm Deutschen gibt es eine bevorzugte Reihenfolge fur Angaben: Te-Ka-Mo-Lo.\n\nEnglish:\nGerman prefers a specific order for adverbials: Temporal, Kausal, Modal, Lokal.\n\nفارسی:\nدر آلمانی ترتیب قیدها معمولا از این قانون پیروی می کند:\nزمان (Te) → دلیل (Ka) → روش (Mo) → مکان (Lo)"
+                  "content": "Deutsch:\nIm Deutschen gibt es eine bevorzugte Reihenfolge für Angaben: Te-Ka-Mo-Lo.\n\nEnglish:\nGerman prefers a specific order for adverbials: Temporal, Kausal, Modal, Lokal.\n\nفارسی:\nدر آلمانی ترتیب قیدها معمولا از این قانون پیروی می کند:\nزمان (Te) → دلیل (Ka) → روش (Mo) → مکان (Lo)"
                 },
                 {
                   "type": "table",
@@ -716,7 +716,7 @@
                   "german": "die Angabe",
                   "english": "adverbial expression",
                   "persian": "قید / عبارت توصیفی",
-                  "example": "Die Angabe gibt mehr Information uber die Handlung."
+                  "example": "Die Angabe gibt mehr Information über die Handlung."
                 }
               ],
               "exercises": []
@@ -775,10 +775,10 @@
                   ],
                   "rows": [
                     ["Subject", "Ich", "Nominativ", "من"],
-                    ["Verb", "erklare", "Verb", "توضیح می دهم"],
+                    ["Verb", "erkläre", "Verb", "توضیح می دهم"],
                     ["Te", "heute", "Time", "امروز"],
                     ["Ka", "wegen der Prüfung", "Reason", "به خاطر امتحان"],
-                    ["Lo", "im Cafe", "Place", "در کافه"],
+                    ["Lo", "im Café", "Place", "در کافه"],
                     ["Dativ", "meiner Freundin", "Indirect object", "به دوستم"],
                     ["Akkusativ", "die Grammatik", "Direct object", "گرامر"]
                   ]
