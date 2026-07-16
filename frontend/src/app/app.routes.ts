@@ -17,7 +17,7 @@ export const routes: Routes = [
           import('./features/dashboard/dashboard.component').then(
             (m) => m.DashboardComponent
           ),
-        title: 'Dashboard | Deutsch Lernen',
+        title: 'Dashboard | LernDeutsch',
       },
       {
         path: 'levels/:levelId',
@@ -25,7 +25,7 @@ export const routes: Routes = [
           import('./features/level-overview/level-overview.component').then(
             (m) => m.LevelOverviewComponent
           ),
-        title: 'Level Overview | Deutsch Lernen',
+        title: 'Level Overview | LernDeutsch',
       },
       {
         path: 'levels/:levelId/categories/:categoryId',
@@ -33,7 +33,7 @@ export const routes: Routes = [
           import('./features/category/category.component').then(
             (m) => m.CategoryComponent
           ),
-        title: 'Category | Deutsch Lernen',
+        title: 'Category | LernDeutsch',
       },
       {
         path: 'levels/:levelId/categories/:categoryId/topics/:topicId',
@@ -41,7 +41,7 @@ export const routes: Routes = [
           import('./features/topic/topic.component').then(
             (m) => m.TopicComponent
           ),
-        title: 'Topic | Deutsch Lernen',
+        title: 'Topic | LernDeutsch',
       },
       {
         path: 'lessons/:lessonId',
@@ -49,7 +49,7 @@ export const routes: Routes = [
           import('./features/lesson/lesson.component').then(
             (m) => m.LessonComponent
           ),
-        title: 'Lesson | Deutsch Lernen',
+        title: 'Lesson | LernDeutsch',
       },
       {
         path: 'progress',
@@ -57,7 +57,7 @@ export const routes: Routes = [
           import('./features/progress/progress.component').then(
             (m) => m.ProgressComponent
           ),
-        title: 'My Progress | Deutsch Lernen',
+        title: 'My Progress | LernDeutsch',
       },
     ],
   },
@@ -67,6 +67,6 @@ export const routes: Routes = [
       import('./features/not-found/not-found.component').then(
         (m) => m.NotFoundComponent
       ),
-    title: 'Page Not Found | Deutsch Lernen',
+    title: 'Page Not Found | LernDeutsch',
   },
 ];

@@ -54,8 +54,11 @@
   }
 
   &__logo-icon {
-    font-size: 1.5rem;
-    line-height: 1;
+    width: 34px;
+    height: 34px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xs);
+    flex-shrink: 0;
   }
 
   &__logo-text {
