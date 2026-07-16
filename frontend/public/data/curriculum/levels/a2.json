@@ -413,6 +413,180 @@
           ]
         },
         {
+          "id": "a2-grammar-dative-accusative-verbs",
+          "categoryId": "a2-grammar",
+          "levelId": "a2",
+          "title": "Verben mit Dativ und Akkusativ",
+          "description": "Verbs that take two objects: one person in Dativ and one thing in Akkusativ",
+          "difficulty": 3,
+          "estimatedMinutes": 40,
+          "order": 5,
+          "tags": [
+            "dativ",
+            "akkusativ",
+            "two-objects",
+            "word-order"
+          ],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "a2-grammar-dative-accusative-verbs-lesson-1",
+              "topicId": "a2-grammar-dative-accusative-verbs",
+              "categoryId": "a2-grammar",
+              "levelId": "a2",
+              "title": "Dativ + Akkusativ: Easy Core System",
+              "shortDescription": "A practical A2 system to identify who is Dativ and what is Akkusativ, then build correct sentences.",
+              "order": 1,
+              "estimatedMinutes": 22,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Grundidee | Basic Idea | ایده اصلی",
+                  "content": "Deutsch:\nEinige Verben brauchen zwei Objekte: eine Person im Dativ und eine Sache im Akkusativ.\nStruktur: Subjekt + Verb + Dativ (Person) + Akkusativ (Sache)\n\nEnglish:\nSome verbs need two objects: a person in Dative and a thing in Accusative.\nStructure: Subject + Verb + Dative (person) + Accusative (thing)\n\nفارسی:\nبعضی از فعل ها دو مفعول می گیرند: یک شخص در حالت داتیو و یک چیز در حالت آکوزاتیو.\nساختار: فاعل + فعل + شخص (داتیو) + چیز (آکوزاتیو)"
+                },
+                {
+                  "type": "table",
+                  "title": "2) Detection questions",
+                  "headers": [
+                    "Case",
+                    "German question",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Dativ", "Wem?", "To whom?", "به چه کسی؟"],
+                    ["Akkusativ", "Was? / Wen?", "What? / Whom?", "چه چیزی؟ / چه کسی؟"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "3) High-frequency A2 verbs",
+                  "headers": [
+                    "Deutsch",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["geben", "to give", "دادن"],
+                    ["schenken", "to gift", "هدیه دادن"],
+                    ["zeigen", "to show", "نشان دادن"],
+                    ["schicken", "to send", "فرستادن"],
+                    ["bringen", "to bring", "آوردن"],
+                    ["erklaren", "to explain", "توضیح دادن"],
+                    ["erzahlen", "to tell", "تعریف کردن"],
+                    ["empfehlen", "to recommend", "توصیه کردن"],
+                    ["leihen", "to lend", "قرض دادن"],
+                    ["kaufen (fur jdn)", "to buy for someone", "برای کسی خریدن"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "4) Practical model examples",
+                  "content": "DE: Ich gebe dir das Buch.\nEN: I give you the book.\nFA: من کتاب را به تو می دهم.\nAnalysis: dir = Dativ, das Buch = Akkusativ\n\nDE: Sie schenkt ihrer Mutter Blumen.\nEN: She gives flowers to her mother as a gift.\nFA: او به مادرش گل هدیه می دهد.\nAnalysis: ihrer Mutter = Dativ, Blumen = Akkusativ\n\nDE: Kannst du mir dein Handy zeigen?\nEN: Can you show me your phone?\nFA: می توانی گوشی ات را به من نشان بدهی؟\nAnalysis: mir = Dativ, dein Handy = Akkusativ"
+                },
+                {
+                  "type": "tip",
+                  "title": "5) Golden rule",
+                  "content": "Wem? -> Dativ | Was? -> Akkusativ\n\nTo whom? -> Dative | What? -> Accusative\n\nبه چه کسی؟ -> داتیو | چه چیزی؟ -> آکوزاتیو"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "der Dativ",
+                  "english": "dative case",
+                  "persian": "حالت داتیو",
+                  "example": "Ich gebe meiner Schwester ein Buch."
+                },
+                {
+                  "german": "der Akkusativ",
+                  "english": "accusative case",
+                  "persian": "حالت آکوزاتیو",
+                  "example": "Ich kaufe den Computer."
+                },
+                {
+                  "german": "das Objekt",
+                  "english": "object",
+                  "persian": "مفعول",
+                  "example": "Dieses Verb hat zwei Objekte."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "a2-grammar-dative-accusative-verbs-lesson-2",
+              "topicId": "a2-grammar-dative-accusative-verbs",
+              "categoryId": "a2-grammar",
+              "levelId": "a2",
+              "title": "Word Order with Pronouns (No Confusion)",
+              "shortDescription": "Use the right order when objects are nouns or pronouns, especially es dir vs dir es.",
+              "order": 2,
+              "estimatedMinutes": 18,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Word order patterns students need",
+                  "content": "Deutsch:\nBei Verben mit Dativ und Akkusativ hangt die Reihenfolge von Nomen und Pronomen ab.\n\nEnglish:\nWith verbs that take Dative and Accusative, word order changes based on noun vs pronoun.\n\nفارسی:\nدر فعل های دارای داتیو و آکوزاتیو، ترتیب اجزا به اسمی یا ضمیری بودن مفعول ها بستگی دارد."
+                },
+                {
+                  "type": "table",
+                  "title": "2) Core order table",
+                  "headers": [
+                    "Case",
+                    "German pattern",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["Dativ pronoun + Akkusativ noun", "Ich gebe dir das Buch.", "dir + das Buch"],
+                    ["Dativ noun + Akkusativ noun", "Ich gebe meinem Bruder das Buch.", "meinem Bruder + das Buch"],
+                    ["Akkusativ pronoun + Dativ pronoun", "Ich gebe es dir.", "es + dir"]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "3) Very common A2 mistake",
+                  "content": "Correct: Ich gebe es dir.\nIncorrect: Ich gebe dir es.\n\nEnglish:\nWhen both objects are pronouns, Accusative pronoun usually comes before Dative pronoun.\n\nفارسی:\nوقتی هر دو مفعول ضمیر باشند، معمولا ضمیر آکوزاتیو قبل از ضمیر داتیو می آید."
+                },
+                {
+                  "type": "example",
+                  "title": "4) More real-life examples",
+                  "content": "DE: Der Lehrer erklart uns die Grammatik.\nEN: The teacher explains the grammar to us.\nFA: معلم گرامر را برای ما توضیح می دهد.\n\nDE: Mein Vater erzahlt mir eine Geschichte.\nEN: My father tells me a story.\nFA: پدرم یک داستان برای من تعریف می کند.\n\nDE: Ich empfehle dir diesen Film.\nEN: I recommend this movie to you.\nFA: من این فیلم را به تو پیشنهاد می کنم.\n\nDE: Kannst du mir dein Auto leihen?\nEN: Can you lend me your car?\nFA: می توانی ماشینت را به من قرض بدهی؟"
+                },
+                {
+                  "type": "list",
+                  "title": "5) Quick memorization checklist",
+                  "items": [
+                    "First ask: Wem? then Was?",
+                    "Person is usually Dativ, thing is usually Akkusativ",
+                    "If both are pronouns: often Akk pronoun before Dat pronoun",
+                    "Practice with the same 10 verbs until automatic"
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Wortstellung",
+                  "english": "word order",
+                  "persian": "ترتیب کلمات",
+                  "example": "Die Wortstellung ist hier sehr wichtig."
+                },
+                {
+                  "german": "das Pronomen",
+                  "english": "pronoun",
+                  "persian": "ضمیر",
+                  "example": "es ist ein Akkusativpronomen."
+                },
+                {
+                  "german": "empfehlen",
+                  "english": "to recommend",
+                  "persian": "توصیه کردن",
+                  "example": "Ich empfehle dir diesen Kurs."
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
+        {
           "id": "a2-grammar-relative-clauses",
           "categoryId": "a2-grammar",
           "levelId": "a2",
@@ -420,7 +594,7 @@
           "description": "Introduction to relative pronouns der/die/das in subordinate clauses",
           "difficulty": 4,
           "estimatedMinutes": 30,
-          "order": 5,
+          "order": 6,
           "tags": [
             "relative-clauses",
             "subordinate",
@@ -439,7 +613,7 @@
           "description": "Adjective declension with definite, indefinite and no article",
           "difficulty": 4,
           "estimatedMinutes": 35,
-          "order": 6,
+          "order": 7,
           "tags": [
             "adjectives",
             "declension",
