@@ -141,37 +141,43 @@
                   "german": "lernen",
                   "english": "to learn",
                   "persian": "یاد گرفتن / آموختن",
-                  "example": "Ich lerne Deutsch. (I learn / am learning German.)"
+                  "example": "Ich lerne Deutsch. (I learn / am learning German.)",
+                  "examplePersian": "من آلمانی یاد می گیرم."
                 },
                 {
                   "german": "essen",
                   "english": "to eat",
                   "persian": "خوردن",
-                  "example": "Ich esse gerade. (I am eating right now.)"
+                  "example": "Ich esse gerade. (I am eating right now.)",
+                  "examplePersian": "من الان دارم غذا می خورم."
                 },
                 {
                   "german": "trainieren",
                   "english": "to train / work out",
                   "persian": "تمرین کردن / ورزش کردن",
-                  "example": "Ich trainiere jeden Tag. (I train every day.)"
+                  "example": "Ich trainiere jeden Tag. (I train every day.)",
+                  "examplePersian": "من هر روز تمرین می کنم."
                 },
                 {
                   "german": "fahren",
                   "english": "to drive / go (by vehicle)",
                   "persian": "رانندگی کردن / با وسیله رفتن",
-                  "example": "Morgen fahre ich nach Berlin. (Tomorrow I am going to Berlin.)"
+                  "example": "Morgen fahre ich nach Berlin. (Tomorrow I am going to Berlin.)",
+                  "examplePersian": "فردا به برلین می روم."
                 },
                 {
                   "german": "arbeiten",
                   "english": "to work",
                   "persian": "کار کردن",
-                  "example": "Er arbeitet heute nicht. (He is not working today.)"
+                  "example": "Er arbeitet heute nicht. (He is not working today.)",
+                  "examplePersian": "او امروز کار نمی کند."
                 },
                 {
                   "german": "gehen",
                   "english": "to go (on foot)",
                   "persian": "رفتن (پیاده)",
-                  "example": "Heute gehe ich zur Arbeit. (Today I am going to work.)"
+                  "example": "Heute gehe ich zur Arbeit. (Today I am going to work.)",
+                  "examplePersian": "امروز به محل کار می روم."
                 }
               ],
               "exercises": [
@@ -535,49 +541,57 @@
                   "german": "lernen",
                   "english": "to learn",
                   "persian": "یاد گرفتن / آموختن",
-                  "example": "Ich lerne jeden Tag. (I learn every day.)"
+                  "example": "Ich lerne jeden Tag. (I learn every day.)",
+                  "examplePersian": "من هر روز یاد می گیرم."
                 },
                 {
                   "german": "machen",
                   "english": "to do / to make",
                   "persian": "انجام دادن / ساختن",
-                  "example": "Er macht die Arbeit. (He does the work.)"
+                  "example": "Er macht die Arbeit. (He does the work.)",
+                  "examplePersian": "او کار را انجام می دهد."
                 },
                 {
                   "german": "spielen",
                   "english": "to play",
                   "persian": "بازی کردن",
-                  "example": "Wir spielen Fußball. (We play football.)"
+                  "example": "Wir spielen Fußball. (We play football.)",
+                  "examplePersian": "ما فوتبال بازی می کنیم."
                 },
                 {
                   "german": "kaufen",
                   "english": "to buy",
                   "persian": "خریدن",
-                  "example": "Sie kauft ein Buch. (She buys a book.)"
+                  "example": "Sie kauft ein Buch. (She buys a book.)",
+                  "examplePersian": "او یک کتاب می خرد."
                 },
                 {
                   "german": "arbeiten",
                   "english": "to work",
                   "persian": "کار کردن",
-                  "example": "Ihr arbeitet heute? (Are you working today?)"
+                  "example": "Ihr arbeitet heute? (Are you working today?)",
+                  "examplePersian": "شما امروز کار می کنید؟"
                 },
                 {
                   "german": "fragen",
                   "english": "to ask",
                   "persian": "پرسیدن / سؤال کردن",
-                  "example": "Ich frage den Lehrer. (I ask the teacher.)"
+                  "example": "Ich frage den Lehrer. (I ask the teacher.)",
+                  "examplePersian": "من از معلم سوال می پرسم."
                 },
                 {
                   "german": "wohnen",
                   "english": "to live / reside",
                   "persian": "زندگی کردن / سکونت داشتن",
-                  "example": "Er wohnt in München. (He lives in Munich.)"
+                  "example": "Er wohnt in München. (He lives in Munich.)",
+                  "examplePersian": "او در مونیخ زندگی می کند."
                 },
                 {
                   "german": "kommen",
                   "english": "to come",
                   "persian": "آمدن",
-                  "example": "Sie kommen morgen. (They are coming tomorrow.)"
+                  "example": "Sie kommen morgen. (They are coming tomorrow.)",
+                  "examplePersian": "آنها فردا می آیند."
                 }
               ],
               "exercises": [
@@ -931,55 +945,64 @@
                   "german": "fahren",
                   "english": "to drive / go (by vehicle)",
                   "persian": "رانندگی کردن / با وسیله رفتن",
-                  "example": "Ich fahre nach Berlin. Du fährst auch?"
+                  "example": "Ich fahre nach Berlin. Du fährst auch?",
+                  "examplePersian": "من به برلین می روم. تو هم می روی؟"
                 },
                 {
                   "german": "schlafen",
                   "english": "to sleep",
                   "persian": "خوابیدن",
-                  "example": "Er schläft bis 10 Uhr. (He sleeps until 10 o'clock.)"
+                  "example": "Er schläft bis 10 Uhr. (He sleeps until 10 o'clock.)",
+                  "examplePersian": "او تا ساعت 10 می خوابد."
                 },
                 {
                   "german": "laufen",
                   "english": "to run / walk",
                   "persian": "دویدن / راه رفتن",
-                  "example": "Sie läuft jeden Morgen. (She runs every morning.)"
+                  "example": "Sie läuft jeden Morgen. (She runs every morning.)",
+                  "examplePersian": "او هر صبح می دود."
                 },
                 {
                   "german": "lesen",
                   "english": "to read",
                   "persian": "خواندن",
-                  "example": "Er liest jeden Abend. (He reads every evening.)"
+                  "example": "Er liest jeden Abend. (He reads every evening.)",
+                  "examplePersian": "او هر شب می خواند."
                 },
                 {
                   "german": "sehen",
                   "english": "to see",
                   "persian": "دیدن",
-                  "example": "Siehst du das? (Do you see that?)"
+                  "example": "Siehst du das? (Do you see that?)",
+                  "examplePersian": "آیا آن را می بینی؟"
                 },
                 {
                   "german": "sprechen",
                   "english": "to speak",
                   "persian": "صحبت کردن",
-                  "example": "Sie spricht drei Sprachen. (She speaks three languages.)"
+                  "example": "Sie spricht drei Sprachen. (She speaks three languages.)",
+                  "examplePersian": "او سه زبان صحبت می کند."
                 },
                 {
                   "german": "nehmen",
                   "english": "to take",
                   "persian": "گرفتن / برداشتن",
-                  "example": "Er nimmt die U-Bahn. (He takes the underground.)"
+                  "example": "Er nimmt die U-Bahn. (He takes the underground.)",
+                  "examplePersian": "او مترو سوار می شود."
                 },
                 {
                   "german": "geben",
                   "english": "to give",
                   "persian": "دادن",
-                  "example": "Was gibst du mir? (What are you giving me?)"
+                  "example": "Was gibst du mir? (What are you giving me?)",
+                  "examplePersian": "چه چیزی به من می دهی؟"
                 },
                 {
                   "german": "essen",
                   "english": "to eat",
                   "persian": "خوردن",
-                  "example": "Was isst du gern? (What do you like to eat?)"
+                  "example": "Was isst du gern? (What do you like to eat?)",
+                  "examplePersian": "دوست داری چه چیزی بخوری؟"
                 }
               ],
               "exercises": [
@@ -2302,7 +2325,45 @@
                 },
                 {
                   "type": "table",
-                  "title": "6) Age and language",
+                  "title": "6) Possessive forms (ownership)",
+                  "headers": [
+                    "Pattern",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Genitiv (name + s)", "Ahmads Buch", "Ahmad's book", "کتاب احمد"],
+                    ["von + noun", "das Buch von Ahmad", "the book of Ahmad", "کتاب احمد"],
+                    ["Possessive pronoun", "mein Buch / deine Tasche / Ihr Auto", "my book / your bag / your car (formal)", "کتاب من / کیف تو / ماشین شما"],
+                    ["Name ending in s/x/z", "Alex' Auto", "Alex's car", "ماشین الکس"]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "7) Rule for names ending in s/x/z",
+                  "content": "Deutsch:\nWenn ein Name schon auf s, x oder z endet, benutzen wir nur ein Apostroph: Alex' Buch, Max' Handy.\n\nEnglish:\nIf a name already ends with s, x, or z, add only an apostrophe for possession.\n\nفارسی:\nاگر اسم به s یا x یا z ختم شود، برای مالکیت فقط آپاستروف می گذاریم: Alex' Buch, Max' Handy."
+                },
+                {
+                  "type": "table",
+                  "title": "8) Relationship status and living situation",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich bin verheiratet.", "I am married.", "من متاهل هستم."],
+                    ["Ich bin geschieden.", "I am divorced.", "من طلاق گرفته ام."],
+                    ["Ich bin Single.", "I am single.", "من مجردم."],
+                    ["Wir leben zusammen.", "We live together.", "ما با هم زندگی می کنیم."],
+                    ["Wir leben nicht zusammen.", "We do not live together.", "ما با هم زندگی نمی کنیم."],
+                    ["Wir leben getrennt.", "We live separately.", "ما جدا زندگی می کنیم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9) Age and language",
                   "headers": [
                     "German",
                     "English",
@@ -2327,13 +2388,47 @@
                   "german": "doch",
                   "english": "actually yes (after negative question)",
                   "persian": "اتفاقا بله",
-                  "example": "Kommst du nicht aus dem Iran? - Doch!"
+                  "example": "Kommst du nicht aus dem Iran? - Doch!",
+                  "examplePersian": "مگر از ایران نیستی؟ - اتفاقا چرا!"
                 },
                 {
                   "german": "heißen",
                   "english": "to be called (name)",
                   "persian": "نام داشتن",
-                  "example": "Ich heiße Mina."
+                  "example": "Ich heiße Mina.",
+                  "examplePersian": "اسم من مینا است."
+                },
+                {
+                  "german": "der Besitz",
+                  "english": "possession",
+                  "persian": "مالکیت",
+                  "example": "Ahmads Buch zeigt Besitz.",
+                  "examplePersian": "کتابِ احمد مالکیت را نشان می دهد."
+                },
+                {
+                  "german": "das Possessivpronomen",
+                  "english": "possessive pronoun",
+                  "persian": "ضمیر ملکی",
+                  "example": "mein, dein, Ihr sind Possessivpronomen.",
+                  "examplePersian": "mein، dein و Ihr ضمیر ملکی هستند."
+                },
+                {
+                  "german": "verheiratet",
+                  "english": "married",
+                  "persian": "متاهل",
+                  "example": "Ich bin verheiratet."
+                },
+                {
+                  "german": "geschieden",
+                  "english": "divorced",
+                  "persian": "طلاق گرفته",
+                  "example": "Sie ist geschieden."
+                },
+                {
+                  "german": "getrennt",
+                  "english": "separated",
+                  "persian": "جدا",
+                  "example": "Wir leben getrennt."
                 }
               ],
               "exercises": []

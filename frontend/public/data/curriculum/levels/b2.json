@@ -389,31 +389,36 @@
                   "german": "der Hauptsatz",
                   "english": "main clause",
                   "persian": "جمله اصلی",
-                  "example": "Im Hauptsatz steht das konjugierte Verb an Position 2."
+                  "example": "Im Hauptsatz steht das konjugierte Verb an Position 2.",
+                  "examplePersian": "در جمله اصلی، فعل صرف شده در جایگاه 2 قرار می گیرد."
                 },
                 {
                   "german": "die Nebensatz",
                   "english": "subordinate clause",
                   "persian": "جمله وابسته",
-                  "example": "Im Nebensatz steht das finite Verb am Ende."
+                  "example": "Im Nebensatz steht das finite Verb am Ende.",
+                  "examplePersian": "در جمله وابسته، فعل صرف شده در انتهای جمله قرار می گیرد."
                 },
                 {
                   "german": "das TeKaMoLo",
                   "english": "temporal-causal-modal-local order",
                   "persian": "ترتیب زمانی-علتی-حالی-مکانی",
-                  "example": "TeKaMoLo hilft bei der Reihenfolge von Adverbialen."
+                  "example": "TeKaMoLo hilft bei der Reihenfolge von Adverbialen.",
+                  "examplePersian": "TeKaMoLo به ترتیب قیدها کمک می کند."
                 },
                 {
                   "german": "der Genitiv",
                   "english": "genitive case",
                   "persian": "حالت اضافی / ملکی",
-                  "example": "Der Genitiv zeigt Besitz oder Zugehörigkeit."
+                  "example": "Der Genitiv zeigt Besitz oder Zugehörigkeit.",
+                  "examplePersian": "حالت Genitiv مالکیت یا تعلق را نشان می دهد."
                 },
                 {
                   "german": "das Relativsatz",
                   "english": "relative clause",
                   "persian": "جمله موصولی",
-                  "example": "Relativsatze geben Zusatzinformationen uber ein Nomen."
+                  "example": "Relativsatze geben Zusatzinformationen uber ein Nomen.",
+                  "examplePersian": "جمله های موصولی اطلاعات اضافی درباره یک اسم می دهند."
                 }
               ],
               "exercises": []

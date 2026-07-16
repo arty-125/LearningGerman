@@ -72,7 +72,7 @@
       }
 
       <!-- Vocabulary table -->
-      @if (ls.vocabulary && ls.vocabulary.length > 0) {
+      @if (vocabularyRows().length > 0) {
         <div class="lesson-vocabulary">
           <h2 class="lesson-vocabulary__title">📖 Vocabulary</h2>
           <div class="lesson-vocabulary__table-wrap">
@@ -81,11 +81,13 @@
                 <tr>
                   <th>German</th>
                   <th>English</th>
-                  <th>Example</th>
+                  <th>Persian</th>
+                  <th>Example (DE)</th>
+                  <th>Example (FA)</th>
                 </tr>
               </thead>
               <tbody>
-                @for (item of ls.vocabulary; track item.german) {
+                @for (item of vocabularyRows(); track item.german + item.exampleDe) {
                   <tr>
                     <td>
                       @if (item.article) {
@@ -97,7 +99,9 @@
                       }
                     </td>
                     <td>{{ item.english }}</td>
-                    <td>{{ item.example ?? '—' }}</td>
+                    <td>{{ item.persian }}</td>
+                    <td>{{ item.exampleDe }}</td>
+                    <td>{{ item.exampleFa }}</td>
                   </tr>
                 }
               </tbody>

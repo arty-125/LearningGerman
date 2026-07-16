@@ -251,25 +251,29 @@
                   "german": "das Perfekt",
                   "english": "present perfect tense (spoken past)",
                   "persian": "زمان پرفکت (گذشته محاوره ای)",
-                  "example": "Im Alltag benutzt man oft das Perfekt."
+                  "example": "Im Alltag benutzt man oft das Perfekt.",
+                  "examplePersian": "در زندگی روزمره اغلب از پرفکت استفاده می شود."
                 },
                 {
                   "german": "das Partizip II",
                   "english": "past participle",
                   "persian": "اسم مفعول / شکل سوم فعل",
-                  "example": "Gelernt ist das Partizip II von lernen."
+                  "example": "Gelernt ist das Partizip II von lernen.",
+                  "examplePersian": "«gelernt» شکل Partizip II فعل lernen است."
                 },
                 {
                   "german": "abgeschlossen",
                   "english": "completed, finished",
                   "persian": "تمام شده",
-                  "example": "Die Handlung ist abgeschlossen."
+                  "example": "Die Handlung ist abgeschlossen.",
+                  "examplePersian": "این عمل کامل شده است."
                 },
                 {
                   "german": "sich bewegen",
                   "english": "to move",
                   "persian": "حرکت کردن",
-                  "example": "Bei Bewegung nimmt man oft sein."
+                  "example": "Bei Bewegung nimmt man oft sein.",
+                  "examplePersian": "برای حرکت اغلب از sein استفاده می شود."
                 }
               ],
               "exercises": []
@@ -393,19 +397,22 @@
                   "german": "trennbar",
                   "english": "separable",
                   "persian": "جداشدنی",
-                  "example": "anfangen ist ein trennbares Verb."
+                  "example": "anfangen ist ein trennbares Verb.",
+                  "examplePersian": "anfangen یک فعل جداشدنی است."
                 },
                 {
                   "german": "das Präfix",
                   "english": "prefix",
                   "persian": "پیشوند",
-                  "example": "Bei trennbaren Verben steht das Präfix oft am Ende."
+                  "example": "Bei trennbaren Verben steht das Präfix oft am Ende.",
+                  "examplePersian": "در افعال جداشدنی، پیشوند اغلب در انتهای جمله می آید."
                 },
                 {
                   "german": "anfangen",
                   "english": "to start",
                   "persian": "شروع کردن",
-                  "example": "Ich fange heute mit dem Kurs an."
+                  "example": "Ich fange heute mit dem Kurs an.",
+                  "examplePersian": "من امروز دوره را شروع می کنم."
                 }
               ],
               "exercises": []
@@ -495,19 +502,22 @@
                   "german": "der Dativ",
                   "english": "dative case",
                   "persian": "حالت داتیو",
-                  "example": "Ich gebe meiner Schwester ein Buch."
+                  "example": "Ich gebe meiner Schwester ein Buch.",
+                  "examplePersian": "من به خواهرم یک کتاب می دهم."
                 },
                 {
                   "german": "der Akkusativ",
                   "english": "accusative case",
                   "persian": "حالت آکوزاتیو",
-                  "example": "Ich kaufe den Computer."
+                  "example": "Ich kaufe den Computer.",
+                  "examplePersian": "من کامپیوتر را می خرم."
                 },
                 {
                   "german": "das Objekt",
                   "english": "object",
                   "persian": "مفعول",
-                  "example": "Dieses Verb hat zwei Objekte."
+                  "example": "Dieses Verb hat zwei Objekte.",
+                  "examplePersian": "این فعل دو مفعول دارد."
                 }
               ],
               "exercises": []
@@ -567,19 +577,22 @@
                   "german": "die Wortstellung",
                   "english": "word order",
                   "persian": "ترتیب کلمات",
-                  "example": "Die Wortstellung ist hier sehr wichtig."
+                  "example": "Die Wortstellung ist hier sehr wichtig.",
+                  "examplePersian": "ترتیب کلمات اینجا خیلی مهم است."
                 },
                 {
                   "german": "das Pronomen",
                   "english": "pronoun",
                   "persian": "ضمیر",
-                  "example": "es ist ein Akkusativpronomen."
+                  "example": "es ist ein Akkusativpronomen.",
+                  "examplePersian": "es یک ضمیر آکوزاتیو است."
                 },
                 {
                   "german": "empfehlen",
                   "english": "to recommend",
                   "persian": "توصیه کردن",
-                  "example": "Ich empfehle dir diesen Kurs."
+                  "example": "Ich empfehle dir diesen Kurs.",
+                  "examplePersian": "من این دوره را به تو توصیه می کنم."
                 }
               ],
               "exercises": []
@@ -704,19 +717,22 @@
                   "german": "die Zeitangabe",
                   "english": "time expression",
                   "persian": "قید زمان",
-                  "example": "morgen ist eine Zeitangabe."
+                  "example": "morgen ist eine Zeitangabe.",
+                  "examplePersian": "morgen یک قید زمان است."
                 },
                 {
                   "german": "die Ortsangabe",
                   "english": "place expression",
                   "persian": "قید مکان",
-                  "example": "im Park ist eine Ortsangabe."
+                  "example": "im Park ist eine Ortsangabe.",
+                  "examplePersian": "im Park یک قید مکان است."
                 },
                 {
                   "german": "die Angabe",
                   "english": "adverbial expression",
                   "persian": "قید / عبارت توصیفی",
-                  "example": "Die Angabe gibt mehr Information über die Handlung."
+                  "example": "Die Angabe gibt mehr Information über die Handlung.",
+                  "examplePersian": "این قید اطلاعات بیشتری درباره عمل می دهد."
                 }
               ],
               "exercises": []
@@ -809,19 +825,22 @@
                   "german": "die Reihenfolge",
                   "english": "the order / sequence",
                   "persian": "ترتیب",
-                  "example": "Die Reihenfolge im Satz ist wichtig."
+                  "example": "Die Reihenfolge im Satz ist wichtig.",
+                  "examplePersian": "ترتیب در جمله مهم است."
                 },
                 {
                   "german": "erklären",
                   "english": "to explain",
                   "persian": "توضیح دادن",
-                  "example": "Ich erkläre dir die Aufgabe."
+                  "example": "Ich erkläre dir die Aufgabe.",
+                  "examplePersian": "من تمرین را برای تو توضیح می دهم."
                 },
                 {
                   "german": "das Geschenk",
                   "english": "the gift",
                   "persian": "هدیه",
-                  "example": "Er bringt seiner Mutter ein Geschenk."
+                  "example": "Er bringt seiner Mutter ein Geschenk.",
+                  "examplePersian": "او برای مادرش یک هدیه می آورد."
                 }
               ],
               "exercises": []

@@ -28,7 +28,9 @@ export interface Lesson {
 export interface VocabularyItem {
   german: string;
   english: string;
+  persian?: string;
   article?: string;   // der/die/das
   plural?: string;
   example?: string;
+  examplePersian?: string;
 }

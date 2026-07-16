@@ -171,19 +171,22 @@
                   "german": "die Infinitivgruppe",
                   "english": "infinitive group",
                   "persian": "گروه مصدری",
-                  "example": "Deutsch zu lernen ist eine Infinitivgruppe."
+                  "example": "Deutsch zu lernen ist eine Infinitivgruppe.",
+                  "examplePersian": "«Deutsch zu lernen» یک گروه مصدری است."
                 },
                 {
                   "german": "natürlich",
                   "english": "natural (native-like)",
                   "persian": "طبیعی",
-                  "example": "Diese Variante klingt natürlich."
+                  "example": "Diese Variante klingt natürlich.",
+                  "examplePersian": "این ساختار طبیعی به نظر می رسد."
                 },
                 {
                   "german": "schwerfällig",
                   "english": "heavy, clunky",
                   "persian": "سنگین و نچسب",
-                  "example": "Dieser Satz klingt schwerflällig."
+                  "example": "Dieser Satz klingt schwerflällig.",
+                  "examplePersian": "این جمله سنگین و نچسب به نظر می رسد."
                 }
               ],
               "exercises": []
