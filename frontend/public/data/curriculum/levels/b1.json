@@ -174,16 +174,16 @@
                   "example": "Deutsch zu lernen ist eine Infinitivgruppe."
                 },
                 {
-                  "german": "naturlich",
+                  "german": "natürlich",
                   "english": "natural (native-like)",
                   "persian": "طبیعی",
-                  "example": "Diese Variante klingt naturlich."
+                  "example": "Diese Variante klingt natürlich."
                 },
                 {
-                  "german": "schwerfallig",
+                  "german": "schwerfällig",
                   "english": "heavy, clunky",
                   "persian": "سنگین و نچسب",
-                  "example": "Dieser Satz klingt schwerfallig."
+                  "example": "Dieser Satz klingt schwerflällig."
                 }
               ],
               "exercises": []

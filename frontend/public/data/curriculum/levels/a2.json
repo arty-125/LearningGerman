@@ -131,7 +131,7 @@
                 {
                   "type": "warning",
                   "title": "نکته افعال بی قاعده",
-                  "content": "Diese Formen sind unregelmassig und mussen auswendig gelernt werden. / These forms are irregular and must be memorized. / این شکل ها بی قاعده هستند و باید حفظ شوند."
+                  "content": "Diese Formen sind unregelmäßig und müssen auswendig gelernt werden. / These forms are irregular and must be memorized. / این شکل ها بی قاعده هستند و باید حفظ شوند."
                 },
                 {
                   "type": "table",
@@ -224,7 +224,7 @@
                 {
                   "type": "example",
                   "title": "مثال ترتیب کلمات",
-                  "content": "Ich habe gestern mit meinem Freund Fussball gespielt."
+                  "content": "Ich habe gestern mit meinem Freund Fußball gespielt."
                 },
                 {
                   "type": "example",
@@ -340,7 +340,7 @@
                 {
                   "type": "explanation",
                   "title": "1) قانون اصلی در جمله ساده",
-                  "content": "Deutsch:\nIm Hauptsatz steht bei trennbaren Verben der konjugierte Stamm auf Position 2 und das Prafix am Satzende.\n\nEnglish:\nIn a simple main clause, the conjugated verb stem is in position 2, and the separable prefix goes to the end.\n\nفارسی:\nدر جمله اصلی ساده، ریشه فعل جداشدنی صرف می شود و پیشوند جداشدنی به آخر جمله می رود."
+                  "content": "Deutsch:\nIm Hauptsatz steht bei trennbaren Verben der konjugierte Stamm auf Position 2 und das Präfix am Satzende.\n\nEnglish:\nIn a simple main clause, the conjugated verb stem is in position 2, and the separable prefix goes to the end.\n\nفارسی:\nدر جمله اصلی ساده، ریشه فعل جداشدنی صرف می شود و پیشوند جداشدنی به آخر جمله می رود."
                 },
                 {
                   "type": "tip",
@@ -396,10 +396,10 @@
                   "example": "anfangen ist ein trennbares Verb."
                 },
                 {
-                  "german": "das Prafix",
+                  "german": "das Präfix",
                   "english": "prefix",
                   "persian": "پیشوند",
-                  "example": "Bei trennbaren Verben steht das Prafix oft am Ende."
+                  "example": "Bei trennbaren Verben steht das Präfix oft am Ende."
                 },
                 {
                   "german": "anfangen",
@@ -472,7 +472,7 @@
                     ["zeigen", "to show", "نشان دادن"],
                     ["schicken", "to send", "فرستادن"],
                     ["bringen", "to bring", "آوردن"],
-                    ["erklaren", "to explain", "توضیح دادن"],
+                    ["erklären", "to explain", "توضیح دادن"],
                     ["erzahlen", "to tell", "تعریف کردن"],
                     ["empfehlen", "to recommend", "توصیه کردن"],
                     ["leihen", "to lend", "قرض دادن"],
@@ -634,7 +634,7 @@
                   "rows": [
                     ["Verb", "—", "gehe", "می روم"],
                     ["Te", "Time", "morgen", "فردا"],
-                    ["Ka", "Reason", "wegen des schonen Wetters", "به خاطر هوای خوب"],
+                    ["Ka", "Reason", "wegen des schönen Wetters", "به خاطر هوای خوب"],
                     ["Mo", "Manner", "mit meiner Freundin", "با دوستم"],
                     ["Lo", "Place", "in den Park", "به پارک"]
                   ]
@@ -642,7 +642,7 @@
                 {
                   "type": "example",
                   "title": "Example 1 — full sentence",
-                  "content": "DE: Ich gehe morgen wegen des schonen Wetters mit meiner Freundin in den Park.\nEN: I go to the park tomorrow because of the beautiful weather with my friend.\nFA: من فردا به خاطر هوای خوب با دوستم به پارک می روم."
+                  "content": "DE: Ich gehe morgen wegen des schönen Wetters mit meiner Freundin in den Park.\nEN: I go to the park tomorrow because of the beautiful weather with my friend.\nFA: من فردا به خاطر هوای خوب با دوستم به پارک می روم."
                 },
                 {
                   "type": "table",
@@ -676,7 +676,7 @@
                     "فارسی"
                   ],
                   "rows": [
-                    ["Te", "Time", "nachste Woche", "هفته آینده"],
+                    ["Te", "Time", "nächste Woche", "هفته آینده"],
                     ["Ka", "Reason", "wegen meiner Arbeit", "به خاطر کارم"],
                     ["Mo", "Manner", "mit dem Zug", "با قطار"],
                     ["Lo", "Place", "nach Berlin", "به برلین"]
@@ -685,7 +685,7 @@
                 {
                   "type": "example",
                   "title": "Example 3 — full sentence",
-                  "content": "DE: Ich fahre nachste Woche wegen meiner Arbeit mit dem Zug nach Berlin.\nEN: I travel to Berlin next week because of my work by train.\nFA: من هفته آینده به خاطر کارم با قطار به برلین می روم."
+                  "content": "DE: Ich fahre nächste Woche wegen meiner Arbeit mit dem Zug nach Berlin.\nEN: I travel to Berlin next week because of my work by train.\nFA: من هفته آینده به خاطر کارم با قطار به برلین می روم."
                 },
                 {
                   "type": "list",
@@ -754,7 +754,7 @@
                     ["Subject", "Ich", "Nominativ", "من"],
                     ["Verb", "gebe", "Verb", "می دهم"],
                     ["Te", "morgen", "Time", "فردا"],
-                    ["Lo", "in der Kuche", "Place", "در آشپزخانه"],
+                    ["Lo", "in der Küche", "Place", "در آشپزخانه"],
                     ["Dativ", "meinem Bruder", "Indirect object", "به برادرم"],
                     ["Akkusativ", "ein Geschenk", "Direct object", "یک هدیه"]
                   ]
@@ -762,7 +762,7 @@
                 {
                   "type": "example",
                   "title": "Example 4 — full sentence",
-                  "content": "DE: Ich gebe meinem Bruder morgen in der Kuche ein Geschenk.\nEN: I give my brother a gift tomorrow in the kitchen.\nFA: من فردا در آشپزخانه به برادرم یک هدیه می دهم."
+                  "content": "DE: Ich gebe meinem Bruder morgen in der Küche ein Geschenk.\nEN: I give my brother a gift tomorrow in the kitchen.\nFA: من فردا در آشپزخانه به برادرم یک هدیه می دهم."
                 },
                 {
                   "type": "table",
@@ -777,7 +777,7 @@
                     ["Subject", "Ich", "Nominativ", "من"],
                     ["Verb", "erklare", "Verb", "توضیح می دهم"],
                     ["Te", "heute", "Time", "امروز"],
-                    ["Ka", "wegen der Prufung", "Reason", "به خاطر امتحان"],
+                    ["Ka", "wegen der Prüfung", "Reason", "به خاطر امتحان"],
                     ["Lo", "im Cafe", "Place", "در کافه"],
                     ["Dativ", "meiner Freundin", "Indirect object", "به دوستم"],
                     ["Akkusativ", "die Grammatik", "Direct object", "گرامر"]
@@ -786,7 +786,7 @@
                 {
                   "type": "example",
                   "title": "Example 5 — full sentence",
-                  "content": "DE: Ich erklare meiner Freundin heute im Cafe wegen der Prufung die Grammatik.\nEN: I explain the grammar to my friend today in the cafe because of the exam.\nFA: من امروز در کافه به خاطر امتحان، گرامر را برای دوستم توضیح می دهم."
+                  "content": "DE: Ich erkläre meiner Freundin heute im Café wegen der Prüfung die Grammatik.\nEN: I explain the grammar to my friend today in the cafe because of the exam.\nFA: من امروز در کافه به خاطر امتحان، گرامر را برای دوستم توضیح می دهم."
                 },
                 {
                   "type": "warning",
@@ -812,10 +812,10 @@
                   "example": "Die Reihenfolge im Satz ist wichtig."
                 },
                 {
-                  "german": "erklaren",
+                  "german": "erklären",
                   "english": "to explain",
                   "persian": "توضیح دادن",
-                  "example": "Ich erklare dir die Aufgabe."
+                  "example": "Ich erkläre dir die Aufgabe."
                 },
                 {
                   "german": "das Geschenk",

@@ -152,9 +152,9 @@
                     ["4", "Akkusativ object", "Direct object", "What?", "den Bericht"],
                     ["5", "Temporal", "Time", "When?", "morgen"],
                     ["6", "Kausal", "Reason", "Why?", "wegen des Projekts"],
-                    ["7", "Modal adverb", "Manner", "How?", "sorgfaltig"],
-                    ["8", "Lokal", "Place", "Where?", "im Buro"],
-                    ["9", "Main verb infinitive", "Main action", "What to do?", "erklaren"]
+                    ["7", "Modal adverb", "Manner", "How?", "sorgfältig"],
+                    ["8", "Lokal", "Place", "Where?", "im Büro"],
+                    ["9", "Main verb infinitive", "Main action", "What to do?", "erklären"]
                   ]
                 },
                 {
@@ -165,7 +165,7 @@
                 {
                   "type": "example",
                   "title": "Formula 2 example",
-                  "content": "DE: Ich muss meinem Chef den Bericht morgen wegen des Projekts sorgfaltig im Buro erklaren.\nEN: I have to explain the report to my boss carefully in the office tomorrow because of the project.\nFA: من باید فردا به خاطر پروژه، گزارش را با دقت در دفتر به رئیسم توضیح بدهم."
+                  "content": "DE: Ich muss meinem Chef den Bericht morgen wegen des Projekts sorgfältig im Büro erklären.\nEN: I have to explain the report to my boss carefully in the office tomorrow because of the project.\nFA: من باید فردا به خاطر پروژه، گزارش را با دقت در دفتر به رئیسم توضیح بدهم."
                 },
                 {
                   "type": "table",
@@ -262,7 +262,7 @@
                 {
                   "type": "example",
                   "title": "Formula 6 example",
-                  "content": "DE: Die Farbe meines neuen deutschen Autos ist schon.\nEN: The color of my new German car is beautiful.\nFA: رنگ ماشین جدید آلمانی من زیباست."
+                  "content": "DE: Die Farbe meines neuen deutschen Autos ist schön.\nEN: The color of my new German car is beautiful.\nFA: رنگ ماشین جدید آلمانی من زیباست."
                 },
                 {
                   "type": "table",
@@ -291,7 +291,7 @@
                   "title": "Formula 8 - Passive Voice",
                   "headers": ["Element", "Role", "Example"],
                   "rows": [
-                    ["Subject", "Receiver of action", "Das Gebaude"],
+                    ["Subject", "Receiver of action", "Das Gebäude"],
                     ["werden", "Passive auxiliary", "wird"],
                     ["Partizip II", "Action", "gebaut"],
                     ["von + Dativ", "Performer", "von einer Firma"]
@@ -305,7 +305,7 @@
                 {
                   "type": "example",
                   "title": "Formula 8 example",
-                  "content": "DE: Das Gebaude wird von einer Firma gebaut.\nEN: The building is built by a company.\nFA: ساختمان توسط یک شرکت ساخته می شود."
+                  "content": "DE: Das Gebäude wird von einer Firma gebaut.\nEN: The building is built by a company.\nFA: ساختمان توسط یک شرکت ساخته می شود."
                 },
                 {
                   "type": "table",
@@ -315,19 +315,19 @@
                     ["Wenn", "Condition connector", "Wenn"],
                     ["Subject", "Actor", "ich"],
                     ["Situation", "Condition", "mehr Zeit"],
-                    ["Konjunktiv verb", "Unreal situation", "hatte"],
-                    ["Result", "Outcome", "wurde lernen"]
+                    ["Konjunktiv verb", "Unreal situation", "hätte"],
+                    ["Result", "Outcome", "würde lernen"]
                   ]
                 },
                 {
                   "type": "tip",
                   "title": "Formula 9 pattern",
-                  "content": "Wenn + Subject + Condition + Konjunktiv II, wurde + Subject + Infinitive"
+                  "content": "Wenn + Subject + Condition + Konjunktiv II, würde + Subject + Infinitive"
                 },
                 {
                   "type": "example",
                   "title": "Formula 9 example",
-                  "content": "DE: Wenn ich mehr Zeit hatte, wurde ich Deutsch lernen.\nEN: If I had more time, I would learn German.\nFA: اگر زمان بیشتری داشتم، آلمانی یاد می گرفتم."
+                  "content": "DE: Wenn ich mehr Zeit hätte, würde ich Deutsch lernen.\nEN: If I had more time, I would learn German.\nFA: اگر زمان بیشتری داشتم، آلمانی یاد می گرفتم."
                 },
                 {
                   "type": "table",
@@ -342,8 +342,8 @@
                     ["6", "Genitive", "Ownership", "meines Unternehmens"],
                     ["7", "Relative Clause", "Extra description", "das ich leite"],
                     ["8", "Temporal", "Time", "gestern"],
-                    ["9", "Modal", "Manner", "ausfuhrlich"],
-                    ["10", "Lokal", "Place", "im Buro"],
+                    ["9", "Modal", "Manner", "ausführlich"],
+                    ["10", "Lokal", "Place", "im Büro"],
                     ["11", "Subordinate clause", "Additional info", "obwohl ich wenig Zeit hatte"]
                   ]
                 },
@@ -355,7 +355,7 @@
                 {
                   "type": "example",
                   "title": "Formula 10 example",
-                  "content": "DE: Aufgrund meiner Erfahrung habe ich meinem Kollegen die Informationen meines Unternehmens, das ich seit drei Jahren leite, gestern ausfuhrlich im Buro erklart, obwohl ich wenig Zeit hatte.\nEN: Because of my experience, I explained my company's information, which I have managed for three years, to my colleague in detail yesterday at the office, although I had little time.\nFA: به دلیل تجربه ام، دیروز در دفتر با جزئیات اطلاعات شرکت خودم را که سه سال است مدیریت می کنم، برای همکارم توضیح دادم، با اینکه زمان کمی داشتم."
+                  "content": "DE: Aufgrund meiner Erfahrung habe ich meinem Kollegen die Informationen meines Unternehmens, das ich seit drei Jahren leite, gestern ausführlich im Büro erklärt, obwohl ich wenig Zeit hatte.\nEN: Because of my experience, I explained my company's information, which I have managed for three years, to my colleague in detail yesterday at the office, although I had little time.\nFA: به دلیل تجربه ام، دیروز در دفتر با جزئیات اطلاعات شرکت خودم را که سه سال است مدیریت می کنم، برای همکارم توضیح دادم، با اینکه زمان کمی داشتم."
                 },
                 {
                   "type": "tip",
@@ -407,7 +407,7 @@
                   "german": "der Genitiv",
                   "english": "genitive case",
                   "persian": "حالت اضافی / ملکی",
-                  "example": "Der Genitiv zeigt Besitz oder Zugehorigkeit."
+                  "example": "Der Genitiv zeigt Besitz oder Zugehörigkeit."
                 },
                 {
                   "german": "das Relativsatz",
