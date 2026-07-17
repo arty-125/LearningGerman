@@ -9,8 +9,8 @@
     <header class="level-overview__header animate-fade-in-up" [class]="'level-overview__header--' + levelColorClass()">
       <div class="level-overview__header-content">
         <span class="level-overview__code">{{ lvl.code }}</span>
-        <h1 class="level-overview__title">{{ lvl.title }}</h1>
-        <p class="level-overview__description">{{ lvl.description }}</p>
+        <h1 class="level-overview__title" appBidiText>{{ lvl.title }}</h1>
+        <p class="level-overview__description" appBidiText>{{ lvl.description }}</p>
 
         <div class="level-overview__meta">
           <span class="level-overview__meta-item">
@@ -43,8 +43,8 @@
               <span class="category-section__icon" aria-hidden="true">{{ category.icon }}</span>
             </div>
             <div class="category-section__info">
-              <h2 class="category-section__title">{{ category.title }}</h2>
-              <p class="category-section__description">{{ category.description }}</p>
+              <h2 class="category-section__title" appBidiText>{{ category.title }}</h2>
+              <p class="category-section__description" appBidiText>{{ category.description }}</p>
             </div>
             <a
               [routerLink]="['/levels', lvl.id, 'categories', category.id]"
@@ -65,7 +65,7 @@
                 [routerLink]="['/levels', lvl.id, 'categories', category.id, 'topics', topic.id]"
                 class="topic-pill"
               >
-                <span class="topic-pill__title">{{ topic.title }}</span>
+                <span class="topic-pill__title" appBidiText>{{ topic.title }}</span>
                 <span class="topic-pill__badge">{{ topic.lessons.length }}</span>
               </a>
             }

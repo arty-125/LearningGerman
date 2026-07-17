@@ -4,6 +4,7 @@ import { CurriculumService } from '../../core/services/curriculum.service';
 import { ProgressService } from '../../core/services/progress.service';
 import { LevelBadgeComponent } from '../../shared/components/level-badge/level-badge.component';
 import { ProgressBarComponent } from '../../shared/components/progress-bar/progress-bar.component';
+import { BidiTextDirective } from '../../shared/directives/bidi-text.directive';
 import type { LevelCode } from '../../core/models';
 
 interface LevelStats {
@@ -20,7 +21,7 @@ interface LevelStats {
 @Component({
   selector: 'app-progress',
   standalone: true,
-  imports: [RouterLink, LevelBadgeComponent, ProgressBarComponent],
+  imports: [RouterLink, LevelBadgeComponent, ProgressBarComponent, BidiTextDirective],
   templateUrl: './progress.component.html',
   styleUrl: './progress.component.scss',
 })

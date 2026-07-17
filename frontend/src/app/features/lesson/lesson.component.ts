@@ -5,6 +5,7 @@ import { ProgressService } from '../../core/services/progress.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { LevelBadgeComponent } from '../../shared/components/level-badge/level-badge.component';
 import { ReadableContentComponent } from '../../shared/components/readable-content/readable-content.component';
+import { BidiTextDirective } from '../../shared/directives/bidi-text.directive';
 import type { LevelCode } from '../../core/models';
 import type { VocabularyItem } from '../../core/models/lesson.model';
 
@@ -26,6 +27,7 @@ interface VocabularyViewModel {
     BreadcrumbComponent,
     LevelBadgeComponent,
     ReadableContentComponent,
+    BidiTextDirective,
   ],
   templateUrl: './lesson.component.html',
   styleUrl: './lesson.component.scss',

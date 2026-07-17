@@ -2,12 +2,13 @@ import { Component, input, output } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { LevelBadgeComponent } from '../level-badge/level-badge.component';
 import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
+import { BidiTextDirective } from '../../directives/bidi-text.directive';
 import type { LevelCode, CompletionStatus } from '../../../core/models';
 
 @Component({
   selector: 'app-topic-card',
   standalone: true,
-  imports: [RouterLink, LevelBadgeComponent, ProgressBarComponent],
+  imports: [RouterLink, LevelBadgeComponent, ProgressBarComponent, BidiTextDirective],
   templateUrl: './topic-card.component.html',
   styleUrl: './topic-card.component.scss',
 })

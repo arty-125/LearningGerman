@@ -4,6 +4,7 @@ import { CurriculumService } from '../../core/services/curriculum.service';
 import { ProgressService } from '../../core/services/progress.service';
 import { ProgressBarComponent } from '../../shared/components/progress-bar/progress-bar.component';
 import { LevelBadgeComponent } from '../../shared/components/level-badge/level-badge.component';
+import { BidiTextDirective } from '../../shared/directives/bidi-text.directive';
 import type { LevelCode } from '../../core/models';
 
 interface LevelCard {
@@ -21,7 +22,7 @@ interface LevelCard {
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RouterLink, ProgressBarComponent, LevelBadgeComponent],
+  imports: [RouterLink, ProgressBarComponent, LevelBadgeComponent, BidiTextDirective],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss',
 })

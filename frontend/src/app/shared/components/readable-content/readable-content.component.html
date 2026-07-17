@@ -5,17 +5,17 @@
       [class.readable-content__section--rtl]="section.rtl"
     >
       @if (showLabels()) {
-        <h3 class="readable-content__label">{{ section.label }}</h3>
+        <h3 class="readable-content__label" appBidiText>{{ section.label }}</h3>
       }
 
       <div class="readable-content__blocks">
         @for (block of section.blocks; track $index) {
           @if (block.type === 'paragraph') {
-            <p class="readable-content__paragraph">{{ block.text }}</p>
+            <p class="readable-content__paragraph" appBidiText>{{ block.text }}</p>
           } @else {
             <ul class="readable-content__list">
               @for (item of block.items; track item) {
-                <li>{{ item }}</li>
+                <li appBidiText>{{ item }}</li>
               }
             </ul>
           }

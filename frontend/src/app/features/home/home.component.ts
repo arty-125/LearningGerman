@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { LanguageCode, LanguageService } from '../../core/services/language.service';
+import { BidiTextDirective } from '../../shared/directives/bidi-text.directive';
 
 interface LanguageCard {
   code: LanguageCode;
@@ -13,6 +14,7 @@ interface LanguageCard {
 @Component({
   selector: 'app-home',
   standalone: true,
+  imports: [BidiTextDirective],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })

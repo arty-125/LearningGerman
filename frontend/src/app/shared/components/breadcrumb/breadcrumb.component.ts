@@ -1,5 +1,6 @@
 import { Component, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { BidiTextDirective } from '../../directives/bidi-text.directive';
 
 export interface BreadcrumbItem {
   label: string;
@@ -9,16 +10,16 @@ export interface BreadcrumbItem {
 @Component({
   selector: 'app-breadcrumb',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, BidiTextDirective],
   template: `
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <ol class="breadcrumb__list" role="list">
         @for (item of items(); track item.label; let last = $last) {
           <li class="breadcrumb__item">
             @if (item.route && !last) {
-              <a [routerLink]="item.route" class="breadcrumb__link" dir="auto">{{ item.label }}</a>
+              <a [routerLink]="item.route" class="breadcrumb__link" appBidiText>{{ item.label }}</a>
             } @else {
-              <span class="breadcrumb__current" [attr.aria-current]="last ? 'page' : null" dir="auto">
+              <span class="breadcrumb__current" [attr.aria-current]="last ? 'page' : null" appBidiText>
                 {{ item.label }}
               </span>
             }
@@ -54,7 +55,6 @@ export interface BreadcrumbItem {
         text-decoration: none;
         font-weight: var(--font-weight-medium);
         transition: opacity 150ms ease;
-        unicode-bidi: plaintext;
 
         &:hover { opacity: 0.8; }
       }
@@ -63,7 +63,6 @@ export interface BreadcrumbItem {
         font-size: var(--font-size-sm);
         color: var(--color-text-secondary);
         font-weight: var(--font-weight-medium);
-        unicode-bidi: plaintext;
       }
 
       &__sep {

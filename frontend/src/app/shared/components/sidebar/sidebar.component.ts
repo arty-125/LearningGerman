@@ -2,6 +2,7 @@ import { Component, input, output, inject, computed } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { CurriculumService } from '../../../core/services/curriculum.service';
 import { ProgressService } from '../../../core/services/progress.service';
+import { BidiTextDirective } from '../../directives/bidi-text.directive';
 
 interface NavLevel {
   id: string;
@@ -13,7 +14,7 @@ interface NavLevel {
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink, RouterLinkActive, BidiTextDirective],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss',
 })

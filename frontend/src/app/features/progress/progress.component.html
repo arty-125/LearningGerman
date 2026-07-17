@@ -33,7 +33,7 @@
         <div class="level-progress-card stagger-{{ i + 1 }} animate-fade-in-up">
           <div class="level-progress-card__header">
             <app-level-badge [level]="stat.code" />
-            <span class="level-progress-card__title">{{ stat.title }}</span>
+            <span class="level-progress-card__title" appBidiText>{{ stat.title }}</span>
             <a [routerLink]="['/levels', stat.id]" class="level-progress-card__link">
               Explore
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">

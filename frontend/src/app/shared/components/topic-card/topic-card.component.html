@@ -27,9 +27,9 @@
   </div>
 
   <!-- Title & description -->
-  <h3 class="topic-card__title">{{ title() }}</h3>
+  <h3 class="topic-card__title" appBidiText>{{ title() }}</h3>
   @if (description()) {
-    <p class="topic-card__description">{{ description() }}</p>
+    <p class="topic-card__description" appBidiText>{{ description() }}</p>
   }
 
   <!-- Footer -->

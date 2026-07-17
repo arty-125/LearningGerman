@@ -3,12 +3,13 @@ import { RouterLink } from '@angular/router';
 import { CurriculumService } from '../../core/services/curriculum.service';
 import { ProgressService } from '../../core/services/progress.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
+import { BidiTextDirective } from '../../shared/directives/bidi-text.directive';
 import type { LevelCode } from '../../core/models';
 
 @Component({
   selector: 'app-level-overview',
   standalone: true,
-  imports: [RouterLink, BreadcrumbComponent],
+  imports: [RouterLink, BreadcrumbComponent, BidiTextDirective],
   templateUrl: './level-overview.component.html',
   styleUrl: './level-overview.component.scss',
 })

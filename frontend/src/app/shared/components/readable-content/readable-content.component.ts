@@ -1,4 +1,5 @@
 import { Component, computed, input } from '@angular/core';
+import { BidiTextDirective } from '../../directives/bidi-text.directive';
 
 type ContentBlock =
   | { type: 'paragraph'; text: string }
@@ -14,6 +15,7 @@ interface LanguageSection {
 @Component({
   selector: 'app-readable-content',
   standalone: true,
+  imports: [BidiTextDirective],
   templateUrl: './readable-content.component.html',
   styleUrl: './readable-content.component.scss',
 })

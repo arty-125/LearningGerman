@@ -20,9 +20,9 @@
         }
         <span class="topic__count">{{ t.lessons.length }} lessons</span>
       </div>
-      <h1 class="topic__title">{{ t.title }}</h1>
+      <h1 class="topic__title" appBidiText>{{ t.title }}</h1>
       @if (t.description) {
-        <p class="topic__description prose prose--lead">{{ t.description }}</p>
+        <p class="topic__description prose prose--lead" appBidiText>{{ t.description }}</p>
       }
       @if (t.tags && t.tags.length > 0) {
         <div class="topic__tags">
@@ -48,9 +48,9 @@
 
                 <!-- Content -->
                 <div class="lesson-row__content">
-                  <h2 class="lesson-row__title">{{ lesson.title }}</h2>
+                  <h2 class="lesson-row__title" appBidiText>{{ lesson.title }}</h2>
                   @if (lesson.shortDescription) {
-                    <p class="lesson-row__desc">{{ lesson.shortDescription }}</p>
+                    <p class="lesson-row__desc" appBidiText>{{ lesson.shortDescription }}</p>
                   }
                   <div class="lesson-row__meta">
                     @if (lesson.estimatedMinutes > 0) {

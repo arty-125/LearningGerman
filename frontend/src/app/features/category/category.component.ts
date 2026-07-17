@@ -4,12 +4,13 @@ import { CurriculumService } from '../../core/services/curriculum.service';
 import { ProgressService } from '../../core/services/progress.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { TopicCardComponent } from '../../shared/components/topic-card/topic-card.component';
+import { BidiTextDirective } from '../../shared/directives/bidi-text.directive';
 import type { LevelCode, CompletionStatus } from '../../core/models';
 
 @Component({
   selector: 'app-category',
   standalone: true,
-  imports: [RouterLink, BreadcrumbComponent, TopicCardComponent],
+  imports: [RouterLink, BreadcrumbComponent, TopicCardComponent, BidiTextDirective],
   templateUrl: './category.component.html',
   styleUrl: './category.component.scss',
 })

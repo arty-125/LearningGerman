@@ -31,8 +31,6 @@
     color: var(--color-text);
     margin: 0 0 var(--space-3);
     line-height: var(--line-height-tight);
-    text-align: start;
-    unicode-bidi: plaintext;
   }
 
   &__short-desc {
@@ -116,8 +114,6 @@
     font-weight: var(--font-weight-bold);
     color: var(--color-text);
     margin: 0 0 var(--space-4);
-    text-align: start;
-    unicode-bidi: plaintext;
   }
 
   &__body {
