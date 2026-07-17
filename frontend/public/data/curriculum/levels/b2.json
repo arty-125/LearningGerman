@@ -400,6 +400,307 @@
           ]
         },
         {
+          "id": "b2-grammar-zu-usage",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Preposition zu - Full Usage",
+          "description": "Comprehensive coverage of zu: movement, Dativ destinations, in/nach/an differences, infinitive structures, fixed expressions, and common mistakes",
+          "difficulty": 4,
+          "estimatedMinutes": 90,
+          "order": 4,
+          "tags": [
+            "prepositions",
+            "zu",
+            "dativ",
+            "infinitiv"
+          ],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "b2-grammar-zu-usage-lesson-1",
+              "topicId": "b2-grammar-zu-usage",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل ۱ — zu برای حرکت و مقصد",
+              "shortDescription": "معنی اصلی zu، قانون Dativ، حرکت به سمت شخص/مکان، و تفاوت با in / nach / an.",
+              "order": 1,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "مقدمه: چرا zu مهم است؟",
+                  "content": "English:\nOne of the most frequently used and confusing German prepositions is zu. Native speakers use it many times every day.\nThe key point: zu does not have only one meaning. Depending on context, it can mean to, towards, at, for, too, closed, or be part of infinitive structures.\n\nفارسی:\nیکی از پرکاربردترین و در عین حال گیج کننده ترین حرف های اضافه در زبان آلمانی، zu است.\nتقریباً هر روز یک آلمانی زبان ده ها بار از zu استفاده می کند.\nاما نکته مهم این است که zu فقط یک معنی ندارد و بسته به جمله می تواند معنی های مختلفی مانند to، towards، at، for، too، closed و in order to بدهد."
+                },
+                {
+                  "type": "table",
+                  "title": "معنی اصلی zu",
+                  "headers": ["German", "English", "فارسی"],
+                  "rows": [["zu", "to", "به"]]
+                },
+                {
+                  "type": "explanation",
+                  "title": "مهم ترین قانون",
+                  "content": "English:\nzu always takes Dativ.\n\nفارسی:\nzu همیشه Dativ می گیرد."
+                },
+                {
+                  "type": "table",
+                  "title": "Präposition و Case",
+                  "headers": ["Präposition", "Case"],
+                  "rows": [["zu", "Dativ"]]
+                },
+                {
+                  "type": "explanation",
+                  "title": "حالت اول: حرکت به سمت شخص",
+                  "content": "English:\nThis is one of the most common uses.\nFormula: gehen/fahren/kommen + zu + Dativ\n\nفارسی:\nاین رایج ترین کاربرد است.\nفرمول: gehen/fahren/kommen + zu + Dativ"
+                },
+                {
+                  "type": "table",
+                  "title": "حالت اول: مثال ها",
+                  "headers": ["German", "English", "فارسی"],
+                  "rows": [
+                    ["Ich gehe zum Arzt.", "I am going to the doctor.", "من دارم به دکتر می روم."],
+                    ["Er fährt zu seiner Mutter.", "He drives to his mother.", "او به خانه مادرش می رود."],
+                    ["Wir gehen zu Freunden.", "We are going to our friends.", "ما به خانه دوستانمان می رویم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "حالت دوم و سوم: محل کار و مکان عمومی",
+                  "headers": ["German", "English", "فارسی"],
+                  "rows": [
+                    ["Ich gehe zur Arbeit.", "I go to work.", "من به محل کار می روم."],
+                    ["Er geht zur Schule.", "He goes to school.", "او به مدرسه می رود."],
+                    ["Ich gehe zum Supermarkt.", "I go to the supermarket.", "من به سوپرمارکت می روم."],
+                    ["Wir fahren zur Bank.", "We drive to the bank.", "ما به بانک می رویم."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "اما همیشه نه: بعضی مقصدها با in می آیند",
+                  "content": "English:\nIch gehe ins Kino. (correct for entering the cinema)\nNot: Ich gehe zum Kino (if you mean entering).\n\nفارسی:\nبعضی مکان ها با in می آیند.\nمثلاً: Ich gehe ins Kino.\nنه: Ich gehe zum Kino.\nچون در اینجا منظور وارد شدن به داخل سینما است."
+                },
+                {
+                  "type": "explanation",
+                  "title": "تفاوت in و zu",
+                  "content": "English:\nzu = movement toward a destination (you may not enter).\nin = movement into the inside of a place.\n\nIch gehe zur Schule. (toward school, maybe only to the front)\nIch gehe in die Schule. (I go into the school building)\n\nفارسی:\nzu یعنی حرکت به سمت مقصد و ممکن است وارد نشوی.\nin یعنی حرکت به داخل.\n\nIch gehe zur Schule. = ممکن است فقط جلوی مدرسه بروم.\nIch gehe in die Schule. = وارد مدرسه می شوم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "تفاوت zu و nach / an",
+                  "content": "English:\nUse nach for cities and most countries: nach Deutschland, nach Berlin.\nUse zu for people: zu meinem Freund.\nUse an for movement to an edge/border point (for example seaside): ans Meer.\n\nفارسی:\nnach برای کشورها و شهرها می آید.\nzu برای افراد می آید.\nan گاهی برای حرکت تا کنار یک نقطه می آید (مثل ساحل)."
+                },
+                {
+                  "type": "table",
+                  "title": "حالت چهارم: bis zu",
+                  "headers": ["Expression", "English", "فارسی"],
+                  "rows": [
+                    ["bis zum Bahnhof", "up to the station", "تا ایستگاه"],
+                    ["bis zur Kreuzung", "up to the intersection", "تا تقاطع"]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "zu + Dativ",
+                  "english": "to / toward (person or destination)",
+                  "persian": "به / به سمت (با داتیو)",
+                  "example": "Ich gehe zum Arzt."
+                },
+                {
+                  "german": "nach",
+                  "english": "to (city/country)",
+                  "persian": "به (شهر/کشور)",
+                  "example": "Ich fahre nach Deutschland."
+                },
+                {
+                  "german": "ins",
+                  "english": "into the",
+                  "persian": "به داخلِ",
+                  "example": "Ich gehe ins Kino."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-zu-usage-lesson-2",
+              "topicId": "b2-grammar-zu-usage",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل ۲ — zu در مصدر، هدف، و معانی ویژه",
+              "shortDescription": "zu + Infinitiv، um ... zu، zu به معنی too/closed، zu Hause و فعل جداشدنی zuhören.",
+              "order": 2,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "حالت ششم: zu + Infinitiv",
+                  "content": "English:\nMeaning: to + verb\nFormula: Verb + zu + Infinitiv\nExamples: Ich versuche zu lernen. / Er beginnt zu arbeiten. / Sie hofft zu gewinnen.\n\nفارسی:\nمعنی: to + verb\nفرمول: Verb + zu + Infinitiv\nنمونه ها: Ich versuche zu lernen. / Er beginnt zu arbeiten. / Sie hofft zu gewinnen."
+                },
+                {
+                  "type": "list",
+                  "title": "فعل هایی که zu می خواهند",
+                  "items": [
+                    "versuchen",
+                    "beginnen",
+                    "vergessen",
+                    "planen",
+                    "hoffen",
+                    "aufhören",
+                    "anfangen",
+                    "lernen"
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "Modalverben با zu نمی آیند",
+                  "content": "English:\nIch kann schwimmen. (correct)\n❌ kann zu schwimmen\nIch muss arbeiten. (correct)\n❌ muss zu arbeiten\n\nفارسی:\nدر Modalverben از zu استفاده نمی شود."
+                },
+                {
+                  "type": "explanation",
+                  "title": "حالت هفتم: um ... zu",
+                  "content": "English:\nMeaning: in order to\nFormula: um + zu + Infinitiv\nIch lerne Deutsch, um in Deutschland zu arbeiten.\nEr spart Geld, um ein Auto zu kaufen.\n\nفارسی:\nمعنی: برای اینکه ...\nفرمول: um + zu + Infinitiv\nIch lerne Deutsch, um in Deutschland zu arbeiten.\nEr spart Geld, um ein Auto zu kaufen."
+                },
+                {
+                  "type": "table",
+                  "title": "حالت هشتم: zu به معنی بیش از حد",
+                  "headers": ["Expression", "English", "فارسی"],
+                  "rows": [
+                    ["zu teuer", "too expensive", "خیلی گران / بیش از حد گران"],
+                    ["zu groß", "too big", "بیش از حد بزرگ"],
+                    ["zu spät", "too late", "خیلی دیر"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "حالت نهم و دهم",
+                  "headers": ["German", "English", "فارسی"],
+                  "rows": [
+                    ["Die Tür ist zu.", "The door is closed.", "در بسته است."],
+                    ["Das Fenster ist zu.", "The window is closed.", "پنجره بسته است."],
+                    ["Ich bin zu Hause.", "I am at home.", "من در خانه هستم."],
+                    ["Ich bleibe heute zu Hause.", "I stay at home today.", "امروز در خانه می مانم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "حالت یازدهم: zuhören",
+                  "content": "English:\nHere zu is part of a separable verb (zuhören), not a preposition.\nIch höre dir zu. = I am listening to you.\n\nفارسی:\nدر اینجا zu حرف اضافه نیست؛ بخشی از فعل جداشدنی zuhören است."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "zu + Infinitiv",
+                  "english": "to + verb",
+                  "persian": "مصدر با zu",
+                  "example": "Ich versuche zu lernen."
+                },
+                {
+                  "german": "um ... zu",
+                  "english": "in order to",
+                  "persian": "برای اینکه",
+                  "example": "Ich lerne Deutsch, um in Deutschland zu arbeiten."
+                },
+                {
+                  "german": "zuhören",
+                  "english": "to listen",
+                  "persian": "گوش دادن",
+                  "example": "Ich höre dir zu."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-zu-usage-lesson-3",
+              "topicId": "b2-grammar-zu-usage",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل ۳ — ترکیب های ثابت، اشتباهات رایج، و خلاصه نهایی",
+              "shortDescription": "ترکیب های رایج با zu، خطاهای متداول زبان آموزان، جدول جمع بندی، و قانون طلایی برای یادگیری.",
+              "order": 3,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "حالت دوازدهم: ترکیب های رایج با zu",
+                  "headers": ["عبارت آلمانی", "English", "فارسی"],
+                  "rows": [
+                    ["zu Fuß", "on foot", "پیاده"],
+                    ["zu Hause", "at home", "در خانه"],
+                    ["zurzeit", "currently", "در حال حاضر"],
+                    ["zu Ende", "finished", "تمام شده"],
+                    ["zu Besuch", "visiting", "به دیدار"],
+                    ["zum Beispiel (z. B.)", "for example", "برای مثال"],
+                    ["zu spät", "too late", "خیلی دیر"],
+                    ["zu früh", "too early", "خیلی زود"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "اشتباهات رایج زبان آموزان",
+                  "headers": ["Wrong", "Correct", "توضیح"],
+                  "rows": [
+                    ["Ich gehe zu Deutschland.", "Ich gehe nach Deutschland.", "برای کشورها/شهرها از nach استفاده می کنیم."],
+                    ["Ich gehe nach meinem Freund.", "Ich gehe zu meinem Freund.", "برای شخص از zu استفاده می کنیم."],
+                    ["Ich gehe zum Kino. (if entering)", "Ich gehe ins Kino.", "برای ورود به داخل از in استفاده می کنیم."],
+                    ["Ich kann zu schwimmen.", "Ich kann schwimmen.", "Modalverben با zu + Infinitiv نمی آیند."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "جدول خلاصه",
+                  "headers": ["کاربرد", "فرمول", "English meaning", "معنی فارسی"],
+                  "rows": [
+                    ["حرکت به سمت شخص", "zu + Dativ", "to", "به / پیش"],
+                    ["حرکت به مکان عمومی", "zu + Dativ", "to", "به"],
+                    ["تا یک نقطه", "bis zu + Dativ", "up to", "تا"],
+                    ["مصدر با فعل", "zu + Infinitiv", "to + verb", "برای انجام دادن"],
+                    ["هدف انجام کار", "um ... zu + Infinitiv", "in order to", "برای اینکه"],
+                    ["بیش از حد", "zu + Adjektiv", "too", "بیش از حد"],
+                    ["بسته بودن", "ist zu", "closed", "بسته"],
+                    ["در خانه", "zu Hause", "at home", "در خانه"]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "قانون طلایی برای به خاطر سپردن zu",
+                  "items": [
+                    "1) zu + Dativ: وقتی به سمت شخص یا بسیاری از مکان های عمومی حرکت می کنید.",
+                    "2) zu + Infinitiv: وقتی یک فعل دیگر را به صورت مصدر به جمله اضافه می کنید.",
+                    "3) um ... zu: وقتی هدف یا منظور انجام یک کار را بیان می کنید.",
+                    "4) zu + صفت: یعنی بیش از حد (too): zu teuer، zu spät، zu laut."
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "جمع بندی نهایی",
+                  "content": "English:\nIf you master these four core principles, you can correctly understand and use a very large portion of zu in everyday German conversation.\n\nفارسی:\nاگر این چهار کاربرد را به خوبی یاد بگیرید، بخش بسیار بزرگی از کاربردهای zu در مکالمات روزمره آلمانی را به درستی درک و استفاده خواهید کرد."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "zu Hause",
+                  "english": "at home",
+                  "persian": "در خانه",
+                  "example": "Ich bin zu Hause."
+                },
+                {
+                  "german": "zu Ende",
+                  "english": "finished",
+                  "persian": "تمام شده",
+                  "example": "Der Film ist zu Ende."
+                },
+                {
+                  "german": "zu spät",
+                  "english": "too late",
+                  "persian": "خیلی دیر",
+                  "example": "Du bist zu spät."
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
+        {
           "id": "b2-grammar-advanced-sentence-formulas",
           "categoryId": "b2-grammar",
           "levelId": "b2",
@@ -407,7 +708,7 @@
           "description": "10 structured sentence formulas for building advanced German clauses",
           "difficulty": 5,
           "estimatedMinutes": 85,
-          "order": 4,
+          "order": 5,
           "tags": [
             "sentence-structure",
             "word-order",
