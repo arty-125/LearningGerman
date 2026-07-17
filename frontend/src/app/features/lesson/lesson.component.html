@@ -19,7 +19,7 @@
           </span>
         }
       </div>
-      <h1 class="lesson__title">{{ ls.title }}</h1>
+      <h1 class="lesson__title" dir="auto">{{ ls.title }}</h1>
       <p class="lesson__short-desc prose prose--lead">{{ ls.shortDescription }}</p>
     </header>
 
@@ -30,7 +30,7 @@
       @for (section of ls.sections; track section.type + ($index)) {
         <div class="lesson-section" [class]="'lesson-section--' + section.type">
           @if (section.title) {
-            <h2 class="lesson-section__title">{{ section.title }}</h2>
+            <h2 class="lesson-section__title" dir="auto">{{ section.title }}</h2>
           }
           <div class="lesson-section__body prose">
             @if (section.type === 'list' && section.items) {

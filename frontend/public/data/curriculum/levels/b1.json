@@ -19,18 +19,232 @@
           "id": "b1-grammar-konjunktiv-ii",
           "categoryId": "b1-grammar",
           "levelId": "b1",
-          "title": "Konjunktiv II (Subjunctive)",
-          "description": "Hypothetical situations, polite requests and wishes",
+          "title": "دوره جامع Konjunktiv II",
+          "description": "فصل ۱ — Konjunktiv II چیست؟",
           "difficulty": 4,
-          "estimatedMinutes": 40,
+          "estimatedMinutes": 45,
           "order": 1,
           "tags": [
             "konjunktiv",
             "hypothetical",
-            "polite"
+            "polite",
+            "wishes",
+            "conditionals"
           ],
           "prerequisites": [],
-          "lessons": []
+          "lessons": [
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-1",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۱ — Konjunktiv II چیست؟",
+              "shortDescription": "فصل ۱: مفهوم Konjunktiv II، کاربردهای آن، و تفاوت آن با واقعیت.",
+              "order": 1,
+              "estimatedMinutes": 45,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "هدف این فصل",
+                  "content": "English:\nAfter this lesson you should be able to understand what Konjunktiv II is, know why Germans use it, and recognize when to use it.\n\nفارسی:\nبعد از پایان این درس باید بتوانید بفهمید Konjunktiv II چیست، بدانید چرا آلمانی‌ها از آن استفاده می‌کنند، و تشخیص دهید چه زمانی باید از Konjunktiv II استفاده کنید.\n\nدر این فصل هنوز ساختن Konjunktiv II را یاد نمی‌گیریم. فقط مفهوم آن را کاملاً درک می‌کنیم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Konjunktiv II چیست؟",
+                  "content": "English:\nKonjunktiv II is the verb mood we use when we are not speaking about reality. It is used for wishes, hypothetical situations, politeness, unreal situations, possibilities, and softer, friendlier sentences.\n\nفارسی:\nKonjunktiv II حالتی از فعل است که وقتی درباره واقعیت صحبت نمی‌کنیم، از آن استفاده می‌شود. یعنی وقتی می‌خواهیم درباره چیزهایی صحبت کنیم که آرزو، فرضی، مؤدبانه، غیرواقعی، یا احتمالی هستند، یا فقط می‌خواهیم جمله نرم‌تر و دوستانه‌تر شود.\n\nبه زبان ساده: Konjunktiv II = «دنیای غیرواقعی یا غیرمستقیم»"
+                },
+                {
+                  "type": "table",
+                  "title": "دنیای واقعی (Indikativ)",
+                  "headers": [
+                    "German",
+                    "English",
+                    "Persian",
+                    "Meaning"
+                  ],
+                  "rows": [
+                    [
+                      "Ich habe Zeit.",
+                      "I have time.",
+                      "من وقت دارم.",
+                      "واقعیت"
+                    ],
+                    [
+                      "Ich bin müde.",
+                      "I am tired.",
+                      "من خسته هستم.",
+                      "واقعیت"
+                    ],
+                    [
+                      "Ich wohne in Kanada.",
+                      "I live in Canada.",
+                      "من در کانادا زندگی می‌کنم.",
+                      "واقعیت"
+                    ]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "دنیای غیرواقعی (Konjunktiv II)",
+                  "content": "English:\nNow make the same sentences hypothetical.\nIch hätte Zeit. I would have time.\nIch wäre müde. I would be tired.\nIch würde in Deutschland wohnen. I would live in Germany.\n\nفارسی:\nحالا همان جمله‌ها را فرضی کنیم.\nIch hätte Zeit. = کاش وقت داشتم. / اگر وقت داشتم...\nIch wäre müde. = خسته بودم... (در یک شرایط فرضی)\nIch würde in Deutschland wohnen. = دوست داشتم در آلمان زندگی کنم. / اگر شرایطش بود در آلمان زندگی می‌کردم."
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت اصلی",
+                  "headers": [
+                    "واقعیت",
+                    "Indikativ",
+                    "فرض",
+                    "Konjunktiv II"
+                  ],
+                  "rows": [
+                    [
+                      "Ich habe Geld.",
+                      "Ich hätte Geld.",
+                      "I have money. / I would have money.",
+                      "من پول دارم. / کاش پول داشتم."
+                    ],
+                    [
+                      "Ich bin reich.",
+                      "Ich wäre reich.",
+                      "I am rich. / I would be rich.",
+                      "من ثروتمندم. / کاش ثروتمند بودم."
+                    ],
+                    [
+                      "Ich kann kommen.",
+                      "Ich könnte kommen.",
+                      "I can come. / I could come.",
+                      "می‌توانم بیایم. / می‌توانستم بیایم."
+                    ],
+                    [
+                      "Ich muss arbeiten.",
+                      "Ich müsste arbeiten.",
+                      "I must work. / I would have to work.",
+                      "باید کار کنم. / مجبور بودم کار کنم."
+                    ]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "چرا آلمانی‌ها اینقدر از Konjunktiv II استفاده می‌کنند؟",
+                  "items": [
+                    "درخواست مؤدبانه",
+                    "صحبت با رئیس",
+                    "صحبت با مشتری",
+                    "سفارش غذا",
+                    "خرید",
+                    "درخواست کمک",
+                    "آرزو",
+                    "پیشنهاد",
+                    "نصیحت",
+                    "خیال‌پردازی",
+                    "شرط"
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "مثال‌های واقعی",
+                  "content": "English:\nIn the cafe, 'Ich will einen Kaffee.' is grammatically correct, but it sounds direct and dry.\nA native speaker would usually say 'Ich hätte gern einen Kaffee.'.\n\nIn the office, 'Helfen Sie mir!' is very direct.\n'Könnten Sie mir helfen?' is softer and more polite.\n\nAt work, 'Ich will Urlaub.' is natural, but blunt.\n'Ich würde gern Urlaub nehmen.' is more natural and polite.\n\nفارسی:\nدر کافه، گفتنِ 'Ich will einen Kaffee.' از نظر گرامری درست است، اما مستقیم و خشک به نظر می‌رسد.\nیک آلمانی معمولاً می‌گوید: 'Ich hätte gern einen Kaffee.'.\n\nدر اداره، 'Helfen Sie mir!' خیلی دستوری است.\n'Könnten Sie mir helfen?' نرم‌تر و مؤدبانه‌تر است.\n\nدر محل کار، 'Ich will Urlaub.' طبیعی است، اما تند و مستقیم.\n'Ich würde gern Urlaub nehmen.' طبیعی‌تر و مؤدبانه‌تر است."
+                },
+                {
+                  "type": "list",
+                  "title": "مهم‌ترین کاربردهای Konjunktiv II",
+                  "items": [
+                    "۱. Wunsch (آرزو)",
+                    "۲. Höflichkeit (ادب)",
+                    "۳. Rat (نصیحت)",
+                    "۴. Irrealität (غیرواقعی)",
+                    "۵. Bedingung (شرط)",
+                    "۶. Vergangenheit (گذشته فرضی)"
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "Wunsch (آرزو)",
+                  "content": "English:\nWunsch means a wish or desire.\n\nIch wäre gern jünger.\nI wish I were younger.\n\nIch hätte gern mehr Zeit.\nI wish I had more time.\n\nفارسی:\nWunsch یعنی آرزو.\n\nIch wäre gern jünger. = کاش جوان‌تر بودم.\nIch hätte gern mehr Zeit. = کاش وقت بیشتری داشتم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Höflichkeit (ادب)",
+                  "content": "English:\nHöflichkeit means politeness.\n\nKönnten Sie mir helfen?\nCould you help me?\n\nفارسی:\nHöflichkeit یعنی ادب.\n\nKönnten Sie mir helfen? = ممکنه به من کمک کنید؟"
+                },
+                {
+                  "type": "explanation",
+                  "title": "Rat (نصیحت)",
+                  "content": "English:\nRat means advice.\n\nDu solltest mehr schlafen.\nYou should sleep more.\n\nفارسی:\nRat یعنی نصیحت.\n\nDu solltest mehr schlafen. = بهتره بیشتر بخوابی."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Irrealität (غیرواقعی)",
+                  "content": "English:\nIrrealität means something unreal or impossible in the current situation.\n\nIch wäre Millionär.\nI would be a millionaire.\n\nفارسی:\nIrrealität یعنی چیزی غیرواقعی یا ناممکن در وضعیت فعلی.\n\nIch wäre Millionär. = اگر... میلیونر بودم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Bedingung (شرط)",
+                  "content": "English:\nBedingung means a condition.\n\nWenn ich Zeit hätte...\nIf I had time...\n\nفارسی:\nBedingung یعنی شرط.\n\nWenn ich Zeit hätte... = اگر وقت داشتم..."
+                },
+                {
+                  "type": "explanation",
+                  "title": "Vergangenheit (گذشته فرضی)",
+                  "content": "English:\nVergangenheit means a hypothetical past.\n\nIch hätte mehr gelernt.\nI would have studied more.\n\nفارسی:\nVergangenheit یعنی گذشتهٔ فرضی.\n\nIch hätte mehr gelernt. = کاش بیشتر درس خوانده بودم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "آیا آلمانی‌ها همیشه از Konjunktiv II واقعی استفاده می‌کنند؟",
+                  "content": "English:\nNo. This is one of the most important points in German.\nIn everyday conversation, Germans often use würde + Infinitiv instead of a fully conjugated Konjunktiv II form.\n\nFor example:\nInstead of 'Ich käme.' they usually say 'Ich würde kommen.'.\nBoth are correct, but the second is much more common in everyday speech.\n\nIn the next chapter we will look at:\n- when to use würde\n- when not to use würde\n- why verbs like sein, haben, können, müssen usually do not take würde\n\nفارسی:\nخیر. این یکی از مهم‌ترین نکات زبان آلمانی است.\nدر مکالمه روزمره، آلمانی‌ها خیلی وقت‌ها به جای شکل صرف‌شدهٔ Konjunktiv II از ساختار würde + Infinitiv استفاده می‌کنند.\n\nمثلاً:\nبه جای 'Ich käme.' معمولاً می‌گویند 'Ich würde kommen.'.\nهر دو درست هستند، اما دومی در گفتار روزمره بسیار رایج‌تر است.\n\nدر فصل بعد دقیقاً بررسی می‌کنیم که:\n- چه زمانی از würde استفاده می‌شود؟\n- چه زمانی نباید از würde استفاده کرد؟\n- چرا بعضی افعال مثل sein، haben، können، müssen معمولاً با würde نمی‌آیند؟"
+                },
+                {
+                  "type": "explanation",
+                  "title": "آنچه در این درس یاد گرفتید",
+                  "content": "English:\n✔ Konjunktiv II is not used to state reality.\n✔ It is used for wishes, politeness, hypothetical situations, advice, conditions, and hypothetical past events.\n✔ It is very common in everyday German conversation.\n✔ We have not learned how to build it yet; we have only learned why it exists.\n\nفارسی:\n✔ Konjunktiv II برای بیان واقعیت نیست.\n✔ برای بیان آرزو، ادب، فرض، نصیحت، شرط و گذشته فرضی استفاده می‌شود.\n✔ در مکالمه روزمره آلمانی بسیار پرکاربرد است.\n✔ هنوز ساخت آن را یاد نگرفته‌ایم؛ فقط فهمیدیم چرا وجود دارد."
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین (بدون نیاز به دانستن فرمول)",
+                  "items": [
+                    "۱. Ich habe heute viel Arbeit. → واقعیت (Indikativ)",
+                    "۲. Ich hätte heute gern frei. → حالت فرضی (Konjunktiv II)",
+                    "۳. Könnten Sie bitte langsamer sprechen? → حالت فرضی / مؤدبانه (Konjunktiv II)",
+                    "۴. Ich wohne in Kanada. → واقعیت (Indikativ)",
+                    "۵. Wenn ich mehr Zeit hätte... → حالت فرضی (Konjunktiv II)"
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "Konjunktiv II",
+                  "english": "subjunctive / hypothetical mood",
+                  "persian": "حالت فرضی / التزامی دوم",
+                  "example": "Ich hätte gern mehr Zeit."
+                },
+                {
+                  "german": "wäre",
+                  "english": "would be",
+                  "persian": "بودم / می‌بودم",
+                  "example": "Ich wäre froh."
+                },
+                {
+                  "german": "hätte",
+                  "english": "would have",
+                  "persian": "داشتم / می‌داشتم",
+                  "example": "Ich hätte Zeit."
+                },
+                {
+                  "german": "würde",
+                  "english": "would",
+                  "persian": "می‌کردم / می‌بودم",
+                  "example": "Ich würde kommen."
+                },
+                {
+                  "german": "gern",
+                  "english": "gladly / would like",
+                  "persian": "مایل / با کمال میل",
+                  "example": "Ich hätte gern einen Kaffee."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         },
         {
           "id": "b1-grammar-passive",

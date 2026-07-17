@@ -16,9 +16,9 @@ export interface BreadcrumbItem {
         @for (item of items(); track item.label; let last = $last) {
           <li class="breadcrumb__item">
             @if (item.route && !last) {
-              <a [routerLink]="item.route" class="breadcrumb__link">{{ item.label }}</a>
+              <a [routerLink]="item.route" class="breadcrumb__link" dir="auto">{{ item.label }}</a>
             } @else {
-              <span class="breadcrumb__current" [attr.aria-current]="last ? 'page' : null">
+              <span class="breadcrumb__current" [attr.aria-current]="last ? 'page' : null" dir="auto">
                 {{ item.label }}
               </span>
             }
@@ -54,6 +54,7 @@ export interface BreadcrumbItem {
         text-decoration: none;
         font-weight: var(--font-weight-medium);
         transition: opacity 150ms ease;
+        unicode-bidi: plaintext;
 
         &:hover { opacity: 0.8; }
       }
@@ -62,6 +63,7 @@ export interface BreadcrumbItem {
         font-size: var(--font-size-sm);
         color: var(--color-text-secondary);
         font-weight: var(--font-weight-medium);
+        unicode-bidi: plaintext;
       }
 
       &__sep {
