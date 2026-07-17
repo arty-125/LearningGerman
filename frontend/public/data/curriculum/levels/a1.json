@@ -2334,9 +2334,10 @@
                   ],
                   "rows": [
                     ["Genitiv (name + s)", "Ahmads Buch", "Ahmad's book", "کتاب احمد"],
+                    ["Noun + noun", "Ahmads Mutter / Ahmads Tasche", "Ahmad's mother / Ahmad's pocket", "مادرِ احمد / جیبِ احمد"],
                     ["von + noun", "das Buch von Ahmad", "the book of Ahmad", "کتاب احمد"],
                     ["Possessive pronoun", "mein Buch / deine Tasche / Ihr Auto", "my book / your bag / your car (formal)", "کتاب من / کیف تو / ماشین شما"],
-                    ["Name ending in s/x/z", "Alex' Auto", "Alex's car", "ماشین الکس"]
+                    ["Name ending in s/x/z", "Alex' Auto / Alex' Mutter / Alex' Tasche", "Alex's car / Alex's mother / Alex's pocket", "ماشین الکس / مادرِ الکس / جیبِ الکس"]
                   ]
                 },
                 {
