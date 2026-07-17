@@ -20,9 +20,9 @@
           "categoryId": "b1-grammar",
           "levelId": "b1",
           "title": "دوره جامع Konjunktiv II",
-          "description": "فصل ۱ — Konjunktiv II چیست؟",
+          "description": "فصل ۱ و ۲ — Konjunktiv II چیست؟ و چگونه ساخته می‌شود؟",
           "difficulty": 4,
-          "estimatedMinutes": 45,
+          "estimatedMinutes": 95,
           "order": 1,
           "tags": [
             "konjunktiv",
@@ -240,6 +240,149 @@
                   "english": "gladly / would like",
                   "persian": "مایل / با کمال میل",
                   "example": "Ich hätte gern einen Kaffee."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-2",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۲ — ساخت Konjunktiv II",
+              "shortDescription": "فصل ۲: سه خانواده اصلی ساخت Konjunktiv II، تفاوت میان صرف واقعی، würde + Infinitiv، و گذشته فرضی.",
+              "order": 2,
+              "estimatedMinutes": 50,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "هدف این فصل",
+                  "content": "English:\nIn this chapter you will learn the three main ways to form Konjunktiv II and when each form sounds natural.\n\nفارسی:\nدر این فصل با سه روش اصلی ساخت Konjunktiv II آشنا می‌شوید و یاد می‌گیرید هر کدام چه زمانی طبیعی هستند.\n\nاین فصل مهم‌ترین بخش کل دوره است. اگر آن را خوب یاد بگیری، حدود ۸۰٪ Konjunktiv II را می‌توانی بسازی."
+                },
+                {
+                  "type": "explanation",
+                  "title": "اولین سؤال",
+                  "content": "English:\nIf I want to say: I would like to live in Germany.\nWhich sentence is correct?\n\nفارسی:\nاگر بخواهم بگویم: دوست داشتم در آلمان زندگی کنم.\nکدام جمله درست است؟\n\n1. Ich wohnte in Deutschland.\n2. Ich würde in Deutschland wohnen.\n3. Ich wäre in Deutschland.\n4. Ich hätte in Deutschland gewohnt.\n\nهمه این‌ها فعل دارند، اما فقط یکی برای این منظور مناسب است."
+                },
+                {
+                  "type": "list",
+                  "title": "سه روش ساخت Konjunktiv II",
+                  "items": [
+                    "Real forms / صرف واقعی",
+                    "würde + Infinitiv / رایج‌ترین ساختار",
+                    "Vergangenheit / گذشته فرضی"
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "خانواده اول — Real Konjunktiv II",
+                  "headers": [
+                    "Infinitiv",
+                    "Konjunktiv II",
+                    "Meaning"
+                  ],
+                  "rows": [
+                    ["sein", "wäre", "would be"],
+                    ["haben", "hätte", "would have"],
+                    ["können", "könnte", "could"],
+                    ["müssen", "müsste", "would have to"],
+                    ["dürfen", "dürfte", "would be allowed to"],
+                    ["wollen", "wollte", "would want to"],
+                    ["sollen", "sollte", "should / would be supposed to"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "نمونه‌های طبیعی",
+                  "content": "English:\nIch wäre glücklich. = I would be happy.\nIch hätte mehr Zeit. = I would have more time.\nIch könnte kommen. = I could come.\n\nفارسی:\nIch wäre glücklich. = خوشحال بودم / کاش خوشحال بودم.\nIch hätte mehr Zeit. = کاش وقت بیشتری داشتم.\nIch könnte kommen. = می‌توانستم بیایم.\n\nنکته مهم: این افعال را آلمانی‌ها تقریباً همیشه به همین شکل استفاده می‌کنند. نه با würde."
+                },
+                {
+                  "type": "explanation",
+                  "title": "خانواده دوم — würde + Infinitiv",
+                  "content": "English:\nThis is the most common structure in conversation.\nFormula: würde + infinitive\n\nIch würde nach Deutschland reisen. = I would travel to Germany.\nIch würde dort arbeiten. = I would work there.\nIch würde ein Haus kaufen. = I would buy a house.\n\nفارسی:\nاین رایج‌ترین ساختار در مکالمه است.\nفرمول: würde + مصدر\n\nIch würde nach Deutschland reisen. = دوست داشتم به آلمان سفر کنم.\nIch würde dort arbeiten. = آنجا کار می‌کردم.\nIch würde ein Haus kaufen. = یک خانه می‌خریدم.\n\nاین ساختار برای تقریباً تمام افعال عادی استفاده می‌شود."
+                },
+                {
+                  "type": "explanation",
+                  "title": "خانواده سوم — گذشته فرضی",
+                  "content": "English:\nThis family will be explained in more detail later. For now, just know that it exists.\n\nIch hätte mehr gelernt. = I would have studied more.\n\nفارسی:\nاین ساختار را بعداً کامل یاد می‌گیریم. فعلاً فقط بدان وجود دارد.\n\nIch hätte mehr gelernt. = کاش بیشتر درس خوانده بودم."
+                },
+                {
+                  "type": "warning",
+                  "title": "چرا دو نوع ساخت داریم؟",
+                  "content": "English:\nWhy do we not simply use würde for everything?\nBecause German has developed this way over time. Some verbs are so common that speakers still prefer their own Konjunktiv II form.\n\nفارسی:\nچرا همیشه از würde استفاده نمی‌کنیم؟\nچون زبان آلمانی این‌طور تکامل پیدا کرده است. بعضی فعل‌ها آن‌قدر پرکاربرد هستند که مردم هنوز شکل اصلی Konjunktiv II آن‌ها را استفاده می‌کنند."
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه مهم",
+                  "headers": [
+                    "فعل",
+                    "شکل طبیعی",
+                    "با würde",
+                    "طبیعی؟"
+                  ],
+                  "rows": [
+                    ["sein", "Ich wäre", "Ich würde sein", "تقریباً نه"],
+                    ["haben", "Ich hätte", "Ich würde haben", "تقریباً نه"],
+                    ["können", "Ich könnte", "Ich würde können", "تقریباً نه"],
+                    ["müssen", "Ich müsste", "Ich würde müssen", "تقریباً نه"],
+                    ["dürfen", "Ich dürfte", "Ich würde dürfen", "تقریباً نه"],
+                    ["sollen", "Ich sollte", "Ich würde sollen", "تقریباً نه"],
+                    ["wollen", "Ich wollte", "Ich würde wollen", "تقریباً نه"],
+                    ["arbeiten", "Ich arbeitete", "Ich würde arbeiten", "بله"],
+                    ["lernen", "Ich lernte", "Ich würde lernen", "بله"],
+                    ["reisen", "Ich reiste", "Ich würde reisen", "بله"],
+                    ["wohnen", "Ich wohnte", "Ich würde wohnen", "بله"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "اشتباه رایج زبان‌آموزها",
+                  "content": "English:\nSome learners think würde means future. That is wrong.\n\nIch würde nach Deutschland ziehen. = I would move to Germany.\nThis is not future; it is hypothetical.\n\nفارسی:\nبعضی افراد فکر می‌کنند würde یعنی آینده. این کاملاً اشتباه است.\n\nIch würde nach Deutschland ziehen. = اگر شرایطش بود به آلمان نقل مکان می‌کردم.\nاین آینده نیست؛ این فرض است."
+                },
+                {
+                  "type": "list",
+                  "title": "قوانین طلایی",
+                  "items": [
+                    "برای بیشتر افعال: würde + Infinitiv طبیعی‌ترین انتخاب است.",
+                    "برای افعال بسیار پرکاربرد: شکل واقعی Konjunktiv II را استفاده کن.",
+                    "گذشته فرضی (hätte / wäre + Partizip II) یک خانواده جداگانه است و بعداً کامل بررسی می‌شود."
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "آنچه باید از این درس به خاطر بسپاری",
+                  "content": "English:\n1) For most verbs, würde + infinitive is the most natural choice.\n2) For very frequent verbs, use the real Konjunktiv II form.\n3) The past hypothetical structure is a separate family.\n\nفارسی:\n۱) برای بیشتر افعال، würde + Infinitiv طبیعی‌ترین انتخاب است.\n۲) برای افعال بسیار پرکاربرد، از شکل صرف‌شدهٔ Konjunktiv II استفاده کن.\n۳) ساخت گذشته فرضی یک خانوادهٔ جداگانه است."
+                },
+                {
+                  "type": "explanation",
+                  "title": "یک نکته آموزشی مهم",
+                  "content": "English:\nWe are deliberately not starting with full conjugation tables yet. The goal is to first build the mental model: which family is used when.\n\nفارسی:\nما عمداً هنوز صرف کامل افعال را شروع نکرده‌ایم. هدف این است که اول مدل ذهنی درست ساخته شود: چه زمانی از کدام خانواده استفاده می‌کنیم.\n\nIn the next lesson we can go deeper into the most important verbs, like sein, haben, können, and müssen."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "Konjunktiv II",
+                  "english": "subjunctive / hypothetical mood",
+                  "persian": "حالت فرضی / التزامی دوم",
+                  "example": "Ich würde kommen."
+                },
+                {
+                  "german": "würde + Infinitiv",
+                  "english": "would + infinitive",
+                  "persian": "ساختار would + مصدر",
+                  "example": "Ich würde arbeiten."
+                },
+                {
+                  "german": "die Vergangenheit",
+                  "english": "past / hypothetical past",
+                  "persian": "گذشته / گذشته فرضی",
+                  "example": "Ich hätte mehr gelernt."
+                },
+                {
+                  "german": "die Regel",
+                  "english": "rule",
+                  "persian": "قانون",
+                  "example": "Das ist eine wichtige Regel."
                 }
               ],
               "exercises": []
