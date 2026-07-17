@@ -54,9 +54,9 @@
           "categoryId": "b2-grammar",
           "levelId": "b2",
           "title": "Two-Way Prepositions (Wechselpräpositionen)",
-          "description": "Mastering an/auf/in/über/unter/vor/hinter/neben/zwischen",
+          "description": "Local and directional preposition patterns: um ... herum, von ... aus, bis zu, auf ... zu, an ... vorbei, von ... bis, mitten in, entlang",
           "difficulty": 4,
-          "estimatedMinutes": 35,
+          "estimatedMinutes": 95,
           "order": 3,
           "tags": [
             "prepositions",
@@ -64,7 +64,340 @@
             "dativ"
           ],
           "prerequisites": [],
-          "lessons": []
+          "lessons": [
+            {
+              "id": "b2-grammar-two-way-prepositions-lesson-1",
+              "topicId": "b2-grammar-two-way-prepositions",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "آموزش کامل ساختارهای مکانی و جهت",
+              "shortDescription": "بررسی کامل um ... herum، von ... aus، bis zu، auf ... zu، an ... vorbei، von ... bis، mitten in و entlang با منطق Case و مثال های کاربردی.",
+              "order": 1,
+              "estimatedMinutes": 95,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "هدف این درس",
+                  "content": "English:\nThese structures are among the most frequently used patterns in German daily speech.\nIn this lesson, you will learn not only the forms, but also why each pattern is used and how to choose it correctly.\n\nفارسی:\nاین ساختارها جزو پرکاربردترین ساختارهای زبان آلمانی هستند و تقریباً هر روز توسط یک آلمانی زبان استفاده می شوند.\nنکته مهم این است که اکثر زبان آموزان این ساختارها را فقط حفظ می کنند، اما دلیل استفاده و تفاوت آن ها را نمی دانند. در این درس، هر ساختار را از پایه بررسی می کنیم."
+                },
+                {
+                  "type": "table",
+                  "title": "1) um ... herum - معنی",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["um", "around", "دور، اطراف"],
+                    ["herum", "around / all around", "اطراف، دور تا دور"],
+                    ["um ... herum", "all around", "دور تا دور چیزی"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "1) um ... herum - فرمول و دلیل Case",
+                  "content": "English:\nFormula: um + Akkusativ + herum\nExample structure: um den Tisch herum = around the table\nWhy Akkusativ? Because um always takes Akkusativ.\n\nفارسی:\nفرمول: um + Akkusativ + herum\nساختار: um den Tisch herum\nترجمه: دور میز\nدلیل Akkusativ: چون um همیشه حرف اضافه Akkusativ است."
+                },
+                {
+                  "type": "table",
+                  "title": "1) um ... herum - مثال ها",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Der Hund läuft um den Baum herum.", "The dog is running around the tree.", "سگ دور درخت می دود."],
+                    ["Kinder sitzen um das Feuer herum.", "Children are sitting around the fire.", "بچه ها دور آتش نشسته اند."],
+                    ["Viele Menschen stehen um das Auto herum.", "Many people are standing around the car.", "افراد زیادی دور ماشین ایستاده اند."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "1) اگر herum حذف شود",
+                  "content": "English:\nEr geht um das Haus. = He goes around the house.\nEr geht um das Haus herum. = He goes all around the house (stronger circular emphasis).\nBoth are common in spoken German.\n\nفارسی:\nEr geht um das Haus. یعنی: او دور خانه می رود.\nEr geht um das Haus herum. تاکید بیشتری روی «دور تا دور» دارد.\nدر زبان محاوره هر دو رایج هستند."
+                },
+                {
+                  "type": "table",
+                  "title": "2) von ... aus - معنی",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["von", "from", "از"],
+                    ["aus", "from / out of", "از، بیرون از"],
+                    ["von ... aus", "from a place / from a point", "از یک نقطه"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "2) von ... aus - فرمول و مثال",
+                  "content": "English:\nFormula: von + Dativ + aus\nVon hier aus = from here / from this point\n\nVon hier aus kann man den See sehen.\nFrom here, you can see the lake.\n\nVon meinem Fenster aus sehe ich die Berge.\nFrom my window I can see the mountains.\n\nVon Berlin aus fliegt er nach Paris.\nHe flies to Paris from Berlin.\n\nفارسی:\nفرمول: von + Dativ + aus\nVon hier aus = از اینجا\n\nVon hier aus kann man den See sehen.\nاز اینجا می توان دریاچه را دید.\n\nVon meinem Fenster aus sehe ich die Berge.\nاز پنجره ام کوه ها را می بینم.\n\nVon Berlin aus fliegt er nach Paris.\nاو از برلین به پاریس پرواز می کند."
+                },
+                {
+                  "type": "explanation",
+                  "title": "2) تفاوت با aus",
+                  "content": "English:\nIch komme aus Deutschland. = I come from Germany.\nVon Deutschland aus ... = from inside Germany / from Germany as a starting point for an action.\n\nفارسی:\nIch komme aus Deutschland. یعنی: من اهل آلمان هستم.\nVon Deutschland aus ... یعنی: از داخل آلمان ..."
+                },
+                {
+                  "type": "table",
+                  "title": "3) bis zu - معنی و فرمول",
+                  "headers": [
+                    "Pattern",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["bis", "until / to", "تا"],
+                    ["zu", "to", "به"],
+                    ["bis zu + Dativ", "up to", "تا ..."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "3) bis zu - مثال و دلیل Dativ",
+                  "content": "English:\nExample: bis zum Bahnhof = up to the station\nIch gehe bis zum Bahnhof. = I walk to the station.\nBis zur Brücke sind es zwei Kilometer. = It is two kilometers to the bridge.\nWhy Dativ? Because zu requires Dativ.\n\nفارسی:\nمثال: bis zum Bahnhof = تا ایستگاه\nIch gehe bis zum Bahnhof. = تا ایستگاه پیاده می روم.\nBis zur Brücke sind es zwei Kilometer. = تا پل دو کیلومتر فاصله است.\nچرا Dativ؟ چون zu همیشه Dativ می خواهد."
+                },
+                {
+                  "type": "table",
+                  "title": "4) auf ... zu - معنی و فرمول",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["auf ... zu", "toward", "به سمت"],
+                    ["Formula", "auf + Akkusativ + zu", "auf + Akkusativ + zu"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "4) auf ... zu - مثال ها",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Er geht auf das Haus zu.", "He walks toward the house.", "او به سمت خانه می رود."],
+                    ["Der Hund läuft auf mich zu.", "The dog runs toward me.", "سگ به سمت من می دود."],
+                    ["Sie kommt auf ihren Vater zu.", "She walks toward her father.", "او به سمت پدرش می رود."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "4) تفاوت با zu dem Haus",
+                  "content": "English:\nzu dem Haus = to the house (destination reached/targeted).\nauf das Haus zu = toward the house (direction; may not have reached it yet).\n\nفارسی:\nzu dem Haus یعنی: به خانه\nauf das Haus zu یعنی: به سمت خانه\nممکن است هنوز به آن نرسیده باشد."
+                },
+                {
+                  "type": "table",
+                  "title": "5) an ... vorbei - معنی، فرمول و مثال",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["an ... vorbei", "past", "از کنار"],
+                    ["Formula", "an + Dativ + vorbei", "an + Dativ + vorbei"],
+                    ["Ich gehe am Supermarkt vorbei.", "I walk past the supermarket.", "از کنار سوپرمارکت رد می شوم."],
+                    ["Der Bus fährt an der Schule vorbei.", "The bus drives past the school.", "اتوبوس از کنار مدرسه عبور می کند."],
+                    ["Wir laufen am Fluss vorbei.", "We walk past the river.", "ما از کنار رودخانه عبور می کنیم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "6) von ... bis - نکته بسیار مهم",
+                  "content": "English:\nCommon teaching says: von + Dativ + bis + Akkusativ.\nBut in real usage, bis often appears without an article and then does not assign case by itself.\nIf another preposition appears after bis (zu, an, in ...), that preposition determines the case.\n\nفارسی:\nفرمولی که معمولاً آموزش داده می شود (von + Dativ + bis + Akkusativ) همیشه دقیق نیست.\nدر عمل، bis اغلب بدون آرتیکل می آید و در این حالت خودش Case تعیین نمی کند.\nاگر بعد از bis حرف اضافه ای مثل zu، an، in بیاید، همان حرف اضافه Case را تعیین می کند."
+                },
+                {
+                  "type": "table",
+                  "title": "6) von ... bis - دو حالت اصلی",
+                  "headers": [
+                    "Case",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["بدون آرتیکل (رایج)", "von Montag bis Freitag", "from Monday to Friday", "از دوشنبه تا جمعه"],
+                    ["با حرف اضافه", "von hier bis zum Bahnhof", "from here to the station", "از اینجا تا ایستگاه"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "6) von ... bis - مثال ها",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wir arbeiten von Montag bis Freitag.", "We work from Monday to Friday.", "ما از دوشنبه تا جمعه کار می کنیم."],
+                    ["Der Kurs dauert von 9 Uhr bis 12 Uhr.", "The course lasts from 9 a.m. to 12 p.m.", "کلاس از ساعت 9 تا 12 طول می کشد."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "7) mitten in - معنی و فرمول",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["mitten in", "right in the middle of", "در وسط"],
+                    ["Formula", "mitten in + Dativ", "mitten in + Dativ"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "7) mitten in - مثال ها و نکته",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["mitten in der Stadt", "in the middle of the city", "در وسط شهر"],
+                    ["Das Hotel liegt mitten im Wald.", "The hotel is in the middle of the forest.", "هتل در وسط جنگل قرار دارد."],
+                    ["Er wohnt mitten in Berlin.", "He lives right in the middle of Berlin.", "او درست در مرکز برلین زندگی می کند."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "7) نکته دستوری درباره نام شهر/کشور",
+                  "content": "English:\nIf a city or country name appears without an article (for example Berlin, Deutschland), the visible Dativ form may not appear, but the grammatical structure is still mitten in + Dativ.\n\nفارسی:\nاگر بعد از mitten in نام شهر یا کشور بدون آرتیکل بیاید (مثل Berlin یا Deutschland)، شکل ظاهری Dativ دیده نمی شود، اما از نظر دستوری همچنان ساختار mitten in + Dativ است."
+                },
+                {
+                  "type": "explanation",
+                  "title": "8) entlang - ایده اصلی",
+                  "content": "English:\nEntlang is one of the most interesting German prepositions.\nMeaning: along / along the length of\n\nفارسی:\nentlang یکی از جالب ترین حرف های اضافه آلمانی است.\nمعنی: در امتداد، در طول"
+                },
+                {
+                  "type": "table",
+                  "title": "8) entlang - حالت اول (رایج تر)",
+                  "headers": [
+                    "Pattern",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Noun + entlang", "along ...", "در طول / در امتداد ..."],
+                    ["die Straße entlang", "along the street", "در طول خیابان"],
+                    ["Wir gehen die Straße entlang.", "We walk along the street.", "ما در طول خیابان راه می رویم."],
+                    ["Sie fährt den Fluss entlang.", "She drives along the river.", "او در امتداد رودخانه رانندگی می کند."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "8) entlang - Case در حالت اول",
+                  "content": "English:\nIn this usage (entlang after the noun), the noun is usually in Akkusativ.\n\nفارسی:\nدر این کاربرد، اسم معمولاً در Akkusativ می آید."
+                },
+                {
+                  "type": "table",
+                  "title": "8) entlang - حالت دوم (رسمی تر)",
+                  "headers": [
+                    "Pattern",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["entlang + Dativ (formal)", "along ...", "در امتداد ..."],
+                    ["entlang der Straße", "along the street", "در امتداد خیابان"],
+                    ["Entlang der Küste gibt es viele kleine Dörfer.", "There are many small villages along the coast.", "در امتداد ساحل، روستاهای کوچک زیادی وجود دارند."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "خلاصه سریع",
+                  "headers": [
+                    "ساختار",
+                    "English meaning",
+                    "معنی فارسی",
+                    "فرمول"
+                  ],
+                  "rows": [
+                    ["um ... herum", "around", "دور تا دور", "um + Akkusativ + herum"],
+                    ["von ... aus", "from (a point)", "از یک نقطه", "von + Dativ + aus"],
+                    ["bis zu", "up to", "تا", "bis zu + Dativ"],
+                    ["auf ... zu", "toward", "به سمت", "auf + Akkusativ + zu"],
+                    ["an ... vorbei", "past", "از کنار", "an + Dativ + vorbei"],
+                    ["von ... bis", "from ... to", "از ... تا ...", "von + Dativ + bis (+ often no article, or another preposition sets case)"],
+                    ["mitten in", "in the middle of", "در وسط", "mitten in + Dativ"],
+                    ["entlang (after noun)", "along", "در امتداد", "Akkusativ + entlang"],
+                    ["entlang (before noun)", "along", "در امتداد", "entlang + Dativ (formal)"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "چگونه این ساختارها را حفظ کنیم",
+                  "headers": [
+                    "مفهوم",
+                    "ساختارها"
+                  ],
+                  "rows": [
+                    ["حرکت دور یک چیز", "um ... herum"],
+                    ["شروع از یک نقطه", "von ... aus"],
+                    ["رسیدن تا یک مقصد", "bis zu"],
+                    ["حرکت به سمت چیزی", "auf ... zu"],
+                    ["عبور از کنار چیزی", "an ... vorbei"],
+                    ["بازه (از ... تا ...)", "von ... bis"],
+                    ["قرار گرفتن در مرکز", "mitten in"],
+                    ["حرکت در امتداد یک مسیر", "entlang"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "جمع بندی نهایی",
+                  "content": "English:\nDo not memorize these only as formulas. Learn them as meaning patterns. If you group them by function, you will choose them naturally while speaking and need less mental translation.\n\nفارسی:\nبه جای حفظ کردن صرف فرمول ها، آن ها را بر اساس مفهوم گروه بندی کنید.\nاگر این ساختارها را به عنوان الگوهای معنایی یاد بگیرید، هنگام صحبت کردن نیازی به ترجمه ذهنی نخواهید داشت و به مرور به صورت طبیعی از آن ها استفاده خواهید کرد."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "um ... herum",
+                  "english": "all around",
+                  "persian": "دور تا دور",
+                  "example": "Die Kinder sitzen um das Feuer herum."
+                },
+                {
+                  "german": "von ... aus",
+                  "english": "from a point",
+                  "persian": "از یک نقطه",
+                  "example": "Von hier aus kann man den See sehen."
+                },
+                {
+                  "german": "auf ... zu",
+                  "english": "toward",
+                  "persian": "به سمت",
+                  "example": "Er geht auf das Haus zu."
+                },
+                {
+                  "german": "an ... vorbei",
+                  "english": "past",
+                  "persian": "از کنار",
+                  "example": "Wir laufen am Fluss vorbei."
+                },
+                {
+                  "german": "mitten in",
+                  "english": "in the middle of",
+                  "persian": "در وسط",
+                  "example": "Das Hotel liegt mitten im Wald."
+                },
+                {
+                  "german": "entlang",
+                  "english": "along",
+                  "persian": "در امتداد",
+                  "example": "Wir gehen die Straße entlang."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         },
         {
           "id": "b2-grammar-advanced-sentence-formulas",

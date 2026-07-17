@@ -48,7 +48,7 @@
                     <thead>
                       <tr>
                         @for (h of section.headers; track h) {
-                          <th>{{ h }}</th>
+                          <th appBidiText>{{ h }}</th>
                         }
                       </tr>
                     </thead>
@@ -57,7 +57,7 @@
                     @for (row of section.rows; track $index) {
                       <tr>
                         @for (cell of row; track $index) {
-                          <td>{{ cell }}</td>
+                          <td appBidiText>{{ cell }}</td>
                         }
                       </tr>
                     }
@@ -79,17 +79,17 @@
             <table class="lesson-vocabulary__table">
               <thead>
                 <tr>
-                  <th>German</th>
-                  <th>English</th>
-                  <th>Persian</th>
-                  <th>Example (DE)</th>
-                  <th>Example (FA)</th>
+                  <th appBidiText>German</th>
+                  <th appBidiText>English</th>
+                  <th appBidiText>Persian</th>
+                  <th appBidiText>Example (DE)</th>
+                  <th appBidiText>Example (FA)</th>
                 </tr>
               </thead>
               <tbody>
                 @for (item of vocabularyRows(); track item.german + item.exampleDe) {
                   <tr>
-                    <td>
+                    <td appBidiText>
                       @if (item.article) {
                         <em class="vocab-article">{{ item.article }}</em>
                       }
@@ -98,10 +98,10 @@
                         <span class="vocab-plural">({{ item.plural }})</span>
                       }
                     </td>
-                    <td>{{ item.english }}</td>
-                    <td>{{ item.persian }}</td>
-                    <td>{{ item.exampleDe }}</td>
-                    <td>{{ item.exampleFa }}</td>
+                    <td appBidiText>{{ item.english }}</td>
+                    <td appBidiText>{{ item.persian }}</td>
+                    <td appBidiText>{{ item.exampleDe }}</td>
+                    <td appBidiText>{{ item.exampleFa }}</td>
                   </tr>
                 }
               </tbody>
