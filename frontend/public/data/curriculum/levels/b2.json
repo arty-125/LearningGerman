@@ -1490,6 +1490,724 @@
               "exercises": []
             }
           ]
+        },
+        {
+          "id": "b2-grammar-trennbare-verben-complete",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Trennbare Verben (A2-B2 Complete)",
+          "description": "Complete self-study guide to separable German verbs with rules, tenses, 50 core verbs, and daily-use examples.",
+          "difficulty": 4,
+          "estimatedMinutes": 360,
+          "order": 7,
+          "tags": [
+            "trennbare-verben",
+            "praesens",
+            "praeteritum",
+            "perfekt",
+            "a2-b2"
+          ],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-1",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 1 - فعل جداشدنی چیست؟ قوانین طلایی",
+              "shortDescription": "تعریف Trennbare Verben، قانون جمله اصلی/وابسته، Perfekt و روش یادگیری 4 شکلی.",
+              "order": 1,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "تعریف ساده",
+                  "content": "English:\nMany German verbs are built from Prefix + Base Verb. In main clauses, the prefix separates and moves to the end.\n\nفارسی:\nدر آلمانی، خیلی از فعل ها از پیشوند + فعل اصلی ساخته می شوند و در جمله اصلی پیشوند جدا می شود."
+                },
+                {
+                  "type": "example",
+                  "title": "مثال پایه",
+                  "content": "DE: mit + bringen = mitbringen\nDE: Ich bringe das Buch mit.\nEN: I bring the book with me.\nFA: من کتاب را با خودم می آورم.\n\nIncorrect: Ich mitbringe das Buch."
+                },
+                {
+                  "type": "tip",
+                  "title": "قانون طلایی 1 - Hauptsatz",
+                  "content": "Subjekt + konjugiertes Verb + Objekt + Präfix"
+                },
+                {
+                  "type": "example",
+                  "title": "Hauptsatz",
+                  "content": "DE: Ich stehe um 7 Uhr auf.\nEN: I get up at 7.\nFA: من ساعت 7 بیدار می شوم."
+                },
+                {
+                  "type": "tip",
+                  "title": "قانون طلایی 2 - Nebensatz",
+                  "content": "Subjekt + ... + vollständiges Verb am Ende"
+                },
+                {
+                  "type": "example",
+                  "title": "Nebensatz",
+                  "content": "DE: ..., weil ich um 7 Uhr aufstehe.\nEN: ... because I get up at 7.\nFA: ... چون ساعت 7 بیدار می شوم."
+                },
+                {
+                  "type": "tip",
+                  "title": "قانون طلایی 3 - Perfekt",
+                  "content": "haben/sein + Präfix + ge + Verb"
+                },
+                {
+                  "type": "table",
+                  "title": "الگوی زمان ها",
+                  "headers": ["Zeit", "Formel", "Beispiel"],
+                  "rows": [
+                    ["Präsens", "Subjekt + Verb + ... + Präfix", "Ich stehe um 7 Uhr auf."],
+                    ["Präteritum", "Subjekt + Verb (Präteritum) + ... + Präfix", "Ich stand um 7 Uhr auf."],
+                    ["Perfekt", "haben/sein + Präfix + ge + Verb", "Ich bin um 7 Uhr aufgestanden."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "روش یادگیری هر فعل",
+                  "headers": ["Form", "Example (aufstehen)"],
+                  "rows": [
+                    ["Infinitiv", "aufstehen"],
+                    ["Präsens", "ich stehe auf"],
+                    ["Präteritum", "ich stand auf"],
+                    ["Perfekt", "ich bin aufgestanden"]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "trennbar",
+                  "english": "separable",
+                  "persian": "جداشدنی",
+                  "example": "Das Verb ist trennbar.",
+                  "examplePersian": "این فعل جداشدنی است."
+                },
+                {
+                  "german": "das Präfix",
+                  "english": "prefix",
+                  "persian": "پیشوند",
+                  "example": "Das Präfix steht im Hauptsatz am Ende.",
+                  "examplePersian": "پیشوند در جمله اصلی به انتها می رود."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-2",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 2 - جدول 50 فعل جداشدنی ضروری",
+              "shortDescription": "50 فعل ضروری A2-B2 همراه با معنی فارسی و English.",
+              "order": 2,
+              "estimatedMinutes": 40,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "50 Trennbare Verben (A2-B2)",
+                  "headers": ["#", "Verb", "English", "فارسی"],
+                  "rows": [
+                    ["1", "aufstehen", "get up", "بیدار شدن"],
+                    ["2", "aufwachen", "wake up", "از خواب بیدار شدن"],
+                    ["3", "aufmachen", "open", "باز کردن"],
+                    ["4", "zumachen", "close", "بستن"],
+                    ["5", "anfangen", "start", "شروع کردن"],
+                    ["6", "aufhören", "stop", "متوقف کردن"],
+                    ["7", "anrufen", "call", "زنگ زدن"],
+                    ["8", "mitbringen", "bring along", "با خود آوردن"],
+                    ["9", "mitnehmen", "take along", "با خود بردن"],
+                    ["10", "einkaufen", "shop", "خرید کردن"],
+                    ["11", "einladen", "invite", "دعوت کردن"],
+                    ["12", "ausgehen", "go out", "بیرون رفتن"],
+                    ["13", "weggehen", "leave", "رفتن / دور شدن"],
+                    ["14", "zurückkommen", "come back", "برگشتن"],
+                    ["15", "ankommen", "arrive", "رسیدن"],
+                    ["16", "abfahren", "depart", "حرکت کردن"],
+                    ["17", "einsteigen", "get in", "سوار شدن"],
+                    ["18", "aussteigen", "get out", "پیاده شدن"],
+                    ["19", "umsteigen", "change transport", "تعویض وسیله نقلیه"],
+                    ["20", "abholen", "pick up", "دنبال کسی رفتن"],
+                    ["21", "vorstellen", "introduce", "معرفی کردن"],
+                    ["22", "fernsehen", "watch TV", "تلویزیون دیدن"],
+                    ["23", "teilnehmen", "participate", "شرکت کردن"],
+                    ["24", "vorbereiten", "prepare", "آماده کردن"],
+                    ["25", "aufpassen", "pay attention / look after", "مراقب بودن"],
+                    ["26", "aufgeben", "give up", "تسلیم شدن"],
+                    ["27", "aussehen", "look / seem", "به نظر رسیدن"],
+                    ["28", "ausmachen", "turn off", "خاموش کردن"],
+                    ["29", "anmachen", "turn on", "روشن کردن"],
+                    ["30", "einschlafen", "fall asleep", "خواب رفتن"],
+                    ["31", "zurückgehen", "go back", "برگشتن"],
+                    ["32", "mitkommen", "come along", "همراه آمدن"],
+                    ["33", "mitmachen", "join", "شرکت کردن / همراهی کردن"],
+                    ["34", "nachfragen", "ask again", "دوباره پرسیدن"],
+                    ["35", "nachdenken", "think about", "فکر کردن"],
+                    ["36", "nachschauen", "check", "بررسی کردن"],
+                    ["37", "vorbeikommen", "come by", "سر زدن"],
+                    ["38", "vorlesen", "read aloud", "بلند خواندن"],
+                    ["39", "wegwerfen", "throw away", "دور انداختن"],
+                    ["40", "zusammenarbeiten", "collaborate", "همکاری کردن"],
+                    ["41", "zusammenkommen", "come together", "جمع شدن"],
+                    ["42", "festhalten", "hold on", "نگه داشتن"],
+                    ["43", "losfahren", "set off", "راه افتادن"],
+                    ["44", "losgehen", "start / begin", "شروع شدن"],
+                    ["45", "stattfinden", "take place", "برگزار شدن"],
+                    ["46", "zurückgeben", "give back", "پس دادن"],
+                    ["47", "abwaschen", "wash dishes", "شستن ظرف ها"],
+                    ["48", "einpacken", "pack", "بسته بندی کردن"],
+                    ["49", "auspacken", "unpack", "باز کردن بسته"],
+                    ["50", "abgeben", "hand in", "تحویل دادن"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "سه پیشوند جدید مهم در کاربرد روزمره",
+                  "content": "English:\nIn daily German, you will also frequently see aufräumen and einschalten.\n\nفارسی:\nدر کاربرد روزمره، دو فعل مهم دیگر هم بسیار رایج هستند: aufräumen (مرتب کردن) و einschalten (روشن کردن دستگاه)."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "aufräumen",
+                  "english": "tidy up",
+                  "persian": "مرتب کردن",
+                  "example": "Ich räume mein Zimmer auf.",
+                  "examplePersian": "اتاقم را مرتب می کنم."
+                },
+                {
+                  "german": "einschalten",
+                  "english": "switch on",
+                  "persian": "روشن کردن دستگاه",
+                  "example": "Ich schalte den Computer ein.",
+                  "examplePersian": "کامپیوتر را روشن می کنم."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-3",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 3 - تحلیل افعال 1 تا 10",
+              "shortDescription": "aufstehen تا einkaufen با Präsens/Präteritum/Perfekt و مثال های روزمره.",
+              "order": 3,
+              "estimatedMinutes": 45,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "الگوهای صرف سریع (1-10)",
+                  "headers": ["Verb", "Präsens (ich)", "Präteritum (ich)", "Perfekt"],
+                  "rows": [
+                    ["aufstehen", "ich stehe auf", "ich stand auf", "ich bin aufgestanden"],
+                    ["aufwachen", "ich wache auf", "ich wachte auf", "ich bin aufgewacht"],
+                    ["aufmachen", "ich mache auf", "ich machte auf", "ich habe aufgemacht"],
+                    ["zumachen", "ich mache zu", "ich machte zu", "ich habe zugemacht"],
+                    ["anfangen", "ich fange an", "ich fing an", "ich habe angefangen"],
+                    ["aufhören", "ich höre auf", "ich hörte auf", "ich habe aufgehört"],
+                    ["anrufen", "ich rufe an", "ich rief an", "ich habe angerufen"],
+                    ["mitbringen", "ich bringe mit", "ich brachte mit", "ich habe mitgebracht"],
+                    ["mitnehmen", "ich nehme mit", "ich nahm mit", "ich habe mitgenommen"],
+                    ["einkaufen", "ich kaufe ein", "ich kaufte ein", "ich habe eingekauft"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "صرف کامل aufstehen در Präsens",
+                  "headers": ["Person", "Form"],
+                  "rows": [
+                    ["ich", "stehe auf"],
+                    ["du", "stehst auf"],
+                    ["er/sie/es", "steht auf"],
+                    ["wir", "stehen auf"],
+                    ["ihr", "steht auf"],
+                    ["sie/Sie", "stehen auf"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه های کلیدی",
+                  "content": "DE: Ich stehe jeden Morgen um 7 Uhr auf.\nEN: I get up every morning at 7.\nFA: من هر صبح ساعت 7 بیدار می شوم.\n\nDE: Bringst du deine Freundin mit?\nEN: Are you bringing your girlfriend with you?\nFA: دوست دخترت را با خودت می آوری؟\n\nDE: Ich habe meinen Regenschirm mitgenommen.\nEN: I took my umbrella with me.\nFA: من چترم را با خودم بردم.\n\nDE: Ich habe dich gestern angerufen.\nEN: I called you yesterday.\nFA: من دیروز به تو زنگ زدم.\n\nDE: Ich habe gestern eingekauft.\nEN: I shopped yesterday.\nFA: دیروز خرید کردم."
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت مهم: mitbringen vs mitnehmen",
+                  "headers": ["Verb", "Meaning", "فارسی"],
+                  "rows": [
+                    ["mitbringen", "bring along (to here)", "آوردن به اینجا"],
+                    ["mitnehmen", "take along (to there)", "بردن به آنجا"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "Nebensatz نمونه",
+                  "content": "DE: Ich weiß, dass er einen Kuchen mitbringt.\nEN: I know that he brings a cake with him.\nFA: می دانم که او یک کیک با خودش می آورد."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "aufstehen",
+                  "english": "get up",
+                  "persian": "بیدار شدن",
+                  "example": "Wann stehst du morgen auf?",
+                  "examplePersian": "فردا چه ساعتی بیدار می شوی؟"
+                },
+                {
+                  "german": "anrufen",
+                  "english": "call",
+                  "persian": "زنگ زدن",
+                  "example": "Er ruft mich morgen an.",
+                  "examplePersian": "او فردا به من زنگ می زند."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-4",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 4 - تحلیل افعال 11 تا 25",
+              "shortDescription": "einladen تا aufgeben با نکات کاربردی مثل an + Dativ و sich vorbereiten auf + Akk.",
+              "order": 4,
+              "estimatedMinutes": 45,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "الگوهای صرف سریع (11-25)",
+                  "headers": ["Verb", "Präsens (ich)", "Präteritum (ich)", "Perfekt"],
+                  "rows": [
+                    ["einladen", "ich lade ein", "ich lud ein", "ich habe eingeladen"],
+                    ["ausgehen", "ich gehe aus", "ich ging aus", "ich bin ausgegangen"],
+                    ["zurückkommen", "ich komme zurück", "ich kam zurück", "ich bin zurückgekommen"],
+                    ["ankommen", "ich komme an", "ich kam an", "ich bin angekommen"],
+                    ["abfahren", "ich fahre ab", "ich fuhr ab", "ich bin abgefahren"],
+                    ["einsteigen", "ich steige ein", "ich stieg ein", "ich bin eingestiegen"],
+                    ["aussteigen", "ich steige aus", "ich stieg aus", "ich bin ausgestiegen"],
+                    ["umsteigen", "ich steige um", "ich stieg um", "ich bin umgestiegen"],
+                    ["abholen", "ich hole ab", "ich holte ab", "ich habe abgeholt"],
+                    ["vorstellen", "ich stelle vor", "ich stellte vor", "ich habe vorgestellt"],
+                    ["fernsehen", "ich sehe fern", "ich sah fern", "ich habe ferngesehen"],
+                    ["teilnehmen", "ich nehme teil", "ich nahm teil", "ich habe teilgenommen"],
+                    ["vorbereiten", "ich bereite vor", "ich bereitete vor", "ich habe vorbereitet"],
+                    ["aufpassen", "ich passe auf", "ich passte auf", "ich habe aufgepasst"],
+                    ["aufgeben", "ich gebe auf", "ich gab auf", "ich habe aufgegeben"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "صرف کامل einladen در Präsens",
+                  "headers": ["Person", "Form"],
+                  "rows": [
+                    ["ich", "lade ein"],
+                    ["du", "lädst ein"],
+                    ["er/sie/es", "lädt ein"],
+                    ["wir", "laden ein"],
+                    ["ihr", "ladet ein"],
+                    ["sie/Sie", "laden ein"]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "نکته تغییر واکه در laden",
+                  "content": "du lädst / er-sie-es lädt"
+                },
+                {
+                  "type": "table",
+                  "title": "نکته های ترکیبی بسیار مهم",
+                  "headers": ["Verb", "Pattern", "Example"],
+                  "rows": [
+                    ["teilnehmen", "an + Dativ", "Ich nehme an einem Kurs teil."],
+                    ["sich vorbereiten", "auf + Akkusativ", "Ich bereite mich auf die Prüfung vor."],
+                    ["vorlesen", "jemandem etwas", "Die Mutter liest dem Kind eine Geschichte vor."],
+                    ["einsteigen", "in + Akkusativ", "Ich steige in den Bus ein."]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه های کلیدی",
+                  "content": "DE: Sie lädt mich zu ihrer Geburtstagsparty ein.\nEN: She invites me to her birthday party.\nFA: او من را به جشن تولدش دعوت می کند.\n\nDE: Wir sind gestern ausgegangen.\nEN: We went out yesterday.\nFA: ما دیروز بیرون رفتیم.\n\nDE: Der Zug kommt um 10 Uhr an.\nEN: The train arrives at 10.\nFA: قطار ساعت 10 می رسد.\n\nDE: Mein Vater holt mich vom Flughafen ab.\nEN: My father picks me up from the airport.\nFA: پدرم من را از فرودگاه می آورد."
+                },
+                {
+                  "type": "tip",
+                  "title": "الگوی طلایی حرکت",
+                  "content": "Many movement verbs use sein in Perfekt: angekommen, zurückgekommen, eingestiegen, ausgestiegen."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "teilnehmen",
+                  "english": "participate",
+                  "persian": "شرکت کردن",
+                  "example": "Viele Studenten nehmen an der Prüfung teil.",
+                  "examplePersian": "دانشجویان زیادی در امتحان شرکت می کنند."
+                },
+                {
+                  "german": "abholen",
+                  "english": "pick up",
+                  "persian": "دنبال کسی رفتن",
+                  "example": "Ich hole dich morgen ab.",
+                  "examplePersian": "فردا دنبالت می آیم."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-5",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 5 - تحلیل افعال 26 تا 40",
+              "shortDescription": "aussehen تا zusammenarbeiten با کاربردهای واقعی و چندمعنایی مهم.",
+              "order": 5,
+              "estimatedMinutes": 40,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "الگوهای صرف سریع (26-40)",
+                  "headers": ["Verb", "Präsens (ich)", "Präteritum (ich)", "Perfekt"],
+                  "rows": [
+                    ["aussehen", "ich sehe aus", "ich sah aus", "ich habe ausgesehen"],
+                    ["ausmachen", "ich mache aus", "ich machte aus", "ich habe ausgemacht"],
+                    ["anmachen", "ich mache an", "ich machte an", "ich habe angemacht"],
+                    ["einschlafen", "ich schlafe ein", "ich schlief ein", "ich bin eingeschlafen"],
+                    ["mitkommen", "ich komme mit", "ich kam mit", "ich bin mitgekommen"],
+                    ["mitmachen", "ich mache mit", "ich machte mit", "ich habe mitgemacht"],
+                    ["nachdenken", "ich denke nach", "ich dachte nach", "ich habe nachgedacht"],
+                    ["nachfragen", "ich frage nach", "ich fragte nach", "ich habe nachgefragt"],
+                    ["vorbeikommen", "ich komme vorbei", "ich kam vorbei", "ich bin vorbeigekommen"],
+                    ["vorlesen", "ich lese vor", "ich las vor", "ich habe vorgelesen"],
+                    ["wegwerfen", "ich werfe weg", "ich warf weg", "ich habe weggeworfen"],
+                    ["zusammenarbeiten", "ich arbeite zusammen", "ich arbeitete zusammen", "ich habe zusammengearbeitet"],
+                    ["zusammenkommen", "ich komme zusammen", "ich kam zusammen", "ich bin zusammengekommen"],
+                    ["losfahren", "ich fahre los", "ich fuhr los", "ich bin losgefahren"],
+                    ["losgehen", "ich gehe los", "ich ging los", "ich bin losgegangen"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "چندمعنایی مهم",
+                  "headers": ["Verb", "Usage", "Example"],
+                  "rows": [
+                    ["ausmachen", "turn off", "Ich mache das Licht aus."],
+                    ["ausmachen", "arrange", "Wir machen einen Termin aus."],
+                    ["ausmachen", "make up / amount to", "Das macht 50 Euro aus."],
+                    ["vorstellen", "introduce", "Ich stelle meinen Bruder vor."],
+                    ["vorstellen", "imagine", "Das kann ich mir nicht vorstellen."]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه های کلیدی",
+                  "content": "DE: Du siehst heute sehr gut aus.\nEN: You look very good today.\nFA: امروز خیلی خوب به نظر می رسی.\n\nDE: Ich habe lange darüber nachgedacht.\nEN: I thought about it for a long time.\nFA: مدت زیادی درباره آن فکر کردم.\n\nDE: Kannst du morgen vorbeikommen?\nEN: Can you come by tomorrow?\nFA: می توانی فردا سر بزنی؟\n\nDE: Wir haben erfolgreich zusammengearbeitet.\nEN: We worked together successfully.\nFA: ما با موفقیت همکاری کردیم."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "aussehen",
+                  "english": "look / seem",
+                  "persian": "به نظر رسیدن",
+                  "example": "Das Haus sieht alt aus.",
+                  "examplePersian": "خانه قدیمی به نظر می رسد."
+                },
+                {
+                  "german": "einschlafen",
+                  "english": "fall asleep",
+                  "persian": "خواب رفتن",
+                  "example": "Das Kind schläft schnell ein.",
+                  "examplePersian": "بچه سریع خوابش می برد."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-6",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 6 - تحلیل افعال 41 تا 50 + مرور تکمیلی",
+              "shortDescription": "افعال پایانی، فعل های بسیار کاربردی خانه و کار، و مرور pair های مهم.",
+              "order": 6,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "الگوهای صرف سریع (41-50)",
+                  "headers": ["Verb", "Präsens (ich)", "Präteritum (ich)", "Perfekt"],
+                  "rows": [
+                    ["stattfinden", "ich finde statt", "ich fand statt", "hat stattgefunden"],
+                    ["zurückgeben", "ich gebe zurück", "ich gab zurück", "ich habe zurückgegeben"],
+                    ["abwaschen", "ich wasche ab", "ich wusch ab", "ich habe abgewaschen"],
+                    ["einpacken", "ich packe ein", "ich packte ein", "ich habe eingepackt"],
+                    ["auspacken", "ich packe aus", "ich packte aus", "ich habe ausgepackt"],
+                    ["abgeben", "ich gebe ab", "ich gab ab", "ich habe abgegeben"],
+                    ["zurückgehen", "ich gehe zurück", "ich ging zurück", "ich bin zurückgegangen"],
+                    ["festhalten", "ich halte fest", "ich hielt fest", "ich habe festgehalten"],
+                    ["aufräumen", "ich räume auf", "ich räumte auf", "ich habe aufgeräumt"],
+                    ["einschalten", "ich schalte ein", "ich schaltete ein", "ich habe eingeschaltet"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه های کلیدی",
+                  "content": "DE: Das Konzert findet morgen statt.\nEN: The concert takes place tomorrow.\nFA: کنسرت فردا برگزار می شود.\n\nDE: Ich habe das Buch zurückgegeben.\nEN: I returned the book.\nFA: کتاب را پس دادم.\n\nDE: Ich habe die Unterlagen abgegeben.\nEN: I submitted the documents.\nFA: مدارک را تحویل دادم.\n\nDE: Ich habe mein Zimmer aufgeräumt.\nEN: I tidied my room.\nFA: اتاقم را مرتب کردم.\n\nDE: Ich habe den Fernseher eingeschaltet.\nEN: I turned on the TV.\nFA: تلویزیون را روشن کردم."
+                },
+                {
+                  "type": "table",
+                  "title": "مرور تقابلی مهم",
+                  "headers": ["Pair", "Difference"],
+                  "rows": [
+                    ["einsteigen / aussteigen", "get in / get out"],
+                    ["mitbringen / mitnehmen", "bring here / take there"],
+                    ["anmachen / ausmachen", "turn on / turn off"],
+                    ["zurückkommen / zurückgehen", "come back / go back"]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "تفاوت با فعل غیرجداشدنی",
+                  "content": "DE: Ich besuche meine Freundin. (not separable)\nDE: Ich rufe meine Freundin an. (separable)\n\nفارسی:\nbe- افعال معمولاً جداشدنی نیستند (مثل besuchen)، اما anrufen جداشدنی است."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "stattfinden",
+                  "english": "take place",
+                  "persian": "برگزار شدن",
+                  "example": "Die Prüfung findet nächste Woche statt.",
+                  "examplePersian": "امتحان هفته آینده برگزار می شود."
+                },
+                {
+                  "german": "abgeben",
+                  "english": "hand in",
+                  "persian": "تحویل دادن",
+                  "example": "Ich gebe den Schlüssel ab.",
+                  "examplePersian": "کلید را تحویل می دهم."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-7",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 7 - جمع بندی نهایی و تمرین 250 جمله",
+              "shortDescription": "قوانین نهایی، پیشوندهای اصلی، و روش تمرینی 5 جمله ای برای هر فعل.",
+              "order": 7,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "مهم ترین پیشوندهای جداشدنی",
+                  "headers": ["Präfix", "Core meaning", "فارسی"],
+                  "rows": [
+                    ["ab", "away", "دور شدن"],
+                    ["an", "start/contact", "شروع / تماس"],
+                    ["auf", "up/open", "بالا / باز"],
+                    ["aus", "out", "بیرون"],
+                    ["ein", "in", "داخل"],
+                    ["mit", "with", "همراه"],
+                    ["weg", "away", "دور"],
+                    ["zurück", "back", "برگشت"],
+                    ["zusammen", "together", "با هم"],
+                    ["vor", "forward/before", "جلو / قبل"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "خلاصه نهایی ساختارها",
+                  "headers": ["Case", "Formula", "Example"],
+                  "rows": [
+                    ["Hauptsatz", "Subjekt + Verb + Objekt + Präfix", "Ich mache das Licht aus."],
+                    ["Nebensatz", "Subjekt + ... + vollständiges Verb", "..., weil ich das Licht ausmache."],
+                    ["Perfekt", "haben/sein + Präfix + ge + Verb", "Ich habe das Licht ausgemacht."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین پیشنهادی برای هر فعل (5 جمله)",
+                  "items": [
+                    "1) Präsens مثبت",
+                    "2) Präsens سوالی",
+                    "3) Perfekt",
+                    "4) Nebensatz mit weil",
+                    "5) جمله با Modalverb"
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه تمرین کامل با mitbringen",
+                  "content": "1) Ich bringe einen Kuchen mit.\n2) Bringst du einen Kuchen mit?\n3) Ich habe einen Kuchen mitgebracht.\n4) Ich bleibe zu Hause, weil ich einen Kuchen mitbringe.\n5) Ich muss einen Kuchen mitbringen.\n\nEnglish:\nThis method turns 50 verbs into around 250 practical A2-B2 sentences.\n\nفارسی:\nبا این روش، 50 فعل به حدود 250 جمله کاربردی A2-B2 تبدیل می شود."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "aufpassen",
+                  "english": "pay attention / look after",
+                  "persian": "مراقب بودن",
+                  "example": "Pass auf!",
+                  "examplePersian": "مواظب باش!"
+                },
+                {
+                  "german": "wegwerfen",
+                  "english": "throw away",
+                  "persian": "دور انداختن",
+                  "example": "Wirf das nicht weg!",
+                  "examplePersian": "آن را دور نینداز!"
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-8",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 8 - ضمیمه تطبیقی کامل: مثال های دقیق 1 تا 25",
+              "shortDescription": "بانک مثال های دقیق از متن ارسالی برای افعال 1 تا 25 با Präsens/Präteritum/Perfekt و نکات دستوری.",
+              "order": 8,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "example",
+                  "title": "نمونه های دقیقا مطابق متن (1 تا 10)",
+                  "content": "DE: Ich gehe früh schlafen, weil ich morgen früh aufstehe.\nEN: I go to bed early because I get up early tomorrow.\nFA: زود می خوابم چون فردا زود بیدار می شوم.\n\nDE: Ich bringe meinen Laptop mit.\nEN: I bring my laptop with me.\nFA: من لپ تاپم را با خودم می آورم.\n\nDE: Nimmst du dein Handy mit?\nEN: Are you taking your phone with you?\nFA: گوشی ات را با خودت می بری؟\n\nDE: Ich rufe meine Mutter an.\nEN: I call my mother.\nFA: به مادرم زنگ می زنم.\n\nDE: Wir kaufen im Supermarkt ein.\nEN: We shop at the supermarket.\nFA: ما در سوپرمارکت خرید می کنیم.\n\nDE: Der Kurs fängt um 9 Uhr an.\nEN: The course starts at 9.\nFA: کلاس ساعت 9 شروع می شود.\n\nDE: Ich lade meine Freunde ein.\nEN: I invite my friends.\nFA: دوستانم را دعوت می کنم.\n\nDE: Ich hole dich morgen ab.\nEN: I will pick you up tomorrow.\nFA: فردا دنبالت می آیم.\n\nDE: Ich sehe jeden Abend fern.\nEN: I watch TV every evening.\nFA: هر شب تلویزیون می بینم.\n\nDE: Er ist spät zurückgekommen.\nEN: He came back late.\nFA: او دیر برگشت."
+                },
+                {
+                  "type": "table",
+                  "title": "مرجع زمان ها 11 تا 25 (متن اصلی)",
+                  "headers": ["Verb", "Präsens example", "Präteritum example", "Perfekt example"],
+                  "rows": [
+                    ["einladen", "Ich lade meine Freunde zum Abendessen ein.", "Er lud seine Kollegen ein.", "Ich habe viele Leute eingeladen."],
+                    ["ausgehen", "Wir gehen heute Abend aus.", "Wir gingen gestern aus.", "Wir sind gestern ausgegangen."],
+                    ["zurückkommen", "Ich komme morgen zurück.", "Er kam spät zurück.", "Er ist spät zurückgekommen."],
+                    ["ankommen", "Der Zug kommt um 10 Uhr an.", "Der Zug kam pünktlich an.", "Ich bin sicher angekommen."],
+                    ["abfahren", "Der Bus fährt um 8 Uhr ab.", "Der Zug fuhr pünktlich ab.", "Der Zug ist abgefahren."],
+                    ["einsteigen", "Ich steige in den Bus ein.", "Er stieg schnell ein.", "Er ist eingestiegen."],
+                    ["aussteigen", "Ich steige an der nächsten Haltestelle aus.", "Sie stieg am Bahnhof aus.", "Sie ist ausgestiegen."],
+                    ["umsteigen", "Ich steige in Frankfurt um.", "-", "Ich bin zweimal umgestiegen."],
+                    ["abholen", "Mein Vater holt mich vom Flughafen ab.", "-", "Er hat mich abgeholt."],
+                    ["vorstellen", "Ich stelle meinen Bruder vor.", "-", "Ich habe mich vorgestellt."],
+                    ["fernsehen", "Sie sieht gerade fern.", "-", "Wir haben gestern ferngesehen."],
+                    ["teilnehmen", "Ich nehme an einem Kurs teil.", "-", "Ich habe an dem Kurs teilgenommen."],
+                    ["vorbereiten", "Ich bereite mich auf die Prüfung vor.", "-", "Ich habe mich gut vorbereitet."],
+                    ["aufpassen", "Ich passe auf das Kind auf.", "-", "Ich habe auf das Kind aufgepasst."],
+                    ["aufgeben", "Ich gebe nicht auf.", "-", "Er hat aufgegeben."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "نکته های طلایی بخش دوم (عین متن)",
+                  "headers": ["Pattern", "Rule", "Examples"],
+                  "rows": [
+                    ["حرکت", "اغلب sein + Partizip II", "angekommen / zurückgekommen / ausgestiegen / eingestiegen"],
+                    ["کار و فعالیت", "اغلب haben", "eingeladen / angerufen / eingekauft / vorbereitet"],
+                    ["فعل های مفعولی", "Subjekt + Verb + Akkusativ + Präfix", "Ich hole dich ab. / Ich rufe meinen Freund an. / Ich bringe ein Buch mit."]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "umsteigen",
+                  "english": "change transport",
+                  "persian": "تعویض وسیله نقلیه",
+                  "example": "Du musst hier umsteigen.",
+                  "examplePersian": "باید اینجا وسیله را عوض کنی."
+                },
+                {
+                  "german": "vorstellen",
+                  "english": "introduce / imagine",
+                  "persian": "معرفی کردن / تصور کردن",
+                  "example": "Darf ich mich vorstellen?",
+                  "examplePersian": "اجازه می دهید خودم را معرفی کنم؟"
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-trennbare-verben-complete-lesson-9",
+              "topicId": "b2-grammar-trennbare-verben-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 9 - ضمیمه تطبیقی کامل: مثال های دقیق 26 تا 50",
+              "shortDescription": "بانک مثال های دقیق از متن ارسالی برای افعال 26 تا 50 + تطبیق نسخه های مختلف لیست 50 فعلی.",
+              "order": 9,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "مرجع زمان ها 26 تا 50 (متن اصلی)",
+                  "headers": ["Verb", "Präsens example", "Präteritum example", "Perfekt example"],
+                  "rows": [
+                    ["aussehen", "Du siehst heute sehr gut aus.", "Das Bild sah interessant aus.", "Du hast gestern müde ausgesehen."],
+                    ["ausmachen", "Ich mache das Licht aus.", "-", "Ich habe das Licht ausgemacht."],
+                    ["anmachen", "Ich mache den Fernseher an.", "-", "Ich habe den Computer angemacht."],
+                    ["einschlafen", "Das Kind schläft schnell ein.", "Er schlief sofort ein.", "Ich bin auf dem Sofa eingeschlafen."],
+                    ["mitkommen", "Kommst du mit?", "-", "Sie ist mitgekommen."],
+                    ["mitmachen", "Machst du bei dem Projekt mit?", "-", "Ich habe bei dem Kurs mitgemacht."],
+                    ["nachdenken", "Ich denke über das Problem nach.", "-", "Ich habe lange darüber nachgedacht."],
+                    ["nachfragen", "Ich frage beim Lehrer nach.", "-", "Ich habe beim Kunden nachgefragt."],
+                    ["vorbeikommen", "Kannst du morgen vorbeikommen?", "-", "Er ist gestern vorbeigekommen."],
+                    ["vorlesen", "Die Mutter liest dem Kind eine Geschichte vor.", "-", "Sie hat den Kindern ein Buch vorgelesen."],
+                    ["wegwerfen", "Wir werfen alte Sachen weg.", "-", "Ich habe die alten Dokumente weggeworfen."],
+                    ["zusammenarbeiten", "Wir arbeiten mit anderen Firmen zusammen.", "-", "Wir haben erfolgreich zusammengearbeitet."],
+                    ["zusammenkommen", "Die Familie kommt am Wochenende zusammen.", "-", "Alle sind gestern zusammengekommen."],
+                    ["stattfinden", "Die Prüfung findet nächste Woche statt.", "-", "Die Veranstaltung hat gestern stattgefunden."],
+                    ["zurückgeben", "Ich gebe das Buch morgen zurück.", "-", "Ich habe das Buch zurückgegeben."],
+                    ["abwaschen", "Ich wasche das Geschirr ab.", "-", "Ich habe das Geschirr abgewaschen."],
+                    ["einpacken", "Ich packe die Geschenke ein.", "-", "Ich habe alles eingepackt."],
+                    ["auspacken", "Das Kind packt das Geschenk aus.", "-", "Ich habe meinen Koffer ausgepackt."],
+                    ["losfahren", "Wir fahren um 8 Uhr los.", "-", "Wir sind früh losgefahren."],
+                    ["losgehen", "Der Film geht um 20 Uhr los.", "-", "Die Party ist spät losgegangen."],
+                    ["zurückgehen", "Ich gehe nach Hause zurück.", "-", "Er ist zurückgegangen."],
+                    ["abgeben", "Ich gebe den Schlüssel ab.", "-", "Ich habe die Unterlagen abgegeben."],
+                    ["aufräumen", "Ich räume mein Zimmer auf.", "-", "Ich habe mein Zimmer aufgeräumt."],
+                    ["einschalten", "Ich schalte den Computer ein.", "-", "Ich habe den Fernseher eingeschaltet."],
+                    ["weggehen", "Ich gehe jetzt weg.", "-", "Er ist früh weggegangen."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تطبیق نسخه های مختلف لیست 50 فعل",
+                  "headers": ["نسخه", "نکته"],
+                  "rows": [
+                    ["نسخه اول 50تایی", "در آن #50 = auspacken و افعال abgeben/aufräumen/einschalten در متن تکمیلی آمده اند."],
+                    ["نسخه تکمیلی بعدی", "افعال abgeben، aufräumen، einschalten به صورت مستقل با مثال کامل اضافه شده اند."],
+                    ["این دوره", "هر دو نسخه پوشش داده شده: هم 50 فعل اصلی و هم افعال تکمیلی پرکاربرد." ]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "مرور مهم einsteigen / aussteigen",
+                  "content": "DE: Ich steige in den Zug ein.\nFA: من سوار قطار می شوم.\n\nDE: Ich steige am Bahnhof aus.\nFA: من در ایستگاه پیاده می شوم."
+                },
+                {
+                  "type": "example",
+                  "title": "Verbatim Completion - خطوط تکمیلی دقیق از متن",
+                  "content": "DE: Ich bin heute früh aufgestanden.\nEN: I got up early today.\nFA: من امروز صبح زود بیدار شدم.\n\nDE: Mach bitte das Fenster auf.\nEN: Please open the window.\nFA: لطفاً پنجره را باز کن.\n\nDE: Ich machte die Tür auf.\nEN: I opened the door.\nFA: در را باز کردم.\n\nDE: Ich mache die Tür zu.\nEN: I close the door.\nFA: در را می بندم.\n\nDE: Ich habe die Tür zugemacht.\nEN: I closed the door.\nFA: در را بستم.\n\nDE: Der Kurs fing gestern an.\nEN: The course started yesterday.\nFA: دوره دیروز شروع شد.\n\nDE: Der Kurs hat gestern angefangen.\nEN: The course started yesterday.\nFA: دوره دیروز شروع شد.\n\nDE: Ich höre mit dem Rauchen auf.\nEN: I stop smoking.\nFA: سیگار را ترک می کنم.\n\nDE: Ich habe damit aufgehört.\nEN: I stopped doing that.\nFA: من آن کار را متوقف کردم.\n\nDE: Ich rief meinen Freund an.\nEN: I called my friend.\nFA: به دوستم زنگ زدم.\n\nDE: Ich habe meinen Freund angerufen.\nEN: I called my friend.\nFA: به دوستم زنگ زدم.\n\nDE: Ich brachte einen Kuchen mit.\nEN: I brought a cake.\nFA: یک کیک آوردم.\n\nDE: Ich nahm meinen Pass mit.\nEN: I took my passport.\nFA: پاسپورتم را بردم.\n\nDE: Ich kaufte gestern ein.\nEN: I shopped yesterday.\nFA: دیروز خرید کردم.\n\nDE: Sie geht gern mit Freunden aus.\nEN: She likes going out with friends.\nFA: او دوست دارد با دوستانش بیرون برود.\n\nDE: Wann fährt der Zug ab?\nEN: When does the train leave?\nFA: قطار چه زمانی حرکت می کند؟\n\nDE: Steigen Sie bitte ein!\nEN: Please get in!\nFA: لطفاً سوار شوید.\n\nDE: Ich muss noch einmal nachfragen.\nEN: I need to ask again.\nFA: باید دوباره سؤال کنم.\n\nDE: Er gibt seinen Job auf.\nEN: He gives up his job.\nFA: او شغلش را ترک می کند.\n\nDE: ❌ Ich suche meine Freundin be.\nFA: نمونه نادرست برای فعل غیرجداشدنی besuchen"
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "weggehen",
+                  "english": "go away / leave",
+                  "persian": "رفتن / دور شدن",
+                  "example": "Bitte geh nicht weg.",
+                  "examplePersian": "لطفاً نرو."
+                },
+                {
+                  "german": "losfahren",
+                  "english": "set off",
+                  "persian": "راه افتادن",
+                  "example": "Wir fahren um 8 Uhr los.",
+                  "examplePersian": "ما ساعت 8 حرکت می کنیم."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         }
       ]
     },
