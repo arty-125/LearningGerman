@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "b2",
   "code": "B2",
   "title": "Upper-Intermediate",
@@ -1064,7 +1064,9 @@
           "categoryId": "b2-grammar",
           "levelId": "b2",
           "title": "Relativsatz (Complete Course)",
-          "description": "Comprehensive step-by-step course on German relative clauses from foundations to advanced B2 usage.",
+          "description": "Comprehensive step-by-step course on German relative clauses (core B1, extended B2 usage).",
+          "recommendedCefr": "B1-B2",
+          "cefrPlacementNote": "Core mastery starts at B1; advanced density and chaining are B2.",
           "difficulty": 5,
           "estimatedMinutes": 180,
           "order": 6,
@@ -1496,7 +1498,9 @@
           "categoryId": "b2-grammar",
           "levelId": "b2",
           "title": "Trennbare Verben (A2-B2 Complete)",
-          "description": "Complete self-study guide to separable German verbs with rules, tenses, 50 core verbs, and daily-use examples.",
+          "description": "Complete self-study guide to separable German verbs (core A2-B1, expanded review up to B2).",
+          "recommendedCefr": "A2-B1",
+          "cefrPlacementNote": "Primary acquisition is A2-B1; B2 uses these forms in higher-complexity discourse.",
           "difficulty": 4,
           "estimatedMinutes": 360,
           "order": 7,
@@ -2205,6 +2209,249 @@
                   "examplePersian": "ما ساعت 8 حرکت می کنیم."
                 }
               ],
+              "exercises": []
+            }
+          ]
+        },
+        {
+          "id": "b2-grammar-koerperteile-artikel",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Körperteile: Artikel statt Possessiv",
+          "description": "Using definite articles with body parts instead of possessive determiners (core A2-B1 usage).",
+          "recommendedCefr": "A2-B1",
+          "cefrPlacementNote": "Introduced from A2; reinforced in B1-B2 for style and precision.",
+          "difficulty": 4,
+          "estimatedMinutes": 110,
+          "order": 8,
+          "tags": [
+            "koerperteile",
+            "artikel",
+            "possessiv",
+            "reflexiv",
+            "dativ"
+          ],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "b2-grammar-koerperteile-artikel-lesson-1",
+              "topicId": "b2-grammar-koerperteile-artikel",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل 1-3: مفهوم اصلی، قانون، مقایسه با انگلیسی",
+              "shortDescription": "چرا die Hand به جای seine Hand؛ قانون طلایی و مقایسه مستقیم با English.",
+              "order": 1,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "مفهوم اصلی",
+                  "content": "English:\nWhen a body part clearly belongs to the same person in context, German usually uses a definite article (der/die/das), not a possessive determiner.\n\nفارسی:\nوقتی عضو بدن متعلق به همان شخص جمله باشد و مالکیت واضح باشد، در آلمانی معمولاً از Artikel معین استفاده می کنیم، نه ضمیر ملکی."
+                },
+                {
+                  "type": "example",
+                  "title": "مثال اصلی",
+                  "content": "DE: Der Mann hat ein Buch in der Hand.\nEN: The man has a book in his hand.\nFA: مرد یک کتاب در دستش دارد."
+                },
+                {
+                  "type": "table",
+                  "title": "قانون طلایی",
+                  "headers": ["شرط", "توضیح"],
+                  "rows": [
+                    ["1", "عضو بدن متعلق به شخصی است که درباره او صحبت می کنیم."],
+                    ["2", "مالکیت واضح است."],
+                    ["3", "روی مالکیت تاکید نداریم."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "فرمول",
+                  "content": "Person + Verb + Artikel + Körperteil"
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه پایه",
+                  "content": "DE: Ich wasche mir die Hände.\nEN: I wash my hands.\nFA: من دست هایم را می شویم.\n\nLess natural: Ich wasche mir meine Hände."
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه با انگلیسی",
+                  "headers": ["English", "German"],
+                  "rows": [
+                    ["my hand", "die Hand"],
+                    ["his eyes", "die Augen"],
+                    ["her face", "das Gesicht"],
+                    ["their legs", "die Beine"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "دو مثال کلاسیک",
+                  "content": "DE: Sie öffnete die Augen.\nDE: Er wusch sich das Gesicht.\nEN: She opened her eyes. / He washed his face.\nFA: او چشم هایش را باز کرد. / او صورتش را شست."
+                }
+              ],
+              "vocabulary": [],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-koerperteile-artikel-lesson-2",
+              "topicId": "b2-grammar-koerperteile-artikel",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل 4: Reflexive + Dativ + Körperteil",
+              "shortDescription": "الگوی اصلی با mir/sich + Artikel + عضو بدن.",
+              "order": 2,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "tip",
+                  "title": "فرمول کلیدی",
+                  "content": "Subjekt + Reflexivpronomen (Dativ) + Artikel + Körperteil"
+                },
+                {
+                  "type": "table",
+                  "title": "تحلیل جمله",
+                  "headers": ["بخش", "نقش"],
+                  "rows": [
+                    ["Ich", "فاعل"],
+                    ["putze", "فعل"],
+                    ["mir", "Dativ Reflexiv"],
+                    ["die Zähne", "عضو بدن"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "مثال های مهم",
+                  "content": "DE: Ich putze mir die Zähne.\nDE: Ich wasche mir das Gesicht.\nDE: Sie kämmt sich die Haare.\nDE: Er wäscht sich die Hände.\nDE: Nach dem Sport muss ich mir die Beine massieren."
+                },
+                {
+                  "type": "warning",
+                  "title": "ملکیِ ممکن اما معمولاً غیرطبیعی",
+                  "content": "DE: Ich wasche mein Gesicht.\nاین جمله ممکن است درست باشد، اما معمولاً وقتی روی «صورت من» تاکید داریم طبیعی می شود."
+                }
+              ],
+              "vocabulary": [],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-koerperteile-artikel-lesson-3",
+              "topicId": "b2-grammar-koerperteile-artikel",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل 5، 8 و 9: بدون Reflexive، مکانی، و Dativ شخص",
+              "shortDescription": "کاربرد قانون در توصیف تصاویر، in/auf/an + Dativ، و ساخت Person + Dativ + Körperteil.",
+              "order": 3,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "بدون فعل بازتابی",
+                  "headers": ["German", "English", "فارسی"],
+                  "rows": [
+                    ["Der Mann steht mit den Händen in den Taschen.", "The man is standing with his hands in his pockets.", "مرد با دست هایش در جیب ایستاده است."],
+                    ["Das Kind hat die Augen geschlossen.", "The child has its eyes closed.", "کودک چشم هایش را بسته است."],
+                    ["Sie sitzt mit dem Kopf auf dem Tisch.", "She sits with her head on the table.", "او سرش را روی میز گذاشته است."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "حالت های مکانی",
+                  "headers": ["Pattern", "Example"],
+                  "rows": [
+                    ["in + Dativ", "Das Buch ist in der Hand."],
+                    ["auf + Dativ", "Die Brille liegt auf dem Kopf."],
+                    ["an + Dativ", "Die Tasche hängt an der Schulter."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "وقتی شخص دیگری عضو بدن را لمس/بررسی می کند",
+                  "headers": ["German", "Struktur", "فارسی"],
+                  "rows": [
+                    ["Der Arzt untersucht dem Patienten die Augen.", "Person + Dativ + Körperteil", "پزشک چشم های بیمار را بررسی می کند."],
+                    ["Die Mutter wäscht dem Kind die Haare.", "Person + Dativ + Körperteil", "مادر موهای کودک را می شوید."]
+                  ]
+                }
+              ],
+              "vocabulary": [],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-koerperteile-artikel-lesson-4",
+              "topicId": "b2-grammar-koerperteile-artikel",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل 6 و 7: چه زمانی Possessiv لازم است؟",
+              "shortDescription": "مقایسه مالک، رفع ابهام، تاکید، و تفاوت معنایی بین حالت طبیعی و تاکیدی.",
+              "order": 4,
+              "estimatedMinutes": 20,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "موارد لازم برای Possessivartikel",
+                  "headers": ["حالت", "مثال"],
+                  "rows": [
+                    ["مقایسه دو مالک", "Er hält das Buch in seiner Hand, nicht in ihrer Hand."],
+                    ["جلوگیری از ابهام", "Er hat ihre Hand genommen."],
+                    ["تاکید", "Das ist meine Hand!"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت معنی",
+                  "headers": ["طبیعی", "تاکیدی"],
+                  "rows": [
+                    ["Er hat die Hand gehoben.", "Er hat seine Hand gehoben."],
+                    ["Sie hat die Augen geöffnet.", "Sie hat ihre Augen geöffnet."]
+                  ]
+                }
+              ],
+              "vocabulary": [],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-koerperteile-artikel-lesson-5",
+              "topicId": "b2-grammar-koerperteile-artikel",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "فصل 10 و خلاصه نهایی",
+              "shortDescription": "اشتباهات رایج فارسی زبان ها + فرمول نهایی + قانون یک خطی حفظی.",
+              "order": 5,
+              "estimatedMinutes": 15,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "اشتباهات رایج",
+                  "headers": ["Wrong", "Correct"],
+                  "rows": [
+                    ["Ich wasche meine Hände.", "Ich wasche mir die Hände."],
+                    ["Er hat sein Gesicht gewaschen.", "Er hat sich das Gesicht gewaschen."],
+                    ["Ich putze die Zähne.", "Ich putze mir die Zähne."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "فرمول حالت طبیعی آلمانی",
+                  "content": "Person + Reflexivpronomen (Dativ) + Artikel + Körperteil"
+                },
+                {
+                  "type": "table",
+                  "title": "خلاصه مثال نهایی",
+                  "headers": ["German", "English", "فارسی"],
+                  "rows": [
+                    ["Ich wasche mir die Hände.", "I wash my hands.", "دست هایم را می شویم."],
+                    ["Sie putzt sich die Zähne.", "She brushes her teeth.", "دندان هایش را مسواک می زند."],
+                    ["Er wäscht sich das Gesicht.", "He washes his face.", "صورتش را می شوید."],
+                    ["Das Kind öffnet die Augen.", "The child opens its eyes.", "کودک چشم هایش را باز می کند."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "قانون یک خطی",
+                  "content": "در آلمانی، وقتی عضو بدن متعلق به همان شخص است و مالکیت مهم یا مبهم نیست، معمولاً Artikel معین می آوریم؛ فقط وقتی مالکیت مهم یا مبهم باشد از ضمیر ملکی استفاده می کنیم."
+                }
+              ],
+              "vocabulary": [],
               "exercises": []
             }
           ]
