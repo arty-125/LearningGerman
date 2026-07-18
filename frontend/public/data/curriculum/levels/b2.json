@@ -1115,6 +1115,11 @@
                   ]
                 },
                 {
+                  "type": "explanation",
+                  "title": "چرا از Relativsatz استفاده می کنیم؟",
+                  "content": "English:\nWithout a relative clause, ideas become repetitive: \"I see a man. The man works at BMW.\"\nWith a relative clause, the sentence becomes natural and compact: \"Ich sehe einen Mann, der bei BMW arbeitet.\"\n\nفارسی:\nبدون Relativsatz جمله ها تکراری و کوتاه می شوند:\nIch sehe einen Mann. Der Mann arbeitet bei BMW.\nبا Relativsatz جمله طبیعی تر و فشرده تر می شود:\nIch sehe einen Mann, der bei BMW arbeitet."
+                },
+                {
                   "type": "example",
                   "title": "چرا der و چرا den؟",
                   "content": "DE: Der Mann, der dort arbeitet, ist freundlich.\nEN: The man who works there is friendly.\nFA: مردی که آنجا کار می کند مهربان است.\n\nDE: Der Mann, den ich sehe, ist mein Lehrer.\nEN: The man whom I see is my teacher.\nFA: مردی که می بینم معلم من است."
@@ -1242,17 +1247,34 @@
                   "rows": [
                     ["in + Dativ", "Die Stadt, in der ich wohne, ist sehr schön.", "شهری که در آن زندگی می کنم بسیار زیباست."],
                     ["in + Dativ", "Das Haus, in dem ich geboren wurde, ist alt.", "خانه ای که در آن متولد شدم قدیمی است."],
+                    ["an + Dativ", "Das ist der Ort, an dem ich geboren wurde.", "این همان جایی است که من در آن متولد شدم."],
                     ["bei + Dativ", "Die Firma, bei der mein Bruder arbeitet, ist international.", "شرکتی که برادرم در آن کار می کند بین المللی است."]
                   ]
+                },
+                {
+                  "type": "tip",
+                  "title": "فرمول مکان در Relativsatz",
+                  "content": "Ort + Präposition + Relativpronomen"
                 },
                 {
                   "type": "table",
                   "title": "حرف اضافه های پرکاربرد",
                   "headers": ["Pattern", "German", "English", "فارسی"],
                   "rows": [
+                    ["zu + Dat", "Der Arzt, zu dem ich gehe, ist sehr freundlich.", "The doctor whom I go to is very friendly.", "پزشکی که نزد او می روم بسیار مهربان است."],
                     ["für + Akk", "Das Geschenk, für das ich bezahlt habe, ist schön.", "The gift that I paid for is beautiful.", "هدیه ای که برای آن پول داده ام زیباست."],
                     ["über + Akk", "Das Thema, über das wir sprechen, ist wichtig.", "The topic that we are talking about is important.", "موضوعی که درباره آن صحبت می کنیم مهم است."],
                     ["von + Dat", "Der Mann, von dem ich erzählt habe, kommt morgen.", "The man I told you about is coming tomorrow.", "مردی که درباره او صحبت کردم فردا می آید."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تبدیل جمله ساده به Relativsatz (mit / bei / zu)",
+                  "headers": ["جمله ساده", "تبدیل شده", "فارسی"],
+                  "rows": [
+                    ["Ich spreche mit dem Mann.", "Der Mann, mit dem ich spreche, ist mein Lehrer.", "مردی که با او صحبت می کنم معلم من است."],
+                    ["Ich arbeite bei einer Firma.", "Die Firma, bei der ich arbeite, ist groß.", "شرکتی که در آن کار می کنم بزرگ است."],
+                    ["Ich gehe zu dem Arzt.", "Der Arzt, zu dem ich gehe, ist sehr freundlich.", "پزشکی که نزد او می روم بسیار مهربان است."]
                   ]
                 }
               ],
@@ -1300,14 +1322,22 @@
                   "headers": ["Pattern", "Example", "فارسی"],
                   "rows": [
                     ["alles/etwas/nichts + was", "Alles, was ich weiß, erzähle ich dir.", "هرچه می دانم به تو می گویم."],
+                    ["nichts + was", "Nichts, was er sagt, ist wahr.", "هیچ چیزی که او می گوید درست نیست."],
+                    ["etwas + was", "Das ist etwas, was ich nicht verstehe.", "این چیزی است که من نمی فهمم."],
                     ["بعد از Superlativ", "Das ist das Schönste, was ich je gesehen habe.", "این زیباترین چیزی است که تا حالا دیده ام."]
                   ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "تفاوت Superlativ با اسم مشخص",
+                  "content": "English:\nUse den/die/das if the noun is specific: Das ist der beste Film, den ich gesehen habe.\nUse was for abstract or nominalized forms: Das ist das Beste, was ich gesehen habe.\n\nفارسی:\nاگر اسم مشخص باشد از den/die/das استفاده می کنیم:\nDas ist der beste Film, den ich gesehen habe.\nاگر اسم کلی/انتزاعی باشد از was استفاده می کنیم:\nDas ist das Beste, was ich gesehen habe."
                 },
                 {
                   "type": "table",
                   "title": "wo در برابر Präposition + Relativpronomen",
                   "headers": ["Stil", "German", "فارسی"],
                   "rows": [
+                    ["محاوره", "Das ist der Ort, wo ich geboren wurde.", "این همان جایی است که در آن متولد شدم."],
                     ["محاوره", "Die Stadt, wo ich wohne.", "شهری که در آن زندگی می کنم."],
                     ["استاندارد", "Die Stadt, in der ich wohne.", "شهری که در آن زندگی می کنم."]
                   ]
@@ -1357,13 +1387,40 @@
                 },
                 {
                   "type": "example",
+                  "title": "مثال کوتاه با فعل در آخر",
+                  "content": "DE: Der Mann, der in Berlin wohnt, arbeitet bei Siemens.\nEN: The man who lives in Berlin works at Siemens.\nFA: مردی که در برلین زندگی می کند در زیمنس کار می کند."
+                },
+                {
+                  "type": "warning",
+                  "title": "نمونه نادرست رایج",
+                  "content": "English:\nIncorrect: der wohnt in Berlin\nCorrect: der in Berlin wohnt\n\nفارسی:\nاشتباه: der wohnt in Berlin\nدرست: der in Berlin wohnt"
+                },
+                {
+                  "type": "example",
                   "title": "مثال استاندارد",
                   "content": "DE: Die Frau, die ich gestern im Supermarkt gesehen habe, ist meine Nachbarin.\nEN: The woman whom I saw yesterday in the supermarket is my neighbor.\nFA: زنی که دیروز در سوپرمارکت دیدم همسایه من است."
+                },
+                {
+                  "type": "table",
+                  "title": "تحلیل مثال استاندارد",
+                  "headers": ["Teil", "Rolle"],
+                  "rows": [
+                    ["die", "Relativpronomen"],
+                    ["ich", "Subjekt"],
+                    ["gestern", "Temporal"],
+                    ["im Supermarkt", "Lokal"],
+                    ["gesehen habe", "Verb am Ende"]
+                  ]
                 },
                 {
                   "type": "example",
                   "title": "دو Relativsatz در یک جمله",
                   "content": "DE: Das Buch, das auf dem Tisch liegt und das ich gestern gekauft habe, ist sehr interessant.\nEN: The book that is on the table and that I bought yesterday is very interesting.\nFA: کتابی که روی میز است و دیروز خریدم بسیار جالب است."
+                },
+                {
+                  "type": "tip",
+                  "title": "فرمول چند Relativsatz",
+                  "content": "Nomen + Relativsatz 1 + und + Relativsatz 2 + Hauptsatz"
                 },
                 {
                   "type": "table",
@@ -1375,6 +1432,11 @@
                   ]
                 },
                 {
+                  "type": "tip",
+                  "title": "فرمول جایگاه کلمات در Relativsatz",
+                  "content": "Relativpronomen + Subject + Object + ... + Verb"
+                },
+                {
                   "type": "list",
                   "title": "روش 5 مرحله ای ساخت سریع Relativsatz",
                   "items": [
@@ -1383,6 +1445,16 @@
                     "3) اسم تکراری را حذف کن.",
                     "4) ضمیر موصولی را بر اساس جنسیت/تعداد + Kasus انتخاب کن: in der.",
                     "5) فعل را به آخر ببر: Die Stadt, in der ich wohne."
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تمرین ذهنی سریع",
+                  "headers": ["جمله ساده", "نتیجه با Relativsatz"],
+                  "rows": [
+                    ["Der Mann spricht Deutsch.", "Der Mann, der Deutsch spricht ..."],
+                    ["Ich kaufe das Buch.", "Das Buch, das ich gekauft habe ..."],
+                    ["Ich arbeite bei der Firma.", "Die Firma, bei der ich arbeite ..."]
                   ]
                 },
                 {
