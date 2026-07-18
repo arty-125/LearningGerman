@@ -1058,6 +1058,366 @@
               "exercises": []
             }
           ]
+        },
+        {
+          "id": "b2-grammar-relativsatz-complete",
+          "categoryId": "b2-grammar",
+          "levelId": "b2",
+          "title": "Relativsatz (Complete Course)",
+          "description": "Comprehensive step-by-step course on German relative clauses from foundations to advanced B2 usage.",
+          "difficulty": 5,
+          "estimatedMinutes": 180,
+          "order": 6,
+          "tags": [
+            "relativsatz",
+            "relative-pronouns",
+            "nebensatz",
+            "b2-grammar"
+          ],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "b2-grammar-relativsatz-complete-lesson-1",
+              "topicId": "b2-grammar-relativsatz-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 1 - Relativsatz چیست و چطور ساخته می شود؟",
+              "shortDescription": "تعریف جمله موصولی، فرمول اصلی، و منطق انتخاب Relativpronomen.",
+              "order": 1,
+              "estimatedMinutes": 30,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "تعریف ساده",
+                  "content": "English:\nA Relativsatz is a clause that gives extra information about a noun. In English, it often starts with who, which, or that.\n\nفارسی:\nRelativsatz جمله ای است که اطلاعات بیشتری درباره یک اسم می دهد. در فارسی معمولاً با «که» ترجمه می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه سریع",
+                  "headers": ["Persian", "English", "Deutsch"],
+                  "rows": [
+                    ["مردی که آنجا ایستاده برادر من است.", "The man who is standing there is my brother.", "Der Mann, der dort steht, ist mein Bruder."],
+                    ["زنی که آنجا کار می کند همسایه من است.", "The woman who works there is my neighbor.", "Die Frau, die dort arbeitet, ist meine Nachbarin."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "فرمول پایه",
+                  "content": "Nomen + , + Relativpronomen + ... + Verb am Ende"
+                },
+                {
+                  "type": "table",
+                  "title": "دو قانون طلایی انتخاب ضمیر موصولی",
+                  "headers": ["قانون", "توضیح"],
+                  "rows": [
+                    ["جنسیت و تعداد", "از اسم اصلی می آید."],
+                    ["Kasus", "از نقش ضمیر داخل جمله موصولی می آید."]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "چرا der و چرا den؟",
+                  "content": "DE: Der Mann, der dort arbeitet, ist freundlich.\nEN: The man who works there is friendly.\nFA: مردی که آنجا کار می کند مهربان است.\n\nDE: Der Mann, den ich sehe, ist mein Lehrer.\nEN: The man whom I see is my teacher.\nFA: مردی که می بینم معلم من است."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "der Relativsatz",
+                  "english": "relative clause",
+                  "persian": "جمله موصولی",
+                  "example": "Der Relativsatz gibt Zusatzinformationen.",
+                  "examplePersian": "جمله موصولی اطلاعات اضافی می دهد."
+                },
+                {
+                  "german": "das Relativpronomen",
+                  "english": "relative pronoun",
+                  "persian": "ضمیر موصولی",
+                  "example": "Das Relativpronomen steht am Anfang des Relativsatzes.",
+                  "examplePersian": "ضمیر موصولی در ابتدای جمله موصولی می آید."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-relativsatz-complete-lesson-2",
+              "topicId": "b2-grammar-relativsatz-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 2 - Nominativ و Akkusativ در Relativsatz",
+              "shortDescription": "کاربرد der/die/das و den/die/das با مثال های قابل مقایسه.",
+              "order": 2,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "Nominativ",
+                  "headers": ["Artikel", "Relativpronomen"],
+                  "rows": [
+                    ["der", "der"],
+                    ["die", "die"],
+                    ["das", "das"],
+                    ["die (Plural)", "die"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "Akkusativ",
+                  "headers": ["Artikel", "Relativpronomen"],
+                  "rows": [
+                    ["der", "den"],
+                    ["die", "die"],
+                    ["das", "das"],
+                    ["die (Plural)", "die"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه های Nominativ",
+                  "content": "DE: Der Mann, der dort sitzt, ist mein Vater.\nEN: The man who is sitting there is my father.\nFA: مردی که آنجا نشسته پدر من است.\n\nDE: Das Kind, das laut lacht, ist mein Neffe.\nEN: The child that laughs loudly is my nephew.\nFA: بچه ای که بلند می خندد خواهرزاده/برادرزاده من است."
+                },
+                {
+                  "type": "example",
+                  "title": "نمونه های Akkusativ",
+                  "content": "DE: Das Buch, das ich lese, ist interessant.\nEN: The book that I am reading is interesting.\nFA: کتابی که می خوانم جالب است.\n\nDE: Die Tasche, die ich gekauft habe, ist teuer.\nEN: The bag that I bought is expensive.\nFA: کیفی که خریده ام گران است."
+                },
+                {
+                  "type": "warning",
+                  "title": "اشتباه رایج",
+                  "content": "English:\nDo not choose the case from the main noun alone. Always check the role inside the relative clause.\n\nفارسی:\nCase را فقط از اسم اصلی انتخاب نکنید؛ نقش ضمیر داخل جمله موصولی تعیین کننده است."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "der Nominativ",
+                  "english": "nominative case",
+                  "persian": "حالت فاعلی",
+                  "example": "Im Nominativ ist das Relativpronomen oft Subjekt.",
+                  "examplePersian": "در Nominativ ضمیر موصولی معمولاً فاعل است."
+                },
+                {
+                  "german": "der Akkusativ",
+                  "english": "accusative case",
+                  "persian": "حالت مفعولی",
+                  "example": "Im Akkusativ ist das Relativpronomen Objekt.",
+                  "examplePersian": "در Akkusativ ضمیر موصولی مفعول است."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-relativsatz-complete-lesson-3",
+              "topicId": "b2-grammar-relativsatz-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 3 - Dativ، Präposition و مکان",
+              "shortDescription": "ساختارهای mit dem, in der, bei der, von dem, über das و موارد مکان محور.",
+              "order": 3,
+              "estimatedMinutes": 40,
+              "sections": [
+                {
+                  "type": "table",
+                  "title": "Dativ در Relativpronomen",
+                  "headers": ["Artikel", "Relativpronomen"],
+                  "rows": [
+                    ["der", "dem"],
+                    ["die", "der"],
+                    ["das", "dem"],
+                    ["die (Plural)", "denen"]
+                  ]
+                },
+                {
+                  "type": "example",
+                  "title": "mit + Dativ",
+                  "content": "DE: Der Mann, mit dem ich spreche, ist mein Chef.\nEN: The man whom I am talking with is my boss.\nFA: مردی که با او صحبت می کنم رئیس من است."
+                },
+                {
+                  "type": "example",
+                  "title": "helfen + Dativ",
+                  "content": "DE: Die Frau, der ich helfe, ist meine Freundin.\nEN: The woman whom I help is my friend.\nFA: زنی که به او کمک می کنم دوست من است."
+                },
+                {
+                  "type": "table",
+                  "title": "مکان در حالت رسمی تر",
+                  "headers": ["Struktur", "Beispiel", "فارسی"],
+                  "rows": [
+                    ["in + Dativ", "Die Stadt, in der ich wohne, ist sehr schön.", "شهری که در آن زندگی می کنم بسیار زیباست."],
+                    ["in + Dativ", "Das Haus, in dem ich geboren wurde, ist alt.", "خانه ای که در آن متولد شدم قدیمی است."],
+                    ["bei + Dativ", "Die Firma, bei der mein Bruder arbeitet, ist international.", "شرکتی که برادرم در آن کار می کند بین المللی است."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "حرف اضافه های پرکاربرد",
+                  "headers": ["Pattern", "German", "English", "فارسی"],
+                  "rows": [
+                    ["für + Akk", "Das Geschenk, für das ich bezahlt habe, ist schön.", "The gift that I paid for is beautiful.", "هدیه ای که برای آن پول داده ام زیباست."],
+                    ["über + Akk", "Das Thema, über das wir sprechen, ist wichtig.", "The topic that we are talking about is important.", "موضوعی که درباره آن صحبت می کنیم مهم است."],
+                    ["von + Dat", "Der Mann, von dem ich erzählt habe, kommt morgen.", "The man I told you about is coming tomorrow.", "مردی که درباره او صحبت کردم فردا می آید."]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "mit dem",
+                  "english": "with whom",
+                  "persian": "با کسی که",
+                  "example": "Der Freund, mit dem ich reise, lebt in Berlin.",
+                  "examplePersian": "دوستی که با او سفر می کنم در برلین زندگی می کند."
+                },
+                {
+                  "german": "in der",
+                  "english": "in which",
+                  "persian": "که در آن",
+                  "example": "Die Stadt, in der ich wohne, ist ruhig.",
+                  "examplePersian": "شهری که در آن زندگی می کنم آرام است."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-relativsatz-complete-lesson-4",
+              "topicId": "b2-grammar-relativsatz-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 4 - Genitiv، was، wo، wohin، woher",
+              "shortDescription": "الگوهای مالکیت با dessen/deren و حالت های خاص برای مفاهیم کلی و مکان.",
+              "order": 4,
+              "estimatedMinutes": 40,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "مالکیت با Genitiv",
+                  "content": "English:\nUse dessen for masculine/neuter nouns and deren for feminine/plural nouns when you mean whose.\n\nفارسی:\nبرای بیان مالکیت (whose) از dessen و deren استفاده می کنیم:\n- dessen برای مذکر و خنثی\n- deren برای مونث و جمع"
+                },
+                {
+                  "type": "example",
+                  "title": "مثال های Genitiv",
+                  "content": "DE: Der Mann, dessen Auto kaputt ist, kommt später.\nEN: The man whose car is broken is coming later.\nFA: مردی که ماشینش خراب است دیرتر می آید.\n\nDE: Die Frau, deren Sohn Arzt ist, wohnt nebenan.\nEN: The woman whose son is a doctor lives next door.\nFA: زنی که پسرش پزشک است کنار ما زندگی می کند."
+                },
+                {
+                  "type": "table",
+                  "title": "کاربرد was",
+                  "headers": ["Pattern", "Example", "فارسی"],
+                  "rows": [
+                    ["alles/etwas/nichts + was", "Alles, was ich weiß, erzähle ich dir.", "هرچه می دانم به تو می گویم."],
+                    ["بعد از Superlativ", "Das ist das Schönste, was ich je gesehen habe.", "این زیباترین چیزی است که تا حالا دیده ام."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "wo در برابر Präposition + Relativpronomen",
+                  "headers": ["Stil", "German", "فارسی"],
+                  "rows": [
+                    ["محاوره", "Die Stadt, wo ich wohne.", "شهری که در آن زندگی می کنم."],
+                    ["استاندارد", "Die Stadt, in der ich wohne.", "شهری که در آن زندگی می کنم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "wohin و woher",
+                  "headers": ["Function", "German", "English", "فارسی"],
+                  "rows": [
+                    ["Destination", "Das ist der Ort, wohin ich reisen möchte.", "This is the place where I want to travel to.", "این جایی است که می خواهم به آن سفر کنم."],
+                    ["Origin", "Das ist das Land, woher meine Familie kommt.", "This is the country where my family comes from.", "این کشوری است که خانواده من از آنجا می آیند."]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "dessen / deren",
+                  "english": "whose",
+                  "persian": "که ... اش",
+                  "example": "Die Studentin, deren Laptop neu ist, lernt hier.",
+                  "examplePersian": "دانشجویی که لپ تاپش جدید است اینجا درس می خواند."
+                },
+                {
+                  "german": "alles, was",
+                  "english": "everything that",
+                  "persian": "هر چیزی که",
+                  "example": "Alles, was wir brauchen, ist Zeit.",
+                  "examplePersian": "هر چیزی که نیاز داریم زمان است."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b2-grammar-relativsatz-complete-lesson-5",
+              "topicId": "b2-grammar-relativsatz-complete",
+              "categoryId": "b2-grammar",
+              "levelId": "b2",
+              "title": "درس 5 - ترتیب کلمات، چند Relativsatz، و روش ساخت سریع",
+              "shortDescription": "جایگاه فعل در آخر، ترکیب چند جمله موصولی، و یک الگوریتم 5 مرحله ای برای مکالمه.",
+              "order": 5,
+              "estimatedMinutes": 35,
+              "sections": [
+                {
+                  "type": "warning",
+                  "title": "قانون غیرقابل مذاکره",
+                  "content": "English:\nIn a relative clause, the conjugated verb goes to the end.\n\nفارسی:\nدر Relativsatz، فعل صرف شده همیشه به آخر جمله می رود."
+                },
+                {
+                  "type": "example",
+                  "title": "مثال استاندارد",
+                  "content": "DE: Die Frau, die ich gestern im Supermarkt gesehen habe, ist meine Nachbarin.\nEN: The woman whom I saw yesterday in the supermarket is my neighbor.\nFA: زنی که دیروز در سوپرمارکت دیدم همسایه من است."
+                },
+                {
+                  "type": "example",
+                  "title": "دو Relativsatz در یک جمله",
+                  "content": "DE: Das Buch, das auf dem Tisch liegt und das ich gestern gekauft habe, ist sehr interessant.\nEN: The book that is on the table and that I bought yesterday is very interesting.\nFA: کتابی که روی میز است و دیروز خریدم بسیار جالب است."
+                },
+                {
+                  "type": "table",
+                  "title": "der/die/das در برابر welcher/welche/welches",
+                  "headers": ["Form", "Usage", "Note"],
+                  "rows": [
+                    ["der/die/das", "Most common in daily language", "Recommended for speaking"],
+                    ["welcher/welche/welches", "More formal/literary", "Less common in everyday speech"]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "روش 5 مرحله ای ساخت سریع Relativsatz",
+                  "items": [
+                    "1) اسم اصلی را مشخص کن: Die Stadt.",
+                    "2) جمله ساده بساز: Ich wohne in der Stadt.",
+                    "3) اسم تکراری را حذف کن.",
+                    "4) ضمیر موصولی را بر اساس جنسیت/تعداد + Kasus انتخاب کن: in der.",
+                    "5) فعل را به آخر ببر: Die Stadt, in der ich wohne."
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "خلاصه نهایی کاربردها",
+                  "headers": ["نوع", "فرمول", "نمونه"],
+                  "rows": [
+                    ["فاعل", "Nomen + der/die/das", "Der Mann, der arbeitet"],
+                    ["مفعول", "Nomen + den/die/das", "Das Buch, das ich lese"],
+                    ["مکان", "Präposition + Relativpronomen", "Die Stadt, in der ich wohne"],
+                    ["مالکیت", "dessen/deren", "Der Mann, dessen Auto ..."],
+                    ["چیز کلی", "alles/etwas/nichts + was", "Alles, was ich weiß"],
+                    ["مکان محاوره", "wo", "Der Ort, wo ich wohne"]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "Verb am Ende",
+                  "english": "verb at the end",
+                  "persian": "فعل در انتها",
+                  "example": "Im Relativsatz steht das Verb am Ende.",
+                  "examplePersian": "در جمله موصولی فعل در انتها می آید."
+                },
+                {
+                  "german": "welcher/welche/welches",
+                  "english": "which/who (formal)",
+                  "persian": "ضمیر موصولی رسمی",
+                  "example": "Der Mann, welcher dort steht, ist mein Lehrer.",
+                  "examplePersian": "مردی که آنجا ایستاده معلم من است."
+                }
+              ],
+              "exercises": []
+            }
+          ]
         }
       ]
     },
