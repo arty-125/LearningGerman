@@ -20,9 +20,9 @@
           "categoryId": "b1-grammar",
           "levelId": "b1",
           "title": "دوره جامع Konjunktiv II",
-          "description": "فصل ۱ و ۲ — Konjunktiv II چیست؟ و چگونه ساخته می‌شود؟",
+          "description": "فصل ۱ تا ۱۰ — مفهوم، ساخت، آرزو، ادب، نصیحت، شرط، گذشته فرضی و کاربرد Native Speaker در Konjunktiv II",
           "difficulty": 4,
-          "estimatedMinutes": 95,
+          "estimatedMinutes": 565,
           "order": 1,
           "tags": [
             "konjunktiv",
@@ -383,6 +383,1596 @@
                   "english": "rule",
                   "persian": "قانون",
                   "example": "Das ist eine wichtige Regel."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-3",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۳ — Wunsch (آرزو)",
+              "shortDescription": "فصل ۳: بیان آرزو با Ich wäre gern / hätte gern / würde gern، تفاوت با واقعیت، و Wish با Wenn ich nur.",
+              "order": 3,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "3.1 مفهوم Wunsch در زبان آلمانی",
+                  "content": "English:\nOne of the most important uses of Konjunktiv II is expressing wishes and desires that are not reality right now.\n\nExample:\nIch wäre gern in Deutschland.\nI would like to be in Germany.\n\nThis means the speaker is not in Germany now, but it is a wish.\n\nفارسی:\nیکی از مهم ترین کاربردهای Konjunktiv II بیان آرزوها، خواسته ها و چیزهایی است که در حال حاضر واقعیت ندارند.\n\nIch wäre gern in Deutschland.\n= دوست داشتم در آلمان باشم.\n\nیعنی الان در آلمان نیستم، اما این یک آرزو است."
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت واقعیت و آرزو",
+                  "headers": [
+                    "حالت",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["واقعیت (Indikativ)", "Ich bin in Deutschland.", "I am in Germany.", "من در آلمان هستم."],
+                    ["آرزو (Konjunktiv II)", "Ich wäre gern in Deutschland.", "I would like to be in Germany.", "دوست داشتم در آلمان باشم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "3.2 ساختار ۱: Ich wäre gern ...",
+                  "content": "English:\nUse Ich wäre gern ... for a wish about being in a state or place.\nsein -> wäre\n\nفارسی:\nبرای گفتن آرزو درباره بودن از ساختار Ich wäre gern ... استفاده می کنیم.\nsein -> wäre\n\nمعنی: دوست داشتم ... باشم."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Ich wäre gern ...",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich wäre gern jünger.", "I would like to be younger.", "دوست داشتم جوان تر باشم."],
+                    ["Ich wäre gern in Deutschland.", "I would like to be in Germany.", "دوست داشتم در آلمان باشم."],
+                    ["Ich wäre gern ein besserer Deutschsprecher.", "I would like to be a better German speaker.", "دوست داشتم آلمانی را بهتر صحبت کنم."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "نکته معنایی",
+                  "content": "Ich wäre gern jünger = واقعیت: من جوان نیستم. آرزو: کاش جوان تر بودم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "ساختار ۲: Ich hätte gern ...",
+                  "content": "English:\nIch hätte gern ... is one of the most frequent everyday structures.\nMeaning: I would like to have ... / I would like ...\n\nفارسی:\nIch hätte gern ... یکی از پرکاربردترین جمله های آلمانی است.\nمعنی: دوست دارم داشته باشم / لطفا ... می خواهم\n\nدر کافه، رستوران و فروشگاه خیلی زیاد استفاده می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه مستقیم و طبیعی",
+                  "headers": [
+                    "نوع",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["مستقیم", "Ich will einen Kaffee.", "I want a coffee.", "من قهوه می خواهم."],
+                    ["طبیعی و مودبانه", "Ich hätte gern einen Kaffee.", "I would like a coffee.", "یک قهوه لطفا."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های بیشتر با hätte gern",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich hätte gern mehr Zeit.", "I would like to have more time.", "دوست داشتم وقت بیشتری داشته باشم."],
+                    ["Ich hätte gern ein neues Auto.", "I would like to have a new car.", "دوست داشتم یک ماشین جدید داشته باشم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "ساختار ۳: Ich würde gern ...",
+                  "content": "English:\nThis is one of the most important speaking patterns in daily German.\nFormula: Ich würde gern + Infinitiv\nMeaning: I would like to ...\n\nفارسی:\nاین یکی از مهم ترین ساختارهای مکالمه روزمره است.\nفرمول: Ich würde gern + مصدر\nمعنی: دوست دارم که ..."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های würde gern",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich würde gern nach Deutschland reisen.", "I would like to travel to Germany.", "دوست دارم به آلمان سفر کنم."],
+                    ["Ich würde gern Deutsch besser sprechen.", "I would like to speak German better.", "دوست دارم آلمانی را بهتر صحبت کنم."],
+                    ["Ich würde gern dort arbeiten.", "I would like to work there.", "دوست دارم آنجا کار کنم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت hätte gern و würde gern",
+                  "headers": [
+                    "Structure",
+                    "Usage",
+                    "Formula",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["hätte gern", "برای چیزهایی که می خواهیم داشته باشیم", "hätte gern + Nomen", "Ich hätte gern einen Tee."],
+                    ["würde gern", "برای کارهایی که می خواهیم انجام دهیم", "würde gern + Verb", "Ich würde gern reisen."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه معنایی مهم",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich hätte gern ein Auto.", "I would like a car.", "دوست دارم ماشین داشته باشم."],
+                    ["Ich würde gern Auto fahren.", "I would like to drive.", "دوست دارم رانندگی کنم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "3.3 آرزو درباره گذشته",
+                  "content": "English:\nSometimes the wish is about something that can no longer be changed.\nUse: hätte / wäre + Partizip II\n\nفارسی:\nگاهی آرزو درباره چیزی است که دیگر امکان تغییر ندارد.\nدر این حالت از ساختار hätte / wäre + Partizip II استفاده می کنیم.\n\nاین بخش مقدمه ای برای فصل گذشته فرضی است."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های آرزوی گذشته",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich hätte gern mehr gelernt.", "I would have liked to study more.", "کاش بیشتر درس خوانده بودم."],
+                    ["Ich wäre gern früher gekommen.", "I would have liked to come earlier.", "کاش زودتر آمده بودم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "3.4 Wish با Wenn doch و Wenn ich nur",
+                  "content": "English:\nThese patterns show a stronger emotional wish.\n\nWenn ich nur ... = If only ...\nWenn doch ... can also strengthen regret or longing in spoken language.\n\nفارسی:\nاین ساختارها احساس قوی تری از آرزو را نشان می دهند.\n\nWenn ich nur ... = ای کاش فقط ...\nWenn doch ... نیز در گفتار برای تاکید بر حسرت یا آرزوی قوی استفاده می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Wenn ich nur / Wenn doch",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wenn ich nur mehr Zeit hätte!", "If only I had more time!", "ای کاش فقط وقت بیشتری داشتم!"],
+                    ["Wenn ich nur besser Deutsch sprechen könnte!", "If only I could speak German better!", "ای کاش می توانستم آلمانی را بهتر صحبت کنم!"],
+                    ["Wenn doch alles einfacher wäre!", "If only everything were easier!", "ای کاش همه چیز ساده تر بود!"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "خلاصه فصل ۳",
+                  "headers": [
+                    "Structure",
+                    "Usage",
+                    "Example"
+                  ],
+                  "rows": [
+                    ["Ich wäre gern...", "بودن", "Ich wäre gern in Berlin."],
+                    ["Ich hätte gern...", "داشتن", "Ich hätte gern mehr Zeit."],
+                    ["Ich würde gern...", "انجام دادن", "Ich würde gern reisen."],
+                    ["Wenn ich nur...", "آرزوی قوی", "Wenn ich nur mehr Geld hätte!"]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "der Wunsch",
+                  "english": "wish, desire",
+                  "persian": "آرزو، خواسته",
+                  "example": "Ich habe den Wunsch, in Deutschland zu leben."
+                },
+                {
+                  "german": "gern",
+                  "english": "gladly, would like",
+                  "persian": "با میل، مایل",
+                  "example": "Ich hätte gern einen Tee."
+                },
+                {
+                  "german": "wenn ich nur",
+                  "english": "if only",
+                  "persian": "ای کاش فقط",
+                  "example": "Wenn ich nur mehr Zeit hätte!"
+                },
+                {
+                  "german": "früher",
+                  "english": "earlier",
+                  "persian": "زودتر",
+                  "example": "Ich wäre gern früher gekommen."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-4",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۴ — Höflichkeit (ادب و درخواست مؤدبانه)",
+              "shortDescription": "فصل ۴: درخواست مودبانه با Könnten/Könntest/Würden/Dürfte و کاربرد Konjunktiv II در محیط کار.",
+              "order": 4,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "4.1 چرا Konjunktiv II برای ادب مهم است؟",
+                  "content": "English:\nIn German, there is a big difference between direct commands and polite requests. Konjunktiv II makes the sentence softer and friendlier.\n\nفارسی:\nدر آلمانی تفاوت بزرگی بین دستور مستقیم و درخواست مودبانه وجود دارد.\nKonjunktiv II جمله را نرم تر و دوستانه تر می کند."
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه مستقیم و مودبانه",
+                  "headers": [
+                    "Type",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["دستور مستقیم", "Gib mir das Buch.", "Give me the book.", "کتاب را به من بده."],
+                    ["درخواست مودبانه", "Könntest du mir das Buch geben?", "Could you give me the book?", "می توانی کتاب را به من بدهی؟"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "4.2 درخواست با können",
+                  "content": "English:\nKönnten Sie ...? is formal.\nKönntest du ...? is informal.\n\nفارسی:\nKönnten Sie ...? رسمی است.\nKönntest du ...? غیررسمی است و برای دوست، خانواده یا همکار نزدیک استفاده می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "Könnten Sie ...? (رسمی)",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Könnten Sie mir helfen?", "Could you help me?", "ممکن است به من کمک کنید؟"],
+                    ["Könnten Sie das wiederholen?", "Could you repeat that?", "ممکن است دوباره تکرار کنید؟"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "Könntest du ...? (غیررسمی)",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Könntest du mir helfen?", "Could you help me?", "می توانی به من کمک کنی؟"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "4.3 درخواست با würden",
+                  "content": "English:\nFormula: Würden Sie + Infinitiv?\n\nفارسی:\nساختار رسمی و مودبانه دیگر: Würden Sie + مصدر؟"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Würden Sie ...?",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Würden Sie bitte warten?", "Would you please wait?", "لطفا صبر می کنید؟"],
+                    ["Würden Sie mir Ihre E-Mail schicken?", "Would you send me your email?", "ممکن است ایمیل خود را برای من ارسال کنید؟"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "4.4 درخواست اجازه با Dürfte ich ...?",
+                  "content": "English:\ndürfen -> dürfte\nDürfte ich ...? means: May I ...?\n\nفارسی:\nاز dürfen -> dürfte استفاده می کنیم.\nDürfte ich ...? یعنی: آیا اجازه دارم ...؟"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Dürfte ich ...?",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Dürfte ich eine Frage stellen?", "May I ask a question?", "اجازه دارم یک سوال بپرسم؟"],
+                    ["Dürfte ich hereinkommen?", "May I come in?", "اجازه دارم وارد شوم؟"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "4.5 پیشنهاد مودبانه",
+                  "content": "English:\nIch würde vorschlagen ... = I would suggest ...\n\nفارسی:\nIch würde vorschlagen ... = پیشنهاد می کنم ..."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال پیشنهاد",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich würde vorschlagen, dass wir morgen anfangen.", "I would suggest that we start tomorrow.", "پیشنهاد می کنم فردا شروع کنیم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "4.6 Konjunktiv II در محیط کار",
+                  "headers": [
+                    "Style",
+                    "German",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["مستقیم", "Ich brauche Ihre Hilfe.", "من کمک شما را نیاز دارم."],
+                    ["مودبانه", "Ich würde Ihre Hilfe benötigen.", "من به کمک شما نیاز خواهم داشت."],
+                    ["مستقیم", "Schicken Sie mir den Bericht.", "گزارش را برای من بفرستید."],
+                    ["مودبانه", "Könnten Sie mir den Bericht schicken?", "ممکن است گزارش را برای من ارسال کنید؟"]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "4.7 اشتباه رایج زبان آموزها",
+                  "content": "English:\nIch möchte einen Kaffee is not wrong.\nBut in restaurants, Ich hätte gern einen Kaffee often sounds more natural.\n\nIch will Ihre Hilfe is grammatically possible, but very direct.\nBetter: Könnten Sie mir helfen?\n\nفارسی:\n❌ Ich möchte einen Kaffee.\nاین جمله اشتباه نیست، اما در رستوران اغلب طبیعی تر است بگوییم: Ich hätte gern einen Kaffee.\n\n❌ Ich will Ihre Hilfe.\nخیلی مستقیم است.\n✅ بهتر: Könnten Sie mir helfen?"
+                },
+                {
+                  "type": "table",
+                  "title": "خلاصه فصل ۴",
+                  "headers": [
+                    "Structure",
+                    "Meaning"
+                  ],
+                  "rows": [
+                    ["Könnten Sie...?", "آیا ممکن است...؟"],
+                    ["Könntest du...?", "می توانی...؟"],
+                    ["Würden Sie...?", "آیا لطفا...؟"],
+                    ["Dürfte ich...?", "اجازه دارم...؟"],
+                    ["Ich würde gern...", "دوست دارم..."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین پایان فصل ۳ و ۴ - ترجمه کنید",
+                  "items": [
+                    "۱) دوست دارم یک روز در آلمان زندگی کنم.",
+                    "۲) یک قهوه لطفا.",
+                    "۳) ممکن است به من کمک کنید؟",
+                    "۴) اجازه دارم یک سوال بپرسم؟",
+                    "۵) ای کاش وقت بیشتری داشتم.",
+                    "۶) پیشنهاد می کنم فردا شروع کنیم."
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "پاسخ های پیشنهادی تمرین",
+                  "content": "1) Ich würde gern eines Tages in Deutschland leben.\n2) Ich hätte gern einen Kaffee.\n3) Könnten Sie mir helfen?\n4) Dürfte ich eine Frage stellen?\n5) Wenn ich nur mehr Zeit hätte!\n6) Ich würde vorschlagen, dass wir morgen anfangen."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Höflichkeit",
+                  "english": "politeness",
+                  "persian": "ادب، نزاکت",
+                  "example": "Höflichkeit ist im Büro sehr wichtig."
+                },
+                {
+                  "german": "könnten",
+                  "english": "could (polite)",
+                  "persian": "ممکن است / می توانید",
+                  "example": "Könnten Sie mir helfen?"
+                },
+                {
+                  "german": "dürfte",
+                  "english": "may (polite permission)",
+                  "persian": "اجازه دارم",
+                  "example": "Dürfte ich hereinkommen?"
+                },
+                {
+                  "german": "vorschlagen",
+                  "english": "to suggest",
+                  "persian": "پیشنهاد دادن",
+                  "example": "Ich würde vorschlagen, dass wir jetzt beginnen."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-5",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۵ — Rat (نصیحت با Konjunktiv II)",
+              "shortDescription": "فصل ۵: ساختارهای نصیحت مانند Du solltest, Du könntest, An deiner Stelle würde ich و Ich würde dir empfehlen.",
+              "order": 5,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "5.1 مفهوم Rat در زبان آلمانی",
+                  "content": "English:\nWhen we give advice, we usually do not want to sound like we are giving an order.\n\nفارسی:\nوقتی می خواهیم به کسی پیشنهاد بدهیم، معمولاً نمی خواهیم مثل یک دستور صحبت کنیم."
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه دستور مستقیم و نصیحت طبیعی",
+                  "headers": [
+                    "Type",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["دستور مستقیم", "Du musst mehr lernen.", "You must study more.", "باید بیشتر درس بخوانی."],
+                    ["نصیحت طبیعی", "Du solltest mehr lernen.", "You should study more.", "بهتر است بیشتر درس بخوانی."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "5.2 مهم ترین ساختارهای نصیحت",
+                  "items": [
+                    "Du solltest...",
+                    "Du könntest...",
+                    "Du würdest besser...",
+                    "An deiner Stelle würde ich...",
+                    "Ich würde dir empfehlen...",
+                    "Es wäre besser...",
+                    "هر کدام شدت متفاوتی دارند."
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "5.3 ساختار اول: Du solltest ...",
+                  "content": "English:\nshould = better to / should\nFormula: Du solltest + Infinitiv\n\nفارسی:\nsollte = بهتر است / باید\nاین یکی از رایج ترین روش های نصیحت است.\nفرمول: Du solltest + مصدر"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Du solltest ...",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Du solltest mehr schlafen.", "You should sleep more.", "بهتر است بیشتر بخوابی."],
+                    ["Du solltest Deutsch jeden Tag üben.", "You should practice German every day.", "بهتر است هر روز آلمانی تمرین کنی."],
+                    ["Du solltest früher ins Bett gehen.", "You should go to bed earlier.", "بهتر است زودتر بخوابی."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "نکته مهم: Du musst vs Du solltest",
+                  "headers": [
+                    "Structure",
+                    "Meaning",
+                    "Example",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Du musst ...", "اجبار", "Du musst zum Arzt gehen.", "باید به دکتر بروی. (اجبار)"],
+                    ["Du solltest ...", "توصیه", "Du solltest zum Arzt gehen.", "بهتر است به دکتر بروی. (پیشنهاد)"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "5.4 ساختار دوم: Du könntest ...",
+                  "content": "English:\nThis structure sounds friendlier and softer.\nFormula: Du könntest + Infinitiv\n\nفارسی:\nkönnte = می توانستی / می توانی شاید\nاین ساختار خیلی دوستانه تر است.\nفرمول: Du könntest + مصدر"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Du könntest ...",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Du könntest mehr Wasser trinken.", "You could drink more water.", "می توانستی آب بیشتری بنوشی."],
+                    ["Du könntest mit deinem Chef sprechen.", "You could talk to your boss.", "می توانستی با رئیست صحبت کنی."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت solltest و könntest",
+                  "headers": [
+                    "Structure",
+                    "معنا"
+                  ],
+                  "rows": [
+                    ["Du solltest ...", "من فکر می کنم این کار بهتر است."],
+                    ["Du könntest ...", "یک گزینه را پیشنهاد می دهم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "مقایسه معنایی",
+                  "headers": [
+                    "German",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Du solltest einen Deutschkurs machen.", "بهتر است کلاس آلمانی بروی. (نظر قوی تر)"],
+                    ["Du könntest einen Deutschkurs machen.", "می توانستی کلاس آلمانی بروی. (یک پیشنهاد)"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "5.5 ساختار سوم: An deiner Stelle würde ich...",
+                  "content": "English:\nOne of the most natural advice structures in German.\nMeaning: If I were you ...\nFormula: An deiner Stelle würde ich + Infinitiv\n\nفارسی:\nاین یکی از طبیعی ترین ساختارهای آلمانی است.\nمعنی: اگر جای تو بودم...\nفرمول: An deiner Stelle würde ich + مصدر"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های An deiner Stelle würde ich ...",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["An deiner Stelle würde ich mehr Deutsch sprechen.", "If I were you, I would speak more German.", "اگر جای تو بودم، بیشتر آلمانی صحبت می کردم."],
+                    ["An deiner Stelle würde ich diese Wohnung nicht kaufen.", "If I were you, I wouldn't buy this apartment.", "اگر جای تو بودم، این آپارتمان را نمی خریدم."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "کاربرد",
+                  "content": "این ساختار در مکالمه بسیار رایج است."
+                },
+                {
+                  "type": "explanation",
+                  "title": "5.6 ساختار چهارم: Ich würde dir empfehlen...",
+                  "content": "English:\nMeaning: I would recommend ...\nUsed more in work contexts and serious conversations.\n\nفارسی:\nمعنی: به تو پیشنهاد می کنم...\nبیشتر در محیط کار و صحبت جدی استفاده می شود."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Ich würde dir empfehlen ...",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich würde dir empfehlen, mehr zu lesen.", "I would recommend you to read more.", "پیشنهاد می کنم بیشتر مطالعه کنی."],
+                    ["Ich würde dir empfehlen, einen Arzt aufzusuchen.", "I would recommend seeing a doctor.", "پیشنهاد می کنم به پزشک مراجعه کنی."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "5.7 ساختار پنجم: Es wäre besser...",
+                  "content": "English:\nMeaning: It would be better ...\n\nفارسی:\nمعنی: بهتر بود / بهتر است..."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Es wäre besser ...",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Es wäre besser, früher anzufangen.", "It would be better to start earlier.", "بهتر است زودتر شروع کنیم."],
+                    ["Es wäre besser, wenn du vorsichtiger wärst.", "It would be better if you were more careful.", "بهتر بود محتاط تر باشی."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "5.8 جدول شدت نصیحت",
+                  "headers": [
+                    "German",
+                    "شدت",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Du musst...", "خیلی قوی", "You must", "باید"],
+                    ["Du solltest...", "متوسط", "You should", "بهتر است"],
+                    ["Du könntest...", "ملایم", "You could", "می توانی"],
+                    ["An deiner Stelle würde ich...", "شخصی", "If I were you", "اگر جای تو بودم"],
+                    ["Ich würde empfehlen...", "رسمی", "I would recommend", "پیشنهاد می کنم"]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین فصل ۵ - ترجمه کنید",
+                  "items": [
+                    "۱. بهتر است بیشتر ورزش کنی.",
+                    "۲. اگر جای تو بودم، این ماشین را نمی خریدم.",
+                    "۳. می توانستی بیشتر آلمانی تمرین کنی.",
+                    "۴. پیشنهاد می کنم با مدیرت صحبت کنی."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "der Rat",
+                  "english": "advice",
+                  "persian": "نصیحت، توصیه",
+                  "example": "Danke für deinen Rat."
+                },
+                {
+                  "german": "sollte",
+                  "english": "should",
+                  "persian": "بهتر است",
+                  "example": "Du solltest mehr schlafen."
+                },
+                {
+                  "german": "könnte",
+                  "english": "could",
+                  "persian": "می توانستی / می توانی",
+                  "example": "Du könntest mehr üben."
+                },
+                {
+                  "german": "empfehlen",
+                  "english": "to recommend",
+                  "persian": "توصیه کردن",
+                  "example": "Ich würde dir empfehlen, früher zu beginnen."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-6",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۶ — Irrealität (شرایط غیرواقعی)",
+              "shortDescription": "فصل ۶: ساختار شرایط غیرواقعی با Wenn + Konjunktiv II و würde + Infinitiv، تفاوت حالت واقعی و فرضی.",
+              "order": 6,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "6.1 مفهوم Irrealität",
+                  "content": "English:\nIrrealität means speaking about something that is not real now, only imagined, unlikely, or currently impossible.\n\nفارسی:\nIrrealität یعنی صحبت درباره چیزی که واقعیت ندارد، فقط تصور است، احتمال آن کم است، یا در حال حاضر امکان ندارد."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال ساده: واقعیت و حالت فرضی",
+                  "headers": [
+                    "حالت",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["واقعیت", "Ich habe kein Geld.", "I don't have money.", "من پول ندارم."],
+                    ["فرضی", "Ich hätte viel Geld.", "I would have a lot of money.", "اگر پول زیادی داشتم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "6.2 ساختارهای اصلی Irrealität",
+                  "content": "English:\nThe usual pattern combines a condition with Konjunktiv II and a hypothetical result with würde + infinitive.\n\nفارسی:\nمعمولاً با این الگو ساخته می شود:\nWenn + Konjunktiv II\nwürde + Infinitiv"
+                },
+                {
+                  "type": "explanation",
+                  "title": "6.3 شرایط غیرواقعی در زمان حال",
+                  "content": "English:\nFormula:\nWenn + Konjunktiv II, würde + Infinitiv\n\nفارسی:\nفرمول:\nWenn + Konjunktiv II،\nwürde + مصدر"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال اصلی و تحلیل",
+                  "headers": [
+                    "Part",
+                    "German",
+                    "Meaning"
+                  ],
+                  "rows": [
+                    ["جمله کامل", "Wenn ich mehr Geld hätte, würde ich ein Haus kaufen.", "اگر پول بیشتری داشتم، یک خانه می خریدم."],
+                    ["شرط غیرواقعی", "Wenn ich mehr Geld hätte", "الان پول کافی ندارم."],
+                    ["نتیجه فرضی", "würde ich ein Haus kaufen", "خانه می خریدم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های بیشتر",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wenn ich in Deutschland wäre, würde ich Deutsch jeden Tag sprechen.", "If I were in Germany, I would speak German every day.", "اگر در آلمان بودم، هر روز آلمانی صحبت می کردم."],
+                    ["Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "If I had more time, I would travel more.", "اگر وقت بیشتری داشتم، بیشتر سفر می کردم."],
+                    ["Wenn ich ein Auto hätte, würde ich öfter fahren.", "If I had a car, I would drive more often.", "اگر ماشین داشتم، بیشتر رانندگی می کردم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "6.4 حذف Wenn در مکالمه",
+                  "content": "English:\nSometimes German drops wenn and inverts the verb first. This style is a bit more formal or literary.\n\nفارسی:\nآلمانی ها گاهی wenn را حذف می کنند.\nاین ساختار کمی رسمی تر و ادبی تر است."
+                },
+                {
+                  "type": "table",
+                  "title": "با Wenn و بدون Wenn",
+                  "headers": [
+                    "Structure",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["با Wenn", "Wenn ich mehr Geld hätte, würde ich reisen.", "If I had more money, I would travel.", "اگر پول بیشتری داشتم، سفر می کردم."],
+                    ["بدون Wenn", "Hätte ich mehr Geld, würde ich reisen.", "If I had more money, I would travel.", "اگر پول بیشتری داشتم، سفر می کردم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "6.5 Irrealität با sein و haben",
+                  "headers": [
+                    "Verb",
+                    "واقعی",
+                    "فرضی",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["sein -> wäre", "Ich bin reich.", "Ich wäre reich.", "من ثروتمند هستم. / کاش ثروتمند بودم."],
+                    ["haben -> hätte", "Ich habe mehr Zeit.", "Ich hätte mehr Zeit.", "من وقت بیشتری دارم. / کاش وقت بیشتری داشتم."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "6.6 اشتباه رایج",
+                  "content": "❌ Wenn ich Geld habe, würde ich ein Haus kaufen.\n\nاین ترکیب ناهماهنگ است.\n\nبرای حالت واقعی:\n✅ Wenn ich Geld habe, kaufe ich ein Haus.\n(اگر پول داشته باشم، خانه می خرم.)\n\nبرای حالت غیرواقعی:\n✅ Wenn ich Geld hätte, würde ich ein Haus kaufen.\n(اگر پول داشتم، خانه می خریدم.)"
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت واقعی و غیرواقعی",
+                  "headers": [
+                    "واقعی",
+                    "غیرواقعی",
+                    "فارسی",
+                    "نوع"
+                  ],
+                  "rows": [
+                    ["Wenn ich Zeit habe, komme ich.", "Wenn ich Zeit hätte, würde ich kommen.", "اگر وقت داشته باشم، می آیم. / اگر وقت داشتم، می آمدم.", "احتمال واقعی / فرضی"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "خلاصه فصل ۶",
+                  "content": "English:\nFor present unreal conditions use:\nWenn + hätte/wäre/könnte...\nwürde + Infinitiv\n\nGolden sentence:\nWenn ich mehr Zeit hätte, würde ich mehr Deutsch lernen.\nIf I had more time, I would learn more German.\n\nفارسی:\nبرای شرایط فرضی امروز از این الگو استفاده کن:\nWenn + hätte/wäre/könnte...\nwürde + مصدر\n\nمثال طلایی:\nWenn ich mehr Zeit hätte, würde ich mehr Deutsch lernen.\nاگر وقت بیشتری داشتم، بیشتر آلمانی یاد می گرفتم."
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین ترکیبی فصل ۵ و ۶ - ترجمه کنید",
+                  "items": [
+                    "۱. اگر جای تو بودم، بیشتر آلمانی صحبت می کردم.",
+                    "۲. اگر پول بیشتری داشتم، خانه می خریدم.",
+                    "۳. بهتر است هر روز تمرین کنی.",
+                    "۴. می توانستی با مدیرت صحبت کنی.",
+                    "۵. اگر در آلمان زندگی می کردم، آلمانی را سریع تر یاد می گرفتم."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Irrealität",
+                  "english": "unreality / hypothetical situation",
+                  "persian": "غیرواقعی بودن / حالت فرضی",
+                  "example": "Dieser Satz zeigt Irrealität."
+                },
+                {
+                  "german": "wenn",
+                  "english": "if",
+                  "persian": "اگر",
+                  "example": "Wenn ich Zeit hätte, würde ich kommen."
+                },
+                {
+                  "german": "hätte",
+                  "english": "would have / had (hypothetical)",
+                  "persian": "داشتم (فرضی)",
+                  "example": "Wenn ich Geld hätte..."
+                },
+                {
+                  "german": "wäre",
+                  "english": "would be / were (hypothetical)",
+                  "persian": "بودم (فرضی)",
+                  "example": "Wenn ich in Berlin wäre..."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-7",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۷ — Bedingung (شرط با Konjunktiv II)",
+              "shortDescription": "فصل ۷: تفاوت شرط واقعی و غیرواقعی، ساختار Wenn + Konjunktiv II + würde + Infinitiv، و شرط بدون wenn.",
+              "order": 7,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "7.1 مفهوم جملات شرطی",
+                  "content": "English:\nIn German, conditional sentences express a condition and its result.\nPersian pattern: اگر ...، آنگاه ...\nEnglish pattern: If ..., then ...\nGerman pattern: Wenn ..., dann ...\n\nفارسی:\nدر زبان آلمانی وقتی می خواهیم درباره یک شرط و نتیجه آن صحبت کنیم، از جملات شرطی استفاده می کنیم.\n\nاما همه شرط ها یکسان نیستند:\n1) شرط واقعی (Real Condition)\n2) شرط غیرواقعی (Irreale Bedingung)\nKonjunktiv II مخصوص نوع دوم است."
+                },
+                {
+                  "type": "table",
+                  "title": "7.2 تفاوت شرط واقعی و غیرواقعی",
+                  "headers": [
+                    "نوع",
+                    "German",
+                    "English",
+                    "فارسی",
+                    "تحلیل"
+                  ],
+                  "rows": [
+                    ["شرط واقعی", "Wenn ich Zeit habe, komme ich zu dir.", "If I have time, I will come to you.", "اگر وقت داشته باشم، پیش تو می آیم.", "امکان واقعی وجود دارد."],
+                    ["شرط غیرواقعی", "Wenn ich Zeit hätte, würde ich zu dir kommen.", "If I had time, I would come to you.", "اگر وقت داشتم، پیش تو می آمدم.", "معنی پنهان: الان وقت ندارم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "7.3 ساختار اصلی شرط غیرواقعی",
+                  "content": "Formula:\nWenn + Konjunktiv II,\nwürde + Infinitiv\n\nExample:\nWenn ich mehr Geld hätte, würde ich ein Haus kaufen.\nIf I had more money, I would buy a house.\nاگر پول بیشتری داشتم، یک خانه می خریدم."
+                },
+                {
+                  "type": "table",
+                  "title": "تحلیل ساختار",
+                  "headers": [
+                    "بخش",
+                    "جمله"
+                  ],
+                  "rows": [
+                    ["شرط", "Wenn ich mehr Geld hätte"],
+                    ["نتیجه", "würde ich ein Haus kaufen"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "7.4 جایگاه فعل در جمله شرطی",
+                  "content": "English:\nIn the wenn-clause, the verb goes to the end.\nCorrect: Wenn ich mehr Zeit hätte ...\nWrong: Wenn ich hätte mehr Zeit\n\nIn the result clause, the conjugated verb is in position 2.\nExample: würde ich mehr lernen.\n\nفارسی:\nدر بخش Wenn، فعل به آخر می رود.\nدر بخش نتیجه، فعل صرف شده در جایگاه دوم است."
+                },
+                {
+                  "type": "explanation",
+                  "title": "7.5 استفاده از dann",
+                  "content": "dann = سپس / آن وقت\n\nWith dann:\nWenn ich Geld hätte, dann würde ich reisen.\nIf I had money, then I would travel.\nاگر پول داشتم، آن وقت سفر می کردم.\n\nWithout dann:\nWenn ich Geld hätte, würde ich reisen.\n\nفارسی:\nاستفاده از dann اختیاری است و بدون آن در مکالمه رایج تر است."
+                },
+                {
+                  "type": "table",
+                  "title": "7.6 شرط با افعال مهم",
+                  "headers": [
+                    "Verb",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["sein -> wäre", "Wenn ich jünger wäre, würde ich mehr reisen.", "If I were younger, I would travel more.", "اگر جوان تر بودم، بیشتر سفر می کردم."],
+                    ["haben -> hätte", "Wenn ich mehr Zeit hätte, würde ich ein neues Hobby anfangen.", "If I had more time, I would start a new hobby.", "اگر وقت بیشتری داشتم، یک سرگرمی جدید شروع می کردم."],
+                    ["können -> könnte", "Wenn ich besser Deutsch könnte, würde ich in Deutschland arbeiten.", "If I could speak German better, I would work in Germany.", "اگر آلمانی را بهتر بلد بودم، در آلمان کار می کردم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "7.7 شرط بدون Wenn",
+                  "content": "English:\nGerman can omit wenn and start directly with the Konjunktiv II verb.\nThis is a bit more formal and common in writing.\n\nWith wenn:\nWenn ich mehr Geld hätte, würde ich ein Auto kaufen.\nWithout wenn:\nHätte ich mehr Geld, würde ich ein Auto kaufen.\n\nفارسی:\nدر آلمانی می توانیم wenn را حذف کنیم:\nHätte ich mehr Geld, würde ich ein Auto kaufen.\nاین ساختار رسمی تر است، در نوشته ها بیشتر دیده می شود و در صحبت هم ممکن است استفاده شود."
+                },
+                {
+                  "type": "table",
+                  "title": "7.8 چند مثال طبیعی روزمره",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wenn ich du wäre, würde ich diesen Job nehmen.", "If I were you, I would take this job.", "اگر جای تو بودم، این شغل را قبول می کردم."],
+                    ["Wenn ich mehr Urlaub hätte, würde ich nach Italien fahren.", "If I had more vacation, I would go to Italy.", "اگر مرخصی بیشتری داشتم، به ایتالیا می رفتم."],
+                    ["Wenn ich ein Millionär wäre, würde ich nicht mehr arbeiten.", "If I were a millionaire, I wouldn't work anymore.", "اگر میلیونر بودم، دیگر کار نمی کردم."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "اشتباه رایج",
+                  "content": "❌ Wenn ich Geld hätte, ich würde ein Haus kaufen.\n\nچرا غلط است؟\nچون بعد از جمله Wenn، فعل باید در جایگاه دوم بخش نتیجه باشد.\n\n✅ Wenn ich Geld hätte, würde ich ein Haus kaufen."
+                },
+                {
+                  "type": "explanation",
+                  "title": "خلاصه فصل ۷",
+                  "content": "ساختار طلایی:\nWenn + Konjunktiv II,\nwürde + Infinitiv\n\nExample:\nWenn ich Zeit hätte, würde ich kommen.\nاگر وقت داشتم، می آمدم."
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Bedingung",
+                  "english": "condition",
+                  "persian": "شرط",
+                  "example": "Wenn ich Zeit hätte, würde ich kommen."
+                },
+                {
+                  "german": "real",
+                  "english": "real",
+                  "persian": "واقعی",
+                  "example": "Das ist eine reale Bedingung."
+                },
+                {
+                  "german": "irreal",
+                  "english": "unreal / hypothetical",
+                  "persian": "غیرواقعی / فرضی",
+                  "example": "Das ist eine irreale Bedingung."
+                },
+                {
+                  "german": "dann",
+                  "english": "then",
+                  "persian": "آن وقت / سپس",
+                  "example": "Wenn ich Zeit habe, dann komme ich."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-8",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۸ — Vergangenheit (گذشته فرضی)",
+              "shortDescription": "فصل ۸: گذشته فرضی با hätte/wäre + Partizip II، شرط گذشته، و مدال‌فعل‌ها در گذشته فرضی.",
+              "order": 8,
+              "estimatedMinutes": 55,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "8.1 مفهوم گذشته فرضی",
+                  "content": "English:\nUntil now we focused on unreal conditions in present/future.\nNow we talk about events that did not happen in the past and cannot be changed.\nThis is often used for regret or hypothetical reflection.\n\nفارسی:\nتا اینجا درباره شرایط غیرواقعی در حال یا آینده صحبت کردیم.\nحالا می خواهیم درباره چیزی صحبت کنیم که در گذشته اتفاق نیفتاده، دیگر قابل تغییر نیست و فقط حسرت یا تصور درباره گذشته است.\n\nمثال فارسی:\nاگر بیشتر درس خوانده بودم، امتحان را قبول می شدم.\nواقعیت: من بیشتر درس نخواندم.\nنتیجه: قبول نشدم."
+                },
+                {
+                  "type": "explanation",
+                  "title": "8.2 ساختار گذشته فرضی",
+                  "content": "Formula:\nhätte / wäre + Partizip II"
+                },
+                {
+                  "type": "table",
+                  "title": "با haben و با sein",
+                  "headers": [
+                    "الگو",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["hätte + Partizip II", "Ich hätte mehr gelernt.", "I would have studied more.", "کاش بیشتر درس خوانده بودم."],
+                    ["hätte + Partizip II", "Ich hätte früher angefangen.", "I would have started earlier.", "کاش زودتر شروع کرده بودم."],
+                    ["wäre + Partizip II", "Ich wäre früher gekommen.", "I would have come earlier.", "کاش زودتر آمده بودم."],
+                    ["wäre + Partizip II", "Ich wäre nach Deutschland gegangen.", "I would have gone to Germany.", "کاش به آلمان رفته بودم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "8.3 ترکیب شرط و گذشته فرضی",
+                  "content": "English:\nThis is one of the most important B2 patterns.\nFormula:\nWenn + hätte/wäre + Partizip II,\nhätte/wäre + Partizip II\n\nExample:\nWenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden.\nIf I had studied more, I would have passed the exam.\nاگر بیشتر درس خوانده بودم، امتحان را قبول می شدم."
+                },
+                {
+                  "type": "table",
+                  "title": "تحلیل مثال",
+                  "headers": [
+                    "بخش",
+                    "German",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["شرط", "Wenn ich mehr gelernt hätte", "اگر بیشتر درس خوانده بودم"],
+                    ["نتیجه", "hätte ich bestanden", "قبول می شدم"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "8.4 مثال های واقعی",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Wenn ich früher aufgestanden wäre, hätte ich den Zug nicht verpasst.", "If I had gotten up earlier, I wouldn't have missed the train.", "اگر زودتر بیدار شده بودم، قطار را از دست نمی دادم."],
+                    ["Wenn ich das gewusst hätte, hätte ich anders entschieden.", "If I had known that, I would have decided differently.", "اگر آن را می دانستم، تصمیم دیگری می گرفتم."],
+                    ["Ich hätte dir geholfen, wenn ich Zeit gehabt hätte.", "I would have helped you if I had had time.", "اگر وقت داشتم، به تو کمک می کردم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "8.5 افعال مدال در گذشته فرضی",
+                  "content": "English:\nVery important for B2.\nStructure:\nhätte + Infinitiv + Modalverb\n\nفارسی:\nاین قسمت برای B2 بسیار مهم است.\nساختار:\nhätte + مصدر + فعل مدال"
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های Modalverb",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich hätte kommen können.", "I could have come.", "می توانستم بیایم."],
+                    ["Du hättest früher gehen sollen.", "You should have left earlier.", "باید زودتر می رفتی."],
+                    ["Ich hätte mehr lernen müssen.", "I would have had to study more.", "مجبور بودم بیشتر درس بخوانم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "تفاوت زمان ها",
+                  "headers": [
+                    "نوع",
+                    "German",
+                    "فارسی",
+                    "تحلیل"
+                  ],
+                  "rows": [
+                    ["حال غیرواقعی", "Wenn ich Zeit hätte, würde ich kommen.", "اگر وقت داشتم، می آمدم.", "الان وقت ندارم"],
+                    ["گذشته غیرواقعی", "Wenn ich Zeit gehabt hätte, wäre ich gekommen.", "اگر وقت داشتم، آمده بودم.", "آن زمان وقت نداشتم"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "جدول نهایی فصل ۸",
+                  "headers": [
+                    "زمان",
+                    "ساختار",
+                    "مثال"
+                  ],
+                  "rows": [
+                    ["حال فرضی", "hätte/wäre + würde", "Wenn ich Zeit hätte, würde ich kommen."],
+                    ["گذشته فرضی", "hätte/wäre + Partizip II", "Wenn ich Zeit gehabt hätte, wäre ich gekommen."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "خلاصه کل Konjunktiv II تا اینجا",
+                  "items": [
+                    "✅ مفهوم Konjunktiv II",
+                    "✅ ساختارهای اصلی",
+                    "✅ آرزوها",
+                    "✅ درخواست مودبانه",
+                    "✅ نصیحت",
+                    "✅ شرایط غیرواقعی حال",
+                    "✅ شرط های پیچیده",
+                    "✅ حسرت درباره گذشته",
+                    "با این چهار فصل، بخش اصلی Konjunktiv II را یاد گرفته ای."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Vergangenheit",
+                  "english": "past",
+                  "persian": "گذشته",
+                  "example": "Das ist eine hypothetische Vergangenheit."
+                },
+                {
+                  "german": "das Partizip II",
+                  "english": "past participle",
+                  "persian": "اسم مفعول / شکل سوم فعل",
+                  "example": "gelernt ist das Partizip II von lernen."
+                },
+                {
+                  "german": "bestanden",
+                  "english": "passed",
+                  "persian": "قبول شده",
+                  "example": "Ich hätte die Prüfung bestanden."
+                },
+                {
+                  "german": "verpassen",
+                  "english": "to miss",
+                  "persian": "از دست دادن",
+                  "example": "Ich hätte den Zug nicht verpasst."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-9",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۹ — تفاوت های پیشرفته و کاربرد Native Speaker",
+              "shortDescription": "فصل ۹: تفاوت würde, hätte, wäre, könnte, müsste و نکات مکالمه طبیعی B2.",
+              "order": 9,
+              "estimatedMinutes": 70,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "9.1 چرا این فصل مهم است؟",
+                  "content": "English:\nAt B2 level, being only grammatically correct is not enough. You need to sound natural.\n\nفارسی:\nتا اینجا Konjunktiv II را برای آرزو، ادب، نصیحت و شرط یاد گرفتیم.\nاما در سطح B2 هدف فقط درست بودن نیست؛ هدف این است که جمله مثل یک آلمانی زبان طبیعی به نظر برسد.\n\nWarum sagt man oft: Ich könnte kommen.\nWarum sagt man nicht: Ich würde kommen können?\nForm reference: Ich würde kommen können.\nهر دو ممکن اند، اما اولی طبیعی تر است."
+                },
+                {
+                  "type": "table",
+                  "title": "9.2 قانون اصلی Native Speaker",
+                  "headers": [
+                    "گروه فعل",
+                    "الگوی طبیعی",
+                    "توضیح"
+                  ],
+                  "rows": [
+                    ["افعال معمولی", "würde + Infinitiv", "در گفتار روزمره اغلب با würde ساخته می شوند."],
+                    ["افعال بسیار رایج", "شکل اصلی Konjunktiv II", "معمولاً شکل اصلی را حفظ می کنند."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "افعال بسیار رایج",
+                  "headers": [
+                    "Infinitiv",
+                    "Konjunktiv II"
+                  ],
+                  "rows": [
+                    ["sein", "wäre"],
+                    ["haben", "hätte"],
+                    ["können", "könnte"],
+                    ["müssen", "müsste"],
+                    ["dürfen", "dürfte"],
+                    ["sollen", "sollte"],
+                    ["mögen", "möchte"]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "9.3 چرا همیشه würde استفاده نمی کنیم؟",
+                  "content": "Natural:\nIch wäre glücklich.\nI would be happy.\nخوشحال بودم / کاش خوشحال بودم.\n\nPossible but less natural:\nIch würde glücklich sein.\n\nفارسی:\nجمله دوم غلط نیست، اما یک آلمانی معمولاً شکل اول را طبیعی تر می داند."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های مهم با sein و haben",
+                  "headers": [
+                    "Verb",
+                    "طبیعی",
+                    "کمتر طبیعی",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["sein", "Ich wäre gern dabei.", "Ich würde gern dabei sein.", "دوست داشتم در آن حضور داشته باشم."],
+                    ["haben", "Ich hätte gern mehr Zeit.", "Ich würde gern mehr Zeit haben.", "دوست داشتم وقت بیشتری داشته باشم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9.4 تفاوت würde gern و möchte gern",
+                  "headers": [
+                    "ساختار",
+                    "معنی",
+                    "مثال",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["möchte", "می خواهم / مایل هستم", "Ich möchte einen Kaffee.", "یک قهوه می خواهم."],
+                    ["würde gern", "تمرکز روی فعالیت", "Ich würde gern reisen.", "دوست دارم سفر کنم."],
+                    ["مقایسه", "چیز داشتن در برابر انجام کار", "Ich möchte ein Auto. / Ich würde gern ein Auto kaufen.", "من ماشین می خواهم. / دوست دارم یک ماشین بخرم."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "9.5 تفاوت könnte و würde können",
+                  "content": "Natural:\nIch könnte dir helfen.\nI could help you.\nمی توانستم به تو کمک کنم.\n\nLess natural:\nIch würde dir helfen können.\n\nفارسی:\nچون könnte خودش مفهوم توانایی فرضی را منتقل می کند، ساخت دوم در گفتار کم تر طبیعی است."
+                },
+                {
+                  "type": "table",
+                  "title": "مثال های روزمره با könnte",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Könntest du mir bitte helfen?", "Could you please help me?", "می توانی لطفاً به من کمک کنی؟"],
+                    ["Ich könnte morgen kommen.", "I could come tomorrow.", "می توانم فردا بیایم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9.6 تفاوت müsste و würde müssen",
+                  "headers": [
+                    "ساختار",
+                    "کاربرد",
+                    "مثال",
+                    "نکته"
+                  ],
+                  "rows": [
+                    ["müsste", "احتمالاً باید / مجبور می بودم", "Ich müsste jetzt gehen.", "خیلی رایج و طبیعی"],
+                    ["würde müssen", "کمتر رایج", "Ich würde arbeiten müssen.", "از نظر گرامری درست، ولی کم تر طبیعی"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9.7 Konjunktiv II برای حدس و احتمال",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Das könnte stimmen.", "That could be true.", "ممکن است درست باشد."],
+                    ["Er könnte krank sein.", "He could be sick.", "ممکن است او مریض باشد."],
+                    ["Das wäre möglich.", "That would be possible.", "این ممکن است."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9.8 تفاوت könnte و vielleicht",
+                  "headers": [
+                    "ساختار",
+                    "معنا",
+                    "مثال"
+                  ],
+                  "rows": [
+                    ["vielleicht", "فقط احتمال", "Vielleicht kommt er morgen."],
+                    ["könnte", "احتمال + منطق", "Er könnte morgen kommen."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9.9 نرم کردن نظر شخصی",
+                  "headers": [
+                    "نوع",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["مستقیم", "Das ist falsch.", "This is wrong.", "این اشتباه است."],
+                    ["نرم تر", "Das wäre vielleicht nicht die beste Lösung.", "That might not be the best solution.", "شاید بهترین راه حل نباشد."],
+                    ["محیط کار - مستقیم", "Wir müssen das ändern.", "We must change this.", "باید این را تغییر دهیم."],
+                    ["محیط کار - مودبانه", "Wir müssten das vielleicht noch einmal überprüfen.", "We might need to check this again.", "شاید بهتر باشد دوباره بررسی کنیم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "9.10 عبارت های بسیار رایج B2",
+                  "headers": [
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["Ich würde sagen, dass diese Lösung besser wäre.", "I would say that this solution would be better.", "به نظر من این راه حل بهتر است."],
+                    ["Ich würde gerne wissen, ob das möglich wäre.", "I would like to know if that would be possible.", "دوست دارم بدانم آیا این امکان وجود دارد."],
+                    ["Das wäre schön.", "That would be nice.", "عالی می شد."],
+                    ["Das wäre eine gute Idee.", "That would be a good idea.", "ایده خوبی می بود."],
+                    ["Ich hätte eine Frage.", "I have a question.", "یک سوال داشتم."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "9.11 اشتباهات رایج سطح B1",
+                  "content": "❌ Ich würde gern einen Kaffee haben.\n✅ Ich hätte gern einen Kaffee.\n\n❌ Wenn ich Zeit haben würde...\n✅ Wenn ich Zeit hätte...\n\n❌ Ich würde können kommen.\n✅ Ich könnte kommen."
+                },
+                {
+                  "type": "table",
+                  "title": "9.12 خلاصه طلایی Native Speaker",
+                  "headers": [
+                    "کاربرد",
+                    "الگو",
+                    "مثال"
+                  ],
+                  "rows": [
+                    ["داشتن", "Ich hätte...", "Ich hätte gern ein Haus."],
+                    ["بودن", "Ich wäre...", "Ich wäre gern dort."],
+                    ["توانستن", "Ich könnte...", "Ich könnte dir helfen."],
+                    ["احتمال", "Es könnte sein...", "Es könnte regnen."],
+                    ["پیشنهاد", "Ich würde...", "Ich würde vorschlagen..."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین فصل ۹ - ترجمه کنید",
+                  "items": [
+                    "۱. دوست داشتم بیشتر وقت داشته باشم.",
+                    "۲. ممکن است او فردا بیاید.",
+                    "۳. اگر جای تو بودم، این کار را انجام نمی دادم.",
+                    "۴. دوست دارم بدانم آیا این امکان وجود دارد.",
+                    "۵. شاید این بهترین راه حل نباشد.",
+                    "۶. یک سوال داشتم."
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "جمع بندی کل Konjunktiv II تا اینجا",
+                  "headers": [
+                    "کاربرد",
+                    "مثال"
+                  ],
+                  "rows": [
+                    ["آرزو", "Ich wäre gern dort."],
+                    ["داشتن چیزی", "Ich hätte gern Kaffee."],
+                    ["فعالیت", "Ich würde gern reisen."],
+                    ["ادب", "Könnten Sie helfen?"],
+                    ["نصیحت", "Du solltest lernen."],
+                    ["احتمال", "Das könnte sein."],
+                    ["شرط", "Wenn ich Zeit hätte..."],
+                    ["گذشته فرضی", "Ich hätte gelernt."]
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "natürlich",
+                  "english": "natural",
+                  "persian": "طبیعی",
+                  "example": "Diese Form klingt natürlich."
+                },
+                {
+                  "german": "künstlich",
+                  "english": "artificial / unnatural",
+                  "persian": "مصنوعی / غیرطبیعی",
+                  "example": "Dieser Satz klingt künstlich."
+                },
+                {
+                  "german": "die Vermutung",
+                  "english": "assumption, guess",
+                  "persian": "حدس، گمان",
+                  "example": "Das ist nur eine Vermutung."
+                },
+                {
+                  "german": "müsste",
+                  "english": "should probably / would have to",
+                  "persian": "احتمالاً باید",
+                  "example": "Ich müsste jetzt gehen."
+                }
+              ],
+              "exercises": []
+            },
+            {
+              "id": "b1-grammar-konjunktiv-ii-lesson-10",
+              "topicId": "b1-grammar-konjunktiv-ii",
+              "categoryId": "b1-grammar",
+              "levelId": "b1",
+              "title": "فصل ۱۰ — Konjunktiv II در مکالمه واقعی آلمانی",
+              "shortDescription": "فصل ۱۰: جمله های کاربردی Konjunktiv II در موقعیت های واقعی (روزمره، کار، خرید، رستوران، ارتباط رسمی).",
+              "order": 10,
+              "estimatedMinutes": 70,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "مقدمه فصل ۱۰",
+                  "content": "English:\nKnowing grammar is not the same as sounding natural in conversation.\nThis chapter focuses on real-world sentence patterns native speakers actually use.\n\nفارسی:\nتا اینجا ساختار و منطق Konjunktiv II را یاد گرفتید.\nاما یک تفاوت بزرگ بین دانستن گرامر و صحبت کردن مثل یک آلمانی وجود دارد.\n\nتمرکز این فصل روی جمله های روزمره، محیط کار، خرید، رستوران، دوستان، ایمیل و ارتباط رسمی است."
+                },
+                {
+                  "type": "tip",
+                  "title": "100 جمله‌ای که آلمانی‌ها واقعاً استفاده می‌کنند",
+                  "content": "هدف این فصل، تمرین جمله های کاملاً کاربردی و طبیعی Konjunktiv II در مکالمه واقعی است."
+                },
+                {
+                  "type": "table",
+                  "title": "بخش اول — درخواست های روزمره (1 تا 5)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی",
+                    "کاربرد"
+                  ],
+                  "rows": [
+                    ["1", "Könnten Sie mir bitte helfen?", "Could you please help me?", "ممکن است لطفاً به من کمک کنید؟", "اداره، فروشگاه، افراد ناآشنا"],
+                    ["2", "Könntest du mir kurz helfen?", "Could you help me briefly?", "می توانی یک لحظه به من کمک کنی؟", "دوست، همکار نزدیک"],
+                    ["3", "Könnten Sie das bitte wiederholen?", "Could you repeat that please?", "ممکن است لطفاً دوباره تکرار کنید؟", "رسمی"],
+                    ["4", "Würden Sie mir bitte Ihre Adresse geben?", "Would you please give me your address?", "ممکن است لطفاً آدرس خود را بدهید؟", "رسمی"],
+                    ["5", "Dürfte ich eine Frage stellen?", "May I ask a question?", "اجازه دارم یک سوال بپرسم؟", "رسمی"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش دوم — بیان خواسته ها (6 تا 10)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["6", "Ich hätte gern einen Kaffee.", "I would like a coffee.", "یک قهوه لطفاً."],
+                    ["7", "Ich hätte gern mehr Informationen.", "I would like more information.", "اطلاعات بیشتری می خواهم."],
+                    ["8", "Ich würde gern einen Termin vereinbaren.", "I would like to make an appointment.", "مایلم یک وقت ملاقات تعیین کنم."],
+                    ["9", "Ich würde gern wissen, ob das möglich wäre.", "I would like to know if that would be possible.", "می خواهم بدانم آیا این امکان وجود دارد."],
+                    ["10", "Ich wäre gern dabei.", "I would like to be there.", "دوست دارم در آن حضور داشته باشم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش سوم — پیشنهاد دادن (11 تا 15)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["11", "Ich würde vorschlagen, dass wir anfangen.", "I would suggest that we start.", "پیشنهاد می کنم شروع کنیم."],
+                    ["12", "Wir könnten morgen darüber sprechen.", "We could talk about it tomorrow.", "می توانیم فردا درباره آن صحبت کنیم."],
+                    ["13", "Vielleicht könnten wir eine andere Lösung finden.", "Maybe we could find another solution.", "شاید بتوانیم راه حل دیگری پیدا کنیم."],
+                    ["14", "Es wäre besser, früher anzufangen.", "It would be better to start earlier.", "بهتر است زودتر شروع کنیم."],
+                    ["15", "Das wäre eine gute Idee.", "That would be a good idea.", "ایده خوبی است."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش چهارم — نظر دادن مودبانه (16 تا 20)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["16", "Ich würde sagen, dass das eine gute Idee ist.", "I would say that this is a good idea.", "به نظر من این ایده خوبی است."],
+                    ["17", "Ich denke, das könnte funktionieren.", "I think that could work.", "فکر می کنم ممکن است جواب بدهد."],
+                    ["18", "Das wäre vielleicht nicht die beste Lösung.", "That might not be the best solution.", "شاید بهترین راه حل نباشد."],
+                    ["19", "Ich wäre nicht sicher, ob das funktioniert.", "I wouldn't be sure if that works.", "مطمئن نیستم که جواب بدهد."],
+                    ["20", "Meiner Meinung nach wäre es besser...", "In my opinion, it would be better...", "به نظر من بهتر بود..."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش پنجم — نصیحت کردن (21 تا 25)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["21", "Du solltest mehr schlafen.", "You should sleep more.", "بهتر است بیشتر بخوابی."],
+                    ["22", "Du solltest weniger Stress haben.", "You should have less stress.", "بهتر است استرس کمتری داشته باشی."],
+                    ["23", "Du könntest einen Deutschkurs machen.", "You could take a German course.", "می توانستی یک دوره آلمانی بروی."],
+                    ["24", "An deiner Stelle würde ich warten.", "If I were you, I would wait.", "اگر جای تو بودم، صبر می کردم."],
+                    ["25", "Ich würde dir empfehlen, mehr zu üben.", "I would recommend practicing more.", "پیشنهاد می کنم بیشتر تمرین کنی."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش ششم — احتمال و حدس (26 تا 30)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["26", "Das könnte sein.", "That could be.", "ممکن است."],
+                    ["27", "Es könnte regnen.", "It could rain.", "ممکن است باران بیاید."],
+                    ["28", "Er könnte krank sein.", "He could be sick.", "ممکن است او بیمار باشد."],
+                    ["29", "Das wäre möglich.", "That would be possible.", "این امکان دارد."],
+                    ["30", "Das könnte eine gute Lösung sein.", "That could be a good solution.", "ممکن است راه حل خوبی باشد."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش هفتم — محیط کار (31 تا 35)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["31", "Ich hätte eine Frage.", "I have a question.", "یک سوال داشتم."],
+                    ["32", "Ich würde gerne mit Ihnen darüber sprechen.", "I would like to talk with you about it.", "مایلم درباره آن با شما صحبت کنم."],
+                    ["33", "Könnten wir einen Termin vereinbaren?", "Could we arrange an appointment?", "می توانیم یک وقت ملاقات تنظیم کنیم؟"],
+                    ["34", "Ich würde gerne Ihre Meinung hören.", "I would like to hear your opinion.", "مایلم نظر شما را بدانم."],
+                    ["35", "Das müsste noch geprüft werden.", "That would still need to be checked.", "باید هنوز بررسی شود."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "نکته کاربردی رسمی",
+                  "content": "Ich hätte eine Frage در محیط رسمی بسیار طبیعی تر از عبارت Ich habe eine Frage. است."
+                },
+                {
+                  "type": "table",
+                  "title": "بخش هشتم — حسرت و گذشته (36 تا 40)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["36", "Ich hätte mehr lernen sollen.", "I should have studied more.", "باید بیشتر درس می خواندم."],
+                    ["37", "Ich hätte früher anfangen sollen.", "I should have started earlier.", "باید زودتر شروع می کردم."],
+                    ["38", "Ich hätte das anders gemacht.", "I would have done that differently.", "من آن را جور دیگری انجام می دادم."],
+                    ["39", "Ich wäre gern früher gekommen.", "I would have liked to come earlier.", "کاش زودتر آمده بودم."],
+                    ["40", "Das hätte ich nicht erwartet.", "I wouldn't have expected that.", "انتظارش را نداشتم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "بخش نهم — جملات بسیار طبیعی Native (41 تا 45)",
+                  "headers": [
+                    "#",
+                    "German",
+                    "English",
+                    "فارسی"
+                  ],
+                  "rows": [
+                    ["41", "Das wäre schön.", "That would be nice.", "خیلی خوب می شد."],
+                    ["42", "Das wäre interessant.", "That would be interesting.", "جالب می شد."],
+                    ["43", "Das könnte schwierig werden.", "That could become difficult.", "ممکن است سخت شود."],
+                    ["44", "Ich könnte mir vorstellen, dass...", "I could imagine that...", "می توانم تصور کنم که..."],
+                    ["45", "Ich würde gerne mehr darüber erfahren.", "I would like to learn more about it.", "مایلم بیشتر درباره آن بدانم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "الگوهایی که باید حفظ کنید",
+                  "headers": [
+                    "کاربرد",
+                    "فرمول",
+                    "مثال"
+                  ],
+                  "rows": [
+                    ["درخواست", "Könnten Sie + Infinitiv?", "Könnten Sie mir helfen?"],
+                    ["پیشنهاد", "Wir könnten + Infinitiv", "Wir könnten morgen anfangen."],
+                    ["نظر نرم", "Ich würde sagen...", "Ich würde sagen, das ist besser."],
+                    ["توصیه", "An deiner Stelle würde ich...", "An deiner Stelle würde ich warten."],
+                    ["احتمال", "Das könnte...", "Das könnte stimmen."]
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "تمرین نهایی فصل ۱۰ - ترجمه کنید",
+                  "items": [
+                    "۱. ممکن است لطفاً دوباره توضیح دهید؟",
+                    "۲. اگر جای تو بودم، این کار را انجام نمی دادم.",
+                    "۳. دوست دارم بدانم آیا این امکان وجود دارد.",
+                    "۴. شاید فردا بتوانیم درباره آن صحبت کنیم.",
+                    "۵. کاش بیشتر تمرین کرده بودم.",
+                    "۶. فکر می کنم این می تواند راه حل خوبی باشد.",
+                    "۷. پیشنهاد می کنم زودتر شروع کنیم."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "title": "جمع بندی نهایی Konjunktiv II",
+                  "items": [
+                    "✅ درخواست مودبانه کنید",
+                    "✅ در محیط کار حرفه ای صحبت کنید",
+                    "✅ آرزو بیان کنید",
+                    "✅ پیشنهاد بدهید",
+                    "✅ نصیحت کنید",
+                    "✅ درباره احتمال صحبت کنید",
+                    "✅ شرایط فرضی بسازید",
+                    "✅ درباره گذشته حسرت بیان کنید",
+                    "این دقیقاً همان چیزی است که یک زبان آموز سطح B1 تا B2 برای استفاده طبیعی از Konjunktiv II نیاز دارد."
+                  ]
+                }
+              ],
+              "vocabulary": [
+                {
+                  "german": "die Höflichkeit",
+                  "english": "politeness",
+                  "persian": "نزاکت، ادب",
+                  "example": "Höflichkeit ist im Berufsleben sehr wichtig."
+                },
+                {
+                  "german": "vereinbaren",
+                  "english": "to arrange",
+                  "persian": "تنظیم کردن / تعیین کردن",
+                  "example": "Wir sollten einen Termin vereinbaren."
+                },
+                {
+                  "german": "überprüfen",
+                  "english": "to check, verify",
+                  "persian": "بررسی کردن",
+                  "example": "Das müsste noch überprüft werden."
+                },
+                {
+                  "german": "vorstellen",
+                  "english": "to imagine",
+                  "persian": "تصور کردن",
+                  "example": "Ich könnte mir vorstellen, dass das klappt."
                 }
               ],
               "exercises": []
