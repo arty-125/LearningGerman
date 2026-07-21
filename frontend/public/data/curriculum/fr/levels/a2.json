@@ -61,6 +61,98 @@
             }
           ]
         },
+        {
+          "id": "fr-a2-grammar-futur-proche",
+          "categoryId": "fr-a2-grammar",
+          "levelId": "a2",
+          "title": "Futur proche (aller + infinitif)",
+          "description": "Parler de plans et d'actions proches avec aller + infinitif",
+          "difficulty": 2,
+          "estimatedMinutes": 25,
+          "order": 7,
+          "tags": ["future", "futur-proche", "aller", "infinitif"],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "fr-a2-grammar-futur-proche-lesson-1",
+              "topicId": "fr-a2-grammar-futur-proche",
+              "categoryId": "fr-a2-grammar",
+              "levelId": "a2",
+              "title": "La structure aller + infinitif",
+              "shortDescription": "Utilisez aller + infinitif pour parler d'une intention, d'un plan ou d'une action qui va se produire bientôt.",
+              "order": 1,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Idée principale",
+                  "content": "English:\nFutur proche is built with a subject + conjugated aller + infinitive. It is used for near-future actions, plans, and intentions.\n\nفارسی:\nزمان آینده نزدیک در فرانسه با فاعل + صرف فعل aller + مصدر ساخته می شود. از آن برای کارهایی که به زودی انجام می شوند، برنامه ها و قصدها استفاده می کنیم."
+                },
+                {
+                  "type": "tip",
+                  "title": "2) Formule",
+                  "content": "Sujet + aller (conjugue) + verbe a l'infinitif"
+                },
+                {
+                  "type": "table",
+                  "title": "3) Conjugaison de aller (present)",
+                  "headers": ["Sujet", "Forme", "Exemple rapide", "فارسی"],
+                  "rows": [
+                    ["Je", "vais", "Je vais partir.", "من قرار است بروم."],
+                    ["Tu", "vas", "Tu vas etudier.", "تو قرار است درس بخوانی."],
+                    ["Il/Elle/On", "va", "Elle va appeler.", "او قرار است تماس بگیرد."],
+                    ["Nous", "allons", "Nous allons commencer.", "ما قرار است شروع کنیم."],
+                    ["Vous", "allez", "Vous allez venir.", "شما قرار است بیایید."],
+                    ["Ils/Elles", "vont", "Ils vont dormir.", "آنها قرار است بخوابند."]
+                  ]
+                },
+                {
+                  "type": "warning",
+                  "title": "4) Erreurs frequentes",
+                  "content": "English:\nOnly aller is conjugated. The second verb must stay infinitive.\n\nفارسی:\nفقط aller صرف می شود. فعل دوم همیشه باید به صورت مصدر بماند.\n\nCorrect: Je vais manger.\nIncorrect: Je vais mange / Je vais mangee"
+                },
+                {
+                  "type": "explanation",
+                  "title": "5) Forme negative",
+                  "content": "English:\nPlace ne ... pas around aller.\n\nفارسی:\nدر حالت منفی، ne ... pas دور aller قرار می گیرد.\n\nJe ne vais pas sortir.\nNous n'allons pas travailler demain."
+                },
+                {
+                  "type": "explanation",
+                  "title": "6) Poser une question",
+                  "content": "English:\nIn spoken French, intonation is the most common way: Tu vas venir ?\nYou can also use Est-ce que: Est-ce que tu vas venir ?\n\nفارسی:\nدر گفتار روزمره، رایج ترین روش برای سوال، بالا بردن آهنگ صداست: Tu vas venir ?\nهمچنین می توانید از Est-ce que استفاده کنید: Est-ce que tu vas venir ?"
+                },
+                {
+                  "type": "table",
+                  "title": "7) Usages pratiques",
+                  "headers": ["Situation", "Francais", "English", "فارسی"],
+                  "rows": [
+                    ["Parler d'un futur proche", "Il va arriver dans 5 minutes.", "Describe something happening soon: He is going to arrive in 5 minutes.", "توصیف کاری که به زودی اتفاق می افتد: او قرار است تا ۵ دقیقه دیگر برسد."],
+                    ["Exprimer un plan", "On va visiter Lyon ce week-end.", "Express a plan: We are going to visit Lyon this weekend.", "بیان یک برنامه: ما قرار است این آخر هفته از لیون دیدن کنیم."],
+                    ["Exprimer une intention", "Je vais apprendre le francais cette annee.", "Express an intention: I am going to learn French this year.", "بیان یک قصد یا نیت: من قصد دارم امسال فرانسوی یاد بگیرم."],
+                    ["Refuser un plan poliment", "Desole, je ne vais pas sortir ce soir.", "Politely refuse a plan: Sorry, I am not going to go out tonight.", "رد مودبانه یک برنامه: ببخشید، من قرار نیست امشب بیرون بروم."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "8) Mini pratique (phrases utiles)",
+                  "headers": ["Francais", "English", "فارسی"],
+                  "rows": [
+                    ["Je vais travailler demain.", "I am going to work tomorrow.", "من قرار است فردا کار کنم."],
+                    ["Tu vas partir maintenant ?", "Are you going to leave now?", "الان می خواهی بروی؟"],
+                    ["Elle ne va pas venir.", "She is not going to come.", "او قرار نیست بیاید."],
+                    ["On va regarder un film.", "We are going to watch a movie.", "ما قرار است یک فیلم ببینیم."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "9) A retenir",
+                  "content": "aller + infinitif = going to do something / قرار است کاری انجام بدهم"
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
         { "id": "fr-a2-grammar-imparfait", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Imparfait", "description": "Décrire les habitudes et les états dans le passé", "difficulty": 3, "estimatedMinutes": 30, "order": 2, "tags": ["past-tense", "imparfait"], "prerequisites": ["fr-a2-grammar-passe-compose"], "lessons": [] },
         { "id": "fr-a2-grammar-modal-verbs", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Verbes de modalité", "description": "pouvoir, devoir, vouloir et structures utiles", "difficulty": 3, "estimatedMinutes": 35, "order": 3, "tags": ["modals"], "prerequisites": [], "lessons": [] },
         { "id": "fr-a2-grammar-pronominal-verbs", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Verbes pronominaux", "description": "se lever, se laver, s'habiller et autres verbes pronominaux", "difficulty": 3, "estimatedMinutes": 25, "order": 4, "tags": ["pronominal"], "prerequisites": [], "lessons": [] },
