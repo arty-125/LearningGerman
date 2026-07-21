@@ -153,6 +153,108 @@
             }
           ]
         },
+        {
+          "id": "fr-a2-grammar-cest-qui-que",
+          "categoryId": "fr-a2-grammar",
+          "levelId": "a2",
+          "title": "Structure emphatique C'est ... qui/que",
+          "description": "Mettre l'accent sur une personne, une chose, un temps ou un lieu",
+          "difficulty": 2,
+          "estimatedMinutes": 25,
+          "order": 8,
+          "tags": ["emphasis", "cest", "qui", "que"],
+          "prerequisites": [],
+          "lessons": [
+            {
+              "id": "fr-a2-grammar-cest-qui-que-lesson-1",
+              "topicId": "fr-a2-grammar-cest-qui-que",
+              "categoryId": "fr-a2-grammar",
+              "levelId": "a2",
+              "title": "La structure emphatique C'est ... qui/que",
+              "shortDescription": "Utilisez C'est ... qui/que pour insister clairement sur l'information la plus importante.",
+              "order": 1,
+              "estimatedMinutes": 25,
+              "sections": [
+                {
+                  "type": "explanation",
+                  "title": "1) Idee principale",
+                  "content": "English:\nC'est ... qui/que is used to emphasize one part of a sentence. It helps you highlight, correct, or clarify information.\n\nفارسی:\nساختار C'est ... qui/que برای تاکید روی یک بخش جمله استفاده می شود. این ساختار برای برجسته کردن، اصلاح کردن یا روشن تر کردن اطلاعات بسیار کاربردی است."
+                },
+                {
+                  "type": "table",
+                  "title": "2) Formules de base",
+                  "headers": ["Usage", "Francais", "English", "فارسی"],
+                  "rows": [
+                    ["Sujet (personne qui fait l'action)", "C'est + personne + qui + verbe", "Use this when you emphasize who does the action.", "وقتی می خواهید روی انجام دهنده کار تاکید کنید، از این الگو استفاده کنید."],
+                    ["Objet/temps/lieu (element focalise)", "C'est + element + que + sujet + verbe", "Use this when you emphasize what, when, or where.", "وقتی می خواهید روی چه چیزی، چه زمانی یا چه مکانی تاکید کنید، از این الگو استفاده کنید."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "3) Phrase normale vs emphatique",
+                  "headers": ["Type", "Francais", "English", "فارسی"],
+                  "rows": [
+                    ["Normale", "Marie mange une pomme.", "Marie eats an apple.", "ماری یک سیب می خورد."],
+                    ["Emphase sur le sujet", "C'est Marie qui mange une pomme.", "It is Marie who eats an apple.", "این ماری است که یک سیب می خورد."],
+                    ["Emphase sur l'objet", "C'est une pomme que Marie mange.", "It is an apple that Marie eats.", "این یک سیب است که ماری می خورد."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "4) QUI ou QUE ?",
+                  "headers": ["Question utile", "Mot", "English", "فارسی"],
+                  "rows": [
+                    ["Who does the action?", "QUI", "Use qui after the emphasized subject.", "اگر بخش تاکیدشده فاعل است، از qui استفاده کنید."],
+                    ["What/when/where is emphasized?", "QUE", "Use que for object, time, or place.", "اگر روی مفعول، زمان یا مکان تاکید می کنید، از que استفاده کنید."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "5) Usages pratiques (conversation)",
+                  "headers": ["Situation", "Francais", "English", "فارسی"],
+                  "rows": [
+                    ["Corriger une personne", "Non, c'est Marc qui a achete la voiture.", "Correct someone: No, it was Marc who bought the car.", "اصلاح کردن: نه، این مارک بود که ماشین را خرید."],
+                    ["Insister sur le temps", "C'est mardi que je pars.", "Emphasize time: It is Tuesday that I leave.", "تاکید بر زمان: این سه شنبه است که می روم."],
+                    ["Insister sur le lieu", "C'est a Paris que je travaille.", "Emphasize place: It is in Paris that I work.", "تاکید بر مکان: این در پاریس است که کار می کنم."],
+                    ["Repondre a Qui ?", "C'est Sarah qui a appele hier.", "Answer Who?: It was Sarah who called yesterday.", "پاسخ به «چه کسی؟»: این سارا بود که دیروز تماس گرفت."]
+                  ]
+                },
+                {
+                  "type": "explanation",
+                  "title": "6) Forme negative",
+                  "content": "English:\nNegative pattern: Ce n'est pas ... qui/que ...\nExample: Ce n'est pas Paul qui a casse la fenetre.\n\nفارسی:\nالگوی منفی: Ce n'est pas ... qui/que ...\nمثال: Ce n'est pas Paul qui a casse la fenetre.\nمعنی: این پل نیست که پنجره را شکسته است."
+                },
+                {
+                  "type": "table",
+                  "title": "7) Erreurs frequentes",
+                  "headers": ["Incorrect", "Correct", "English", "فارسی"],
+                  "rows": [
+                    ["C'est Paul que travaille.", "C'est Paul qui travaille.", "Paul is the subject, so use qui.", "پل فاعل است، پس باید qui بیاید."],
+                    ["C'est une voiture qui j'achete.", "C'est une voiture que j'achete.", "Une voiture is the object, so use que.", "une voiture مفعول است، پس باید que بیاید."],
+                    ["C'est demain qui je pars.", "C'est demain que je pars.", "Time focus uses que.", "برای تاکید بر زمان از que استفاده می شود."]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "8) Mini pratique",
+                  "headers": ["فارسی", "French (reponse)", "English"],
+                  "rows": [
+                    ["این من هستم که فرانسوی یاد می گیرم.", "C'est moi qui apprends le francais.", "It is me who is learning French."],
+                    ["این فرداست که کار را شروع می کنم.", "C'est demain que je commence le travail.", "It is tomorrow that I start work."],
+                    ["این در پاریس است که زندگی می کنم.", "C'est a Paris que j'habite.", "It is in Paris that I live."],
+                    ["این پیتزا است که می خواهم بخورم.", "C'est la pizza que je veux manger.", "It is pizza that I want to eat."]
+                  ]
+                },
+                {
+                  "type": "tip",
+                  "title": "9) A retenir",
+                  "content": "English:\nC'est ... qui/que keeps the same basic meaning, but adds focus.\n\nفارسی:\nC'est ... qui/que معنی اصلی جمله را عوض نمی کند، فقط تاکید را روشن تر و قوی تر می کند."
+                }
+              ],
+              "exercises": []
+            }
+          ]
+        },
         { "id": "fr-a2-grammar-imparfait", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Imparfait", "description": "Décrire les habitudes et les états dans le passé", "difficulty": 3, "estimatedMinutes": 30, "order": 2, "tags": ["past-tense", "imparfait"], "prerequisites": ["fr-a2-grammar-passe-compose"], "lessons": [] },
         { "id": "fr-a2-grammar-modal-verbs", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Verbes de modalité", "description": "pouvoir, devoir, vouloir et structures utiles", "difficulty": 3, "estimatedMinutes": 35, "order": 3, "tags": ["modals"], "prerequisites": [], "lessons": [] },
         { "id": "fr-a2-grammar-pronominal-verbs", "categoryId": "fr-a2-grammar", "levelId": "a2", "title": "Verbes pronominaux", "description": "se lever, se laver, s'habiller et autres verbes pronominaux", "difficulty": 3, "estimatedMinutes": 25, "order": 4, "tags": ["pronominal"], "prerequisites": [], "lessons": [] },
